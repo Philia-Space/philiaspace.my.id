@@ -26,6 +26,7 @@ hide:
        - [Memperbarui Note Type](pembaruan-note-type.md): halaman baru untuk update semua note type yang dipakai di panduan (Lapis, Kiku, Senren, dan Mining-JP), lengkap dengan tabel note type mana dipakai di panduan mana
 - Pembaruan
        - Halaman Memperbarui Format Lapis digabung ke halaman di atas; di menu Setup Lain namanya sekarang "Memperbarui Note Type"
+       - Catatan bahwa Kiku sangat bergantung pada Anki desktop dan masih punya bug tampilan di iPhone/iPad, di halaman tersebut dan di [Setup Manatan](Setup-Manatan.md)
 
 **04-11-2026** · Kartu Anime Satu Klik
 

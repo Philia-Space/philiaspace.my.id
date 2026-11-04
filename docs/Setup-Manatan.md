@@ -30,6 +30,7 @@ Langkah-langkah persiapan sebelum menjalankan Manatan:
 4. Pengaturan default Manatan menggunakan Note Type Kiku dalam pengaturannya. 
     Kamu bisa unduh [di sini](https://github.com/youyoumu/kiku/releases/latest). 
 	Panduan penggunaan Kiku ada [di sini](https://kiku.youyoumu.my.id/installation.html). Kiku dibuat untuk bisa kompatibel dengan pengaturan Lapis, jadi kamu juga bisa menggunakan pengaturan Anki yang ada [Setup Anki](setup-anki-pc-lazy-guide.md).
+	- Kiku sangat bergantung pada Anki desktop dan masih punya bug tampilan di iPhone/iPad. Kalau kamu lebih sering review di HP, pakai Lapis saja. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md)
 ### **Setup Awal**
 
 1. Jalankan aplikasi Manatan yang sesuai dengan perangkat.

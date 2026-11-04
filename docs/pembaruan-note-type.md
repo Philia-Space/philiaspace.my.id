@@ -14,7 +14,7 @@ Begini cara memperbarui note type (format kartu) Anki kamu, entah buat perbaiki 
 | Note type | Dipakai di |
 |---|---|
 | [Lapis](https://github.com/donkuri/lapis) | Hampir semua panduan, mulai dari [Setup Anki PC](setup-anki-pc-lazy-guide.md) |
-| [Kiku](https://github.com/youyoumu/kiku) | Bawaan [Manatan](Setup-Manatan.md), kompatibel dengan pengaturan Lapis |
+| [Kiku](https://github.com/youyoumu/kiku) | Bawaan [Manatan](Setup-Manatan.md), kompatibel dengan pengaturan Lapis. Butuh Anki desktop, kurang cocok kalau sering review di HP |
 | [Senren](https://github.com/BrenoAqua/Senren) | Bawaan Yomipv di [Kartu Anime Satu Klik](Auto-Mining%20Anime.md) |
 | [Mining-JP](https://github.com/rudnam/JP-study#anki-mining-template) | [Setup Yomitan & Anki PC](setup-yomitan-pc.md) dan contoh di panduan anime |
 
@@ -65,6 +65,14 @@ Saat import file `.apkg`, Anki akan menampilkan jendela **Import options**. Untu
 === "Kiku"
 
     Butuh **Anki 25.09** atau lebih baru, dan add-on [Kiku Note Manager](https://ankiweb.net/shared/info/408592650).
+
+    !!!warning "Kiku sangat bergantung pada Anki desktop"
+        - Pasang dan update Kiku harus lewat Anki di PC, karena add-on Kiku Note Manager hanya ada di desktop
+        - Fitur Kanji Web di HP butuh cache yang dibuat dari PC. Cache ini tidak ter-update sendiri, jadi setelah menambah kartu baru kamu perlu buat ulang di PC lalu sync
+        - **AnkiDroid**: sudah diuji oleh pembuatnya, tapi tetap ikut keterbatasan di atas
+        - **AnkiMobile (iOS)**: masih ada [beberapa bug tampilan](https://github.com/youyoumu/kiku/issues/12), misalnya popup kanji tidak bisa ditutup dengan tap di luar popup, dan posisi tombol audio serta gambar meleset
+
+        Kalau kamu lebih sering review di HP, terutama iPhone/iPad, [Lapis](https://github.com/donkuri/lapis) lebih aman dipakai.
 
     1. Download file `Kiku_v*.apkg` terbaru dari [halaman rilis Kiku](https://github.com/youyoumu/kiku/releases/latest)
     2. Hapus file Kiku yang lama dulu: `Tools` > `Kiku Note Manager` > `Delete Kiku files`
