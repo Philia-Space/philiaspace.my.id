@@ -20,6 +20,50 @@ hide:
 
 ### November
 
+**04-11-2026** · Panduan Manatan
+
+- Pembaruan
+       - [Setup Manatan](Setup-Manatan.md) disesuaikan dengan Manatan versi baru (tampilan aplikasi, bukan Web UI lagi), mengikuti dokumentasi resmi di manatan.com: download dari halaman resmi (termasuk App Store untuk iPhone/iPad), langkah setup awal, dan cara impor kamus
+       - Note type bawaan Manatan sekarang Manatan-NoteType, bukan Kiku; Kiku dan Lapis tetap bisa dipakai dengan tabel field di bagian Kartu Flashcard
+       - Bagian Masalah Umum diperbarui: Manatan tidak terbuka, popup kamus tidak muncul, kartu tidak masuk ke Anki, dan peringatan untuk backup dulu sebelum reset data
+       - [Manga Lokal](Setup-Manatan-manga-lokal.md): file tunggal di folder utama, manga EPUB, format gambar yang didukung, dan saran memilih struktur folder
+       - [Novel (EPUB)](Setup-Manatan-novels.md): tips membaca dan cara mengecek kalau popup kamus tidak muncul
+       - Kamus JP-ID JPdict di [Setup Manatan](Setup-Manatan.md) diganti RH Dict (di Discord Philia Space)
+- Penambahan
+       - Bagian Kartu Flashcard di [Setup Manatan](Setup-Manatan.md): menyimpan kata ke Manatan SRS atau ke Anki lewat AnkiConnect
+       - FAQ baru: apakah Manatan butuh browser, apakah OCR jalan offline, dan apakah sumber anime/manga sudah termasuk
+- Perbaikan
+       - Tautan Manga lokal dan Anime lokal di bagian Masalah Umum Setup Manatan yang sebelumnya rusak
+
+**04-11-2026** · Memperbarui Note Type
+
+- Penambahan
+       - [Memperbarui Note Type](pembaruan-note-type.md): halaman baru untuk update semua note type yang dipakai di panduan (Lapis, Kiku, Senren, dan Mining-JP), lengkap dengan tabel note type mana dipakai di panduan mana
+- Pembaruan
+       - Halaman Memperbarui Format Lapis digabung ke halaman di atas; di menu Setup Lain namanya sekarang "Memperbarui Note Type"
+       - Catatan bahwa Kiku sangat bergantung pada Anki desktop dan masih punya bug tampilan di iPhone/iPad, di halaman tersebut dan di [Setup Manatan](Setup-Manatan.md)
+
+**04-11-2026** · Kartu Anime Satu Klik
+
+- Pembaruan
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): bagian FAQ baru berisi terjemahan dokumentasi Yomipv soal jendela kamus, warna subtitle sesuai status kartu, AniList, dan cara atur definisi yang masuk ke kartu
+- Perbaikan
+       - Tautan (?) ke halaman cara ekstrak file dihapus dari langkah ekstrak di Panduan Ringkas, Setup Anki PC, dan Setup Yomitan PC & Android
+
+**04-11-2026** · Deck Kaishi
+
+- Pembaruan
+       - Deck Kaishi 1.5k Indonesia Simplified diganti ke Kaishi V2 di [Panduan Ringkas](panduan-ringkas-JP.md) dan [Panduan Bahasa Jepang](panduan.md)
+- Penambahan
+       - Pilihan deck sesuai tujuan di kedua halaman tersebut: Kaishi V2 untuk mulai immersion, Kaishi 1.5k versi RenRen, serta Multilingual Eggrolls JLPT 10k dan Ankidrone Essential V9 untuk JLPT
+
+**04-11-2026** · Menu di HP
+
+- Perbaikan
+       - Sub-menu di menu samping HP tidak lagi bergeser dan menumpuk dengan menu sebelumnya, dan tombol kembali (←) di atasnya muncul lagi
+
 **04-11-2026** · Bahasa Antarmuka
 
 - Tampilan & Antarmuka

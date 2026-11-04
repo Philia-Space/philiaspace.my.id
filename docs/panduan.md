@@ -224,9 +224,15 @@ Untuk membangun kosakata awal dengan cepat, pakai dek kosakata frekuensi tinggi 
 
 ### Pemasangan Anki
 1. Unduh dan pasang aplikasi resminya dari **[AnkiWeb](https://apps.ankiweb.net/#downloads){: target="_blank" }** sesuai sistem operasimu (Windows, macOS, Linux, atau AnkiDroid di Android). Semuanya gratis, kecuali AnkiMobile di iOS yang berbayar.
-2. Unduh dek kosakata dasar:
-   - **[Kaishi 1.5k (JP-EN)](https://github.com/donkuri/Kaishi/releases){: target="_blank" }** (versi rujukan utama).
-   - **[Kaishi versi Bahasa Indonesia & Dek Komunitas](https://discord.com/channels/1370274344571240552/1386235512993611909/1386235512993611909){: target="_blank" }** (tersedia di server Discord Philia Space).
+2. Unduh **satu** dek kosakata. Cukup pilih salah satu sesuai tujuanmu:
+    - **[Kaishi V2](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753475051556954){: target="_blank" }**: paling disarankan untuk mulai immersion. Kata-katanya dipilih dari yang paling sering dipakai orang Jepang. Kalau baru mulai, kerjakan dek ini dulu sebelum dek lain.
+    - **[Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335){: target="_blank" }**: versi Kaishi 1.5k lain dari komunitas.
+    - **[Kaishi 1.5k (JP-EN)](https://github.com/donkuri/Kaishi/releases){: target="_blank" }**: versi asli berbahasa Inggris.
+    - **[Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713){: target="_blank" }**: pilihan utama kalau tujuanmu JLPT.
+    - **[Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432){: target="_blank" }**: alternatif untuk JLPT (opsional).
+
+    Mau mengerjakan dua dek sekaligus, misalnya Kaishi dan dek JLPT, juga boleh. Dek dari Discord bisa diunduh di **[server Discord Philia Space](https://discord.com/channels/1370274344571240552/1386235512993611909/1564014312560005165){: target="_blank" }**.
+
 3. Buka Anki, pilih menu **Import File**, lalu pilih berkas `.apkg` yang tadi diunduh.
 
 <figure>

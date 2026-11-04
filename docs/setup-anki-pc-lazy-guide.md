@@ -12,8 +12,8 @@
 
 ---
 
-- Mau update Format Lapis yang sudah kamu punya?
-    - Buka [Memperbarui Format Lapis](pembaruan-format-lapis.md)
+- Mau update Format Lapis (atau note type lain) yang sudah kamu punya?
+    - Buka [Memperbarui Note Type](pembaruan-note-type.md)
 
 ---
 
@@ -30,7 +30,7 @@
 
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
-2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
+2. Ekstrak file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
 
     === "Windows"
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`

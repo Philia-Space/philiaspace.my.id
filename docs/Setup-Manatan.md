@@ -2,58 +2,69 @@
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 – 'Yaaacha'
+ Diunggah: 12 April 2026 – 'Yaaacha' · Diperbarui: 4 November 2026
 
 ---
+
+??? info "Info: panduan ini mengikuti Manatan versi baru <small>(klik di sini)</small>"
+
+    Manatan versi sekarang memakai tampilan aplikasi baru di desktop dan HP. Versi lama memakai Web UI di browser (panel menu di kiri), jadi kalau tampilan aplikasimu masih seperti itu, update dulu ke versi terbaru.
+
+    Langkah di halaman ini diterjemahkan dan diringkas dari [dokumentasi resmi Manatan](https://manatan.com/docs/guides/getting-started). Sebagian screenshot di bawah masih dari versi lama, jadi letak menunya bisa sedikit beda.
+
 ## **Persiapan**
 Langkah-langkah persiapan sebelum menjalankan Manatan:
 
-1. Unduh [Manatan](https://github.com/KolbyML/Manatan/releases)
-	- Khusus pengguna Iphone, kamu harus mengunduh aplikasi Testflight melalui appstore terlebih dahulu.
-	- Gunakan tautan ini untuk mengunduh Manatan: 
-    ```bash
-    https://testflight.apple.com/join/C2vh4SyT
-    ```
+1. Unduh Manatan dari [halaman download resmi](https://manatan.com/download)
 
-2. Buat API Key Jimaku:
+    | Perangkat | Pilih |
+    |---|---|
+    | Windows | Windows x64 (Windows 10 atau 11, 64-bit) |
+    | macOS | Apple Silicon untuk Mac M-series, Intel untuk Mac lama. Cek di menu Apple > `About This Mac` |
+    | Linux | Installer Linux atau [Flatpak resmi](https://kolbyml.github.io/Manatan/io.github.kolbyml.Manatan.flatpakref) |
+    | Android | APK ARM64 (hampir semua HP sekarang). Butuh Android 8.0 ke atas. Izinkan instalasi saat diminta |
+    | iPhone & iPad | [App Store](https://apps.apple.com/ca/app/manatan/id6756917436). Versi beta (TestFlight) opsional, tautannya ada di [Discord Manatan](https://discord.gg/tDAtpPN8KK) |
+
+    Kalau halaman download tidak bisa dibuka, ambil installer desktop dan Android dari [rilis resmi di GitHub](https://github.com/KolbyML/Manatan/releases/latest).
+
+2. Buat API Key Jimaku (opsional, untuk mencari subtitle anime):
 	- Buat akun di [Jimaku](https://jimaku.cc/account)
 	- Buat API Key dengan menekan tombol `Generate` di bagian bawah pada menu `Account Setting`
-	- Salin/simpan API Key untuk nanti dimasukkan ke kolom Jimaku API Key di aplikasi manatan
+	- Salin/simpan API Key untuk nanti dimasukkan ke kolom Jimaku API Key di aplikasi Manatan
 3. Unduh Kamus. Panduan pemilihan kamus dapat diakses di bagian [Kamus](#kamus)
 	- Kamus JP-ID
 		- [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan)
-		- [JPdict](https://drive.google.com/file/d/11X1Wt5FRp7YnOXNHZIUmRapWZDxD5PPP/view)
+		- [RH Dict](https://discord.com/channels/1370274344571240552/1544821080148025484/1544821080148025484) (di Discord Philia Space)
 	- Kamus JP-EN dan monolingual JP
 		- [JMdict dan JMnedict](https://github.com/yomidevs/jmdict-yomitan?tab=readme-ov-file#jmdict-for-yomitan). Pilih yang JMdict_english.zip dan JMnedict.zip.
 		- [Koleksi Marv](https://drive.google.com/drive/u/0/folders/1LXMIOoaWASIntlx1w08njNU005lS5lez)
 		- [Koleksi Shoui](https://drive.google.com/drive/u/0/folders/16nPmTCQtpi43wkYdvTh7Qfngr21FE36W)
-4. Pengaturan default Manatan menggunakan Note Type Kiku dalam pengaturannya. 
-    Kamu bisa unduh [di sini](https://github.com/youyoumu/kiku/releases/latest). 
-	Panduan penggunaan Kiku ada [di sini](https://kiku.youyoumu.my.id/installation.html). Kiku dibuat untuk bisa kompatibel dengan pengaturan Lapis, jadi kamu juga bisa menggunakan pengaturan Anki yang ada [Setup Anki](setup-anki-pc-lazy-guide.md).
+4. Tentukan mau menyimpan kata ke mana. Detailnya ada di bagian [Kartu Flashcard](#kartu-flashcard)
+	- **Manatan SRS**: flashcard bawaan Manatan. Tidak perlu Anki, bisa langsung dipakai di HP
+	- **Anki lewat AnkiConnect**: kalau kamu sudah review di Anki desktop. Note type bawaannya sekarang **Manatan-NoteType** dan dipasang otomatis saat kartu pertama dibuat
+
 ### **Setup Awal**
 
-1. Jalankan aplikasi Manatan yang sesuai dengan perangkat.
-    
+1. Jalankan aplikasi Manatan yang sesuai dengan perangkat, lalu tunggu sampai setup awalnya selesai. Peluncuran pertama bisa memakan waktu sekitar 30 detik.
+
 	??? info "Peringatan Saat Instal Pertama"
         === "MacOS"
 		    Saat pertama kali menjalankan Manatan, akan muncul peringatan ini. Tekan done > buka `settings` > `privacy & security` > (scroll ke bawah) `open anyway` > `open anyway` > Selesai. Buka kembali Manatan seperti biasa
 		   
 	        ![Peringatan MacOS](img/peringatan-macos.png){height=300 width=300}
  
-    > Pertama kali Manatan diinstal/diluncurkan bisa memakan waktu sekitar 30 detik.
 
-2. Saat pertama kali menjalankan aplikasi, pilih `I'm learning a language`
-3. Plih Japanese
-4. Masukkan API Key yang sudah disiapkan, jika kamu belum memiliki API Key Jimaku, dapatkan terlebih dahulu melalui:
-	- Buat akun di [Jimaku](https://jimaku.cc/account)
-	- Buat API Key dengan menekan tombol `Generate` di bagian bawah pada menu `Account Setting`
-	- Salin API Key dan masukkan ke kolom Jimaku API Key di aplikasi manatan
-5. Tekan Finish
+2. Ikuti langkah awal di aplikasi. Kalau ditanya bahasa yang dipelajari, pilih `Japanese`
+3. Kalau diminta Jimaku API Key, masukkan API Key dari langkah persiapan. Bisa juga dilewati dan diisi nanti
+4. Pastikan kamu bisa membuka `Library` dan `Settings`. Kalau aplikasinya tidak mau terbuka, lihat [Manatan tidak terbuka](#masalah-1-manatan-tidak-terbuka) sebelum menghapus data apa pun
+
+> Pengaturan Manatan ada di `More` > ikon gear di kanan atas. Di halaman ini disebut `Settings`.
 
 ### **Instal ekstensi**
 
+Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Untuk EPUB atau file lokal milikmu sendiri, langkah ini bisa dilewati.
+
 1. Buka `Settings` > `Browse`
-	- Pada Android dan Iphone, tekan tombol titik tiga di kanan bawah, lalu ke `Settings`> `Browse`
 2. Salin URL repositori di bawah, lalu masukkan satu persatu URL repositori sesuai masing-masing kategori di pengaturan Manatan
         <table>
       <thead>
@@ -166,6 +177,18 @@ Impor berkas EPUB dan baca.
 
 Saat pertama kali menginstal Manatan, kamu perlu memuat kamus untuk menggunakan fitur popup dictionary.
 File kamus berformat `.zip` dan **tidak perlu diekstrak**.
+
+**Cara impor kamus**
+
+1. Buka `Settings` > `Language learning` > `Dictionary`
+2. Scroll ke `Installed Dictionaries`, lalu tekan `Import New`
+3. Pilih file `.zip` kamus, lalu tunggu sampai muncul tanda berhasil dan tekan `Done`
+    - Pilih file `.zip` kamusnya, bukan folder hasil ekstrak, file subtitle, atau tombol `Download ZIP` repo GitHub
+4. Pastikan tombol kamus yang baru diimpor dalam keadaan **nyala**
+5. Kembali ke atas halaman `Dictionary`. Di bagian `Popup dictionary`, nyalakan tempat kamu mau memakai popup: `Video`, `Manga`, dan `Novel`
+6. Coba cari satu kata di EPUB atau subtitle. Kalau arti katanya muncul, kamus sudah siap
+
+Tombol kamus dan tombol `Video`/`Manga`/`Novel` punya fungsi berbeda, jadi cek keduanya kalau popup tidak muncul. Mulai dari satu kamus definisi dulu, lalu tambahkan kamus frekuensi, pitch, atau lainnya belakangan.
 
 Kalau kamu tidak ingin punya terlalu banyak kamus, kamu bisa gunakan daftar yang ringkas
 
@@ -374,19 +397,13 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 
 ### **Pengaturan Popup Dictionary**
 
-Pengaturan Popup Dictionary Manatan dapat diakses melalui icon Manatan Settings  ![Manatan](img/manatan_logo.png){ width="20" valign="middle" }  yang ada di berbagai tempat di aplikasi manatan, seperti, di menu utama, di bagian atas tampilan video player, manga reader, dan epub reader.
+Pengaturan Popup Dictionary Manatan ada di `Settings` > `Language learning` > `Dictionary`. Ikon Manatan Settings  ![Manatan](img/manatan_logo.png){ width="20" valign="middle" }  juga ada di beberapa tempat, misalnya di bagian atas video player, manga reader, dan EPUB reader.
 
-Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya, kamu dapat menyesuaikan  pengaturan-pengaturan lainnya sesuai dengan kenyamananmu sendiri.
+Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya, kamu dapat menyesuaikan pengaturan-pengaturan lainnya sesuai dengan kenyamananmu sendiri. Screenshot ini masih dari versi lama, jadi tampilannya bisa sedikit beda.
 === "Pengaturan Popup 1"
 	![Pengaturan Popup 1](img/manatan-popup-1.jpg){height=200 width=400}
 === "Pengaturan Popup 2"
 	![Pengaturan Popup 2](img/manatan-popup-2.jpg){height=200 width=400}
-=== "AnkiConnect 1"
-	![AnkiConnect 1](img/manatan-ankiconnect-1.jpg){height=200 width=400}
-=== "AnkiConnect 2"
-	![AnkiConnect 2](img/manatan-ankiconnect-2.jpg){height=200 width=400}
-=== "AnkiConnect 3"
-	![AnkiConnect 3](img/manatan-ankiconnect-3.jpg){height=200 width=400}
 === "Anime Setting 1"
 	![Anime Setting 1](img/manatan-anime-settings-1.jpg){height=200 width=400}
 === "Anime Setting 2"
@@ -397,6 +414,76 @@ Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya,
 	![Manga Setting 1](img/manatan-manga-settings-1.jpg){height=200 width=400}
 === "Manga Setting 2"
 	![Manga Setting 2](img/manatan-manga-settings-2.jpg){height=1000 width=600}
+
+
+---
+
+## **Kartu Flashcard**
+
+Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Settings` > `Language learning` > `Flashcards`.
+
+=== "Manatan SRS"
+
+    Flashcard bawaan Manatan. Tidak perlu Anki atau add-on apa pun.
+
+    1. Buka `Settings` > `Language learning` > `Flashcards`
+    2. Nyalakan `Enable flashcards`, pilih `Manatan SRS`, lalu pilih deck tujuan. `Default` juga boleh untuk awal
+    3. Biarkan `Card Type` di `Manatan-NoteType`
+    4. Cari kata, lalu tekan tombol **plus hijau** di samping arti kata. Tombol berubah jadi ikon buku emas kalau kartu sudah tersimpan. Tombol `Track` itu fungsi lain, bukan untuk menyimpan kartu
+    5. Untuk review: `More` > `Manatan SRS` > `Decks` > pilih deck > `Study Now`
+
+    Manatan SRS juga bisa dipakai di [browser](https://manatan.com/srs/) dengan akun Manatan, dan ada [deck buatan komunitas](https://manatan.com/srs/shared-decks) yang bisa diunduh.
+
+    Sumber: [Manatan SRS](https://manatan.com/docs/guides/manatan-srs)
+
+=== "Anki (AnkiConnect)"
+
+    Untuk kamu yang sudah review di **Anki desktop**. Manatan dan Anki harus di komputer yang sama.
+
+    1. Di Anki, buka `Tools` > `Add-ons` > `Get Add-ons`, masukkan kode `2055492159` ([AnkiConnect](https://ankiweb.net/shared/info/2055492159)), lalu tekan `OK`
+    2. Tutup lalu buka lagi Anki. Biarkan Anki tetap terbuka selama mengirim kartu
+    3. Di Manatan, buka `Settings` > `Language learning` > `Flashcards`
+    4. Nyalakan `Enable flashcards` dan pilih `AnkiConnect`
+    5. Pakai alamat `http://127.0.0.1:8765`, lalu tekan `Retry Connection` kalau perlu sampai muncul `Connected`
+    6. Pilih deck di `Target Deck`, lalu pilih `Manatan-NoteType (default)` di `Card Type`. Note type ini dipasang otomatis saat kartu pertama, dan field-nya sudah diatur, jadi tidak perlu dicocokkan satu per satu
+    7. Cari kata, tekan tombol **plus hijau** (Add to Anki) **sekali**, lalu tunggu. Setelah berhasil tombolnya berubah jadi `Open in Anki`
+    8. Cek kartunya di Anki dulu sebelum menambah banyak kartu
+
+    Audio dan gambar tergantung sumbernya, jadi field media yang kosong belum tentu berarti koneksinya gagal.
+
+    !!!warning "Khusus Anki desktop"
+        Langkah di atas untuk Anki di PC. AnkiDroid (Android) dan AnkiMobile (iOS) memakai cara lain, jadi jangan ikuti langkah pasang add-on ini di HP. Kalau kamu belajar di HP, pakai Manatan SRS saja.
+
+    ??? info "Mau tetap pakai Kiku atau Lapis? <small>(klik di sini)</small>"
+
+        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Kiku dan Lapis tetap bisa dipakai, tapi field-nya harus dicocokkan sendiri:
+
+        1. Pasang note type-nya di Anki ([Kiku](https://github.com/youyoumu/kiku/releases/latest) atau [Lapis](https://github.com/donkuri/lapis/releases/latest))
+        2. Di pengaturan `Flashcards` Manatan, pilih note type itu di `Card Type`
+        3. Isi field-nya seperti tabel ini:
+
+        | Field Anki | Isi |
+        |---|---|
+        | Expression | Target Word |
+        | ExpressionFurigana | Furigana |
+        | ExpressionReading | Reading |
+        | ExpressionAudio | Word Audio |
+        | MainDefinition | Misalnya Single Glossary JMdict. Pilih lewat panah di samping field |
+        | Sentence | Sentence with Bold Word |
+        | SentenceAudio | Sentence Audio |
+        | Picture | Image |
+        | Glossary | Glossary |
+        | PitchPosition | Pitch Accent Positions |
+        | PitchCategories | Pitch Accent Categories |
+        | Frequency | Frequency |
+        | FreqSort | Harmonic Frequency |
+        | MiscInfo | Media Name |
+
+        Field lain (`SelectionText`, `DefinitionPicture`, `SentenceFurigana`, `Hint`, `Is...Card`) dikosongkan.
+
+        Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering review di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
+
+    Sumber: [Connect Manatan to Anki](https://manatan.com/docs/guides/ankiconnect-guide) dan [Kiku custom note type](https://manatan.com/docs/guides/kiku-guide)
 
 ---
 
@@ -431,7 +518,7 @@ Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya,
 
 #### Tips 2: Media dalam bahasa lain
 
-??? tip "Pencarian media dalam bahasa lain" <small>(klik di sini)</small>"
+??? tip "Pencarian media dalam bahasa lain <small>(klik di sini)</small>"
     Manatan juga bisa digunakan untuk membaca dan menonton anime dalam bahasa lain. Kamu bisa mengaksesnya dengan cara:
 	1. Pergi ke menu `Browse`
 	2. Tekan tombol 3 garis di atas kanan
@@ -467,56 +554,90 @@ Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya,
     - Aku jarang update; nggak perlu buru-buru ke versi terbaru karena isinya jarang berubah.  
 	- Tapi kalau mau ngejar yang paling baru, bisa update sendiri tiap 4 bulan sekali.
 
+#### Pertanyaan 4: Apakah Manatan butuh browser?
+
+??? question "Apakah Manatan butuh browser? <small>(klik di sini)</small>"
+
+    - Tidak. Versi sekarang memakai tampilan aplikasi sendiri di desktop dan HP. Versi lama memakai Web UI di browser, jadi panduan lama yang menunjukkan panel menu di kiri mungkin tidak cocok lagi
+    - Manatan SRS punya versi [browser](https://manatan.com/srs/) terpisah yang bisa dipakai tanpa memasang aplikasi
+
+#### Pertanyaan 5: Apakah OCR jalan offline?
+
+??? question "Apakah OCR jalan offline? <small>(klik di sini)</small>"
+
+    - OCR bisa memakai Google Cloud Vision API. Kalau diaktifkan, bagian gambar yang kamu pilih dikirim lewat internet untuk dibaca teksnya
+    - OCR bisa dimatikan kapan saja di pengaturan
+
+#### Pertanyaan 6: Apakah Manatan sudah termasuk sumber anime dan manga?
+
+??? question "Apakah Manatan sudah termasuk sumber anime dan manga? <small>(klik di sini)</small>"
+
+    - Tidak. Manatan hanya pembaca dan pemutar. Sumber daring perlu kamu tambahkan sendiri lewat [ekstensi](#instal-ekstensi), atau pakai file milikmu sendiri
+
 ## **Masalah Umum**
 
-#### Masalah 1: Web UI tidak terbuka
+#### Masalah 1: Manatan tidak terbuka
 
-??? warning "Web UI tidak keluar <small>(klik di sini)</small>"
-    - Tunggu sekitar 30 detik pada peluncuran pertama, lalu muat ulang (refresh).
-    - Buka `http://127.0.0.1:4568/` secara manual.
-    - Di Windows, izinkan akses firewall jika diminta.
-    - Restart Manatan jika port tampak sibuk.
+??? warning "Manatan tidak terbuka <small>(klik di sini)</small>"
+    - Pastikan installer yang kamu pasang sesuai dengan perangkatmu (lihat tabel di [Persiapan](#persiapan))
+    - Tutup lalu buka lagi aplikasinya, dan tunggu sampai setup awal selesai
+    - Catat versi aplikasi dan pesan error yang muncul sebelum minta bantuan
+    - Versi sekarang tidak lagi memakai alamat browser seperti `127.0.0.1:4568`. Alamat itu hanya untuk versi lama (Web UI)
 
 #### Masalah 2: File lokal tidak muncul
 
 ??? warning "File lokal tidak muncul <small>(klik di sini)</small>"
-    - Pastikan jalur folder lokal Anda sudah benar di pengaturan.
+    - Pastikan jalur folder lokal sudah benar di pengaturan.
     - Pastikan struktur folder sesuai dengan panduan.
     - Segarkan (refresh) daftar setelah menambahkan file.
 
     Panduan:
 
-    - [Manga lokal](/manga-lokal)
-    - [Anime lokal](/anime-lokal)
+    - [Manga lokal](Setup-Manatan-manga-lokal.md)
+    - [Anime lokal](Setup-Manatan-anime-lokal.md)
 
-#### Masalah 3: OCR atau pencarian kata terasa salah
+#### Masalah 3: Popup kamus tidak muncul atau hasilnya salah
 
-??? warning "OCR atau pencarian kata terasa salah <small>(klik di sini)</small>"
-    - Periksa pengaturan kamus/parsing.
-    - Jika menggunakan Yomitan, terapkan rekomendasi parsing dari [tips](#tips-1-penguraian-kosakata-yang-lebih-baik).
+??? warning "Popup kamus tidak muncul atau hasilnya salah <small>(klik di sini)</small>"
+    - Pastikan impor kamus selesai, tombol kamusnya nyala, dan popup untuk `Video`/`Manga`/`Novel` sudah dinyalakan. Lihat [cara impor kamus](#kamus)
+    - Coba dulu satu kata umum di EPUB yang teksnya bisa dipilih
+    - Halaman manga berupa gambar, jadi teksnya harus dibaca OCR dulu sebelum bisa dicari di kamus
+    - Pastikan yang kamu impor kamus definisi, bukan cuma kamus frekuensi atau pitch
+    - Jika menggunakan Yomitan, terapkan rekomendasi parsing dari [tips](#tips-1-penguraian-kosakata-yang-lebih-baik)
 
 #### Masalah 4: Subtitle hilang atau tidak sinkron
 
 ??? warning "Subtitle hilang atau tidak sinkron <small>(klik di sini)</small>"
     - Coba trek subtitle lainnya.
     - Sesuaikan waktu subtitle jika kontrol pemutar tersedia.
-    - Untuk file lokal, verifikasi apakah subtitle tersedia di dalam file/kontainer tersebut.
+    - Untuk file lokal, pastikan subtitle memang ada di dalam file videonya.
+    - Menambah kamus tidak akan memunculkan subtitle yang memang tidak ada.
 
-#### Masalah 5: Reset total (Windows)
+#### Masalah 5: Kartu tidak masuk ke Anki
 
-??? warning "Reset total (Windows) <small>(klik di sini)</small>"
-    Jika diperlukan, hapus folder-folder ini dan luncurkan kembali:
+??? warning "Kartu tidak masuk ke Anki <small>(klik di sini)</small>"
+    - Pastikan Anki desktop terbuka dan sudah di-restart setelah memasang AnkiConnect
+    - Cek di Anki `Tools` > `Add-ons` bahwa AnkiConnect aktif
+    - Pastikan alamat di Manatan sama dengan port AnkiConnect (biasanya `8765`), dan deck tujuannya benar
+    - Kalau katanya sudah pernah dijadikan kartu, cek pengaturan duplikat dulu
+    - Jangan buka AnkiConnect ke internet atau mematikan pengaman supaya koneksinya jalan
 
-    - `%LOCALAPPDATA%\Tachidesk`
-    - `%APPDATA%\manatan`
-    - `%Temp%\Suwayomi*`
-    - `%Temp%\Tachidesk*`
+#### Masalah 6: Mau reset data aplikasi
 
-    Hapus juga data situs/cookie untuk `127.0.0.1` di browser Anda.
+??? warning "Mau reset data aplikasi <small>(klik di sini)</small>"
+    - **Jangan** langsung menghapus folder aplikasi sebagai langkah pertama
+    - Ekspor atau backup dulu library, koleksi review (SRS), dan pengaturanmu
+    - Kalau tidak yakin data mana yang akan terhapus, tanya dulu di Discord
 
-#### Masalah 6: Masih bingung?
+#### Masalah 7: Masih bingung?
 
 ??? warning "Masih bingung? <small>(klik di sini)</small>"
-    Tanyakan di Discord dan sertakan platform + apa yang Anda harapkan + apa yang sebenarnya terjadi.
+    Tanyakan di [Discord Manatan](https://discord.gg/tDAtpPN8KK). Supaya cepat dibantu, sertakan:
 
-    - [Bergabung ke Discord](https://discord.gg/tDAtpPN8KK)
+    - Perangkat dan sistem operasi
+    - Versi Manatan
+    - Langkah mana yang bermasalah
+    - Reader dan kamus yang dipakai, kalau berkaitan
+    - Apa yang kamu harapkan, apa yang terjadi, dan pesan error-nya
+
+    Hapus info akun dan konten pribadi dari screenshot sebelum dibagikan. Jangan pernah membagikan password atau token.
