@@ -20,6 +20,14 @@ hide:
 
 ### November
 
+**05-11-2026** · Setup Fushi
+
+- Penambahan
+       - Halaman baru [Setup Fushi (Windows)](Setup-Fushi.md) (masih draf), muncul di menu LazyGuide > Setup Utama: cara instal, panduan awal di aplikasi, pasang kamus, kirim kartu ke Anki dengan note type Lapis, dan pasang ekstensi browser
+       - Cara menambah sumber manga dan anime online di Fushi, lalu mencari judul dari dalam aplikasi
+       - Cara membaca dialog visual novel lewat Fushi dan membuat kartu dari dialognya, lengkap dengan gambar bergerak dan suara karakter
+       - Masalah umum Fushi: layar "Old data needs an upgrade first", hasil pencarian kosong, ekstensi browser belum terdeteksi, dan kartu tidak masuk ke Anki
+
 **04-11-2026** · Panduan Manatan
 
 - Pembaruan
