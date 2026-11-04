@@ -20,6 +20,13 @@ hide:
 
 ### November
 
+**04-11-2026** · Bahasa Antarmuka
+
+- Tampilan & Antarmuka
+       - Antarmuka situs memakai bahasa Indonesia: "On this page" jadi "Di halaman ini", tombol navigasi bawah "Previous"/"Next" jadi "Sebelumnya"/"Selanjutnya", begitu juga kolom pencarian dan tombol ubah halaman
+- Pembaruan Konten
+       - Keterangan "Adaptasi TheMoeWay" di beranda dihapus karena panduan di situs ini diadaptasi dari beberapa sumber
+
 **04-11-2026** · Repo Baru
 
 - Perbaikan

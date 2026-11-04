@@ -16,7 +16,7 @@ hide:
       <a href="panduan-ringkas-JP/" class="ps-btn ps-btn-primary">Mulai dari Panduan Ringkas</a>
       <a href="setup/" class="ps-btn ps-btn-secondary">Setup tooling mining</a>
     </div>
-    <p class="ps-trust">Gratis selamanya · Lisensi terbuka · Adaptasi TheMoeWay</p>
+    <p class="ps-trust">Gratis selamanya · Lisensi terbuka</p>
   </div>
 
   <div class="ps-demo" aria-label="Contoh alur sentence mining">
@@ -106,7 +106,7 @@ hide:
   <div class="ps-side">
     <article class="ps-card">
       <h3>Teori &amp; metodologi lengkap</h3>
-      <p>Terjemahan dan adaptasi TheMoeWay untuk pembelajar di Indonesia, plus riwayat perubahan panduan.</p>
+      <p>Teori immersion dan sentence mining yang disesuaikan untuk pembelajar di Indonesia, plus riwayat perubahan panduan.</p>
       <a href="panduan/" class="ps-link">Baca panduan lengkap →</a>
     </article>
     <article class="ps-card ps-card-cream">
@@ -130,7 +130,7 @@ hide:
     <li><a href="riwayat-perubahan/">Riwayat perubahan</a></li>
     <li><a href="donate/">Donasi</a></li>
   </ul>
-  <p class="ps-footer-note">Adaptasi TheMoeWay untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber.</p>
+  <p class="ps-footer-note">Panduan belajar bahasa Jepang untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber.</p>
 </footer>
 
 </div>
