@@ -25,6 +25,7 @@ hide:
 - Pembaruan
        - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
        - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): bagian FAQ baru berisi terjemahan dokumentasi Yomipv soal jendela kamus, warna subtitle sesuai status kartu, AniList, dan cara atur definisi yang masuk ke kartu
 - Perbaikan
        - Tautan (?) ke halaman cara ekstrak file dihapus dari langkah ekstrak di Panduan Ringkas, Setup Anki PC, dan Setup Yomitan PC & Android
 

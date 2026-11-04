@@ -107,7 +107,7 @@ Kalau ada yang `TIDAK ADA`:
     dictionary_pref_field=
     ```
 
-    Ganti `Mining` dengan nama deck kamu, persis sama dengan yang di Anki.
+    Ganti `Mining` dengan nama deck kamu, persis sama dengan yang di Anki. Mau atur kamus mana yang masuk ke field definisi? Lihat [Pertanyaan 4](#pertanyaan-4-gimana-cara-atur-definisi-yang-masuk-ke-kartu).
 
 3. Sebelum mulai nonton, pastikan:
     - Anki sudah dibuka dan AnkiConnect aktif
@@ -152,7 +152,7 @@ Jendela kecil berisi arti kata dari kamus Yomitan kamu, lengkap dengan pitch acc
 * Klik kanan kata di pemilih untuk mengunci jendela kamus
 * Klik mora mana saja di judul kata untuk mencari potongan katanya, klik kanan judul untuk kembali ke kata sebelumnya
 * Atur `lookup_show_pitch_accents` dan `lookup_show_frequencies` di `yomipv.conf` untuk menampilkan/menyembunyikan pitch accent dan frekuensi
-* Detail lengkap: [lookup-app.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/lookup-app.md)
+* Detail lengkap: [Pertanyaan 1](#pertanyaan-1-gimana-cara-pakai-jendela-kamus)
 
 ### Subtitle
 
@@ -160,7 +160,7 @@ Jendela kecil berisi arti kata dari kamus Yomitan kamu, lengkap dengan pitch acc
     - Tekan `Shift+B` dulu untuk membaca koleksi Anki kamu, baru warnanya bisa muncul
     - Kata yang baru kamu jadikan kartu langsung berwarna merah di subtitle
     - Aktifkan `substitute_mpv_subtitles` di `yomipv.conf` supaya langsung aktif saat MPV dibuka
-    - Detail lengkap: [colorizer.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/colorizer.md)
+    - Aktifkan dulu `colorizer_enabled=yes` di `yomipv.conf`. Detail lengkap: [Pertanyaan 2](#pertanyaan-2-gimana-cara-kerja-warna-subtitle)
 * **Sinkronkan subtitle** (`Ctrl+s`): samakan waktu subtitle Jepang dengan subtitle terjemahan kalau subtitle Jepangnya telat atau kecepatan. Tekan lagi untuk membatalkan. Aktifkan `auto_sync_subtitles` supaya jalan otomatis. Karena yang disamakan hanya waktu di awal, subtitle masih bisa meleset di tengah video
 * **Subtitle kedua**: subtitle terjemahan dipilih otomatis sesuai bahasa di `primary_sub_lang` dan `secondary_sub_lang` (bawaannya Jepang dan Inggris). File `.ass`/`.srt` di folder yang sama dengan video juga ikut dicari
     - `Ctrl+j` / `Ctrl+Shift+J`: ganti subtitle kedua
@@ -169,7 +169,7 @@ Jendela kecil berisi arti kata dari kamus Yomitan kamu, lengkap dengan pitch acc
 
 ### AniList
 
-* `Ctrl+a`: hubungkan akun AniList supaya progres episode tercatat otomatis. Detail lengkap: [anilist_tracking.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/anilist_tracking.md)
+* `Ctrl+a`: hubungkan akun AniList supaya progres episode tercatat otomatis. Detail lengkap: [Pertanyaan 3](#pertanyaan-3-gimana-cara-menghubungkan-anilist)
 
 ### Update otomatis
 
@@ -233,3 +233,199 @@ Kalau subtitle Jepang kamu meleset jauh dari video, sinkronkan dulu file subtitl
 8. Tunggu sampai muncul tulisan "Success!"
 
 Kadang subtitle Inggris dan Jepang isinya tidak sama, misalnya subtitle Inggris menerjemahkan tulisan dan lagu, sedangkan subtitle Jepang berisi teks untuk tunarungu. Untuk kasus seperti itu, atau kalau videonya raw, pakai opsi `[2]`.
+
+## FAQs
+
+#### Pertanyaan 1: Gimana cara pakai jendela kamus?
+
+??? question "Gimana cara pakai jendela kamus? <small>(klik untuk buka)</small>"
+
+    Jendela kamus (Lookup App) menampilkan arti, pitch accent, dan frekuensi kata yang kamu pilih di MPV. Semua datanya diambil dari kamus yang terpasang di Yomitan.
+
+    **Cara memunculkan**
+
+    - **Otomatis**: muncul saat mouse diarahkan ke kata di pemilih. Matikan lewat `selector_lookup_on_hover=no`
+        - Aktifkan `selector_lookup_on_navigation=yes` supaya jendela juga muncul saat pindah kata pakai tombol panah
+    - **Manual**: tekan `Ctrl+c` sambil mengarahkan mouse ke kata di pemilih
+
+    Jendela ini tetap di atas MPV sampai kartu dibuat atau pemilih dibatalkan. Klik kanan kata di pemilih untuk **mengunci** jendela, supaya isinya tidak berganti saat mouse lewat kata lain.
+
+    **Menu klik kanan** (klik kanan di dalam jendela kamus)
+
+    - **Copy**: salin teks yang sedang dipilih
+    - **Inspect Element**: buka developer tools jendela kamus
+    - **Refresh CSS**: muat ulang tampilan dari `yomipv.css`
+
+    **Urutan hasil**
+
+    - Bawaannya, kata yang paling panjang cocok ditampilkan dulu, sama seperti Yomitan. Jadi bentuk konjugasi dan kata majemuk muncul sebelum potongan katanya
+    - Isi `prioritize_kanji_match=yes` kalau mau entri yang ada kanjinya didahulukan
+    - Kalau hasilnya lebih dari satu, ada penanda seperti `1 / 3` di atas. Klik tombol kiri/kanan di jendela untuk ganti entri
+
+    **Mencari potongan kata**
+
+    - Klik mora mana saja di judul kata untuk mencari mulai dari situ
+    - Klik kanan judul kata untuk kembali ke kata sebelumnya
+
+    **Memilih isi definisi untuk kartu**
+
+    - Blok teks di dalam definisi untuk mengisi field `SelectionText` di Anki, sama seperti di popup Yomitan. Ini berlaku kalau kamu pakai `popup-selection-text` (lihat [Pertanyaan 4](#pertanyaan-4-gimana-cara-atur-definisi-yang-masuk-ke-kartu))
+    - `Ctrl+c` saat ada teks terpilih akan menyalin teks itu dan menghapus pilihannya
+    - Klik **judul kamus** untuk memakai kamus itu sebagai isi field definisi, kalau kamu pakai `selected-dict`. Setelah kamus dipilih, `popup-selection-text` diabaikan, dan teks yang kamu blok di definisi akan di-highlight
+
+    **Pitch accent dan frekuensi**
+
+    - Bawaannya tampil. Kata juga diwarnai sesuai pola pitch accent-nya
+    - Sembunyikan lewat `lookup_show_pitch_accents=no` atau `lookup_show_frequencies=no`
+
+    **Ganti tampilan**
+
+    1. Buka `script-opts/yomipv.css`
+    2. Tambahkan CSS kamu sendiri
+    3. Klik kanan di jendela kamus > **Refresh CSS** untuk melihat hasilnya tanpa restart MPV
+
+    File ini tidak akan tertimpa saat update.
+
+    **Inspect Element**
+
+    - Klik kanan > **Inspect Element** membuka jendela DevTools di bagian Elements
+    - Selama Inspector terbuka, jendela kamus bisa digeser ke mana saja. Setelah Inspector ditutup, jendela kembali ke posisi semula
+    - Selama Inspector aktif ada ikon di system tray, buat memunculkan lagi jendela yang ter-minimize
+
+    Sumber: [lookup-app.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/lookup-app.md)
+
+#### Pertanyaan 2: Gimana cara kerja warna subtitle?
+
+??? question "Gimana cara kerja warna subtitle? <small>(klik untuk buka)</small>"
+
+    Fitur ini (Colorizer) mewarnai kata di subtitle sesuai status kartunya di Anki, jadi kamu langsung tahu kata mana yang baru, sedang dipelajari, atau sudah hafal.
+
+    **Arti warna**
+
+    - **Abu-abu**: kartu di-suspend
+    - **Merah**: kata baru, belum dipelajari
+    - **Oranye ke kuning**: sedang dipelajari (interval sampai 21 hari)
+    - **Hijau ke biru muda**: sudah hafal (interval sampai 2000 hari)
+
+    ![Contoh warna subtitle Yomipv](https://raw.githubusercontent.com/BrenoAqua/Yomipv/main/docs/assets/colorizer_example.png){width=600}
+
+    **Cara mengaktifkan**
+
+    1. Pastikan Anki terbuka dan AnkiConnect aktif
+    2. Ubah pengaturan ini di `script-opts/yomipv.conf`. Bawaannya `colorizer_enabled=no`, jadi wajib diganti:
+
+        ```ini
+        # Aktifkan colorizer
+        colorizer_enabled=yes
+
+        # Warnai katanya
+        selector_colorize_words=yes
+
+        # Kasih garis bawah berwarna, bukan mewarnai teksnya
+        selector_colorize_underline=no
+        ```
+
+    3. Isi `ankidb_word_fields` dengan nama field yang berisi kata Jepang di note type kamu. Supaya pencocokan kana lebih akurat, isi juga `ankidb_reading_fields` dengan field cara bacanya. Untuk Lapis:
+
+        ```ini
+        ankidb_word_fields=Expression
+        ankidb_reading_fields=ExpressionReading
+        ```
+
+    4. Tekan `Shift+B` minimal sekali untuk membaca koleksi Anki kamu
+    5. Tekan `Shift+S` untuk ganti antara subtitle biasa dan subtitle berwarna
+
+    **Perlu diingat**
+
+    - Yomipv menyimpan salinan data Anki kamu di `anki_words.json` supaya cepat. Salinan ini **tidak** ter-update sendiri, jadi tekan `Shift+B` lagi kalau mau warnanya ikut progres Anki terbaru
+    - Kata yang baru kamu jadikan kartu langsung masuk ke salinan ini dan berwarna merah
+    - Warna hanya muncul kalau subtitle utama berbahasa Jepang. Yomipv mengeceknya dari label bahasa subtitle (`ja`, `jp`, `jpn`, `japanese`, atau `日本語`). Kalau subtitle tidak punya label bahasa, Yomipv mengecek apakah teksnya berisi huruf Jepang
+    - Kalau subtitle utamanya bukan bahasa Jepang, subtitle MPV biasa tetap tampil tanpa warna
+
+    Sumber: [colorizer.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/colorizer.md)
+
+#### Pertanyaan 3: Gimana cara menghubungkan AniList?
+
+??? question "Gimana cara menghubungkan AniList? <small>(klik untuk buka)</small>"
+
+    Yomipv bisa mencatat progres episode ke akun AniList kamu secara otomatis.
+
+    **Cara setup**
+
+    1. Buka video apa saja di MPV
+    2. Tekan `Ctrl+a` (atau tombol yang kamu atur di `key_anilist_auth`)
+    3. Browser akan membuka halaman izin AniList, dan jendela terminal muncul bersamaan
+    4. Klik **Approve** di browser
+    5. Copy seluruh URL dari address bar
+    6. Paste ke terminal lalu tekan Enter
+    7. Token akan disimpan ke `yomipv.conf` dan pencatatan diaktifkan
+    8. Restart MPV supaya mulai jalan
+
+    **Fitur**
+
+    - **Otomatis**: progres di-update setelah video ditonton melewati `anilist_update_thresh_percent` (bawaannya 80%)
+    - **Nomor episode diubah otomatis**: nomor episode berurutan seperti *Re Zero kara Hajimeru Isekai Seikatsu - 67* diubah ke format per season AniList (*Season 4 Episode 1*). Tidak perlu diatur manual
+    - **Notifikasi**: atur notifikasi di layar lewat `anilist_show_notifications`. Lompat-lompat di timeline tidak akan mengirim update berkali-kali
+
+    Sumber: [anilist_tracking.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/anilist_tracking.md)
+
+#### Pertanyaan 4: Gimana cara atur definisi yang masuk ke kartu?
+
+??? question "Gimana cara atur definisi yang masuk ke kartu? <small>(klik untuk buka)</small>"
+
+    Isi field definisi, `SelectionText`, dan glossary di kartu diatur lewat tiga pengaturan ini di `yomipv.conf`:
+
+    ```ini
+    selection_text_handlebar=popup-selection-text
+    definition_handlebar=selected-dict
+    glossary_handlebar=glossary
+    ```
+
+    Kosongkan nilainya kalau tidak mau field itu diisi.
+
+    **Penanda dari Yomitan**
+
+    Penanda (marker) yang bisa dipakai sama dengan di Yomitan:
+
+    `glossary`, `glossary-brief`, `glossary-no-dictionary`, `glossary-plain`, `glossary-plain-no-dictionary`, `glossary-first`, `glossary-first-brief`, `glossary-first-no-dictionary`, `single-glossary-NAMA-KAMUS`, `single-glossary-NAMA-KAMUS-brief`, `single-glossary-NAMA-KAMUS-no-dictionary`, `popup-selection-text`
+
+    Contoh:
+
+    ```ini
+    definition_handlebar=popup-selection-text
+    definition_handlebar=single-glossary-NAMA-KAMUS
+    definition_handlebar=glossary
+    ```
+
+    Hasilnya sama seperti saat membuat kartu dari popup Yomitan. Kalau ada kamus yang dipilih lewat `selected-dict`, `popup-selection-text` tidak dipakai.
+
+    **Penanda khusus Yomipv: `selected-dict`**
+
+    Di jendela kamus, klik judul kamus untuk menjadikannya **kamus pilihan**. Penanda `selected-dict` mengisi field dengan isi kamus itu.
+
+    - Kalau ada kamus yang dipilih, isinya masuk ke field tersebut
+    - Kalau tidak ada, Yomipv pakai penanda cadangan berikutnya
+    - Teks yang kamu blok di dalam entri kamus akan di-highlight
+
+    **Pakai cadangan**
+
+    Bisa isi beberapa penanda dipisah koma. Yomipv mencoba dari kiri ke kanan:
+
+    ```ini
+    definition_handlebar=selected-dict,single-glossary-NAMA-KAMUS
+    ```
+
+    Kalau ada kamus yang dipilih di jendela kamus, itu yang dipakai. Kalau tidak, pakai `single-glossary-NAMA-KAMUS`.
+
+    **Handlebar sendiri**
+
+    Handlebar buatan sendiri juga bisa, termasuk dari [handlebar kamus AuroraWright](https://gist.github.com/AuroraWright/8f529e7ec5a47bfa5d979821541562a5):
+
+    ```ini
+    definition_handlebar=selected-dict,primary-definition
+    definition_handlebar=selected-dict,secondary-definition
+    ```
+
+    Aturan ini (beberapa penanda dipisah koma, dicoba dari kiri ke kanan, `selected-dict`, dan handlebar sendiri) berlaku untuk ketiga pengaturan: `definition_handlebar`, `selection_text_handlebar`, dan `glossary_handlebar`.
+
+    Sumber: [field_handlebars.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/field_handlebars.md)
