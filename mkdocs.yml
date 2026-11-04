@@ -91,6 +91,7 @@ theme:
     repo: fontawesome/brands/github
 repo_url: https://github.com/Philia-Space/philiaspace.my.id
 repo_name: GitHub
+edit_uri: edit/main/docs/
 
 markdown_extensions:
   - pymdownx.emoji:

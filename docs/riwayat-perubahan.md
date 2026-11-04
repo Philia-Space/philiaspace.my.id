@@ -20,6 +20,14 @@ hide:
 
 ### November
 
+**04-11-2026** · Repo Baru
+
+- Perbaikan
+       - Tombol GitHub di header dan tautan GitHub di footer beranda diarahkan ke repo baru [Philia-Space/philiaspace.my.id](https://github.com/Philia-Space/philiaspace.my.id)
+       - Tombol "Edit this page" sekarang membuka branch `main` di repo baru (sebelumnya mengarah ke branch `master` yang tidak ada, jadi 404)
+- Penambahan
+       - Brand guideline Philia Space di folder `brand/` repo dan konvensi penamaan file lintas platform di README (khusus kontributor, tidak tampil di situs)
+
 **04-11-2026** · Sinkronisasi LazyGuide
 
 - Pembaruan
