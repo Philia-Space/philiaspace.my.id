@@ -20,7 +20,24 @@ hide:
 
 ### November
 
-**04-11-2026**
+**04-11-2026** · Sinkronisasi LazyGuide
+
+- Pembaruan
+       - [Setup Manga PC](setup-manga-pc-lazy-guide.md): MangaOCR diganti owocr dengan Screen AI (Google Lens lokal) sebagai engine bawaan, termasuk perintah shortcut di Info 1
+       - [Setup Manga PC](setup-manga-pc-lazy-guide.md): Python untuk OCR dan Mokuro naik ke 3.13.9; panduan CUDA tidak lagi terkunci di versi 11.8
+       - [Setup Anki PC](setup-anki-pc-lazy-guide.md): langkah FSRS disesuaikan dengan FSRS 6 (Optimize Current Preset tiap bulan, opsi FSRS Helper > Reschedule all cards); Desired Retention disamakan dengan screenshot (85%)
+       - Tautan OCR di [Setup ShareX](setup-ShareX-pc.md) diarahkan ke bagian baru
+- Penambahan
+       - Opsi Firefox di [Setup Yomitan Android](setup-yomitan-android-lazy-guide.md), [LN Android](setup-LN-android-lazy-guide.md), dan [Manga Android](setup-manga-android-lazy-guide.md)
+       - Info 4 di [Setup Anki PC](setup-anki-pc-lazy-guide.md): diagram troubleshooting interval FSRS
+- Perbaikan
+       - Semua tautan JIDict (Google Drive, Discord) diarahkan ke repo resmi [JIDict-yomitan](https://github.com/philiaspaceai/JIDict-yomitan); tautan JMDict Trilingual JP-EN-ID (beta) dihapus
+       - `MainDefinition` JIDict di [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) disesuaikan ke versi 1.0.3
+       - Alamat folder MacOS yang memakai nama user `macbookair` diganti ke `~/Library/Application Support/Anki2` (Setup Anki PC, Panduan Ringkas, Local Audio di Setup Yomitan PC), ditambah cara membukanya lewat Finder > Go to Folder
+       - Pembaca EPUB TTSU Reader (`reader.ttsu.app`) diganti ke [Yatsu Reader](https://app.yatsu.moe/), termasuk namanya di Setup LN PC & Android, beranda, dan config AnkiConnect di Setup Manga PC serta Yomitan & Anki PC
+       - Tanggal entri April diperbaiki ke 2026
+
+**04-11-2026** · Beranda
 
 - Landing Page & Desain
        - Beranda dibangun ulang sebagai landing page penuh tanpa sidebar dan daftar isi: hero gelap dengan contoh alur sentence mining (subtitle → Yomitan → Anki), tiga kartu fase pembelajaran, daftar alat gratis, blok ajakan Discord, kartu teori dan donasi
@@ -70,7 +87,7 @@ hide:
 
 ### April
 
-**13-04-2025**
+**13-04-2026**
 
 - Umum
        - Pembaruan tautan Grinding Kana game

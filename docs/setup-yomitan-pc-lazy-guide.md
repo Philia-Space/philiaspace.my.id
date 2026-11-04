@@ -22,7 +22,7 @@
     - `kamus yomitan`
     - `lazyGuide-yomitan-settings` (download dua-duanya)
         - Firefox/Brave: `yomitan settings` [di sini](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
-    - Tambahan kamus [JIDict](https://drive.google.com/file/d/17t0_0sGi23GOFvEkulEOyu8eYT5Q3nQN/view) dan [JMDict Trilingual JP-EN-ID](https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip)
+    - Tambahan kamus [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan) (Jepang-Indonesia)
 - Setelah download:
     - Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Pass: `lazyguide`)
     - `yomitan dictionary.7z` cuma perlu diekstrak 1x, `jangan ekstrak isi dictionary-nya`
@@ -80,7 +80,8 @@
 
     - Buka pengaturan `Anki`, lalu ke `Configure Anki flashcards...`
         ![Yomitan Active Profile](img/yomitan-anki-active-profile.jpg){height=300 width=600}
-    - Ganti bagian `MainDefinition` ke `{single-glossary-jidict-v101}`
+    - Ganti bagian `MainDefinition` ke `{single-glossary-jidict-v103}`
+        - Angka di belakangnya ikut versi JIDict yang terpasang, jadi pilih saja `single-glossary-jidict-...` yang muncul di dropdown
 
         ![Yomitan Active Profile JIDict](img/yomitan-anki-active-profile-jidict.jpg){height=300 width=600}
 
@@ -122,8 +123,8 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
     3. Ekstrak `local-yomitan-audio-collection` lalu paste folder `user_files` ke:
         - Di `Add-ons window` > pilih `Local Audio Server for Yomitan` > `View Files`
         - Atau ke: 
-              - Windows: `C:\\Users\\NamaKamu\\AppData\\Roaming\\Anki2\\addons21\\1045800357`
-              - MacOS : `/Users/macbookair/Library/Application Support/Anki2/addons21/1045800357` 
+              - Windows: `C:\Users\NamaKamu\AppData\Roaming\Anki2\addons21\1045800357`
+              - MacOS: `~/Library/Application Support/Anki2/addons21/1045800357` (buka lewat `Finder` > `Go` > `Go to Folder...`, lalu paste alamat ini)
 
     4. Kalau pakai setting-ku:
         - Buka `Yomitan settings` > `Audio` > `Configure audio playback sources...` > `Add` > `Custom URL (JSON)`

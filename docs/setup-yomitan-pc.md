@@ -104,7 +104,7 @@ Pilih Anki Connect. Buka menu Config. Timpa teks yang ada di konfigurasi dengan 
         "http://localhost",
         "https://killergerbah.github.io",
         "https://reader.mokuro.app",
-        "https://reader.ttsu.app"
+        "https://app.yatsu.moe"
     ]
 }
 ```
@@ -112,7 +112,7 @@ Pilih Anki Connect. Buka menu Config. Timpa teks yang ada di konfigurasi dengan 
     Link 1 untuk **Yomitan**  
     Link 2 untuk **asbplayer** (anime dan video based material)  
     Link 3 untuk **Mokuro** (baca manga)  
-    Link 4 untuk **TTSU Reader** (baca novel, LN, dll)
+    Link 4 untuk **Yatsu Reader** (baca novel, LN, dll)
 
 #### Local Audio Server for Yomichan
 - Buka Anki. 
@@ -132,7 +132,7 @@ Saat mining, Anki harus tetap terbuka walau di mode minimize agar Add-ons Local 
 Saat pertama kali menginstal Yomitan, kamu perlu memuat kamus ke dalamnya.
 File kamus berformat `.zip` dan **tidak perlu diekstrak**.
 
-Jika kamu tidak bisa bahasa inggris, silakan download [JMdict versi JP-EN-ID](https://github.com/yaaacha/Immerse-Archive/blob/main/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip) dan [JIdict](https://discord.com/channels/1370274344571240552/1384364698400723056/1384364733452386416). Kamus ini hanya dimaksudkan untuk membantu di awal. Sebisa mungkin gunakan kamus monolingual saat sudah mulai bisa membaca bahasa Jepang dengan lebih baik.
+Jika kamu tidak bisa bahasa inggris, silakan download kamus Jepang-Indonesia [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan). Kamus ini hanya dimaksudkan untuk membantu di awal. Sebisa mungkin gunakan kamus monolingual saat sudah mulai bisa membaca bahasa Jepang dengan lebih baik.
 
 Impor juga kamus-kamus lain yang bisa membantu kamu dalam proses _Immersion_ melalui daftar di bawah.
 

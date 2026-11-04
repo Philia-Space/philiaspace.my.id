@@ -1,7 +1,8 @@
+<!-- upstream: setupAnki @ 2025-11-28 -->
 # Setup Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
 ---
 
- Diunggah: 1 Agustus 2025 – `Yaaacha`
+ Diunggah: 1 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
 
 ---
 
@@ -35,7 +36,12 @@
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
         ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
     === "MacOS"
-        Folder MacOS = `/Users/macbookair/Library/Application Support/Anki2`
+        Folder MacOS = `~/Library/Application Support/Anki2`
+
+        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd++++shift++ + G) > paste alamat folder di atas > tekan `Enter`
+
+        ![Finder Go to Folder](img/finder-go-to-folder.jpg){height=50% width=50%}
+
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
 
 3. Restart Anki kamu, lalu tekan ++ctrl++++shift++ + A (Win)/++cmd++++shift++ + A (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
@@ -58,10 +64,10 @@
 
 7. Masuk ke opsi `Deck` kamu, desktop dengan tekan ikon gir, Android dengan tahan `Deck` lalu pilih Deck Option, lalu salin [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
     - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Aktifkan `FSRS`
-        - Isi `Desired Retention` dengan `80%`
+        - Isi `Desired Retention` dengan `85%`
     - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Dalam 1 bulan pertama, pakai `FSRS Parameter` default; setelah itu:
-        - Gunakan tombol `Optimize` dan `Compute minimum recommended retention` setiap bulan
-        - Ganti nilai `Desired retention` sesuai hasil yang muncul
+        - Tekan `Optimize Current Preset` setiap bulan
+        - (Opsional) `Deck Options` > `FSRS Helper` > `Reschedule all cards`
 
     - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_4)
 
@@ -110,6 +116,14 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 ??? info "Cara Atur Retention <small>(klik untuk buka)</small>"
 
     Kalau kamu merasa retensi kamu rendah, buka [Tentang Retention](tentang-retention.md) buat saran pengaturan Anki dan tips lainnya. (Tutorial belum dibuat, tunggu pembaruan selanjutnya, ya)
+
+#### Info 4: Diagram Troubleshooting Interval FSRS
+
+??? info "Diagram Troubleshooting Interval FSRS <small>(klik untuk buka)</small>"
+
+    Kalau interval kartu kamu terasa aneh (terlalu panjang atau terlalu pendek), ikuti diagram ini. [Sumber](https://www.reddit.com/r/Anki/comments/1mrsr30/i_updated_the_fsrs_interval_troubleshooting/)
+
+    ![FSRS Interval Troubleshooting](img/fsrs-interval-troubleshooting.png){height=70% width=70%}
 
 #### Tip 1: Saat Review di Anki
 
