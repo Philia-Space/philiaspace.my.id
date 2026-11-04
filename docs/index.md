@@ -123,7 +123,7 @@ hide:
     <span class="ps-footer-name">Philia Space</span>
   </div>
   <ul class="ps-footer-links">
-    <li><a href="https://github.com/phi-li-a/philiaspace.my.id">GitHub</a></li>
+    <li><a href="https://github.com/Philia-Space/philiaspace.my.id">GitHub</a></li>
     <li><a href="join/">Discord</a></li>
     <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok</a></li>
     <li><a href="proyek/">Proyek komunitas</a></li>

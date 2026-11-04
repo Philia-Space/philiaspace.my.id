@@ -25,7 +25,7 @@ mkdocs.yml
 ### 🔧 Cara Pertama (Tes Lokal)
 
 1. **Fork & Clone repository-nya**
-   ![Fork](https://github.com/phi-li-a/philiaspace.my.id/fork) terlebih dahulu lalu Clone
+   ![Fork](https://github.com/Philia-Space/philiaspace.my.id/fork) terlebih dahulu lalu Clone
    ```bash
    git clone https://github.com/<username>/philiaspace.my.id.git
    cd philiaspace.my.id
