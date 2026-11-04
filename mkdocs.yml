@@ -89,7 +89,7 @@ theme:
   logo: img/philia-space-logo.jpg
   icon:
     repo: fontawesome/brands/github
-repo_url: https://github.com/phi-li-a/philiaspace.my.id
+repo_url: https://github.com/Philia-Space/philiaspace.my.id
 repo_name: GitHub
 
 markdown_extensions:
