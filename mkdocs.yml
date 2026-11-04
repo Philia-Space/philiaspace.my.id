@@ -84,6 +84,7 @@ theme:
     - search.highlighting
     - search.share
   name: material
+  language: id
   custom_dir: overrides
   favicon: img/favicon.png
   logo: img/philia-space-logo.jpg
@@ -112,7 +113,7 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
-      title: "On this page"
+      title: "Di halaman ini"
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
