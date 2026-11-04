@@ -20,6 +20,20 @@ hide:
 
 ### November
 
+**04-11-2026** · Panduan Manatan
+
+- Pembaruan
+       - [Setup Manatan](Setup-Manatan.md) disesuaikan dengan Manatan versi baru (tampilan aplikasi, bukan Web UI lagi), mengikuti dokumentasi resmi di manatan.com: download dari halaman resmi (termasuk App Store untuk iPhone/iPad), langkah setup awal, dan cara impor kamus
+       - Note type bawaan Manatan sekarang Manatan-NoteType, bukan Kiku; Kiku dan Lapis tetap bisa dipakai dengan tabel field di bagian Kartu Flashcard
+       - Bagian Masalah Umum diperbarui: Manatan tidak terbuka, popup kamus tidak muncul, kartu tidak masuk ke Anki, dan peringatan untuk backup dulu sebelum reset data
+       - [Manga Lokal](Setup-Manatan-manga-lokal.md): file tunggal di folder utama, manga EPUB, format gambar yang didukung, dan saran memilih struktur folder
+       - [Novel (EPUB)](Setup-Manatan-novels.md): tips membaca dan cara mengecek kalau popup kamus tidak muncul
+- Penambahan
+       - Bagian Kartu Flashcard di [Setup Manatan](Setup-Manatan.md): menyimpan kata ke Manatan SRS atau ke Anki lewat AnkiConnect
+       - FAQ baru: apakah Manatan butuh browser, apakah OCR jalan offline, dan apakah sumber anime/manga sudah termasuk
+- Perbaikan
+       - Tautan Manga lokal dan Anime lokal di bagian Masalah Umum Setup Manatan yang sebelumnya rusak
+
 **04-11-2026** · Memperbarui Note Type
 
 - Penambahan

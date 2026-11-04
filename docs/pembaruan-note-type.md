@@ -14,7 +14,7 @@ Begini cara memperbarui note type (format kartu) Anki kamu, entah buat perbaiki 
 | Note type | Dipakai di |
 |---|---|
 | [Lapis](https://github.com/donkuri/lapis) | Hampir semua panduan, mulai dari [Setup Anki PC](setup-anki-pc-lazy-guide.md) |
-| [Kiku](https://github.com/youyoumu/kiku) | Bawaan [Manatan](Setup-Manatan.md), kompatibel dengan pengaturan Lapis. Butuh Anki desktop, kurang cocok kalau sering review di HP |
+| [Kiku](https://github.com/youyoumu/kiku) | Opsional di [Manatan](Setup-Manatan.md) (bawaannya sekarang Manatan-NoteType, yang dipasang otomatis oleh Manatan), kompatibel dengan pengaturan Lapis. Butuh Anki desktop, kurang cocok kalau sering review di HP |
 | [Senren](https://github.com/BrenoAqua/Senren) | Bawaan Yomipv di [Kartu Anime Satu Klik](Auto-Mining%20Anime.md) |
 | [Mining-JP](https://github.com/rudnam/JP-study#anki-mining-template) | [Setup Yomitan & Anki PC](setup-yomitan-pc.md) dan contoh di panduan anime |
 

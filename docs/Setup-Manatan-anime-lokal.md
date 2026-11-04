@@ -64,7 +64,7 @@ Format umum yang digunakan adalah .mp4 dan .mkv.
 
     Tambahkan file cover.jpg di dalam folder serial
 
-#### Info 2: Pembersihan galeri Android
+#### Info 3: Pembersihan galeri Android
 
 ???+ note info "Pembersihan galeri Android <small>(klik di sini)</small>"
 
