@@ -12,8 +12,8 @@
 
 ---
 
-- Mau update Format Lapis yang sudah kamu punya?
-    - Buka [Memperbarui Format Lapis](pembaruan-format-lapis.md)
+- Mau update Format Lapis (atau note type lain) yang sudah kamu punya?
+    - Buka [Memperbarui Note Type](pembaruan-note-type.md)
 
 ---
 

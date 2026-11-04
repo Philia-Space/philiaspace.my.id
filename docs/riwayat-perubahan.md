@@ -20,6 +20,13 @@ hide:
 
 ### November
 
+**04-11-2026** · Memperbarui Note Type
+
+- Penambahan
+       - [Memperbarui Note Type](pembaruan-note-type.md): halaman baru untuk update semua note type yang dipakai di panduan (Lapis, Kiku, Senren, dan Mining-JP), lengkap dengan tabel note type mana dipakai di panduan mana
+- Pembaruan
+       - Halaman Memperbarui Format Lapis digabung ke halaman di atas; di menu Setup Lain namanya sekarang "Memperbarui Note Type"
+
 **04-11-2026** · Kartu Anime Satu Klik
 
 - Pembaruan
