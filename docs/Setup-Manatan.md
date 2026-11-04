@@ -34,7 +34,7 @@ Langkah-langkah persiapan sebelum menjalankan Manatan:
 3. Unduh Kamus. Panduan pemilihan kamus dapat diakses di bagian [Kamus](#kamus)
 	- Kamus JP-ID
 		- [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan)
-		- [JPdict](https://drive.google.com/file/d/11X1Wt5FRp7YnOXNHZIUmRapWZDxD5PPP/view)
+		- [RH Dict](https://discord.com/channels/1370274344571240552/1544821080148025484/1544821080148025484) (di Discord Philia Space)
 	- Kamus JP-EN dan monolingual JP
 		- [JMdict dan JMnedict](https://github.com/yomidevs/jmdict-yomitan?tab=readme-ov-file#jmdict-for-yomitan). Pilih yang JMdict_english.zip dan JMnedict.zip.
 		- [Koleksi Marv](https://drive.google.com/drive/u/0/folders/1LXMIOoaWASIntlx1w08njNU005lS5lez)

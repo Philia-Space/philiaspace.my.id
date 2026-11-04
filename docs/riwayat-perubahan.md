@@ -28,6 +28,7 @@ hide:
        - Bagian Masalah Umum diperbarui: Manatan tidak terbuka, popup kamus tidak muncul, kartu tidak masuk ke Anki, dan peringatan untuk backup dulu sebelum reset data
        - [Manga Lokal](Setup-Manatan-manga-lokal.md): file tunggal di folder utama, manga EPUB, format gambar yang didukung, dan saran memilih struktur folder
        - [Novel (EPUB)](Setup-Manatan-novels.md): tips membaca dan cara mengecek kalau popup kamus tidak muncul
+       - Kamus JP-ID JPdict di [Setup Manatan](Setup-Manatan.md) diganti RH Dict (di Discord Philia Space)
 - Penambahan
        - Bagian Kartu Flashcard di [Setup Manatan](Setup-Manatan.md): menyimpan kata ke Manatan SRS atau ke Anki lewat AnkiConnect
        - FAQ baru: apakah Manatan butuh browser, apakah OCR jalan offline, dan apakah sumber anime/manga sudah termasuk
