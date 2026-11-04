@@ -26,6 +26,7 @@ nav:
         - 'Yomitan & Anki PC': 'setup-yomitan-pc.md'
         - 'Yomitan Android': 'setup-yomitan-android-lazy-guide.md'
         - 'Manatan': 'Setup-Manatan.md'
+        - 'Fushi (Windows)': 'Setup-Fushi.md'
         - 'ShareX (Windows)': 'setup-ShareX-pc.md'
     #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
       - 'Setup PC - LazyGuide':
