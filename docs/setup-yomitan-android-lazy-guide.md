@@ -25,7 +25,7 @@
     - Tambahan kamus [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan) (Jepang-Indonesia)
 
 - Setelah download:
-    - Extract ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Password: `lazyguide`)
+    - Extract `Font.7z` dan `yomitan dictionary.7z` (Password: `lazyguide`)
     - `yomitan dictionary.7z` cukup di-extract sekali, **jangan extract dictionary di dalamnya**.
 
 ---

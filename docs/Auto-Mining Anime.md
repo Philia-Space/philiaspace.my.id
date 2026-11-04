@@ -1,127 +1,235 @@
-# Kartu Anime Satu Klik - [Autocards oleh Shoui](https://learnjapanese.moe/autocards/#download)
+# Kartu Anime Satu Klik - [Yomipv oleh BrenoAqua](https://github.com/BrenoAqua/Yomipv)
 ---
 
- Diunggah: 13 April 2026 – `Yaaacha`
+ Diunggah: 4 November 2026 – `Yaaacha`
 
 ---
-Solusi **all-in-one** untuk membuat kartu dari konten bersubtitle, seperti anime (DENGAN gambar + audio kalimat + konteks) dengan satu klik.
+Yomipv bikin kamu bisa cari arti kata dan bikin kartu Anki **langsung di dalam MPV**, tanpa keluar dari video. Gambar, audio kalimat, dan kalimatnya otomatis masuk ke kartu.
 
-Tidak perlu pengaturan yang rumit. TIDAK PERLU MEMUTAR ULANG. TIDAK PERLU MEREKAM MANUAL. TIDAK PERLU COPY DAN PASTE MANUAL.
+Bisa dipakai di Windows, Linux, dan macOS.
 
-Kompatibel dengan pengaturan Yomitan yang sudah ada. Tidak perlu framework lain.
+??? info "Info: lokalisasi dari dokumentasi resmi (klik di sini)"
+
+    Halaman ini adalah terjemahan dari [README Yomipv](https://github.com/BrenoAqua/Yomipv) dan [panduan Senren](https://brenoaqua.github.io/Senren/yomipv/). Kalau ada yang beda, ikuti README di GitHub karena itu yang paling baru.
 
 ## Prasyarat
 
-* Windows
-* Anki ([Panduan Pengaturan Cepat](setup-anki-pc-lazy-guide.md))
-* Yomitan (panduan [di sini](setup-yomitan-pc.md))
-* Tipe note dengan field untuk "Expression", "Picture", "Sentence" & "SentenceAudio". Lapis kompatibel. Temukan [di sini](https://github.com/donkuri/lapis). ([Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
-* Yomitan sudah diatur untuk pembuatan kartu. (persyaratan minimum: `Expression` & `Sentence`. Autocards akan mengurus sisanya. [Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
-* File subtitle tersedia (misalnya, file .srt), temukan di [Jimaku.cc](https://jimaku.cc/).
+* [MPV](https://mpv.io/) versi 0.33.0 atau lebih baru
+* [FFmpeg](https://ffmpeg.org/), untuk mengambil gambar dan audio dari video. Kalau tidak ada, Yomipv pakai encoder bawaan MPV
+* Anki dengan add-on [AnkiConnect](https://ankiweb.net/shared/info/2055492159) ([Setup Anki PC](setup-anki-pc-lazy-guide.md))
+* Yomitan ([Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md)) dan [Yomitan Api](https://github.com/yomidevs/yomitan-api). Cara pasang Yomitan Api ada di README-nya
+* `curl`, biasanya sudah ada bawaan di sistem
+* Subtitle Jepang yang sudah sinkron dengan video, bisa dicari di [Jimaku.cc](https://jimaku.cc/)
+* [Node.js](https://nodejs.org/), hanya kalau pasang lewat cara alternatif di bawah
 
-## Download
+### Cek prasyarat
 
-[➡Tautan Download](https://mega.nz/file/wZUR3ASL#5sWwyZs88wKyCCiekG7C_W4ypkMYdV-09Xcw8h-1z7E)
+Buka Anki dan browser yang ada Yomitan-nya dulu, lalu copy-paste perintah ini ke PowerShell (Windows) atau Terminal (Linux/macOS). Semua baris harus `OK`, kecuali `node` yang opsional. Pastikan juga versi MPV yang muncul minimal 0.33.
 
-## Pengaturan Awal
+=== "Windows (PowerShell)"
 
-* Download file `.zip`
-* Ekstrak file `.zip` dan jalankan aplikasi ![mpv_icon](img/mpv_icon.png) `mpv.exe` yang disertakan
-* Seret dan letakkan file video ([dengan subtitle yang sudah disinkronkan](https://github.com/shoui520/auto-sub-retimer-easy?tab=readme-ov-file#auto-sub-retimer-easy)) ke jendela MPV.
-* Antarmuka web akan terbuka di browser default, alamatnya adalah `http://127.0.0.1:6969/`. Di sinilah baris subtitle Anda akan muncul.
-* Klik **ikon roda gigi pengaturan** di kanan atas. Konfigurasikan pengaturan Anda:
-  + **Mining Deck**: `"DECK ANDA DALAM TANDA KUTIP"` — Pertahankan tanda kutip, masukkan nama deck Anki Anda *persis*. misalnya untuk nama deck *Mining Deck*, Anda akan menulis `"Mining Deck"`. Ini harus deck yang sama di mana Yomitan akan menambahkan kartu.
-  + **Sentence Field**: `Sentence` — sudah dikonfigurasi sebelumnya untuk Lapis.
-  + **Expression Field**: `Expression` — sudah dikonfigurasi sebelumnya untuk Lapis.
-  + **Picture Field**: `Picture` — sudah dikonfigurasi sebelumnya untuk Lapis.
-  + **Sentence Audio Field**: `SentenceAudio` — sudah dikonfigurasi sebelumnya untuk Lapis.
-  + **Previous Sentences**: `0` — Berapa banyak baris konteks sebelumnya yang Anda inginkan pada kartu?
-  + **Next Sentences**: `0` — Berapa banyak baris konteks selanjutnya yang Anda inginkan pada kartu?
-* Klik "Update" untuk menyimpan.
+    ```powershell
+    foreach ($c in 'mpv','ffmpeg','curl.exe','node') { if (Get-Command $c -ErrorAction SilentlyContinue) { "OK         $c" } else { "TIDAK ADA  $c" } }
+    if (Get-Command mpv -ErrorAction SilentlyContinue) { mpv --version | Select-Object -First 1 }
+    if (Test-Path "$env:APPDATA\mpv") { "OK         folder MPV" } else { "TIDAK ADA  folder MPV ($env:APPDATA\mpv)" }
+    try { Invoke-RestMethod http://127.0.0.1:8765 | Out-Null; "OK         AnkiConnect" } catch { "TIDAK ADA  AnkiConnect (buka Anki dulu)" }
+    try { Invoke-RestMethod http://127.0.0.1:19633/serverVersion -Method Post | Out-Null; "OK         Yomitan Api" } catch { "TIDAK ADA  Yomitan Api (buka browser yang ada Yomitan-nya)" }
+    ```
 
-Pengaturan awal sekarang selesai! Sekarang mulai menonton dan buat kartu!
+=== "Linux/macOS (Terminal)"
 
-## Menambahkan Kartu
+    ```bash
+    for c in mpv ffmpeg curl unzip grep sed node; do command -v "$c" >/dev/null && echo "OK         $c" || echo "TIDAK ADA  $c"; done
+    command -v mpv >/dev/null && mpv --version | head -n 1
+    [ -d ~/.config/mpv ] && echo "OK         folder MPV" || echo "TIDAK ADA  folder MPV (~/.config/mpv)"
+    curl -s http://127.0.0.1:8765 >/dev/null && echo "OK         AnkiConnect" || echo "TIDAK ADA  AnkiConnect (buka Anki dulu)"
+    curl -s -X POST http://127.0.0.1:19633/serverVersion >/dev/null && echo "OK         Yomitan Api" || echo "TIDAK ADA  Yomitan Api (buka browser yang ada Yomitan-nya)"
+    ```
 
-* Tonton video Anda dengan subtitle. Ketika Anda ingin mining kata baru, pergi ke [UI web](http://127.0.0.1:6969/) dan gunakan Yomitan untuk mengarahkan kursor ke kata tersebut, lalu tekan tombol + hijau. Anda selesai. Itu saja!
+Kalau ada yang `TIDAK ADA`:
 
-Audio kalimat, gambar (scene dari video) dan konteks (jika Anda menginginkannya) akan otomatis ditambahkan! Kartu Anda lengkap! Tanpa kerepotan.
+* **mpv / ffmpeg / node**: pasang dulu dari tautan di atas. Kalau sudah dipasang tapi tetap `TIDAK ADA`, berarti programnya belum masuk PATH. Untuk MPV versi portable ini tidak masalah, cukup pastikan versinya minimal 0.33
+* **folder MPV**: buka MPV sekali, atau buat foldernya sendiri
+* **AnkiConnect**: pastikan Anki terbuka dan add-on AnkiConnect sudah terpasang
+* **Yomitan Api**: pastikan `Enable Yomitan API` sudah aktif di pengaturan Yomitan (bagian General, nyalakan advanced options dulu), lalu buka ulang browsernya
 
-## Tips
+## Instalasi
 
-* Ingin menonton tanpa subtitle lalu mining nanti ketika Anda membutuhkannya? Cukup tekan `v` untuk beralih ke tampilan tanpa subtitle. Mining nanti di UI web (`http://127.0.0.1:6969/`).
-* Ingin streaming video? Ctrl-C Ctrl-V **tautan episode** hianime.to ke mpv, lalu seret dan jatuhkan file subtitle .srt Anda ke mpv. Gunakan `z` / `Z` untuk menyesuaikan sinkronisasi subtitle.
-* Pengaturan ini tidak hanya untuk bahasa Jepang. Jika Anda ingin menggunakannya untuk bahasa lain, cukup edit kode bahasa di `portable_config\mpv.conf`
-* MPV sangat sulit digunakan? Saya mengerti. Mereka ingin Anda [membaca manual](https://mpv.io/manual/master/). Fitur paling mendasar (pause/play) tidak menggunakan melalui tombol di layar, tetapi menggunakan tombol fisik `Spasi` atau klik kanan.
+=== "Disarankan"
+
+    1. Download [versi terbaru untuk OS kamu](https://github.com/BrenoAqua/Yomipv/releases/latest) (file `.zip` untuk Windows, Linux, atau macOS)
+    2. Ekstrak isinya langsung ke folder MPV:
+        - Windows: `%APPDATA%/mpv/`
+        - Linux/macOS: `~/.config/mpv/` (buat foldernya kalau belum ada)
+
+=== "Alternatif (butuh Node.js)"
+
+    Clone repo-nya ke folder MPV lalu pasang dependensinya. Pastikan Node.js sudah terpasang.
+
+    - Windows, jalankan di `%APPDATA%/mpv/`:
+        ```
+        git clone https://github.com/BrenoAqua/Yomipv && xcopy /e /i /y Yomipv . && rd /s /q Yomipv && cd scripts\yomipv\lookup-app && npm install
+        ```
+    - Linux/macOS, jalankan di `~/.config/mpv/`:
+        ```
+        git clone https://github.com/BrenoAqua/Yomipv && cp -rn Yomipv/* . && rm -rf Yomipv && cd scripts/yomipv/lookup-app && npm install
+        ```
+
+## Pengaturan
+
+1. Buka `script-opts/yomipv.conf` di folder MPV
+2. Ganti nama deck, note type, dan nama field sesuai punya kamu. Bawaannya diatur untuk note type Senren. Kalau kamu pakai [Lapis](https://github.com/donkuri/lapis), ganti bagian ini:
+
+    ```ini
+    # Deck and Note type
+    deck=Mining
+    note_type=Lapis
+
+    # Note fields
+    expression_field=Expression
+    expression_furigana_field=ExpressionFurigana
+    reading_field=ExpressionReading
+    pitch_accents_field=
+    pitch_position_field=PitchPosition
+    pitch_categories_field=PitchCategories
+    sentence_field=Sentence
+    sentence_furigana_field=SentenceFurigana
+    secondary_sentence_field=
+    expression_audio_field=ExpressionAudio
+    sentence_audio_field=SentenceAudio
+    selection_text_field=SelectionText
+    definition_field=MainDefinition
+    glossary_field=Glossary
+    image_field=Picture
+    freq_sort_field=FreqSort
+    freq_field=Frequency
+    miscinfo_field=MiscInfo
+    dictionary_pref_field=
+    ```
+
+    Ganti `Mining` dengan nama deck kamu, persis sama dengan yang di Anki.
+
+3. Sebelum mulai nonton, pastikan:
+    - Anki sudah dibuka dan AnkiConnect aktif
+    - Yomitan Api jalan, browser yang ada Yomitan-nya terbuka, dan kamus sudah terpasang
+
+## Cara Pakai
+
+1. Buka video dengan subtitle Jepang di MPV
+2. Tekan `c` untuk memunculkan pemilih kata. Bisa juga cukup gerakkan mouse setelah diam sebentar, kalau `selector_trigger_on_mouse_move` diaktifkan
+3. Pilih kata dengan mengarahkan mouse atau pakai tombol panah
+    - `Shift+←` / `Shift+→`: perluas pilihan ke baris subtitle sebelumnya/berikutnya
+4. Tekan `Enter`, `c`, atau klik kiri untuk bikin kartu Anki. Selesai!
+
+## Fitur Lain
+
+### Pemilih kata
+
+* **Mode gabung** (`Shift+C`): pilih beberapa baris subtitle sekaligus sebelum dijadikan kartu. Tekan `Shift+C` untuk masuk, `c` untuk mulai memilih kata, atau `Shift+C` lagi untuk batal
+* **Navigasi per mora**: kalau `selector_mora_hover` aktif, arahkan mouse ke tengah kata untuk mencari mulai dari mora itu. Tekan `s` supaya tombol panah bergerak per mora, bukan per kata
+* **Muncul otomatis** (`z`): pemilih kata terbuka sendiri saat mouse digerakkan setelah diam. Atur juga `selector_trigger_on_mouse_move` dan `selector_trigger_mouse_idle_time` di `yomipv.conf`
+* **Mode tetap** (`v`): bikin beberapa kartu dari satu baris subtitle tanpa menutup pemilih. Warna pilihan berubah saat mode ini aktif
+
+### Gambar dan audio
+
+* `q` / `w`: atur sendiri waktu mulai/selesai untuk gambar dan audio. Kalau tidak diatur, ikut awal dan akhir subtitle
+* `e`: hapus waktu yang diatur manual
+* `g`: ganti antara gambar diam (screenshot) dan gambar bergerak (klip animasi)
+
+### Riwayat subtitle
+
+* `a`: buka/tutup panel riwayat subtitle
+* Klik baris di riwayat untuk lompat ke adegannya (saat pemilih kata tertutup), atau untuk menambah baris sebelumnya/berikutnya ke pilihan (saat pemilih kata terbuka)
+* `Alt+←` / `Alt+→`: lompat ke subtitle sebelumnya/berikutnya
+* `r`: putar ulang baris subtitle saat ini dari awal lalu pause di akhir, enak buat latihan dengar
+* `x`: hapus riwayat subtitle (saat panel riwayat terbuka)
+
+### Jendela kamus
+
+Jendela kecil berisi arti kata dari kamus Yomitan kamu, lengkap dengan pitch accent dan frekuensi. Jendela ini muncul otomatis saat kamu mengarahkan mouse ke kata.
+
+* `Ctrl+c`: buka jendela kamus secara manual setelah memilih kata
+* Klik kanan kata di pemilih untuk mengunci jendela kamus
+* Klik mora mana saja di judul kata untuk mencari potongan katanya, klik kanan judul untuk kembali ke kata sebelumnya
+* Atur `lookup_show_pitch_accents` dan `lookup_show_frequencies` di `yomipv.conf` untuk menampilkan/menyembunyikan pitch accent dan frekuensi
+* Detail lengkap: [lookup-app.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/lookup-app.md)
+
+### Subtitle
+
+* **Warna sesuai status kartu** (`Shift+S`): ganti antara subtitle biasa dan subtitle berwarna sesuai status kartu Anki kamu (baru, sedang dipelajari, review, suspend). Makin lama interval kartunya, warnanya ikut berubah
+    - Tekan `Shift+B` dulu untuk membaca koleksi Anki kamu, baru warnanya bisa muncul
+    - Kata yang baru kamu jadikan kartu langsung berwarna merah di subtitle
+    - Aktifkan `substitute_mpv_subtitles` di `yomipv.conf` supaya langsung aktif saat MPV dibuka
+    - Detail lengkap: [colorizer.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/colorizer.md)
+* **Sinkronkan subtitle** (`Ctrl+s`): samakan waktu subtitle Jepang dengan subtitle terjemahan kalau subtitle Jepangnya telat atau kecepatan. Tekan lagi untuk membatalkan. Aktifkan `auto_sync_subtitles` supaya jalan otomatis. Karena yang disamakan hanya waktu di awal, subtitle masih bisa meleset di tengah video
+* **Subtitle kedua**: subtitle terjemahan dipilih otomatis sesuai bahasa di `primary_sub_lang` dan `secondary_sub_lang` (bawaannya Jepang dan Inggris). File `.ass`/`.srt` di folder yang sama dengan video juga ikut dicari
+    - `Ctrl+j` / `Ctrl+Shift+J`: ganti subtitle kedua
+    - Subtitle kedua hanya muncul saat mouse diarahkan ke subtitle. Isi `secondary_on_hover=no` supaya selalu tampil
+* **Saring subtitle**: tulisan yang bukan dialog (papan nama, gambar, kode format) disembunyikan otomatis. Atur lewat `subtitle_filter_enabled`
+
+### AniList
+
+* `Ctrl+a`: hubungkan akun AniList supaya progres episode tercatat otomatis. Detail lengkap: [anilist_tracking.md](https://github.com/BrenoAqua/Yomipv/blob/main/docs/anilist_tracking.md)
+
+### Update otomatis
+
+* Tekan `Shift+U` di MPV, atau jalankan `yomipv-updater.bat` (Windows) / `yomipv-updater.sh` (Linux/macOS)
+* Bisa pilih rilis resmi terbaru atau versi paling baru dari GitHub (main branch)
+* Pengaturan di `yomipv.conf` tidak akan tertimpa
+* Di Windows, updater butuh izin administrator
 
 ## Pemecahan Masalah
 
-* Subtitle tidak muncul di UI web! — jika subtitle bawaan (softsub), mungkin perlu waktu untuk subtitle muncul karena perlu mengekstrak subtitle dari video terlebih dahulu. Proses ini dilakukan di latar belakang.
-* mpv menutup ketika saya paste tautan hianime — pastikan alamat IP Anda tidak diblokir oleh hianime | pastikan yang dimasukkan adalah **tautan episode** | pastikan Windows tidak memblokir `yt-dlp` yang disertakan. Coba perbarui yt-dlp menggunakan `.\yt-dlp.exe -U` di Terminal.
-* Tidak dapat melihat tombol "Update" di menu pengaturan Autocards — zoom out!
-* `[thumbfast] ERROR! cannot create mpv subprocess` — Anda dapat mengabaikan ini. Ini adalah error aneh yang tidak perlu.
-* Gambar & audio kalimat tidak ditambahkan ke kartu — ini bisa terjadi jika Anda melihat pratinjau kartu terlalu cepat. Periksa juga pengaturan integrasi Anki Yomitan Anda dan menu pengaturan Autocards: apakah nama deck sudah benar?
-* Kalimat tidak ditangkap dengan benar — pastikan 'Layout-aware scanning' diaktifkan di pengaturan lanjutan Yomitan.
+=== "Windows"
 
-## Sinkronisasi Subtitle
+    * Pastikan PowerShell boleh menjalankan script
+    * Pastikan `curl` ada di `C:\Windows\System32\curl.exe`
 
-**Sinkronisasi langsung**
+=== "Linux"
 
-Terlalu malas untuk menyinkronkan file sendiri? Anda dapat menyesuaikan timing subtitle di dalam mpv menggunakan tombol `z` dan `Z` (- dan + masing-masing.)
+    * Pastikan `curl`, `unzip`, `grep`, dan `sed` sudah terpasang
+    * Beri izin jalan ke updater: `chmod +x yomipv-updater.sh`
+    * Pastikan file jendela kamus di `scripts/yomipv/` juga punya izin jalan
 
-Jika subtitle Anda tidak sinkron, begini cara menyinkronkan file subtitle ke video Anda.
+=== "macOS"
 
-Download di sini di GitHub: [auto-sub-retimer-easy](https://github.com/shoui520/auto-sub-retimer-easy)
+    * Pastikan `curl`, `unzip`, `grep`, dan `sed` sudah terpasang
+    * Beri izin jalan ke updater: `chmod +x yomipv-updater.sh`
+    * Kalau macOS memblokir jendela kamus (peringatan Gatekeeper), jalankan: `xattr -cr scripts/yomipv/YomipvLookup.app`
+    * Folder MPV ada di `~/.config/mpv/` (buat kalau belum ada)
 
-Fork dari fork dari auto-sub-retimer Anacreon, bertujuan untuk membuatnya semudah mungkin untuk dijalankan.  
-Menggunakan fork 9b046695 dari sub retimer Anacreon untuk implementasi all-in-one-nya.
+## Sinkronisasi Subtitle (Windows)
 
-### Prasyarat yang diperlukan
+Kalau subtitle Jepang kamu meleset jauh dari video, sinkronkan dulu file subtitle-nya pakai [auto-sub-retimer-easy](https://github.com/shoui520/auto-sub-retimer-easy).
+
+### Prasyarat
 
 * Windows
-* Video lokal di disk. (misalnya anime yang didownload dalam format .mkv)
-* File subtitle Jepang yang tersedia di direktori yang sama.
-* Untuk metode sinkronisasi ulang utama (opsi 1), harus video dengan soft-sub. Jika videomu adalah file raw (tanpa subtitle softsub), kamu dapat menggunakan sinkronisasi berbasis audio (opsi 2).
+* Video tersimpan di komputer (misalnya anime yang didownload dalam format .mkv)
+* File subtitle Jepang di folder yang sama dengan video
+* Untuk opsi 1, video harus punya subtitle bawaan (softsub). Kalau video kamu raw (tanpa softsub), pakai opsi 2 yang berbasis audio
 
 ### Instalasi
 
-1. Instal Python. Download [di sini.](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
-2. Download proyek ini dengan mengklik tombol hijau "**Code**" di atas, lalu klik "**Download ZIP**"
-3. Di file manager, *ekstrak* file .zip dengan mengklik "**Extract all**".
-4. Di folder yang diekstrak, akan ada folder lain dengan nama "`auto-sub-retimer-easy-master`"
-5. Folder ini (`auto-sub-retimer-easy-master`) berisi file lain. Pindahkan folder ini, (berisi semua file) ke direktori `C:\` (langsung di dalam Local Disk C:) **Ini adalah langkah penting!**  
-   ・Direktori Anda harus terlihat seperti ini: `C:\auto-sub-retimer-easy-master`, dengan `Install.reg`, `ffmpeg` dll. dapat dilihat di dalamnya.   
-   ・BUKAN `C:\auto-sub-retimer-easy-master\auto-sub-retimer-easy-master`!
-6. Instal program dengan *mengklik dua kali* file `.reg` "`Install.reg`". Tekan "Yes" pada kotak dialog. Proses ini memerlukan hak administrator.
+1. Instal Python. Download [di sini](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
+2. Buka [auto-sub-retimer-easy](https://github.com/shoui520/auto-sub-retimer-easy), klik tombol hijau "**Code**", lalu "**Download ZIP**"
+3. Ekstrak file .zip dengan klik "**Extract all**"
+4. Di dalamnya ada folder `auto-sub-retimer-easy-master`. Pindahkan folder ini langsung ke `C:\`. **Ini langkah penting!**
+    - Benar: `C:\auto-sub-retimer-easy-master`, dengan `Install.reg`, `ffmpeg`, dll. langsung di dalamnya
+    - Salah: `C:\auto-sub-retimer-easy-master\auto-sub-retimer-easy-master`
+5. Klik dua kali `Install.reg` lalu tekan "Yes". Langkah ini butuh izin administrator
 
 ### Penggunaan
 
-1. Tempatkan file subtitle (seperti yang diunduh dari Jimaku.cc) di direktori yang sama dengan file video. Pastikan jumlah subtitle sesuai dengan jumlah episode. (misalnya 24 episode, 24 subtitle.)
-2. Di File Explorer, klik kanan pada folder yang berisi video+subtitle Anda, lalu klik "Show more options". (jika menggunakan Windows 11)
-3. Arahkan kursor ke "Retime/Rename Subs" lalu klik "RetimeSubs"
-4. Jendela terminal akan terbuka dengan tulisan ini:  
-   [1] Retime using embedded subs. (Default)  
-   [2] Retime using audio.
-5. Ketik nomor (misalnya 1) lalu tekan Enter untuk opsi yang diinginkan. `[1]` berfungsi dengan baik untuk sebagian besar kasus*.
-6. Kemudian akan menanyakan "Split Penalty". Abaikan ini. Cukup tekan Enter.
-7. Setelah itu, tunggu script melakukan keajaibannya**, ketika selesai jendela terminal akan mengatakan "Success!"
+1. Taruh file subtitle (misalnya dari Jimaku.cc) di folder yang sama dengan video. Jumlah subtitle harus sama dengan jumlah episode (misalnya 24 episode, 24 subtitle)
+2. Klik kanan folder video+subtitle di File Explorer, lalu "Show more options" (di Windows 11)
+3. Arahkan ke "Retime/Rename Subs" lalu klik "RetimeSubs"
+4. Jendela terminal akan muncul dengan pilihan:
+    - `[1]` Retime using embedded subs (bawaan, cocok untuk kebanyakan kasus)
+    - `[2]` Retime using audio
+5. Ketik nomornya lalu tekan Enter
+6. Kalau ditanya "Split Penalty", langsung tekan Enter saja
+7. Kalau ditanya "styles to keep", tekan Enter juga
+8. Tunggu sampai muncul tulisan "Success!"
 
-*Anda mungkin mengalami beberapa kasus di mana subtitle Inggris dan subtitle Jepang tidak mengandung informasi yang sama (misalnya subtitle Inggris menerjemahkan tanda & lagu, sementara subtitle Jepang berisi closed caption untuk orang dengan gangguan pendengaran.). Dalam kasus itu, gunakan sinkronisasi audio. Jika Anda download raw, Anda perlu menggunakan opsi `[2]`.
-
-**Jika Anda memiliki video dengan subtitle Inggris bergaya (tanda/lagu/subtitle atas+bawah dll.) Anda mungkin diminta untuk memilih "styles to keep". Pengaturan default `(Enter)` berfungsi dengan baik dalam sebagian besar kasus.
-
-## Ucapan Terima Kasih
-
-Autocards dapat bekerja karena perangkat lunak open source dan karya para kontributornya. Perangkat lunak berikut disertakan dalam paket:
-
-* Script standalone Autocards (dibuat oleh かにふぁん. Kontributor: shoui, Gilfar & manhhao) - GPL-3.0
-* [mpv](https://github.com/mpv-player/mpv) - GPL-2.0
-* [ffmpeg](https://github.com/FFmpeg/FFmpeg) - LGPL-2.1
-* [thumbfast](https://github.com/po5/thumbfast) - MPL-2.0
-* [uosc](https://github.com/tomasklaen/uosc) - LGPL-2.1
-* [Microsoft, curl.exe](https://curl.se/windows/microsoft.html) - MIT
-* [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense
-* [yt-dlp-hianime](https://github.com/pratikpatel8982/yt-dlp-hianime) - Unlicense
-* [Python embeddable package](https://www.python.org/downloads/release/python-31311/) - PSF-2.0
-
-Dengan mendownload paket Autocards, Anda menerima perjanjian lisensi di atas.
+Kadang subtitle Inggris dan Jepang isinya tidak sama, misalnya subtitle Inggris menerjemahkan tulisan dan lagu, sedangkan subtitle Jepang berisi teks untuk tunarungu. Untuk kasus seperti itu, atau kalau videonya raw, pakai opsi `[2]`.

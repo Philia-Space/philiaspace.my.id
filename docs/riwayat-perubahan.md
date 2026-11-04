@@ -20,6 +20,26 @@ hide:
 
 ### November
 
+**04-11-2026** · Kartu Anime Satu Klik
+
+- Pembaruan
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
+       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
+- Perbaikan
+       - Tautan (?) ke halaman cara ekstrak file dihapus dari langkah ekstrak di Panduan Ringkas, Setup Anki PC, dan Setup Yomitan PC & Android
+
+**04-11-2026** · Deck Kaishi
+
+- Pembaruan
+       - Deck Kaishi 1.5k Indonesia Simplified diganti ke Kaishi V2 di [Panduan Ringkas](panduan-ringkas-JP.md) dan [Panduan Bahasa Jepang](panduan.md)
+- Penambahan
+       - Pilihan deck sesuai tujuan di kedua halaman tersebut: Kaishi V2 untuk mulai immersion, Kaishi 1.5k versi RenRen, serta Multilingual Eggrolls JLPT 10k dan Ankidrone Essential V9 untuk JLPT
+
+**04-11-2026** · Menu di HP
+
+- Perbaikan
+       - Sub-menu di menu samping HP tidak lagi bergeser dan menumpuk dengan menu sebelumnya, dan tombol kembali (←) di atasnya muncul lagi
+
 **04-11-2026** · Bahasa Antarmuka
 
 - Tampilan & Antarmuka

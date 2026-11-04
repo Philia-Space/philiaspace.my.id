@@ -42,7 +42,7 @@ hide:
     - Harusnya selesai dalam waktu 2 minggu
 
 2. Download [Anki](https://apps.ankiweb.net/) dan [add-on Anki](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing) punyaku
-    - Extract ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Anki add-on`-nya (Password: `lazyguide`) terus paste ke folder:
+    - Extract `Anki add-on`-nya (Password: `lazyguide`) terus paste ke folder:
     === "Windows"
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
         ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
@@ -56,7 +56,11 @@ hide:
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
     - Restart `Anki` kamu
 
-3. Download [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (`deck kosakata 1.5k`) atau [Kaishi 1.5k Indonesia Simplified.apkg](https://github.com/yaaacha/Yaacha-Anki-Deck-Archive/blob/main/Kaishi%201.5k%20Indonesia%20Simplified.apkg) terus buka filenya
+3. Download **satu** `deck kosakata` sesuai tujuan kamu, terus buka filenya
+    - [Kaishi V2](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753475051556954): paling disarankan buat mulai immersion, isinya kata yang paling sering dipakai orang Jepang. Baru mulai? Kerjain ini dulu
+    - [Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335) atau [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (versi asli, bahasa Inggris)
+    - Mau fokus JLPT? Pakai [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713), atau [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432) kalau mau alternatif
+    - Boleh juga main dua deck sekaligus, misalnya Kaishi plus deck JLPT
     - Waktu ngerjain deck-nya, cukup pake tombol `again (1 = aku nggak tahu jawabannya)` atau `good (spasi atau 3 = aku tahu jawabannya)`, jadi kamu nggak perlu mikir mau `easy (2)` atau `hard (4)`
 
 4. Masuk ke menu `Deck` > klik ikon gear > salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah

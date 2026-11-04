@@ -30,7 +30,7 @@ nav:
     #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
       - 'Setup PC - LazyGuide':
         - 'Anime MacOS': 'setup-anime-pc-lazy-guide.md'
-        - 'Anime Windows': 'Auto-Mining Anime.md'
+        - 'Anime Desktop': 'Auto-Mining Anime.md'
         - 'LN & Buku': 'setup-LN-pc-lazy-guide.md'
         - 'Manga': 'setup-manga-pc-lazy-guide.md'
       - 'Setup Android - LazyGuide':
