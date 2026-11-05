@@ -35,7 +35,7 @@ hide:
   <div class="ps-section-head">
     <div>
       <p class="ps-eyebrow ps-eyebrow-dark">Alur pembelajaran</p>
-      <h2>Tiga fase. Urut, tapi nggak harus selesai dulu baru lanjut.</h2>
+      <h2>Tiga fase. Urut, tapi tidak harus selesai dulu baru lanjut.</h2>
     </div>
     <p class="ps-section-note">Kebanyakan orang mulai kana di minggu pertama, pasang Anki dan Yomitan di minggu kedua, dan sudah nonton anime dengan subtitle Jepang di bulan pertama.</p>
   </div>
@@ -63,7 +63,7 @@ hide:
         <li><a href="setup-yomitan-pc-lazy-guide/">Yomitan PC</a></li>
         <li><a href="setup-yomitan-pc/">Yomitan + Anki (PC)</a></li>
         <li><a href="setup-yomitan-android-lazy-guide/">Yomitan Android</a></li>
-        <li><a href="Setup-Manatan/">Manatan (Android)</a></li>
+        <li><a href="Setup-Manatan/">Manatan (PC &amp; HP)</a></li>
         <li><a href="setup-ShareX-pc/">ShareX OCR (Windows)</a></li>
       </ul>
     </article>
@@ -73,7 +73,7 @@ hide:
       <h3>Immersion media</h3>
       <p>Mining sambil nonton anime, baca manga, dan light novel. Ini yang dijalani tiap hari, bertahun-tahun.</p>
       <ul class="ps-links">
-        <li><a href="kartu-anime-satu-klik/">Anime (Windows)</a></li>
+        <li><a href="kartu-anime-satu-klik/">Anime (Desktop)</a></li>
         <li><a href="setup-anime-pc-lazy-guide/">Anime (macOS)</a></li>
         <li><a href="setup-anime-android-lazy-guide/">Anime (Android)</a></li>
         <li><a href="setup-manga-pc-lazy-guide/">Manga (PC)</a></li>
@@ -86,9 +86,9 @@ hide:
 </section>
 
 <div class="ps-tools">
-  <span class="ps-tools-label">Alat yang kita pakai, semuanya gratis</span>
+  <span class="ps-tools-label">Alat yang dipakai di panduan ini, semuanya gratis</span>
   <ul class="ps-chips">
-    <li>Anki</li><li>Yomitan</li><li>Lapis</li><li>asbplayer</li><li>Manatan</li><li>mokuro</li><li>Yatsu Reader</li><li>ShareX</li>
+    <li>Anki</li><li>Yomitan</li><li>Lapis</li><li>asbplayer</li><li>Yomipv</li><li>Manatan</li><li>mokuro</li><li>Yatsu Reader</li><li>ShareX</li>
   </ul>
 </div>
 
@@ -97,7 +97,7 @@ hide:
     <p class="ps-eyebrow">Diskusi &amp; bantuan</p>
     <h2>Mentok? Tanya di Discord. Tapi baca dulu, cari dulu.</h2>
     <p>Tempat sesama pembelajar saling bantu soal kendala teknis, rekomendasi materi, dan curhat progres. Aturannya cuma tiga: baca situs ini dulu, pakai kolom pencarian, baru bertanya.</p>
-    <a href="join/" class="ps-btn ps-btn-primary">Sip, bawa aku ke Discord</a>
+    <a href="join/" class="ps-btn ps-btn-primary">Gabung ke Discord</a>
     <ul class="ps-links ps-links-dark">
       <li><a href="proyek/">Proyek &amp; alat buatan komunitas</a></li>
       <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok @philiaspace.id</a></li>

@@ -79,6 +79,7 @@ hide:
        - [Setup Manatan](Setup-Manatan.md): daftar di bagian Info, Tips, dan Pertanyaan Umum yang tampil berantakan, serta saran "pasang sumber anime" di bagian manga yang seharusnya "sumber manga"
        - [Yomitan & Anki PC](setup-yomitan-pc.md): tiga gambar langkah impor kamus yang kalau diklik membuka gambar lain
        - Nama kamus 三省堂国語辞典第八版, BCCWJ, dan YouTube di daftar kamus Manatan dan Yomitan & Anki PC
+       - Label di beranda disesuaikan dengan menu: "Anime (Desktop)" untuk Kartu Anime Satu Klik, "Manatan (PC & HP)", dan Yomipv masuk daftar alat
 
 **04-11-2026** · Panduan Manatan
 
