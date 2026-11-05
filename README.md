@@ -25,7 +25,7 @@ mkdocs.yml
 ### 🔧 Cara Pertama (Tes Lokal)
 
 1. **Fork & Clone repository-nya**
-   ![Fork](https://github.com/phi-li-a/philiaspace.my.id/fork) terlebih dahulu lalu Clone
+   ![Fork](https://github.com/Philia-Space/philiaspace.my.id/fork) terlebih dahulu lalu Clone
    ```bash
    git clone https://github.com/<username>/philiaspace.my.id.git
    cd philiaspace.my.id
@@ -143,6 +143,22 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
    * Setelah itu, kamu akan diarahkan ke halaman PR.
    * Tambahkan deskripsi perubahanmu (jika perlu).
    * Klik **Create pull request**.
+
+---
+
+### 🗂️ Konvensi Penamaan File (Lintas Platform)
+
+Repo ini dibuka di Windows, macOS, dan Linux, lalu diterbitkan lewat GitHub Pages. Supaya file baru bisa di-clone dan dibuka di mana saja, ikuti aturan ini:
+
+* **Huruf kecil, angka, dan tanda hubung saja** (kebab-case), misalnya `setup-anki-pc.md` atau `brand-03-warna.png`.
+* **Jangan pakai karakter yang dilarang Windows**: `\ / : * ? " < > |`. Satu file bernama `Ganti-Deck:Note-Type-0.jpg` sudah cukup bikin repo gagal di-checkout di Windows.
+* **Jangan pakai spasi.** Pakai `-`. Spasi berubah jadi `%20` di URL dan gampang bikin tautan Markdown rusak.
+* **Jangan bedakan nama hanya dari huruf besar/kecil.** Windows dan macOS menganggap `Audio.jpg` dan `audio.jpg` sama, sedangkan Linux dan GitHub Pages tidak. Tautan yang benar di laptopmu bisa 404 di situs.
+* **Huruf ASCII saja.** Jangan pakai huruf Jepang atau huruf beraksen di nama file; tulis di isi halaman saja.
+* **Jangan akhiri nama dengan titik atau spasi**, dan jangan pakai nama khusus Windows (`CON`, `PRN`, `AUX`, `NUL`, `COM1`, `LPT1`, dst.).
+* **Jangan ikut commit file sampah OS**: `*:Zone.Identifier`, `.DS_Store`, `Thumbs.db`.
+
+File lama yang belum mengikuti aturan ini (misalnya `Auto-Mining Anime.md`) tidak perlu buru-buru di-rename, karena nama file `.md` menentukan URL halaman. Rename bersama perbaikan tautannya dalam satu PR khusus.
 
 ---
 

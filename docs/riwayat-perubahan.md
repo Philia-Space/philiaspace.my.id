@@ -110,6 +110,14 @@ hide:
        - Nama kamus 三省堂国語辞典第八版, BCCWJ, dan YouTube di daftar kamus Manatan dan Yomitan & Anki PC
        - Label di beranda disesuaikan dengan menu: "Anime (Desktop)" untuk Kartu Anime Satu Klik, "Manatan (PC & HP)", dan Yomipv masuk daftar alat
 
+**05-11-2026** · Setup Fushi
+
+- Penambahan
+       - Halaman baru [Setup Fushi (Windows)](Setup-Fushi.md) (masih draf), muncul di menu Setup Mining > PC: cara instal, panduan awal di aplikasi, pasang kamus, kirim kartu ke Anki dengan note type Lapis, dan pasang ekstensi browser
+       - Cara menambah sumber manga dan anime online di Fushi, lalu mencari judul dari dalam aplikasi
+       - Cara membaca dialog visual novel lewat Fushi dan membuat kartu dari dialognya, lengkap dengan gambar bergerak dan suara karakter
+       - Masalah umum Fushi: layar "Old data needs an upgrade first", hasil pencarian kosong, ekstensi browser belum terdeteksi, dan kartu tidak masuk ke Anki
+
 **04-11-2026** · Panduan Manatan
 
 - Pembaruan
@@ -154,6 +162,21 @@ hide:
 
 - Perbaikan
        - Sub-menu di menu samping HP tidak lagi bergeser dan menumpuk dengan menu sebelumnya, dan tombol kembali (←) di atasnya muncul lagi
+
+**04-11-2026** · Bahasa Antarmuka
+
+- Tampilan & Antarmuka
+       - Antarmuka situs memakai bahasa Indonesia: "On this page" jadi "Di halaman ini", tombol navigasi bawah "Previous"/"Next" jadi "Sebelumnya"/"Selanjutnya", begitu juga kolom pencarian dan tombol ubah halaman
+- Pembaruan Konten
+       - Keterangan "Adaptasi TheMoeWay" di beranda dihapus karena panduan di situs ini diadaptasi dari beberapa sumber
+
+**04-11-2026** · Repo Baru
+
+- Perbaikan
+       - Tombol GitHub di header dan tautan GitHub di footer beranda diarahkan ke repo baru [Philia-Space/philiaspace.my.id](https://github.com/Philia-Space/philiaspace.my.id)
+       - Tombol "Edit this page" sekarang membuka branch `main` di repo baru (sebelumnya mengarah ke branch `master` yang tidak ada, jadi 404)
+- Penambahan
+       - Brand guideline Philia Space di folder `brand/` repo dan konvensi penamaan file lintas platform di README (khusus kontributor, tidak tampil di situs)
 
 **04-11-2026** · Sinkronisasi LazyGuide
 

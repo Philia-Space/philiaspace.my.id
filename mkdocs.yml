@@ -39,6 +39,7 @@ nav:
         - 'Yomitan & Anki': 'setup-yomitan-pc.md'
         - 'Anime PC': 'kartu-anime-satu-klik.md'
         - 'Memperbarui Note Type': 'pembaruan-note-type.md'
+        - 'Fushi (Windows)': 'Setup-Fushi.md'
       - 'iOS':
         - 'LN & Buku': 'Setup-Hoshi-Reader-iOS.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
@@ -91,8 +92,9 @@ theme:
   logo: img/philia-space-logo.jpg
   icon:
     repo: fontawesome/brands/github
-repo_url: https://github.com/phi-li-a/philiaspace.my.id
+repo_url: https://github.com/Philia-Space/philiaspace.my.id
 repo_name: GitHub
+edit_uri: edit/main/docs/
 
 markdown_extensions:
   - pymdownx.emoji:
