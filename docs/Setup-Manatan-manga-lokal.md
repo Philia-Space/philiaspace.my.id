@@ -7,19 +7,21 @@ description: Struktur folder manga lokal yang didukung untuk Manatan.
 
 Manatan dapat membaca manga yang tersimpan secara lokal di perangkat, dari folder gambar, file arsip, atau file EPUB.
 
+---
+
 ## Atur folder manga lokal
 
-1. Buka **Settings** > **Browse**.
-2. Atur **Local Manga source location** menuju folder penyimpanan manga lokalmu.
-3. Buka **Browse** > **Source** > **Local source**.
+1. Buka `Settings` > `Browse`.
+2. Atur `Local Manga source location` ke folder tempat manga lokalmu disimpan.
+3. Buka `Browse` > `Source` > `Local source`.
 4. Pilih serial yang ingin dibaca.
 
-Jika Kamu menambahkan bab baru di kemudian hari, segarkan daftar bab.
+Kalau nanti kamu menambahkan bab baru, segarkan daftar babnya.
 
 ---
 ## Struktur folder yang didukung
 
-Di dalam folder manga lokal kamu, Manatan mendukung dua cara:
+Di dalam folder manga lokalmu, Manatan mendukung dua cara:
 
 - satu folder untuk setiap serial, berisi folder bab, file arsip, atau file EPUB
 - satu file `.epub`, `.zip`, `.cbz`, `.rar`, atau `.cbr` yang langsung ditaruh di folder utama
@@ -87,9 +89,9 @@ Format yang didukung: folder gambar, `.zip`/`.cbz`, `.rar`/`.cbr`, dan `.epub`. 
 ---
 ## Masalah Umum
 
-#### Masalah 1: Serial saya tidak muncul
+#### Masalah 1: Serial tidak muncul
 
-???+ note question "Serial saya tidak muncul"
+???+ note question "Serial tidak muncul"
 
     1. Pastikan jalur (path) folder sudah benar.
     2. Pastikan file di folder utama berformat `.epub`, `.zip`, `.cbz`, `.rar`, atau `.cbr`, atau folder/file bab berada di dalam folder serial.
@@ -99,7 +101,7 @@ Format yang didukung: folder gambar, `.zip`/`.cbz`, `.rar`/`.cbr`, dan `.epub`. 
 
 ???+ note question "Bab berada dalam urutan yang salah"
 
-    Gunakan penamaan dengan awalan nol seperti `001`, `002`, `010`. Untuk file arsip, urutan halaman diambil dari nama file gambar di dalamnya. Untuk EPUB, urutannya mengikuti urutan di dalam EPUB.
+    Beri nama dengan awalan nol, seperti `001`, `002`, `010`. Untuk file arsip, urutan halaman diambil dari nama file gambar di dalamnya. Untuk EPUB, urutannya mengikuti urutan di dalam EPUB.
 
 #### Masalah 3: Galeri Android menampilkan gambar manga
 

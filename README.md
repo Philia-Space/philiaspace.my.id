@@ -56,7 +56,9 @@ mkdocs.yml
    docs/tutorial-yomitan.md
    ```
 
-2. Lakukan perubahan seperti biasa menggunakan Markdown (`.md`). Contoh:
+2. Baca [PANDUAN-GAYA.md](PANDUAN-GAYA.md) dulu supaya bahasa dan istilahnya sama dengan halaman lain.
+
+3. Lakukan perubahan seperti biasa menggunakan Markdown (`.md`). Contoh:
 
    ```markdown
    ## Instalasi

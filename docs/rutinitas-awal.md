@@ -2,246 +2,284 @@
 
 ---
 
- Diunggah: 10 Agustus 2025 – `Yaaacha`
+Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
+
 ??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adalah terjemahan dari [TheMoeWay](https://learnjapanese.moe/routine/) dengan beberapa pengubahan referensi dan lokalisasi sumber Bahasa Indonesia
+    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/routine/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
+    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
 
-    - Jika kamu bisa bahasa inggris, kamu bisa kunjungi panduan di sana
+!!! info "Tujuan"
+    Rutinitas ini sudah ditentukan dari awal untuk membantu pemula belajar bahasa Jepang lewat immersion. Rutinitas ini hanya disarankan untuk kamu yang baru mulai tapi bingung harus memilih langkah apa.
 
-**Rutinitas** untuk bantu orang belajar bahasa Jepang dari nol pakai metode immersion.  
+**Rutinitas** ini membantu kamu belajar bahasa Jepang dari nol dengan metode immersion. Sasarannya **pemula yang sama sekali belum tahu cara belajar bahasa Jepang**.  
 
-Rutinitas ini dibagi per hari. Setiap hari ada tugas yang harus kamu kerjakan.  
+Kalau kamu pernah belajar sebelumnya atau tertarik dengan metode immersion, baca [Panduan Jepang](panduan.md).  
 
-Yang diharap bakal kamu kuasai di akhir 30 hari:
+Rutinitas ini dibagi per hari. Tiap hari ada tugas yang harus kamu kerjakan.  
 
-- Paham pola bunpou bahasa Jepang yang paling umum  
+Yang diharapkan sudah kamu kuasai di akhir 30 hari:
+
+- Paham pola tata bahasa Jepang yang paling umum  
 - Punya kosakata minimal 500 kata  
-- Bisa ngerti kalimat dasar di anime slice of life  
-- Bisa baca hiragana, katakana, dan beberapa kanji umum  
-- Punya pondasi yang solid buat lanjut belajar bahasa Jepang sendiri  
+- Bisa mengerti kalimat dasar di anime slice of life  
+- Bisa membaca hiragana, katakana, dan beberapa kanji umum  
+- Punya fondasi yang kuat untuk lanjut belajar bahasa Jepang sendiri  
 
-Yang aku harapkan dari kamu:
+Yang kamu butuhkan:
 
-- **niat buat belajar**  
-- Waktu luang minimal 3+ jam per hari buat bahasa Jepang  
-- Komputer (maaf pengguna HP, akan ada hal-hal yang tidak bisa diatur lewat HP)  
+- **Niat untuk belajar**  
+- Waktu luang minimal 3 jam per hari untuk bahasa Jepang  
+- Komputer (maaf untuk pengguna HP, ada hal-hal yang tidak bisa diatur lewat HP)  
 
-## PENTING: Tujuan panduan ini  
+---
 
-Rutinitas ini dibuat untuk membantu mengatasi rasa bingung atau buntu saat harus memutuskan langkah awal belajar bahasa Jepang. Ini bukan aturan baku — kamu bisa menyesuaikan bagian mana pun dari hari mana pun agar cocok dengan kebutuhanmu.
+## Penting: tujuan panduan ini  
 
-**Ini BUKAN "Panduan Belajar Bahasa Jepang"**, panduan itu bisa kamu temuin di sini: [Panduan Jepang](panduan.md) atau [Panduan Ringkas](panduan-ringkas-JP.md) 
+Rutinitas ini dibuat untuk kamu yang bingung atau buntu menentukan langkah awal belajar bahasa Jepang. Ini bukan aturan baku. Kamu bisa menyesuaikan bagian mana pun dari hari mana pun agar cocok dengan kebutuhanmu.
 
+**Ini bukan "Panduan Belajar Bahasa Jepang"**. Panduan itu ada di sini: [Panduan Jepang](panduan.md) atau [Panduan Ringkas](panduan-ringkas-JP.md) 
+
+UsagiSpoon bukan panduan, bukan kursus, bukan tantangan, dan bukan program latihan yang kaku!  
+
+
+---
 
 ## Hari 1  
 
 ### Tahap: Mulai belajar kana  
-Hal pertama banget yang harus kamu lakukan pas belajar bahasa Jepang adalah belajar kana. Kana itu singkatan dari hiragana dan katakana.  
+Hal pertama yang harus kamu lakukan saat belajar bahasa Jepang adalah belajar kana. Kana adalah sebutan untuk hiragana dan katakana.  
 
-Kenapa dan gimana cara penggunaannya bisa bikin bingung orang yang baru mulai belajar bahasa Jepang.  
+Alasan dan cara pemakaian kana sering membingungkan orang yang baru mulai belajar bahasa Jepang.  
 
-Jadi, aku saranin baca panduan dari [Taekim](https://gohoneko.neocities.org/grammar/taekim#_Hiragana) atau dari [Ruang Guru](https://www.ruangguru.com/blog/huruf-hiragana-katakana).  
+Karena itu, baca dulu panduan dari [Taekim](https://guidetojapanese.org/learn/complete/hiragana) atau dari [Ruang Guru](https://www.ruangguru.com/blog/huruf-hiragana-katakana).  
 
-Kalau kamu baca Taekim, baca sampai selesai bagian Hiragana dan Katakana, berhenti tepat sebelum bagian "Kanji".    
+Kalau memilih Taekim, baca bagian Hiragana dan Katakana sampai selesai, lalu berhenti tepat sebelum bagian "Kanji".    
 
-Memang lumayan banyak teksnya. Jadi bisa makan waktu.  
+Teksnya memang lumayan banyak, jadi bisa makan waktu.  
 
-Oh iya, di link itu kamu belum ngehafalin kana ya. Aku bakal jelasin caranya nanti di bawah.  
+Di tautan itu kamu belum menghafal kana. Cara menghafalnya dijelaskan di bawah.  
 
-Kalau udah selesai baca, salin [chart dari panduan utama](img/hiragana_katakana_LARGE.png).    
+Setelah selesai membaca, salin [tabel dari panduan utama](img/hiragana_katakana_LARGE.png).    
 
-Penting banget belajar nulis kana, karena itu bisa bantu kamu bedain hurufnya juga. Nggak usah khawatir tulisan tangan jelek.  
+Belajar menulis kana itu penting, karena membantu kamu membedakan hurufnya. Tidak usah khawatir kalau tulisan tanganmu jelek.  
 
-Bisa nulisnya di kertas atau di layar, sama aja.  
+Kamu bisa menulis di kertas atau di layar, sama saja.  
 
-Lanjut, tonton salah satu video ini: 
+Lalu tonton salah satu video ini: 
 
-- [JapanesePod (Native Jepang berbahasa Inggris](https://www.youtube.com/watch?v=_wZHqOghvSs)  
-- [Wagomu (Indonesia)](https://youtu.be/icK6kVTegDA?si=K1N9VanciQF37Oc8)
-- [Katakana Wagomu (Indonesia)](https://youtu.be/5lC9rhjrHxU?si=8uqrH1G-HzziXZrk)
+=== "Hiragana & Katakana (ENG)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/_wZHqOghvSs" title="JapanesePod - Hiragana & Katakana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
 
-Video di atas dari JapanesePod dan Wagomu. Kemungkinan ini satu-satunya video JapanesePod atau Wagomu yang bakal aku rekomendasiin, cuma bilang aja sih.  
+    JapanesePod, dibawakan penutur asli Jepang dalam bahasa Inggris. [Tonton langsung di YouTube](https://youtu.be/_wZHqOghvSs){: target="_blank" }
 
-Sekarang buka website ini: [Kana Grinding Game](https://djtguide.neocities.org/kana/)  
+=== "Hiragana (IDN)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/icK6kVTegDA" title="Wagomu - Hiragana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
+
+    Wagomu, dalam bahasa Indonesia. [Tonton langsung di YouTube](https://youtu.be/icK6kVTegDA){: target="_blank" }
+
+=== "Katakana (IDN)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/5lC9rhjrHxU" title="Wagomu - Katakana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
+
+    Wagomu, dalam bahasa Indonesia. [Tonton langsung di YouTube](https://youtu.be/5lC9rhjrHxU){: target="_blank" }
+
+Video di atas dari JapanesePod dan Wagomu. Kemungkinan besar hanya video ini yang direkomendasikan dari kedua kanal itu.  
+
+Sekarang buka situs ini: [Kana Grinding Game](https://djtguide.neocities.org/kana/)  
 
 Klik "show/hide options".  
 
-Klik "check all" buat semua kategori (Hiragana, Hiragana Kombinasi, Katakana, Katakana Kombinasi). Nggak usah pusingin fontnya.  
+Klik "check all" untuk semua kategori (Hiragana, Hiragana Kombinasi, Katakana, Katakana Kombinasi). Font-nya tidak usah dipikirkan.  
 
-Ketik romaji yang bener di kotak teks. Ini cara kamu latihan kana.  
+Ketik romaji yang benar di kotak teks. Begitulah cara latihan kana.  
 
-Lakuin ini selama 10 menit.  
+Lakukan ini selama 10 menit.  
 
 Pakai timer ini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/)  
 
 
+---
+
 ## Hari 2  
 
-### Tahap: Bikin "Jepang" versi kamu sendiri di rumah  
+### Tahap: Membuat "Jepang" versimu sendiri di rumah  
 
 Latihan lagi di situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 Timer di sini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
 Ingat, semua kana harus diaktifkan.  
 
-Mengelilingi hidup sehari-hari kamu dengan bahasa Jepang itu bagian paling penting dari metode immersion.  
+Bagian terpenting metode immersion adalah mengelilingi keseharianmu dengan bahasa Jepang.  
 
-Mungkin agak susah milihnya, tapi kamu perlu cari konten yang kamu suka dan bikin itu jadi kebiasaan buat dikonsumsi setiap hari.  
+Memilihnya mungkin agak susah, tapi kamu perlu mencari konten yang kamu suka, lalu membiasakan diri menikmatinya setiap hari.  
 
 Anime slice of life bisa jadi titik awal yang bagus.  
 
-Banyak banget anime yang bahasanya simpel.  
+Banyak anime yang bahasanya sederhana.  
 
 Beberapa rekomendasi:
 
-| Daftar | Anime | Rekomendasi |
-| -------- | ------- | ------- |
-| Love Live! (Apa aja) | $Koe no Katachi | Koe no Katachi |
-| Non Non Biyori | Nakitai Watashi wa Neko o Kaburu | Hotarubi no Mori e |
-| Kimetsu no Yaiba | $Toki wo Kakeru Shoujo | Himouto! Umaru-chan |
-| Yuru Yuri | Precure (Apa aja) | Gabriel Dropout |
-| Gakuen Utopia Manabi Straight | K-on | Ao Haru Ride |
-| Usagi Drop | Flying Witch | Byousoku 5 Centimeter |
-| Kiniro Mosaic | New Game |  | 
+- Love Live! (apa saja)
+- Non Non Biyori
+- Kimetsu no Yaiba
+- Koe no Katachi
+- Hotarubi no Mori e
+- Toki wo Kakeru Shoujo
+- Himouto! Umaru-chan
+- Nakitai Watashi wa Neko o Kaburu
+- Yuru Yuri
+- Precure (apa saja)
+- Gabriel Dropout
+- Gakuen Utopia Manabi Straight
+- K-on
+- Ao Haru Ride
+- Usagi Drop
+- Flying Witch
+- Byousoku 5 Centimeter
+- Kiniro Mosaic
+- New Game
 
-Catatan: tidak ada urutan prioritas apapun, kamu bebas pilih dari daftar ini atau pilih preferensimu pribadi
+Catatan: daftar ini tidak berurutan. Kamu bebas memilih dari daftar ini atau memilih sendiri sesuai seleramu.
 
-Lihat [Anime Resources](https://learnjapanese.moe/resources/#anime) buat tau tempat nyari anime. Lebih enak kalau animenya di-download, biar gampang dibawa ke mana-mana.  
+Lihat [Anime Resources](https://learnjapanese.moe/resources/#anime) untuk tahu tempat mencari anime. Lebih enak kalau animenya diunduh, supaya mudah dibawa ke mana-mana.  
 
-**T: Semua rekomendasi ini ngebosenin!!! Aku mau nonton yang beneran bagus!**  
+**T: Semua rekomendasi ini membosankan! Maunya nonton yang benar-benar bagus!**  
 
-J: Aku suka cara pikir kamu! Inti dari immersion itu ngabisin waktu sama konten yang kamu minati. Jadi jangan batasi diri ke rekomendasi aku aja.  
+J: Justru itu cara berpikir yang tepat! Inti immersion adalah menghabiskan waktu dengan konten yang kamu minati. Jadi jangan batasi diri pada rekomendasi di sini saja.  
 
-**Tugas kamu:**  
+**Tugasmu:**  
 
-Coba immersion pertama kamu pakai metode "subtitle tutor".  
+Coba immersion pertamamu dengan metode "subtitle tutor".  
 
-Metode subtitle tutor itu nonton satu episode anime pakai subtitle bahasa Indonesia dulu, lalu nonton lagi tanpa subtitle. Habis itu dengerin audionya pas lagi ngelakuin hal lain (pakai wireless earbuds lebih enak).  
+Caranya: tonton satu episode anime dengan subtitle bahasa Indonesia, lalu tonton lagi tanpa subtitle. Setelah itu, dengarkan audionya sambil melakukan hal lain (lebih enak pakai earbud nirkabel).  
 
 Alur prosesnya:
 
-1. Nonton pakai subtitle bahasa Indonesia  
-2. Nonton tanpa subtitle sama sekali (disebut juga raw listening)  
-3. Udah selesai buat hari ini? (Kalau iya = putar audionya di background sambil ngelakuin hal lain. Kalau belum = balik lagi ke langkah 1.)  
+1. Tonton dengan subtitle bahasa Indonesia  
+2. Tonton tanpa subtitle sama sekali (disebut juga raw listening)  
+3. Sudah selesai untuk hari ini? (Kalau sudah = putar audionya di latar sambil melakukan hal lain. Kalau belum = kembali ke langkah 1.)  
 
-Dengan nonton pakai subtitle dulu, kamu bikin inputnya jadi lebih mudah dimengerti.  
+Dengan menonton pakai subtitle lebih dulu, input yang kamu dengar jadi lebih mudah dimengerti.  
 
-Pas nonton raw, nggak usah panik kalau nggak ngerti apa-apa.  
+Saat menonton raw, tidak usah panik kalau tidak mengerti apa-apa.  
 
-Fokus aja ke suara, pola bicara, dan hal-hal kecil yang bisa kamu tangkap maknanya.  
+Fokus saja pada suara, pola bicara, dan hal-hal kecil yang bisa kamu tangkap maknanya.  
 
-Bisa ngerti bahasa Jepang itu skill yang butuh waktu lama.  
+Memahami bahasa Jepang adalah kemampuan yang butuh waktu lama.  
 
-Tapi semuanya mulai dari raw listening dan mencoba bikin pendengaran itu makin bisa dimengerti.  
+Tapi semuanya berawal dari raw listening dan usaha membuat apa yang kamu dengar makin bisa dimengerti.  
 
-Metode subtitle tutor cuma buat ngasih konteks ke audio yang kamu dengerin.  
+Metode subtitle tutor hanya untuk memberi konteks pada audio yang kamu dengarkan.  
 
-Aku juga saranin dengerin audio itu pas lagi ngelakuin hal lain.  
+Audio itu juga sebaiknya didengarkan sambil melakukan hal lain.  
 
-Dengan begitu, kamu ngisi keheningan dengan bahasa Jepang, jadi walau cuma beberapa detik, mungkin kamu bakal merhatiin apa yang diucapin.  
+Dengan begitu, waktu hening terisi bahasa Jepang. Walau cuma beberapa detik, mungkin kamu akan memperhatikan apa yang diucapkan.  
 
-Catatan: Dengerin sambil ngelakuin hal lain = **passive immersion**.  
-Dengerin dengan fokus penuh = **active immersion**.  
+Catatan: mendengarkan sambil melakukan hal lain = **passive immersion**.  
+Mendengarkan dengan fokus penuh = **active immersion**.  
 
-**T: Kenapa mulai immersion sebelum belajar bunpou atau kosakata?**  
+**T: Kenapa mulai immersion sebelum belajar tata bahasa atau kosakata?**  
 
-J: Mungkin ada yang mikir, "Kenapa aku disuruh immersion duluan padahal belum tau bunpou atau kosakata?". Jawabannya karena mendengar itu inti dari belajar bahasa. Penutur asli jago bahasa mereka karena lingkungannya (bahasa itu ada di sekitar mereka), dan kalau kamu tiru lingkungannya, hasilnya bisa mirip. Banyak dengerin walau nggak ngerti bikin kamu lebih gampang nangkep kata baru dan ngerasain ritme bahasa Jepang.  
+J: Mungkin kamu bertanya-tanya, "Kenapa harus immersion duluan padahal belum tahu tata bahasa atau kosakata?" Jawabannya: mendengar adalah inti belajar bahasa. Penutur asli menguasai bahasanya karena lingkungan (bahasa itu ada di sekitar mereka). Kalau kamu meniru lingkungan itu, hasilnya bisa mirip. Banyak mendengar walau belum mengerti membuatmu lebih mudah menangkap kata baru dan merasakan ritme bahasa Jepang.  
 
-**T: Aku udah selesai nonton episode pertama, sekarang ngapain?**  
+**T: Episode pertama sudah selesai ditonton, sekarang apa?**  
 
-J: Bisa dibilang immersion kamu udah cukup buat hari ini. Tapi kalau mau lanjut (bagus banget kalau iya), kamu bisa lempar dadu buat nentuin mau nonton berapa episode lagi.  
+J: Bisa dibilang immersion kamu sudah cukup untuk hari ini. Tapi kalau mau lanjut (dan itu sangat bagus), lempar dadu untuk menentukan berapa episode lagi yang mau ditonton.  
 
 [Lempar dadu](https://www.google.com/search?q=roll+a+4+sided+dice)   
 
-Aku nggak mau bikin kamu kewalahan di hari kedua, jadi besok baru mulai belajar bunpou.  
+Supaya kamu tidak kewalahan di hari kedua, belajar tata bahasa baru dimulai besok.  
 
-Besok bakal lebih ribet. Jadi… siap-siap aja ya…?  
+Besok bakal lebih repot. Jadi… siap-siap, ya?  
 
+
+---
 
 ## Hari 3
 
-### Tahap: Baru mulai belajar tata bahasa (bunpou)
+### Tahap: Mulai belajar tata bahasa (bunpou)
 
-Lakuin latihan kana harian kamu di situs ini! [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
+Kerjakan latihan kana harianmu di situs ini: [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 
 Pakai timer ini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/)  
 
-Nah, di sini kita mulai masuk ke tata bahasa.  
+Sekarang saatnya masuk ke tata bahasa.  
 
-Kamu nggak perlu latihan drill atau semacamnya.    
+Kamu tidak perlu latihan drill atau semacamnya.    
 
-Kamu juga nggak perlu pilih pola yang benar atau hal kayak gitu.   
+Kamu juga tidak perlu mengerjakan soal memilih pola yang benar atau semacamnya.   
 
-Semua yang bakal kamu pelajari itu super sering dipakai dan bakal diperkuat lewat immersion harian kamu.     
+Semua yang akan kamu pelajari sangat sering dipakai, dan akan makin melekat lewat immersion harianmu.     
 
-Panduan bunpou yang mau aku rekomendasiin adalah **Cure Dolly’s Organic Japanese**.  
+Panduan tata bahasa yang direkomendasikan adalah **Cure Dolly’s Organic Japanese**.  
 
 Playlist YouTube-nya ada di sini: [Playlist Video Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj)  
 
-Kalau kamu tipe yang lebih suka baca, ini ada [teks buku fan-made Cure Dolly](https://docs.google.com/document/d/1OwVPStFrXRjXvzmrFQUfXpEiPNspYq6JYxA4zDTlhPM/edit)!  
+Kalau kamu lebih suka membaca, ada [versi teks Cure Dolly buatan penggemar](https://docs.google.com/document/d/1OwVPStFrXRjXvzmrFQUfXpEiPNspYq6JYxA4zDTlhPM/edit).  
 
 Untuk versi bahasa Indonesia, kamu bisa cek [Situs NHK World](https://www3.nhk.or.jp/nhkworld/lesson/indonesian/learn/list/)
 
-Yang aku mau kamu lakuin cuma **nonton videonya** atau **baca materinya** dan **catat hal pentingnya**  
+Tugasmu cuma **menonton videonya** atau **membaca materinya**, lalu **mencatat hal pentingnya**.  
 
-(Situs catatan Google Keep ada di sini: [https://keep.google.com/](https://keep.google.com/), kamu bisa catat pake media apapun)  
+(Kamu bisa mencatat di mana saja, misalnya di Google Keep: [https://keep.google.com/](https://keep.google.com/))  
 
-**Catatan: Aku saranin nyalain subtitle di video Cure Dolly.**    
+**Catatan: sebaiknya nyalakan subtitle di video Cure Dolly.**    
 
 ***Tonton 3 video/3 materi per hari***  
 
-Itu jumlah yang pas, dalam 30 hari kamu bakal hampir selesai panduan cure dolly dengan pace ini atau 16 hari untuk menyelesaikan pelajaran di NHK.  
+Itu jumlah yang pas. Dengan kecepatan ini, panduan Cure Dolly hampir selesai dalam 30 hari, sedangkan pelajaran NHK selesai dalam 16 hari.  
 
 ***Tulis catatan.***  
 
-**Q: Apa aja sih yang harus aku tulis di catatan?**  
+**T: Apa saja yang perlu ditulis di catatan?**  
 
-A: Tulis aja info yang menurut kamu penting.  
+J: Tulis saja info yang menurutmu penting.  
 
-Percaya insting kamu.  
+Percayai instingmu.  
 
-Kalau Cure Dolly bilang “ini artinya itu”, ya catet aja.  
+Kalau Cure Dolly bilang “ini artinya itu”, catat saja.  
 
-Catatan kamu nggak perlu super detail, dan nggak perlu ditunjukin ke siapa-siapa.  
+Catatanmu tidak perlu sangat detail, dan tidak perlu ditunjukkan ke siapa pun.  
 
-Catatan itu punya kamu, bikin versi kamu sendiri.  
+Catatan itu milikmu, jadi buat versimu sendiri.  
 
-**Q: Kenapa sih mesti bikin catatan! Kayaknya aku bisa inget semua deh!**
+**T: Kenapa harus bikin catatan? Rasanya semua bisa diingat!**
 
-A: Aku mau kamu bikin catatan biar bisa dilihat lagi kapan pun kamu butuh. (Kata kunci: kapan pun **kamu** butuh!)  
+J: Catatan dibuat supaya bisa kamu buka lagi kapan pun kamu butuh. (Kata kuncinya: kapan pun **kamu** butuh!)  
 
-Intinya, kamu bikin versi mini dari video itu dalam bentuk catatan kamu.  
+Intinya, kamu membuat versi mini dari video itu dalam bentuk catatan.  
 
-Kalau *misalnya* lupa, ya tinggal lihat lagi.  
+Kalau *misalnya* lupa, tinggal lihat lagi.  
 
-**Q: Aku males banget bikin catatan…**  
-A: Ya nggak apa-apa juga!  
+**T: Malas sekali bikin catatan…**  
+J: Tidak apa-apa juga!  
 
-Bikin catatan itu memang soal preferensi pribadi sih.  
+Membuat catatan memang soal selera pribadi.  
 
-### Tahap: Baru selesai pelajaran bunpou pertama
+### Tahap: Selesai pelajaran tata bahasa pertama
 
-Abis kamu nonton 3 video Cure Dolly pertama kamu, anggap itu udah jadi **"sesi bunpou hari ini"**.  
+Setelah menonton 3 video Cure Dolly pertamamu, anggap itu sebagai **"sesi tata bahasa hari ini"**.  
 
-Sekarang aku mau kamu immersion.  
+Sekarang waktunya immersion.  
 
-Kamu udah tau caranya.  
+Kamu sudah tahu caranya.  
 
-[Roll dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)   
+[Lempar dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)   
 
-**Q: Perlu nggak sih pakai metode "subtitle tutor"?**  
+**T: Perlu tidak memakai metode "subtitle tutor"?**  
 
-A: Metode subtitle tutor itu **nggak wajib**. Cuma cara buat bikin immersion awal-awal jadi lebih menarik aja.  
-Aku cuma kasih tahu kalau metode ini ada dan bisa kamu pakai.  
+J: Metode subtitle tutor **tidak wajib**. Itu hanya cara supaya immersion di awal terasa lebih menarik.  
+Metode ini disebut di sini supaya kamu tahu ada pilihan itu.  
 
-**Q: Gimana kalau aku sering denger kata yang bikin penasaran dan pengen tau artinya?**
+**T: Bagaimana kalau sering dengar kata yang bikin penasaran dan ingin tahu artinya?**
 
-A: Pertama-tama, itu bagus banget!  
-Kamu bisa pakai [Jisho.org](https://jisho.org/), [Mazii](https://mazii.net/id-ID/search), atau [Yomitan](setup-yomitan-pc-lazy-guide.md) (Yomitan nanti aja buat hari ke 6) buat nyari kata itu.  
-Tapi inget, ada kemungkinan kamu salah denger, jadi kadang nggak ketemu kosakata yang kamu cari.  
+J: Pertama-tama, itu bagus sekali!  
+Kamu bisa memakai [Jisho.org](https://jisho.org/), [Mazii](https://mazii.net/id-ID/search), atau [Yomitan](setup-yomitan-pc-lazy-guide.md) (Yomitan baru dipakai mulai hari ke-6) untuk mencari kata itu.  
+Tapi ingat, bisa saja kamu salah dengar, jadi kadang kata yang dicari tidak ketemu.  
 
-Esok hari mungkin agak sedikit ribet, jadi, siap-siap(?)
+Besok mungkin agak repot, jadi siap-siap(?)
+
+---
 
 ## Hari 4  
 
@@ -256,70 +294,89 @@ Hari ini kamu akan:
 - Pasang keyboard Jepang di PC kamu  
 - Lakukan immersion harian kamu  
 
-Banyak banget ya. Pastikan kamu punya waktu cukup hari ini.  
+Banyak, ya. Pastikan kamu punya cukup waktu hari ini.  
 
 Latihan kana di situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 
 [Timer 10 Menit di sini](https://www.online-stopwatch.com/timer/10minutes/)  
 
-Setelah itu, lanjut belajar bunpou harianmu.  
+Setelah itu, lanjut belajar tata bahasa harianmu.  
 
 Ingat rutinitas dari hari sebelumnya: **3 video Cure Dolly**!  
 
-Setelah selesai, kita mulai set up Anki.  
+Setelah selesai, saatnya menyiapkan Anki.  
 
-Pertama, tonton video ini: [Anki: The #1 Rule of Anki](https://www.youtube.com/watch?v=UDUITtA1jJI) (Nyalakan sub Indo) 
+Pertama, tonton video ini: [Anki: The #1 Rule of Anki](https://www.youtube.com/watch?v=UDUITtA1jJI)   
 
-Sekarang download Anki.  
+Video ini hanya punya subtitle Inggris otomatis. Supaya muncul dalam bahasa Indonesia, nyalakan subtitle, klik ikon roda gigi di pemutar YouTube, pilih **Subtitle/CC** > **Terjemahkan otomatis** (*Auto-translate*), lalu pilih **Indonesia**.  
 
-Kamu bisa download Anki dari website resminya ([di sini](https://apps.ankiweb.net/)) lalu klik tombol **Download**. Halaman akan otomatis scroll ke bagian unduhan. Klik opsi pertama.  
+Sekarang unduh Anki.  
 
-Download deck yang dibutuhkan [di sini](https://github.com/donkuri/Kaishi/releases) (ambil file `.apkg` terbaru).  
+Unduh Anki dari situs resminya ([di sini](https://apps.ankiweb.net/)), lalu klik **Download Anki**. Ikuti petunjuk untuk sistem operasimu.  
 
-Pas pertama kali buka Anki, hal pertama yang kamu lihat adalah "interface language selector". Ini cuma buat nentuin bahasa tampilan Anki. Bebas pilih bahasa apa aja.  
+Unduh **satu** dek kosakata. Pilih salah satu sesuai tujuanmu:  
 
-Masuk ke menu **Tools** di bar atas, lalu klik **Preferences (++ctrl++ + P [Win] / ++cmd++ + P [Mac])**.  
+- [Kaishi V2](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753475051556954): paling disarankan untuk mulai immersion. Kalau baru mulai, kerjakan dek ini dulu.  
+- [Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335): versi Kaishi 1.5k lain dari komunitas.  
+- [Kaishi 1.5k (JP-EN)](https://github.com/donkuri/Kaishi/releases): versi asli berbahasa Inggris (ambil file `.apkg` terbaru).  
+- [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713): pilihan utama kalau tujuanmu JLPT.  
+- [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432): alternatif untuk JLPT (opsional).  
 
-Di jendela ini, klik tab **Review** dan ubah **Learn ahead limit** jadi `900`.  
+Dek dari Discord bisa diunduh di [server Discord Philia Space](https://discord.com/channels/1370274344571240552/1386235512993611909/1564014312560005165).  
 
-Klik **Close**.  
+Saat pertama kali membuka Anki, kamu akan melihat "interface language selector". Ini hanya untuk menentukan bahasa tampilan Anki. Bebas pilih bahasa apa saja.  
 
-Di Anki, ada 3 tombol di bawah jendela. Tombol **Import File** dipakai buat masukin deck yang udah kamu download.  
-Kalau diklik, bakal muncul jendela pilih file.  
+Klik **File** di bar atas, lalu klik **Import**. Dari sini kamu memasukkan dek yang sudah diunduh. Kamu juga bisa langsung klik dua kali file `.apkg`-nya.  
 
-Pilih deck yang udah kamu download.  
+Pilih dek yang sudah kamu unduh.  
 
-Kalau udah selesai impor, bakal muncul kotak dengan banyak teks. Tinggal klik OK aja.  
+Setelah impor selesai, akan muncul kotak berisi banyak teks. Klik OK saja.  
 
-Sekarang kamu bakal lihat deck-nya dengan angka biru di sebelahnya.  
+Sekarang kamu akan melihat deknya dengan angka biru di sebelahnya.  
 
 Angka biru = jumlah kartu baru per hari.  
 
-Default-nya 20 kartu.  
+Bawaannya 20 kartu.  
 
-20 kartu ini bisa jadi terlalu banyak atau pas tergantung kamu.  
+20 kartu ini bisa terlalu banyak atau pas, tergantung kamu.  
 
-Kalau susah ngejar review-nya, nanti bisa dikurangin. Tapi sekarang nggak usah pusingin dulu.  
+Kalau kesulitan mengejar ulasannya, nanti bisa dikurangi. Untuk sekarang, tidak usah dipikirkan dulu.  
 
-Klik ikon roda gigi di sebelah deck *Kaishi 1.5k*.  
+Klik ikon roda gigi di sebelah dek yang sudah kamu unduh.  
 
 Klik *Options*.  
 
+Di bagian atas jendela, klik panah di sebelah nama preset, lalu klik **Clone**. Beri nama preset baru itu, misalnya `Kaishi`.  
+
+Langkah ini mencegah pengaturan yang akan kamu ubah ikut mengubah dek lain yang memakai preset Default.  
+
 Ubah **Maximum reviews/day** jadi `9999` (artinya tanpa batas).  
 
-Default-nya 200, dan kecil kemungkinan numpuk setinggi itu kalau kamu rajin Anki setiap hari. Tapi ini kebiasaan bagus supaya nggak ketahan limit.  
+Bawaannya 200, dan kecil kemungkinan ulasanmu menumpuk sebanyak itu kalau kamu rajin mengerjakan Anki tiap hari. Tapi mengubahnya adalah kebiasaan bagus supaya ulasan tidak tertahan batas.  
 
-Ganti juga **Learning steps** jadi `1m 5m 10m`.  
+Ganti juga **Learning steps** jadi `10m`.  
 
 Ubah **Insertion order** ke **Sequential (oldest cards first)**.  
 
 Di bagian **Lapses**, ubah *Relearning Steps* jadi `10m`.  
 
-Di bagian **Display Order**, ubah *New/review order* ke **Show before reviews**.  
+Di bagian **Display Order**, ubah *New/review order* ke **Show after reviews**.  
+
+Dengan begitu, kartu yang jatuh tempo diselesaikan dulu sebelum Anki memberimu kartu baru.  
+
+Sekarang gulir ke bagian **FSRS** dan nyalakan FSRS. Kalau kamu juga memakai Anki di HP, pastikan aplikasi di HP sudah versi terbaru.  
+
+[FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) adalah penjadwal Anki yang lebih baru. FSRS memakai riwayat ulasanmu untuk memperkirakan kapan kamu mulai lupa sebuah kartu, jadi jadwal ulasanmu lebih tepat.  
+
+Biarkan **Desired retention** di 90%. Angka yang lebih tinggi memang menggoda, tapi bisa membuat ulasan harianmu naik dengan sangat cepat.  
+
+Klik **Optimize** di bawah *FSRS parameters*. Kalau Anki bilang parameternya sudah optimal, tidak apa-apa. Kamu masih baru, jadi Anki belum punya banyak riwayat ulasan untuk dipelajari.  
+
+Biarkan **Reschedule cards on change** tetap mati. Dek baru tidak perlu dijadwalkan ulang.  
 
 Klik *Save*.  
 
-Sekarang pasang add-on *Speed Focus Mode* di Anki. Nanti aku jelasin fungsinya, tapi pasang dulu aja.  
+Sekarang pasang add-on [Speed Focus Mode](https://ankiweb.net/shared/info/1046608507) di Anki. Fungsinya dijelaskan nanti, pasang saja dulu.  
 
 Klik *Tools* di atas, lalu *Add-ons*.  
 
@@ -327,13 +384,13 @@ Klik **Get Add-ons...**
 
 Tempel kode ini: `1046608507` lalu klik **OK**.  
 
-Restart Anki (tutup dan buka lagi).  
+Mulai ulang Anki (tutup lalu buka lagi).  
 
-Klik ikon roda gigi di sebelah deck *Kaishi 1.5k*.  
+Klik ikon roda gigi di sebelah dek kosakatamu.  
 
 Tahan tombol ++shift++ lalu klik *Options*.  
 
-Kalau berhasil, bakal muncul menu yang agak beda dengan teks merah di dalamnya. (Kalau nggak muncul, berarti salah. Harus tahan ++shift++ sambil klik *Options*).  
+Ini membuka pengaturan dek versi lama (*classic*). Kamu butuh jendela yang tampilannya lebih lama ini karena add-on tadi menaruh pengaturannya di situ.  
 
 Di tab *General*, ubah pengaturan ini:  
 
@@ -343,422 +400,437 @@ Di tab *General*, ubah pengaturan ini:
 
 Klik `OK`  
 
-Sekarang kita mulai belajar deck-nya.  
+Sekarang mulai belajar deknya.  
 
-Klik nama deck, lalu klik *Study now*.  
+Klik nama dek, lalu klik *Study now*.  
 
-Kartu pertama cuma kartu penjelasan. Silakan dihapus aja.  
+Kartu pertama hanya kartu penjelasan. Hapus saja.  
 
 Kartu berikutnya berisi kata dengan kanji.  
 
-Kalau klik "Show answer", bakal muncul bagian belakang kartu, yang nunjukin cara baca kata di depannya.  
+Kalau kamu klik "Show answer", akan muncul bagian belakang kartu yang menunjukkan cara baca kata di depannya.  
 
-Deck ini juga punya arti kata, audio, contoh kalimat, dan terjemahan.  
+Dek ini juga punya arti kata, audio, contoh kalimat, dan terjemahan.  
 
-**TAPI** yang harus kamu hafalin cuma **kata di depan**, **cara bacanya**, dan **artinya**.  
+**Tapi** yang perlu kamu hafalkan hanya **kata di depan**, **cara bacanya**, dan **artinya**.  
 
-Jangan buang tenaga buat hal lain.  
+Jangan buang tenaga untuk hal lain.  
 
-Lihat bar bawah: ada 4 tombol. Itu pilihan nilai (grading).  
+Lihat bagian bawah: ada 4 tombol. Itu pilihan nilai (grading).  
 
-Di Anki, kamu nilai diri sendiri.  
+Di Anki, kamu menilai dirimu sendiri.  
 
-- **Again** = SALAH  
-- **Easy** = super gampang  
+- **Again** = salah  
+- **Easy** = sangat mudah  
 - **Good** = normal/pas  
 - **Hard** = agak susah tapi masih bisa  
 
-Kalau ini kartu baru pertama kali dilihat, pencet "Again".  
+Kalau kartunya baru pertama kali dilihat, klik "Again".  
 
-Kalau ketemu kartu baru, biasanya langkahnya: klik *Show answer*, baca cara baca dan arti, lalu klik **Again**.  
+Kalau ketemu kartu baru, langkahnya biasanya: klik *Show answer*, baca cara baca dan artinya, lalu klik **Again**.  
 
-Kartu bakal masuk ke "Learning pile" (angka merah).
+Kartu akan masuk ke "Learning pile" (angka merah).
 
-Lihat angka merah di bagian bawah yang tadinya 0 jadi 1?
+Lihat angka merah di bagian bawah yang tadinya 0 sekarang jadi 1?
 
-Angka merah itu nunjukin tumpukan sedang dipelajari.
+Angka merah menunjukkan tumpukan kartu yang sedang dipelajari.
 
 **Arti warna angka**:  
 - Biru = New pile (kartu baru)  
-- Merah = Learning pile (kartu lagi dipelajari)  
-- Hijau = Review pile (kartu review)  
+- Merah = Learning pile (kartu yang sedang dipelajari)  
+- Hijau = Review pile (kartu ulasan)  
 
-Kalau udah cukup sering dapet nilai "Good", kartu akan *graduate* (naik tingkat) dan muncul lagi setelah beberapa hari (biasanya 1 hari untuk kartu baru).  
+Kartu di Learning pile akan ditunjukkan beberapa kali supaya kamu bisa mengingatnya.  
 
-**Jangan lama-lama liatin 1 kartu**  
+Kalau kamu menekan "Good" setelah langkah belajarnya selesai, kartu akan *graduate* (naik tingkat). Setelah itu FSRS yang menentukan kapan kartu itu muncul lagi.  
 
-Kalau udah 15 detik nggak inget, lanjut aja. Makanya *Speed Focus Mode* penting.  
+Kalau angka merah berkurang, artinya kartu sudah *graduate*.  
 
-**Metode belajarku di Anki**  
+**Jangan berlama-lama di 1 kartu**  
+
+Kalau sudah 15 detik belum ingat, lanjut saja. Itulah gunanya *Speed Focus Mode*.  
+
+**Cara belajar di Anki**  
 
 1. Lihat kartu  
-2. Tau ini kartu baru atau bukan  
+2. Kenali apakah ini kartu baru atau bukan  
 3. Kalau baru, klik *Show answer*  
 4. Baca cara bacanya  
 5. Baca artinya  
-6. Dengerin audio (ulangi mainkan audio bisa pakai shortcut `R`)
+6. Dengarkan audio (putar ulang dengan shortcut `R`)
 7. Klik "Again"  
 8. Kalau kartu berikutnya juga baru, ulangi langkah di atas  
-9. Kalau kartu udah pernah muncul, coba ingat arti & bacaannya  
-10. Kalau ada lebih dari 1 arti, cukup inget 1 aja  
+9. Kalau kartu sudah pernah muncul, coba ingat arti & bacaannya  
+10. Kalau ada lebih dari 1 arti, cukup ingat 1 saja  
 11. Klik *Show answer*  
 12. Nilai sesuai hasil ingatan  
-13. Kalau bener, klik "Good", kalau salah, klik "Again"  
+13. Kalau benar, klik "Good"; kalau salah, klik "Again"  
 
-Kalau udah belajar 20 kartu, Anki harian kamu selesai.  
+Setelah 20 kartu dipelajari, Anki harianmu selesai.  
 
 Besok biasanya ada kartu di tumpukan hijau (Review pile) + 20 kartu baru lagi.  
 
-**P: Gimana kalau sering lupa?**  
-J: Santai aja, bray, ga usah dipikir.  
+Pastikan kamu mengerjakan Anki setiap hari!  
 
-Anki itu dibuat buat hal-hal yang kemungkinan besar bakal kamu lupain.
+**T: Bagaimana kalau sering lupa?**  
+J: Santai saja, tidak usah dipikirkan.  
 
-Kamu sangat mungkin lupa sama kosakata bahasa yang baru banget kamu pelajarin.
+Anki memang dibuat untuk hal-hal yang kemungkinan besar akan kamu lupakan.
 
-Menurutku nggak aneh kalau kamu lupa lebih dari setengah yang udah kamu pelajari setelah lewat sehari.
+Kosakata bahasa yang baru saja kamu pelajari sangat mungkin terlupa.
 
-Kalau nggak pakai Anki, kemungkinan besar kamu bakal lupa kata-kata ini, makanya kamu perlu terus “ngeanki” kata-kata itu biar akhirnya bisa beneran hafal.
+Tidak aneh kalau lebih dari setengah yang sudah kamu pelajari terlupa setelah lewat sehari.
 
-Singkatnya, terus aja ngeanki.
+Tanpa Anki, kata-kata ini kemungkinan besar akan terlupa. Karena itu, terus ulangi kata-kata itu di Anki sampai akhirnya benar-benar hafal.
 
-Kalau ini kejadian terus-terusan, mungkin kamu perlu mikir ulang cara kamu ngeanki.
+Singkatnya, terus kerjakan Anki-mu.
 
-**P: Gimana kalau ada leeches (kata yang nggak nempel-nempel)?**  
+Kalau lupa terus-terusan, mungkin cara kamu memakai Anki perlu ditinjau ulang.
 
-Leeches = kata yang susah banget dihafalin walau udah diulang terus.  
+**T: Bagaimana kalau ada leeches (kata yang tidak juga melekat)?**  
 
-Solusinya: cari contoh kalimatnya supaya otak punya *cue* tambahan.  
+Leeches = kata yang sangat susah dihafal walau sudah diulang terus.  
 
-Pakai [Jisho.org dengan tag #sentence](https://jisho.org/search/%20%23sentences%20%E8%B8%8F%E3%82%80) buat lihat contoh kalimat plus terjemahan Inggris. Bisa minta terjemahin ke AI.
+Solusinya: cari contoh kalimatnya supaya otak punya petunjuk (*cue*) tambahan.  
+
+Pakai [Jisho.org dengan tag #sentence](https://jisho.org/search/%20%23sentences%20%E8%B8%8F%E3%82%80) untuk melihat contoh kalimat beserta terjemahan bahasa Inggrisnya. Kamu juga bisa minta AI menerjemahkannya.
 
 **Pasang Keyboard Jepang**  
 
 Ikuti artikel ini: [Windows](https://support.microsoft.com/id-id/windows/mengelola-pengaturan-tata-letak-bahasa-dan-keyboard-input-di-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2#windowsversion=windows_10) atau [Mac](https://support.apple.com/id-id/guide/mac-help/mchlp1406/mac)  
 
-Setelah itu, ini fungsi-fungsi yang sering kepakai:  
+Setelah itu, berikut tombol-tombol yang sering dipakai:  
 === "Windows"
-    - ++alt++++grave++ → ganti input huruf biasa (A) ke kana (あ)  
-    - ++space++ → konversi kana ke kanji. Misal mau nulis 言う, ketik いう, tekan space sampai muncul 言う, lalu ++enter++. Kalau mau tetap kana, langsung tekan enter.  
+    - ++alt+grave++ → ganti input huruf biasa (A) ke kana (あ)  
+    - ++space++ → konversi kana ke kanji. Misalnya untuk menulis 言う, ketik いう, tekan space sampai muncul 言う, lalu ++enter++. Kalau mau tetap kana, langsung tekan enter.  
     - ++f7++ → konversi ke katakana  
-    - ++win++++space++ → ganti metode input (kalau punya lebih dari 1, misal English & Japanese)  
+    - ++win+space++ → ganti metode input (kalau punya lebih dari 1, misalnya English & Japanese)  
 === "Mac"
-    - ++ctrl++++space++ → ganti input huruf biasa (A) ke kana (あ/ア)  
-    - ++ctrl++++opt++++space++ → ganti input selanjutnya di daftar input bahasa (biasanya urutannya huruf alfabet (A) → hiragana (あ) → katakana (ア) 
-    - ++space++ → konversi kana ke kanji. Misal mau nulis 言う, ketik いう, tekan ++space++ sampai muncul 言う, lalu ++enter++. Kalau mau tetap kana, langsung tekan enter.    
-    - ++fn++ atau Globe :globe_with_meridians: → ganti metode input (kalau punya lebih dari 1, misal English (US) & Japanese)  
+    - ++ctrl+space++ → ganti input huruf biasa (A) ke kana (あ/ア)  
+    - ++ctrl+opt+space++ → pindah ke input berikutnya di daftar input bahasa (biasanya urutannya huruf alfabet (A) → hiragana (あ) → katakana (ア)) 
+    - ++space++ → konversi kana ke kanji. Misalnya untuk menulis 言う, ketik いう, tekan ++space++ sampai muncul 言う, lalu ++enter++. Kalau mau tetap kana, langsung tekan enter.    
+    - ++fn++ atau Globe :globe_with_meridians: → ganti metode input (kalau punya lebih dari 1, misalnya English (US) & Japanese)  
 
 
-Sekarang waktunya immersion harian kamu.  
+Sekarang waktunya immersion harianmu.  
 
-Kalau bingung mau berapa episode anime, tentuin target harian atau biar dadu yang nentuin!  
+Kalau bingung mau menonton berapa episode, tentukan target harian atau biarkan dadu yang menentukan!  
 
-[Main dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)  
+[Lempar dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)  
+
+---
 
 ## Hari 5  
 
-Masuk ke situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) dan latihan kana selama 10 menit. [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
+Buka situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) dan latihan kana selama 10 menit. [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
 
 Sekarang lanjutkan Anki harianmu.  
 
 Anki memang berat di awal.  
 
-Tapi nanti bakal lebih gampang, janji!  
+Tapi nanti bakal lebih mudah, janji!  
 
-Anki kamu hari ini bakal sedikit berbeda. Kamu bakal punya angka biru DAN angka hijau di sebelah deck.  
+Anki-mu hari ini sedikit berbeda. Sekarang ada angka biru **dan** angka hijau di sebelah dek.  
 
-Angka **hijau** adalah **reviews** kamu.  
+Angka **hijau** adalah jumlah **ulasan** (*reviews*) kamu.  
 
-Pastikan kamu selalu rajin mengerjakan reviews-mu!  
+Pastikan kamu selalu rajin menyelesaikan ulasanmu!  
 
-Saran penting: Kalau suatu saat kamu nggak sanggup ngejar review yang numpuk, langsung kurangi batas kartu baru per hari!  
+Saran penting: kalau suatu saat kamu tidak sanggup mengejar ulasan yang menumpuk, langsung kurangi batas kartu baru per hari!  
 
-Setelah Anki harian selesai, lanjutkan belajar bunpou harian kamu.  
+Setelah Anki harian selesai, lanjutkan belajar tata bahasa harianmu.  
 
 **3 video Cure Dolly!**  
 
-Setelah itu, tinggal immersion harian kamu.  
+Setelah itu, tinggal immersion harianmu.  
 
-**P: Berapa episode hari ini???**  
+**T: Berapa episode hari ini?**  
 
-J: [Main dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)  
+J: [Lempar dadu 4 sisi](https://www.google.com/search?q=roll+a+4+sided+dice)  
 
-**P: Apa yang harus aku perhatikan saat mendengarkan?**  
+**T: Apa yang perlu diperhatikan saat mendengarkan?**  
 
-J: Suaranya, pola bicaranya, "kata-kata" yang sering muncul, kata-kata yang udah kamu pelajari, bunpou yang udah kamu pelajari, dan sebagainya.  
+J: Suaranya, pola bicaranya, "kata-kata" yang sering muncul, kata-kata yang sudah kamu pelajari, tata bahasa yang sudah kamu pelajari, dan sebagainya.  
 
 Setiap detail kecil itu berarti.  
+
+---
 
 ## Hari 6  
 
 ### Tahap: Latihan baca pertama kali: Subtitle Jepang!  
 
-Hari ini kamu bakal mulai latihan baca untuk pertama kalinya!  
+Hari ini kamu akan mulai latihan membaca untuk pertama kalinya!  
 
 Bakal lumayan berat.  
 
-Tapi santai aja kalau nggak ngerti!  
+Tapi santai saja kalau tidak mengerti!  
 
-Sedikit-sedikit juga ngaruh kok!  
+Sedikit-sedikit pun tetap berpengaruh!  
 
 Pertama, latihan kana selama 10 menit.  
 
 [Kana Practice](https://djtguide.neocities.org/kana/)  
 [Timer 10 Menit](https://www.online-stopwatch.com/timer/10minutes/)  
 
-Habis itu, lanjut ngerjain Anki.  
+Setelah itu, kerjakan Anki.  
 
-Setelah Anki, tonton 3 video Cure Dolly kamu.  
+Setelah Anki, tonton 3 video Cure Dolly-mu.  
 
-Baru deh kita lanjut ke baca.  
+Baru setelah itu lanjut ke latihan membaca.  
 
-Konten baca pertama kamu adalah anime dengan subtitle Jepang.  
+Bahan bacaan pertamamu adalah anime dengan subtitle Jepang.  
 
-Setup-nya agak ribet, tapi kita pelan-pelan.  
+Persiapannya agak repot, jadi ikuti pelan-pelan.  
 
 Pertama, kamu butuh Yomitan.  
 
-Klik [link ini](setup-yomitan-pc-lazy-guide.md) buat baca panduan soal itu.  
+Klik [tautan ini](setup-yomitan-pc-lazy-guide.md) untuk membaca panduannya.  
 
-Kalau udah pasang Yomitan, ikuti langkah-langkah berikutnya.  
+Setelah Yomitan terpasang, ikuti langkah-langkah berikutnya.  
 
-Kamu bisa cek [panduan ini](setup-anime-pc-lazy-guide.md) buat lihat cara nonton anime. 
+Kamu bisa cek [panduan ini](setup-anime-pc-lazy-guide.md) untuk melihat cara menonton anime. 
 
 Sekarang kamu butuh file subtitle untuk anime yang mau ditonton.  
 
-Contohnya kita pakai… Love Live (2013).  
+Sebagai contoh, pakai… Love Live (2013).  
 
-Situs [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) punya koleksi subtitle Jepang terbesar untuk anime. Kamu juga bisa cek situ [Jimaku](https://jimaku.cc/).  
+Situs [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) punya koleksi subtitle Jepang terbesar untuk anime. Kamu juga bisa cek situs [Jimaku](https://jimaku.cc/).  
 
-**(CATATAN: Situs Kitsunekko kadang-kadang down random. Kamu bisa lihat backup-nya [di sini](https://learnjapanese.moe/kitsubackup.html#/ja)**
+**(Catatan: situs Kitsunekko kadang tiba-tiba tidak bisa diakses. Cadangannya bisa kamu lihat [di sini](https://learnjapanese.moe/kitsubackup.html#/ja).)**
 
-Scroll sampai ketemu "Love Live!", dan download file "Love Live! (01-13) (Webrip).zip".  
+Gulir sampai ketemu "Love Live!", lalu unduh file "Love Live! (01-13) (Webrip).zip".  
 
 Setelah diekstrak, ada banyak file .SRT.  
 
 File .SRT adalah file subtitle.  
 
-Sekarang tinggal drag & drop file .SRT ke video.  
+Sekarang tinggal seret (drag & drop) file .SRT ke video.  
 
-Ekstensi asbplayer ini juga bisa jalan di [Hianime](https://hianime.to/watch/love-live-school-idol-project-1706?ep=22404). Aku rekomendasi nonton dari situ.  
+Ekstensi asbplayer juga bisa jalan di situs streaming. Ada dua pilihan:  
 
-Sebelum mulai nonton episode, pastikan halaman ini terbuka: [https://killergerbah.github.io/asbplayer/](https://killergerbah.github.io/asbplayer/)  
+- [Anikoto](https://anikototv.to/watch/love-live-school-idol-project-6gk1t/ep-1): versi dengan subtitle Inggris yang bisa dimatikan (softsub). Pakai ini untuk latihan hari ini: matikan subtitle Inggrisnya, supaya subtitle Jepang dari file .SRT tidak bertabrakan.  
+- [Sankanime](https://sankanime.web.id/id/watch/1524?anime=127&ep=1): versi dengan subtitle Indonesia yang menempel di video (hardsub). Subtitle ini tidak bisa dimatikan, jadi lebih cocok untuk metode subtitle tutor, bukan untuk latihan membaca subtitle Jepang.  
 
-Begitu episode mulai, drag & drop file .SRT ke videonya.  
+Sebelum mulai menonton, pastikan halaman ini terbuka: [asbplayer](https://app.asbplayer.dev/)  
 
-Subtitle harusnya langsung muncul dan jalan.  
+Begitu episode mulai, seret file .SRT ke videonya.  
 
-Subtitle Inggris biasanya muncul barengan, ini jelek buat belajar karena bisa bikin bingung waktu kamu mau ngerti struktur Jepang aslinya. Tapi kalau cuma buat bantu pahami konteks audio sih nggak masalah. Buat matiin subtitle Inggris, klik ikon CC di kontrol pemutar video dan pilih Off.  
+Subtitle seharusnya langsung muncul dan berjalan.  
 
-Dengan tekan ++shift++ di sebuah kata, Yomitan bakal muncul dengan definisi kamus.  
+Subtitle Inggris biasanya ikut muncul. Ini kurang baik untuk belajar, karena bisa membingungkan saat kamu mencoba memahami struktur kalimat Jepang aslinya. Tapi kalau hanya untuk membantu memahami konteks audio, tidak masalah. Untuk mematikan subtitle Inggris, klik ikon CC di kontrol pemutar video, lalu pilih Off.  
 
-Tapi ada masalah. Subtitle Love Live ini parah banget **nggak sinkron**!  
+Kalau kamu menekan ++shift++ di atas sebuah kata, Yomitan akan muncul dengan definisi kamus.  
 
-Artinya timing subtitle nggak cocok sama audio.  
+Tapi ada masalah: subtitle Love Live ini **sangat tidak sinkron**!  
 
-Untungnya, asbplayer bisa atur timing.  
+Artinya, waktu munculnya subtitle tidak cocok dengan audio.  
 
-Kamu bisa pakai ++ctrl++++shift++++left++ atau ++right++ buat nyesuain. Kadang nggak jalan kalau belum klik videonya dulu.  
-Kamu harus coba-coba buat dapetin timing yang pas. Untuk Love Live, timing-nya -8400ms.  
+Untungnya, asbplayer bisa mengatur timing.  
 
-Bisa aja susah tahu subtitle mana yang cocok sama audio kalau bacanya masih susah.  
+Pakai ++ctrl+shift+left++ atau ++ctrl+shift+right++ untuk menyesuaikannya. Kadang tidak berfungsi kalau videonya belum diklik.  
+Kamu perlu coba-coba untuk mendapat timing yang pas. Untuk Love Live, timing-nya -8400ms.  
 
-Kalau kalimatnya ditulis pakai kana, biasanya lebih gampang dikenali.  
+Kalau membacamu belum lancar, mungkin susah tahu subtitle mana yang cocok dengan audio.  
 
-Halaman [https://killergerbah.github.io/asbplayer/](https://killergerbah.github.io/asbplayer/) juga bisa nunjukin subtitle dalam bentuk list. Tampilan ini bikin gampang balik ke baris yang kelewat. Kamu bisa pakai shortcut ``~`` untuk ON/OFF tampilannya.  
+Kalau kalimatnya ditulis dengan kana, biasanya lebih mudah dikenali.  
 
-**Ini juga bikin kamu bisa "membaca" anime! Dan aku rekomendasi kamu lakuin!!!**  
+Halaman [asbplayer](https://app.asbplayer.dev/) juga bisa menampilkan subtitle dalam bentuk daftar. Tampilan ini memudahkan kamu kembali ke baris yang terlewat. Daftar ini hanya muncul kalau halaman itu sudah dibuka sebelum subtitle dimuat.  
 
-Jadi, rutinitasnya gimana?  
+**Dengan ini kamu juga bisa "membaca" anime, dan cara ini sangat disarankan!**  
+
+Jadi, bagaimana rutinitasnya?  
 
 **Tonton** anime dengan subtitle Jepang dulu.  
 
-Terus fokusin perhatian cuma buat **baca**.  
+Lalu fokuskan perhatianmu hanya untuk **membaca**.  
 
-**Q: Berapa banyak kata yang harus aku cari artinya?**  
+**T: Berapa banyak kata yang harus dicari artinya?**  
 
-A: Kamu bisa tentuin pake dadu 20 sisi, per episode.  
+J: Tentukan dengan dadu 20 sisi, per episode.  
 
-[Klik di sini buat dadu 20 sisi](https://www.google.com/search?q=roll+a+20+sided+dice)  
+[Klik di sini untuk dadu 20 sisi](https://www.google.com/search?q=roll+a+20+sided+dice)  
 
 Lempar!  
 
-Kalau udah cari arti sebanyak jumlah yang keluar di dadu, sisanya tinggal *nonton* aja pakai subtitle Jepang.  
+Setelah mencari arti kata sebanyak angka yang keluar di dadu, sisanya tinggal *ditonton* saja dengan subtitle Jepang.  
 
 Kalau ada yang bikin penasaran, boleh cari artinya juga!  
 
-**Q: Pas nonton dengan subtitle Jepang, apa aku harus coba baca semua yang muncul di layar?**  
+**T: Saat menonton dengan subtitle Jepang, apakah semua yang muncul di layar harus dibaca?**  
 
-A: Nggak. Umumnya aku saranin cari kata sesuai jumlah dadu, lalu nonton sisanya tanpa pause buat cari arti apa pun, tapi tetap fokus gimana cara pengucapan kana-nya.  
+J: Tidak. Umumnya disarankan mencari kata sesuai angka dadu, lalu menonton sisanya tanpa pause untuk mencari arti apa pun, sambil tetap memperhatikan cara kana-nya diucapkan.  
 
-**Q: Kalau aku mau cari arti atau baca sesuatu, apa videonya di-pause?**  
+**T: Kalau mau mencari arti atau membaca sesuatu, apakah videonya di-pause?**  
 
-A: Iya! Pause kalau mau cari arti!  
+J: Iya! Pause kalau mau mencari arti!  
 
-**Q: Buat apa subtitle dalam bentuk list?**  
+**T: Untuk apa subtitle dalam bentuk daftar?**  
 
-A: Buat "latihan baca mentah".  
+J: Untuk "latihan baca mentah".  
 
-Waktu anime diputar, kamu setengah baca setengah dengerin.  
+Saat anime diputar, kamu setengah membaca, setengah mendengarkan.  
 
-Kalau audio dihapus dan kamu cuma baca subtitle dalam list, itu sama kayak baca beneran!  
+Kalau audionya dihilangkan dan kamu hanya membaca subtitle di daftar itu, rasanya sama seperti membaca sungguhan!  
 
-**Q: Dadu ini buat jumlah kata pas nonton anime atau pas baca subtitle list?**  
+**T: Dadu ini untuk jumlah kata saat menonton anime atau saat membaca daftar subtitle?**  
 
-A: [Lempar dadu 20 sisi lagi](https://www.google.com/search?q=roll+a+20+sided+dice) buat sesi baca anime.  
+J: [Lempar dadu 20 sisi lagi](https://www.google.com/search?q=roll+a+20+sided+dice) untuk sesi membaca anime.  
 
-**Q: Berapa episode yang harus aku baca?**  
+**T: Berapa episode yang harus dibaca?**  
 
-Fokus baca satu episode anime sampai jumlah kata yang keluar di dadu sudah dicari semua.  
+Fokus membaca satu episode anime sampai semua kata sesuai angka dadu sudah dicari.  
 
-**Q: Apa mungkin buat ngerti semua kalau aku habiskan 30 menit spam Yomitan di satu kalimat?**  
+**T: Apa mungkin mengerti semuanya kalau menghabiskan 30 menit memakai Yomitan terus-terusan di satu kalimat?**  
 
-A: Jawaban singkat: Nggak. Pemahaman itu proses bertahap.  
+J: Jawaban singkatnya: tidak. Pemahaman adalah proses bertahap.  
 
-**Jawaban panjang:**  
+**Jawaban panjangnya:**  
 
-Ada banyak hal yang nggak bakal kamu ngerti cuma dari pakai kamus.  
+Ada banyak hal yang tidak akan kamu mengerti hanya dari kamus.  
 
-Ada banyak faktor yang bikin kamu ngerti sesuatu.  
+Banyak faktor yang membuatmu mengerti sesuatu.  
 
-Ada faktor yang jelas kayak kosakata dan tata bahasa.  
+Ada faktor yang jelas, seperti kosakata dan tata bahasa.  
 
-Tapi ada juga faktor yang nggak terlalu kelihatan, kayak konteks penggunaan bahasa itu, yang akhirnya memengaruhi maknanya.  
+Tapi ada juga faktor yang tidak terlalu terlihat, seperti konteks pemakaian bahasa itu, yang akhirnya memengaruhi maknanya.  
 
-Kalau belajar kosakata dan tata bahasa secara terpisah, kemampuanmu buat ngerti sesuatu bakal naik.  
+Belajar kosakata dan tata bahasa secara terpisah memang meningkatkan kemampuanmu untuk mengerti.  
 
-Tapi kalau kamu ngerti gimana kosakata dan tata bahasa itu dipakai di konteks aslinya, pemahamanmu soal kalimat itu bakal jauh lebih kuat.  
+Tapi kalau kamu mengerti bagaimana kosakata dan tata bahasa itu dipakai dalam konteks aslinya, pemahamanmu atas kalimat itu akan jauh lebih kuat.  
 
-Ini paling efektif buat kalimat yang cuma punya satu bagian bahasa yang belum kamu kuasai.  
+Ini paling efektif untuk kalimat yang hanya punya satu unsur bahasa yang belum kamu kuasai.  
 
-Tapi ini nggak terlalu efektif buat kalimat yang susah.  
+Tapi kurang efektif untuk kalimat yang sulit.  
 
-Soalnya terlalu banyak informasi bahasa di kalimat itu yang belum kamu kenal.  
+Sebabnya, terlalu banyak unsur bahasa di kalimat itu yang belum kamu kenal.  
 
-Yang paling bisa kamu lakuin buat kalimat susah adalah cari arti kosakata di dalamnya.  
+Yang paling bisa kamu lakukan untuk kalimat sulit adalah mencari arti kosakata di dalamnya.  
 
-Mungkin itu nggak cukup buat ngerti *kalimat itu* saat *itu juga*, tapi pengetahuan baru soal kata itu bisa bantu kamu menghubungkannya ke makna yang bakal kamu temuin di konteks berikutnya.  
+Mungkin itu tidak cukup untuk memahami *kalimat itu* saat *itu juga*, tapi pengetahuan baru tentang kata itu membantumu menghubungkannya dengan makna yang akan kamu temukan di konteks berikutnya.  
 
-Dengan lebih banyak belajar dan immersion (ngerti bahasa dalam konteks), pemahamanmu soal bahasa Jepang bakal meningkat.  
+Dengan lebih banyak belajar dan immersion (memahami bahasa dalam konteks), pemahamanmu tentang bahasa Jepang akan meningkat.  
 
-**Q: Apa harus ganti anime yang sedang aku baca ke yang terakhir aku tonton?**  
+**T: Apakah anime yang sedang dibaca harus diganti dengan anime yang terakhir ditonton?**  
 
-Nggak. Aku malah nyaranin kamu baca yang sama sampai tamat.  
+Tidak. Justru disarankan membaca anime yang sama sampai tamat.  
 
-Tapi nggak harus terus-terusan yang sama kalau udah bosen.  
+Tapi tidak harus terus yang sama kalau sudah bosan.  
 
-**Q: Gimana caranya aku bisa inget kata-kata yang aku cari artinya?**  
+**T: Bagaimana cara mengingat kata-kata yang sudah dicari artinya?**  
 
-A: Pertanyaan bagus! Intinya semua balik ke repetisi. Semakin banyak kamu baca, semakin banyak kata yang bakal kamu inget.  
+J: Pertanyaan bagus! Intinya kembali ke pengulangan. Makin banyak kamu membaca, makin banyak kata yang akan kamu ingat.  
 
-Singkatnya, jangan terlalu pusing mikirin kata yang kamu cari sekarang.  
+Singkatnya, jangan terlalu memikirkan kata yang kamu cari sekarang.  
 
-Ngelihat kata itu berkali-kali banget nggak efisien.  
+Melihat kata itu berulang kali sangat tidak efisien.  
 
-Yang harus kamu lakuin adalah: lihat artinya, lihat bacaannya. Terus kayak, "Oh, oke!" Lalu lanjut.  
+Yang perlu kamu lakukan: lihat artinya, lihat bacaannya, bilang dalam hati "Oh, oke!", lalu lanjut.  
 
-**Q: Gimana cara tahu di mana kata mulai dan berakhir? Kan bahasa Jepang nggak ada spasi!**  
+**T: Bagaimana cara tahu awal dan akhir sebuah kata? Bahasa Jepang kan tidak pakai spasi!**  
 
-A: Jawaban simpelnya, susah ditebak kalau masih pemula.  
+J: Jawaban sederhananya: kalau masih pemula, memang susah ditebak.  
 
 Tapi lama-lama kamu bakal makin jago.  
 
-Belajar bahasa itu cuma soal ngenalin pola, kok.  
+Belajar bahasa pada dasarnya soal mengenali pola.  
 
-Yomitan itu bantuan gede banget karena dia bisa nebak awal dan akhir kata dengan akurasi 90% (tergantung cakupan kosakata kamus yang diimpor juga).  
+Yomitan sangat membantu karena bisa menebak awal dan akhir kata dengan akurasi 90% (tergantung juga cakupan kosakata kamus yang diimpor).  
 
-**Q: Sekarang aku udah bisa lihat teks Jepang, boleh nggak aku coba terjemahin di kepala?**  
+**T: Sekarang teks Jepangnya sudah terlihat. Boleh tidak mencoba menerjemahkannya di kepala?**  
 
-A: Rumit...  
+J: Rumit...  
 
-Selalu ada bentuk ekspresi yang nggak nyambung antara bahasa Indonesia dan Jepang.  
+Selalu ada ungkapan yang tidak punya padanan pas antara bahasa Indonesia dan Jepang.  
 
-Cara berpikirnya juga beda banget.  
+Cara berpikirnya juga sangat berbeda.  
 
-Itulah alasan utama kenapa metode ini (dan metode lain yang mirip) biasanya nyaranin buat nggak mencoba menerjemahkan immersion kamu.  
+Itulah alasan utama metode ini (dan metode lain yang mirip) biasanya menyarankan untuk tidak menerjemahkan materi immersion-mu.  
 
-Karena bahasa Jepang itu bukan bahasa Indonesia.  
+Bahasa Jepang bukan bahasa Indonesia.  
 
-Kamu disaranin buat mikirin bahasa Jepang sebagai bahasa Jepang.  
+Kamu disarankan memahami bahasa Jepang sebagai bahasa Jepang.  
 
 Jadi <b>bahasa</b>nya!  
 
-Kamu bisa coba “terjemahan secara longgar”, yang cuma nyusun arti kasar aja.  
+Kamu bisa mencoba “terjemahan longgar”, yaitu hanya menyusun arti kasarnya saja.  
 
-*Harus nerjemahin sama sekali nggak?*  
+*Jadi, perlu menerjemahkan atau tidak?*  
 
-Nggak selalu, soalnya pasti ada hal-hal yang nggak kamu ngerti karena banyak faktor. (Kurangnya pengetahuan soal: arti kata, arti kata yang susah dipahami cuma dari kamus, penggunaan tata bahasa, penggunaan tata bahasa tingkat lanjut, konteks, gimana kata itu dipakai secara umum, dll.)  
+Tidak selalu, karena pasti ada hal-hal yang belum kamu mengerti karena banyak faktor. (Kurangnya pengetahuan tentang: arti kata, arti kata yang susah dipahami hanya dari kamus, pemakaian tata bahasa, pemakaian tata bahasa tingkat lanjut, konteks, cara kata itu dipakai secara umum, dll.)  
 
-Selain itu, capek juga, jadi secukupnya aja.  
+Selain itu, menerjemahkan juga melelahkan, jadi secukupnya saja.  
 
-**Q: Berapa banyak episode yang harus aku tonton pakai subtitle Jepang sebelum balik ke tanpa subtitle?**  
+**T: Berapa episode yang harus ditonton dengan subtitle Jepang sebelum kembali menonton tanpa subtitle?**  
 
-A: 1 episode per hari pakai subtitle Jepang itu udah pas. Kalau mau ngebut, 2 atau 3.  
+J: 1 episode per hari dengan subtitle Jepang sudah pas. Kalau mau ngebut, 2 atau 3.  
 
-**Q: Harus nonton pakai subtitle Jepang atau raw?**  
+**T: Sebaiknya menonton dengan subtitle Jepang atau raw?**  
 
-A: Dua-duanya punya tujuan beda.  
+J: Keduanya punya tujuan berbeda.  
 
-Aku nggak bisa bilang mana yang lebih baik, karena masing-masing punya kelebihan dan kekurangan.  
+Tidak ada yang bisa disebut lebih baik, karena masing-masing punya kelebihan dan kekurangan.  
 
 **Subtitle Jepang:**  
-Bagus: belajar kata baru, latihan baca  
-Kurang: nggak melatih kemampuan dengar murni, kadang kamu nggak nyadar hal yang diucapin di audio  
+Bagus: belajar kata baru, latihan membaca  
+Kurang: tidak melatih kemampuan dengar murni, kadang kamu tidak menyadari apa yang diucapkan di audio  
 
 **Raw:**  
-Bagus: melatih kemampuan dengar murni, bisa bantu kemampuan ngomong juga. Kamu bakal nyadar lebih banyak dibanding cuma nonton pakai subtitle Jepang.  
-Kurang: kata yang nggak kamu tahu, ya tetap nggak kamu tahu.  
+Bagus: melatih kemampuan dengar murni, juga bisa membantu kemampuan bicara. Kamu akan menyadari lebih banyak hal dibanding hanya menonton dengan subtitle Jepang.  
+Kurang: kata yang tidak kamu tahu, tetap tidak kamu tahu.  
 
-**Q: Gimana dengan subtitle tutor?**  
+**T: Bagaimana dengan subtitle tutor?**  
 
-A: Jangan dipakai terus-terusan.  
+J: Jangan dipakai terus-terusan.  
 
-Tujuan utamanya cuma buat ngasih kamu gambaran atau konteks dari apa yang diucapin di audio.  
+Tujuan utamanya hanya memberi gambaran atau konteks tentang apa yang diucapkan di audio.  
 
-Liat episode yang sama dua kali juga bisa bikin bosen.  
+Menonton episode yang sama dua kali juga bisa membosankan.  
 
-Kalau nggak nonton ulang episode itu dalam bahasa Jepang setelah nonton pakai sub Indonesia, ya nggak ada gunanya.  
+Kalau kamu tidak menonton ulang episode itu dalam bahasa Jepang setelah menontonnya dengan subtitle Indonesia, metode ini tidak ada gunanya.  
 
-Dan kalau selamanya pakai subtitle Indonesia sebagai "tongkat bantuan", itu bukan ide bagus.  
+Terus-terusan memakai subtitle Indonesia sebagai "tongkat bantuan" juga bukan ide bagus.  
 
-Subtitle Indonesia cuma bikin immersion lebih efektif di awal, karena immersion memang lebih efektif **kalau kamu punya gambaran apa yang sedang terjadi**.  
+Subtitle Indonesia hanya membuat immersion lebih efektif di awal, karena immersion memang lebih efektif **kalau kamu punya gambaran tentang apa yang sedang terjadi**.  
 
-Ngelepas terjemahan dan melatih diri buat ngerti bahasa itu secara langsung adalah cara kamu bakal jadi lebih jago bahasa Jepang di masa depan.  
+Melepas terjemahan dan melatih diri memahami bahasa itu secara langsung adalah jalan untuk makin mahir berbahasa Jepang ke depannya.  
 
-Subtitle Jepang lebih bagus karena mereka kasih kamu kesempatan buat belajar kata asli yang dipakai di anime. (Dan itu banyak banget, btw.)    
+Subtitle Jepang lebih bagus karena memberimu kesempatan mempelajari kata-kata asli yang dipakai di anime. (Dan jumlahnya sangat banyak.)    
 
+
+---
 
 ## Hari 7  
 
 **Catatan soal latihan kana:**  
 
-Pengalaman tiap orang bisa beda banget.  
+Pengalaman tiap orang bisa sangat berbeda.  
 
-Ada yang udah nyaman sama kana cuma dalam 6 hari.  
+Ada yang sudah nyaman dengan kana hanya dalam 6 hari.  
 
 Ada juga yang masih butuh latihan lebih lama.  
 
-Menurutku, kamu bisa kurangi waktu latihan kana dari **10 menit** jadi **5 menit** aja.  
+Waktu latihan kana bisa kamu kurangi dari **10 menit** jadi **5 menit** saja.  
 
-Soalnya ke depannya kamu bakal sering banget ketemu teks Jepang.  
+Sebab ke depannya kamu akan sangat sering bertemu teks Jepang.  
 
 ### Tahap: Belajar menyeimbangkan diri sebagai pemula.    
 
-Tugas kamu hari ini:  
+Tugasmu hari ini:  
 
-Step 1. Lakuin Anki kamu.  
-Step 2. Rutinitas Cure Dolly.  
-Step 3. Immersion!! (Detail di bawah)  
+Langkah 1. Kerjakan Anki-mu.  
+Langkah 2. Rutinitas Cure Dolly.  
+Langkah 3. Immersion! (Detail di bawah)  
 
-Fokus ke satu aspek tertentu dari bahasa Jepang kamu (misalnya listening atau reading).  
+Fokus pada satu aspek tertentu dari bahasa Jepangmu (misalnya listening atau reading).  
 
-Tapi gimana cara nentuin hari ini fokusnya listening atau reading?  
+Tapi bagaimana menentukan apakah hari ini fokus ke listening atau reading?  
 
-Kalau udah level lanjut yang bisa baca buku dan ngerti banyak hal, ini gampang.  
+Kalau kamu sudah di level lanjut yang bisa membaca buku dan mengerti banyak hal, ini mudah.  
 
-Tapi buat pemula, kadang susah nentuin.  
+Tapi bagi pemula, kadang susah menentukannya.  
 
-Jawaban simpel?  
+Jawaban sederhananya?  
 
 [Lempar koin](https://www.google.com/search?q=flip+a+coin).  
 
@@ -771,13 +843,13 @@ Belakang = Hari Reading
 
 ### Tahap: Duri dalam daging... Kanji!  
 
-Kanji keliatan kayak coretan-coretan nggak jelas, kan?  
+Kanji terlihat seperti coretan-coretan tidak jelas, kan?  
 
-Buat pemula, mereka memang nggak masuk akal.  
+Bagi pemula, kanji memang terasa tidak masuk akal.  
 
-Tapi buat yang udah pengalaman, bentuknya kayak pola yang jelas dan muka-muka yang familiar.  
+Tapi bagi yang sudah berpengalaman, bentuknya terlihat seperti pola yang jelas dan wajah-wajah yang familier.  
 
-Setiap kanji bisa dipecah jadi bentuk-bentuk dasar. Juga dikenal sebagai *radicals*. Atau “primitives” (istilah dari *Remembering the Kanji*).  
+Setiap kanji bisa dipecah menjadi bentuk-bentuk dasar, yang juga dikenal sebagai *radicals* atau “primitives” (istilah dari *Remembering the Kanji*).  
 
 Contoh:
 
@@ -786,15 +858,15 @@ Contoh:
    - 足 = 口+龰  
    - 将 = 丬+爫+寸  
 
-Aku saranin kamu pake deck Anki “Recognition Remembering the Kanji 450” (Deck ini dalam bahasa Inggris, sampai sekarang, belum ada versi bahasa Indonesia yang setara).  
+Dek Anki yang disarankan adalah “Recognition Remembering the Kanji 450” (dek ini berbahasa Inggris; sampai sekarang belum ada versi bahasa Indonesia yang setara).  
 
-[Download di sini](https://mega.nz/file/2SJiWC4b#hL98qtC_hiLlQDg0LqVJoqD2-5ywT2Nwd4kjROY_KwQ)  
+[Unduh di sini](https://mega.nz/file/2SJiWC4b#hL98qtC_hiLlQDg0LqVJoqD2-5ywT2Nwd4kjROY_KwQ)  
 
-Tujuan deck ini adalah bikin kamu pelan-pelan bisa ngelihat kanji sebagai kombinasi bentuk-bentuk yang konsisten.  
+Tujuan dek ini adalah membuatmu pelan-pelan bisa melihat kanji sebagai gabungan bentuk-bentuk yang konsisten.  
 
-Klik ikon roda gigi di sebelah deck induk 日本語.  
+Klik ikon roda gigi di sebelah dek induk 日本語.  
 
-Terus klik **Options**.  
+Lalu klik **Options**.  
 
 Ada menu drop-down di bagian atas jendela ini.  
 
@@ -802,46 +874,48 @@ Ganti Default jadi *Recognition RTK*.
 
 Ubah **New cards/day** jadi `10`  
 
-Ubah **Learning steps** jadi `1m 5m 10m`.  
+Ubah **Learning steps** jadi `10m`.  
 
 Ubah **Insertion order** jadi *Sequential (oldest cards first)*  
 
 Di bagian **Lapses**, ubah *Relearning Steps* jadi `10m`.  
 
-Di bagian **Display Order**, ubah *New/review order* jadi **Show before reviews**.  
+Di bagian **Display Order**, ubah *New/review order* jadi **Show after reviews**.  
 
 Klik **Save**.  
 
-Kalau kamu klik **Study now**, kartu pertama bakal berupa kartu penjelasan.  
+Kalau kamu klik **Study now**, kartu pertama berupa kartu penjelasan.  
 
-Setelah kamu baca dan paham cara pakainya, aku saranin untuk *suspend* kartu-kartu itu.  
+Setelah membacanya dan paham cara pakainya, sebaiknya *suspend* kartu-kartu itu.  
 
-Kamu bakal ngerjain deck ini barengan sama deck Kaishi 1.5k.  
+Kamu akan mengerjakan dek ini bersamaan dengan dek kosakata yang kamu unduh di Hari 4.  
 
-Deck ini TIDAK akan bikin kamu bisa baca kanji.  
-Deck ini TIDAK akan bikin kamu bisa nulis kanji dari ingatan.  
-Deck ini TIDAK akan bikin kamu bisa nebak arti kata.  
+Dek ini **tidak** akan membuatmu bisa membaca kanji.  
+Dek ini **tidak** akan membuatmu bisa menulis kanji dari ingatan.  
+Dek ini **tidak** akan membuatmu bisa menebak arti kata.  
 
-Deck ini AKAN bikin kamu bisa ngelihat kanji sebagai gabungan bentuk-bentuk yang konsisten.  
+Dek ini **akan** membuatmu bisa melihat kanji sebagai gabungan bentuk-bentuk yang konsisten.  
 
-Ini skill penting, soalnya makin lama belajar bahasa Jepang, kamu bakal ketemu banyak kata dan bisa aja bingung kalau kanjinya mirip-mirip.  
+Ini kemampuan penting, karena makin lama belajar bahasa Jepang, kamu akan bertemu banyak kata dan bisa saja bingung kalau kanjinya mirip-mirip.  
 
-**Q: Jadi, apa yang harus aku lakuin hari ini?**
+**T: Jadi, apa yang harus dikerjakan hari ini?**
 
-1. Anki. Deck Kaishi 1.5k dan deck RRTK.  
-2. Bunpou. Nonton 3 video Cure Dolly.  
+1. Anki. Dek kosakatamu dan dek RRTK.  
+2. Tata bahasa. Tonton 3 video Cure Dolly.  
 3. Immersion.  
 
-**Q: Immersion...?**
+**T: Immersion...?**
 
-Ya, kamu bisa baca/nonton pake subtitle Jepang/listening raw/subtitle tutor.  
+Ya. Kamu bisa membaca atau menonton dengan subtitle Jepang, listening raw, atau subtitle tutor.  
 
-Kalau bingung mau pilih yang mana, pake dadu atau lempar koin aja.  
+Kalau bingung memilih, pakai dadu atau lempar koin saja.  
 
-Maaf kalau kata “immersion” kedengerannya agak rancu.  
+Maaf kalau kata “immersion” terdengar agak rancu.  
 
-Semua hal yang kamu lakuin pake anime, subtitle, dan Yomitan sebelumnya itu termasuk immersion.  
+Semua yang sudah kamu lakukan dengan anime, subtitle, dan Yomitan sebelumnya termasuk immersion.  
 
+
+---
 
 ## Hari 9  
 
@@ -850,21 +924,21 @@ Semua hal yang kamu lakuin pake anime, subtitle, dan Yomitan sebelumnya itu term
 Rutinitas harian:
 
 1. Anki  
-2. Bunpou  
+2. Tata bahasa  
 3. Immersion  
 
-Ini proses dasar dari metode ini. Tetap lanjutkan apa yang udah kamu lakuin.  
+Ini proses dasar metode ini. Tetap lanjutkan apa yang sudah kamu lakukan.  
 
 Tapi jam belajar yang lebih lama = perkembangan yang lebih cepat!  
-Jadi, coba targetin jam immersion yang lebih panjang!  
+Jadi, coba targetkan jam immersion yang lebih panjang!  
 
-**Q: Aku kepikiran buat nyari arti banyak kata pas baca, ini bagus atau nggak?**
+**T: Bagaimana kalau mencari arti banyak kata saat membaca? Bagus atau tidak?**
 
-A: Bagus! Tapi inget, kalau kamu maksa diri buat nyari arti terlalu banyak kata setiap saat, ada risiko kamu **burnout** dan hilang kesenangan belajarnya.  
+J: Bagus! Tapi ingat, kalau kamu memaksa diri mencari arti terlalu banyak kata setiap saat, kamu berisiko **burnout** dan kehilangan kesenangan belajarnya.  
 
-Metode ini bergantung pada **konsistensi kamu**.  
+Metode ini bergantung pada **konsistensimu**.  
 
-Biar bisa konsisten, pastiin kamu bikin target yang realistis dan bisa dijalanin tiap hari.  
+Supaya bisa konsisten, pastikan kamu membuat target yang realistis dan bisa dijalani tiap hari.  
 
 ---
 
@@ -873,26 +947,26 @@ Biar bisa konsisten, pastiin kamu bikin target yang realistis dan bisa dijalanin
 Rutinitas harian:
 
 1. Anki  
-2. Bunpou  
+2. Tata bahasa  
 3. Immersion  
 
-Kamu mungkin mau coba [Condensed Audio](https://learnjapanese.moe/resources/#condensed-audio), ini cara buat memaksimalkan efisiensi *passive listening*.  
+Kamu mungkin ingin mencoba [Condensed Audio](https://learnjapanese.moe/resources/#condensed-audio), cara untuk memaksimalkan efisiensi *passive listening*.  
 
-*Passive listening* itu saat kamu dengerin audio Jepang sambil ngerjain hal lain.  
+*Passive listening* adalah mendengarkan audio bahasa Jepang sambil mengerjakan hal lain.  
 
-Pas *passive listening*, ada momen di mana kamu tetep nyadar dan dengerin bahasa Jepangnya.  
+Saat *passive listening*, ada momen ketika kamu tetap sadar dan mendengarkan bahasa Jepangnya.  
 
-Anggap aja kayak ngisi keheningan dengan bahasa Jepang.  
+Anggap saja seperti mengisi keheningan dengan bahasa Jepang.  
 
-Atau, dengerin bahasa Jepang setiap ada kesempatan.  
+Atau, mendengarkan bahasa Jepang setiap ada kesempatan.  
 
-*Condensed audio* itu ngehapus bagian audio yang nggak ada dialognya, jadi lebih efisien.  
+*Condensed audio* membuang bagian audio yang tidak ada dialognya, jadi lebih efisien.  
 
-Kalau kamu punya earbud wireless, dengerin terus jadi jauh lebih gampang.  
+Kalau kamu punya earbud nirkabel, mendengarkan terus-menerus jadi jauh lebih mudah.  
 
-Kalau kamu lagi nonton *Love Live! (2013)*, aku pernah bikin *condensed audio* untuk itu udah lama, dan bisa kamu temuin [di sini](https://mega.nz/folder/sdB1mC6T#X_fYeasMb64i3tAf3LeYEA)  
+Kalau kamu sedang menonton *Love Live! (2013)*, penulis TheMoeWay sudah lama membuat *condensed audio*-nya, dan bisa kamu temukan [di sini](https://mega.nz/folder/sdB1mC6T#X_fYeasMb64i3tAf3LeYEA)  
 
-Catatan: Tetap perhatikan durasi _passive listening_, jaga kesehatan telinga kamu.
+Catatan: tetap perhatikan durasi _passive listening_ dan jaga kesehatan telingamu.
 
 ---
 
@@ -901,32 +975,34 @@ Catatan: Tetap perhatikan durasi _passive listening_, jaga kesehatan telinga kam
 Rutinitas harian:
 
 1. Anki  
-2. Bunpou  
+2. Tata bahasa  
 3. Immersion  
 
-**Q: HARUS banget ngikutin urutan yang kamu tulis ini buat semua tugas harian?**  
+**T: Apakah semua tugas harian wajib dikerjakan sesuai urutan ini?**  
 
-A: Nggak nggak nggak! Sama sekali nggak harus.  
+J: Tidak, tidak, tidak! Sama sekali tidak harus.  
 
-Kamu bahkan bisa mulai dari immersion dulu, atau bunpou dulu, atau bahkan Anki di akhir hari. Ini masalah preferensi dan nyari pola yang cocok buat kamu.  
+Kamu bisa mulai dari immersion dulu, atau tata bahasa dulu, atau bahkan mengerjakan Anki di akhir hari. Ini soal selera dan menemukan pola yang cocok untukmu.  
 
-**Catatan: Yang penting jangan sampai skip Anki!**  
+**Catatan: yang penting, jangan sampai melewatkan Anki!**  
+
+---
 
 ## Hari 12  
 
 Rutinitas harian:
 
 1. Anki  
-2. Bunpou  
+2. Tata bahasa  
 3. Immersion  
 
-Ya, hari lain buat immersion lagi. Mungkin hari ke-12 ini bisa jadi harinya *Non-Non Biyori* alias hari buat nyantai. (Kecuali kamu udah pernah immersion pakai itu :P)     
+Ya, satu hari lagi untuk immersion. Mungkin hari ke-12 ini bisa jadi hari *Non-Non Biyori* alias hari untuk bersantai. (Kecuali kamu sudah pernah immersion dengan anime itu :P)     
 
-**Q: Boleh nggak sih dengerin hal yang sama berulang-ulang?**  
+**T: Boleh tidak mendengarkan hal yang sama berulang-ulang?**  
 
-A: Tentu aja boleh! Tapi kalau udah mulai bosen, ganti ke konten baru.  
+J: Tentu saja boleh! Tapi kalau sudah mulai bosan, ganti ke konten baru.  
 
-Dengerin konten yang sama punya banyak banget manfaat, tapi ya bisa bikin bosen dan kamu juga bisa kelewatan kesempatan buat denger hal baru yang berguna.  
+Mendengarkan konten yang sama punya banyak manfaat, tapi bisa membosankan, dan kamu juga bisa melewatkan kesempatan mendengar hal baru yang berguna.  
 
 ---
 
@@ -935,185 +1011,187 @@ Dengerin konten yang sama punya banyak banget manfaat, tapi ya bisa bikin bosen 
 Rutinitas harian:
 
 1. Anki  
-2. Bunpou  
+2. Tata bahasa  
 3. Immersion  
 
-Ini ada tantangan menarik buat kamu hari ini.  
+Ada tantangan menarik untukmu hari ini.  
 
-Ayo latihan membaca buat hari ini.  
+Hari ini, ayo latihan membaca.  
 
-Cari arti **25** kata dari anime dengan subtitle Jepang buat latihan bacamu.  
+Cari arti **25** kata dari anime dengan subtitle Jepang untuk latihan membacamu.  
 
 ---
 
 ## Hari 14  
 
-Selamat udah sampai sejauh ini!  
+Selamat, kamu sudah sampai sejauh ini!  
 
-Aku tahu ini berat (terutama Anki dan baca!), tapi tahap pemula emang selalu jadi bagian paling susah dari belajar bahasa apa pun, dan makin lama dijalani, bakal makin gampang.  
+Ini memang berat (terutama Anki dan membaca!), tapi tahap pemula selalu jadi bagian paling susah dari belajar bahasa apa pun, dan makin lama dijalani, makin mudah.  
 
-Semakin banyak waktu yang kamu habisin dengan metode yang tepat, pasti kamu akan berkembang.  
+Makin banyak waktu yang kamu habiskan dengan metode yang tepat, kamu pasti akan berkembang.  
 
-Mungkin kamu ada keraguan soal apa sebenarnya yang metode ini lakukan, jadi izinkan aku jelasin.  
+Mungkin kamu ragu apa sebenarnya yang dilakukan metode ini. Berikut penjelasannya.  
 
-**Anki**, **belajar bunpou** dan **nyari arti kata** itu bagian di mana kamu lagi nambah *pengetahuan* tentang bahasa tersebut.  
+**Anki**, **belajar tata bahasa**, dan **mencari arti kata** adalah bagian saat kamu menambah *pengetahuan* tentang bahasa itu.  
 
-**Latihan mendengar** dan **membaca** itu bagian di mana kamu **menerapkan** *pengetahuan* itu, dengan ngasih kamu paparan gimana bahasa itu dipakai sama penutur aslinya.  
+**Latihan mendengar** dan **membaca** adalah bagian saat kamu **menerapkan** *pengetahuan* itu, karena kamu melihat langsung bagaimana bahasa itu dipakai penutur aslinya.  
 
-**Metode subtitle tutor** tujuannya buat ningkatin **tingkat bisa dimengertinya** *listening immersion* kamu, dengan ngasih konteks dari apa yang diucapin di audio.  
+**Metode subtitle tutor** bertujuan membuat *listening immersion*-mu **lebih mudah dimengerti**, dengan memberi konteks tentang apa yang diucapkan di audio.  
 
-**Listening pakai subtitle Jepang** bantu kamu: ngaitin kana sama suara, ngenalin kata yang lagi diucapin, dan bikin kamu lebih nyaman buat mulai baca.  
+**Listening dengan subtitle Jepang** membantumu mengaitkan kana dengan bunyinya, mengenali kata yang sedang diucapkan, dan membuatmu lebih nyaman untuk mulai membaca.  
 
-**Latihan listening raw (tanpa subtitle)** itu tempat kamu bikin model di otak mengenai gimana bahasa itu kedengeran secara alami. Ini bermanfaat karena beberapa alasan utama: untuk mendapatkan aksen yang bagus, dan juga supaya kamu bisa mengenali kata-kata yang sudah kamu ketahui. Mendengarkan itu tidak sejelas membaca—bisa sangat cepat dan sulit untuk diikuti. Dengan membiasakan diri mendengarkan secara raw, kamu melatih diri untuk bisa menangkap hal-hal yang terdengar samar atau tidak jelas dengan lebih baik.  
+**Latihan listening raw (tanpa subtitle)** adalah saat kamu membangun gambaran di otak tentang bagaimana bahasa itu terdengar secara alami. Manfaat utamanya: mendapatkan aksen yang bagus, dan bisa mengenali kata-kata yang sudah kamu ketahui. Mendengarkan tidak sejelas membaca, karena ucapan bisa sangat cepat dan sulit diikuti. Dengan membiasakan diri mendengarkan secara raw, kamu melatih diri menangkap hal-hal yang terdengar samar atau tidak jelas dengan lebih baik.  
 
-Kalau kamu udah level lanjut dalam bahasa Jepang dan ngerti *raw listening immersion*, *mass raw listening* itu satu-satunya cara buat jadi fasih.  
+Kalau bahasa Jepangmu sudah di level lanjut dan kamu mengerti *raw listening immersion*, *mass raw listening* adalah satu-satunya cara untuk menjadi fasih.  
 
-**Passive listening** bakal ngisi waktu-waktu kosong di mana kamu biasanya nggak ngelakuin hal berbahasa Jepang.  
+**Passive listening** mengisi waktu-waktu kosong saat kamu biasanya tidak melakukan apa pun dalam bahasa Jepang.  
  
 ### Tahap: Tantangan 100 Halaman Yotsubato!  
 
-Mulai hari ini sampai hari ke-30, aku mau kamu tantang diri sendiri buat baca 100 halaman manga よつばと！.  
+Mulai hari ini sampai hari ke-30, tantang dirimu membaca 100 halaman manga よつばと！.  
 
-よつばと！ itu manga slice of life yang keren banget dan ada furigana (kana di atas kanji).  
+よつばと！ adalah manga slice of life yang sangat seru dan dilengkapi furigana (kana di atas kanji).  
 
-Manga itu agak ribet kalau mau nyari arti kata, soalnya basically teksnya itu nempel di gambar.  
+Mencari arti kata di manga agak repot, karena teksnya menyatu dengan gambar.  
 
-Tapi ada banyak tools yang bisa bikin proses ini jadi lebih gampang.  
+Tapi ada banyak alat yang bisa membuat proses ini lebih mudah.  
 
-Ada satu tool yang cukup “gila” namanya *mokuro* yang bisa ubah manga jadi halaman HTML.  
+Salah satunya alat yang cukup “gila” bernama *mokuro*, yang bisa mengubah manga menjadi halaman HTML.  
 
-Balon teksnya jadi teks yang bisa kamu pakai Yomitan kayak di halaman web biasa!  
+Balon teksnya berubah jadi teks yang bisa dibaca dengan Yomitan, seperti di halaman web biasa!  
 
-よつばと！ punya beberapa cara penulisan kata yang nggak standar, yang bikin agak susah dipakaiin kamus. Contohnya そう ditulisnya jadi そー  
+よつばと！ memakai beberapa cara penulisan kata yang tidak standar, sehingga agak susah dicari di kamus. Contohnya, そう ditulis jadi そー  
 
-Tanda "ー" ini bukan kanji 一 (angka satu). Ini sebenernya tanda perpanjangan vokal.  
+Tanda "ー" ini bukan kanji 一 (angka satu). Ini sebenarnya tanda pemanjang vokal.  
 
-Ini disebut "長音" (ちょうおん). Kanji ini artinya panjang, suara!    
+Tanda ini disebut "長音" (ちょうおん). Kanjinya berarti "panjang" dan "suara"!    
 
 とー dibaca とう. びー dibaca びい. Dan seterusnya.    
 
-Aku udah bikin Yotsubato Reading Helper buat bantuin kamu sama kata-kata kayak gini.  
+Penulis TheMoeWay membuat Yotsubato Reading Helper untuk membantumu dengan kata-kata seperti ini.  
 
-**Semua yang kamu butuhin ada di file .zip ini: [(Download)](https://mega.nz/file/JRxmAZyA#qfHSC-gjBxkumlELYrP6oIz3-p_dZka0Dgg4q1eTbEo)**  
+**Semua yang kamu butuhkan ada di file .zip ini: [(Unduh)](https://mega.nz/file/JRxmAZyA#qfHSC-gjBxkumlELYrP6oIz3-p_dZka0Dgg4q1eTbEo)**  
 
-*Catatan: Ada typo yang aku bikin di reading helper: おいてくぞ sebenernya adalah おいていくぞ, bukan おいておくぞ*  
+*Catatan: ada typo di reading helper itu: おいてくぞ sebenarnya adalah おいていくぞ, bukan おいておくぞ*  
 
-Manga Jepang itu tulisannya vertikal. Artinya teks dibaca **ke bawah** mulai dari kolom **paling kanan** ke **paling kiri**.  
+Tulisan di manga Jepang vertikal. Artinya, teks dibaca **ke bawah**, mulai dari kolom **paling kanan** ke **paling kiri**.  
 
-**Q: Jadi, apa yang harus aku lakuin mulai hari ini sampai hari ke-30?**  
+**T: Jadi, apa yang harus dikerjakan mulai hari ini sampai hari ke-30?**  
 
-Seperti biasa, kamu tetap harus ngerjain Anki dan belajar bunpou.  
+Seperti biasa, kamu tetap harus mengerjakan Anki dan belajar tata bahasa.  
 
-Immersion kamu bakal jadi... lebih ribet.  
+Immersion kamu akan jadi... lebih repot.  
 
-Kamu harus menyeimbangkan antara baca manga itu sama immersion biasanya.  
+Kamu harus menyeimbangkan antara membaca manga itu dan immersion seperti biasa.  
 
-Maksa semua dimasukin dalam satu hari bisa jadi terlalu susah.  
+Memaksakan semuanya dalam satu hari bisa terlalu berat.  
 
-Saran aku: ganti latihan baca subtitle Jepang kamu dengan Yotsubato! Nggak harus tiap hari kalau nggak mau.  
-
----
-
-**Trik nyari kata: Yomitan Search Page**  
-
-Kamu bisa pakai Yomitan buat nyari kata dengan cara ngetik atau copy-paste kata itu.  
-
-Kamu bakal perlu pakai halaman pencarian Yomitan buat nyari kata dari Yotsubato Reading Helper yang aku bikin.  
-
-Kamu bisa buka halaman pencarian itu dengan klik ikon Yomitan di toolbar ekstensi browser, lalu klik ikon kaca pembesar. Atau tekan ++alt++++insert++ di Windows.  
+Sarannya: ganti latihan membaca subtitle Jepang dengan Yotsubato! Tidak harus tiap hari kalau kamu tidak mau.  
 
 ---
 
-**Q: Berapa lama sebenernya buat baca 100 halaman?**  
+**Trik mencari kata: Yomitan Search Page**  
 
-A: Dengan kecepatan 10 menit per halaman, butuh 16 jam 40 menit.  
+Yomitan bisa dipakai untuk mencari kata dengan mengetik atau menyalin-tempel kata itu.  
 
-Kalau kamu baca 1 jam per hari sampai akhir 30 hari, bisa kelar tepat waktu.  
+Kamu akan perlu halaman pencarian Yomitan untuk mencari kata dari Yotsubato Reading Helper tadi.  
 
-Itu dengan asumsi kecepatannya tetep 10 menit per halaman ya!  
-
-Kecepatanmu bisa nambah seiring makin terbiasa baca Yotsubato.  
+Buka halaman pencarian itu dengan klik ikon Yomitan di toolbar ekstensi peramban, lalu klik ikon kaca pembesar. Atau tekan ++alt+insert++ di Windows.  
 
 ---
 
-**Q: Aku harus nyari arti semua kata di manga atau pakai dadu buat milih?**  
+**T: Sebenarnya berapa lama waktu untuk membaca 100 halaman?**  
 
-A: Aku mau kamu nyari arti sebanyak yang kamu bisa.  
+J: Dengan kecepatan 10 menit per halaman, butuh 16 jam 40 menit.  
+
+Kalau kamu membaca 1 jam per hari sampai akhir 30 hari, bacaanmu bisa selesai tepat waktu.  
+
+Itu dengan asumsi kecepatannya tetap 10 menit per halaman!  
+
+Kecepatanmu bisa bertambah seiring kamu makin terbiasa membaca Yotsubato.  
 
 ---
 
-**Q: Aku nggak ngerti kalimatnya!**  
+**T: Apakah semua kata di manga harus dicari artinya, atau pakai dadu untuk memilih?**  
 
-Santai aja kalau nggak ngerti kalimatnya.  
+J: Cari arti kata sebanyak yang kamu bisa.  
 
-Kamu nggak ngerti karena itu bukan i+1. (Maksudnya i+1 adalah ada 1 komponen di kalimat itu yang belum kamu kuasai sepenuhnya)  
+---
+
+**T: Kalimatnya tidak bisa dimengerti!**  
+
+Santai saja kalau tidak mengerti kalimatnya.  
+
+Kamu tidak mengerti karena kalimat itu bukan i+1. (i+1 artinya hanya ada 1 komponen di kalimat itu yang belum kamu kuasai sepenuhnya.)  
 
 Dengan lebih banyak membaca, kesempatan i+1 akan lebih sering muncul.  
 
-Kalau kamu baca, cari arti, dan ngerti kalimat i+1, level pemahaman bahasa Jepang kamu bakal naik.  
+Kalau kamu membaca, mencari arti, dan memahami kalimat i+1, pemahaman bahasa Jepangmu akan naik.  
 
-Dengan cukup banyak membaca, kamu bisa balik ke kalimat yang susah itu dan minimal ngerti sedikit lebih baik.  
-Singkatnya, kamu cuma bisa belajar ngerti kalimat lewat banyak membaca!!!  
+Setelah cukup banyak membaca, kamu bisa kembali ke kalimat yang susah itu dan setidaknya memahaminya sedikit lebih baik.  
+Singkatnya, kamu hanya bisa belajar memahami kalimat lewat banyak membaca!  
 
 ---
 
-### Penting! Belajar baca dalam waktu lama dan bikin itu tetap menyenangkan.  
+### Penting! Belajar membaca dalam waktu lama dan tetap menikmatinya  
 #### Timeboxing  
 
 **Pomodoro**  
 
-Metode timer Pomodoro adalah kamu fokus ke satu tugas dalam waktu tertentu (biasanya 25-50 menit) sampai timer bunyi, lalu istirahat 5 menit. Setelah 5 menit selesai, lanjut fokus lagi.  
+Dengan metode Pomodoro, kamu fokus pada satu tugas selama waktu tertentu (biasanya 25 menit) sampai timer berbunyi, lalu istirahat 5 menit. Setelah 5 menit itu, lanjut fokus lagi.  
 
-Pakai Pomodoro timer ini: [https://pomofocus.io/](https://pomofocus.io/)    
+Pakai timer Pomodoro ini: [https://pomofocus.io/](https://pomofocus.io/)    
 
-Kalau 25 menit terlalu lama, kamu bisa turunin jadi 15 menit.  
+Kalau 25 menit terlalu lama, kamu bisa menurunkannya jadi 15 menit.  
 
 ---
 
 **Dadu 20-sisi**  
 
-Buat kamu yang lagi nggak mood baca lama di hari tertentu, kamu bisa lempar dadu 20-sisi buat nentuin berapa menit kamu bakal baca.  
+Kalau suatu hari kamu sedang tidak mood membaca lama, lempar dadu 20-sisi untuk menentukan berapa menit kamu akan membaca.  
 
 [Lempar dadu 20-sisi](https://www.google.com/search?q=roll+a+20+sided+dice)  
 
-Atau kamu bisa pakai dadu 20-sisi buat nentuin berapa menit baca yang kamu lakuin di sela-sela episode anime!  
+Kamu juga bisa memakai dadu 20-sisi untuk menentukan berapa menit membaca di sela-sela episode anime!  
 
 #### Skimming/Skipping   
 
-Membaca itu nggak selalu berarti baca semua teks di buku.  
+Membaca tidak selalu berarti membaca semua teks di buku.  
 
-Kamu perlu belajar cara skip atau skimming bagian-bagian yang nggak menarik/bikin sebel, dll.  
+Kamu perlu belajar melewati (skip) atau membaca sekilas (skimming) bagian yang tidak menarik, menyebalkan, dan sebagainya.  
 
-Kalau bagian yang bikin sebel itu sebenarnya bagus, pasti bakal bikin kamu pengen baca, kan?  
+Kalau bagian yang menyebalkan itu sebenarnya bagus, pasti kamu akan ingin membacanya, kan?  
 
-Kamu selalu bisa balik lagi ke bagian yang nyebelin itu setelah kamu baca bagian-bagian yang seru.  
+Kamu selalu bisa kembali ke bagian yang menyebalkan itu setelah membaca bagian-bagian yang seru.  
 
 Itu pun kalau kamu mau.  
 
 
 #### Istirahatlah!  
 
-Kalau udah capek/lelah, istirahat!  
+Kalau sudah capek, istirahat!  
+
+---
 
 ## Hari 15 sampai Hari 30  
 ### Belajar & Immersion Bahasa Jepang Harian — [悪戦苦闘](https://jisho.org/word/%E6%82%AA%E6%88%A6%E8%8B%A6%E9%97%98)!
 
-Sampai hari ke-30, yang aku mau kamu lakukan cuma ini:
+Sampai hari ke-30, yang perlu kamu lakukan hanya ini:
 
 - Anki  
-- Belajar Bunpou  
-- "Immersion" = (baca manga itu, dengar raw anime, subtitle tutor, passive listening, sub Jepang)  
+- Belajar tata bahasa  
+- "Immersion" = (membaca manga itu, mendengarkan anime raw, subtitle tutor, passive listening, subtitle Jepang)  
 
-Metodenya ya kurang lebih begitu aja.  
+Metodenya kurang lebih begitu saja.  
 
-Kamu bakal ngelakuin hal yang sama untuk beberapa minggu ke depan.  
+Kamu akan melakukan hal yang sama selama beberapa minggu ke depan.  
 
-Tetap lanjutin.  
+Teruskan.  
 
-Kamu udah keren banget sejauh ini!  
+Sejauh ini kamu sudah hebat sekali!  
 
 
-**Q: Selama periode ini, boleh nggak aku baca atau nonton hal lain yang nggak dibahas di sini?**  
+**T: Selama periode ini, boleh tidak membaca atau menonton hal lain yang tidak dibahas di sini?**  
 
 Tentu saja!  
 
@@ -1121,37 +1199,39 @@ Baca yang bikin kamu tertarik!
 
 Tonton yang bikin kamu tertarik!  
 
-Panduan belajar ini (UsagiSpoon) cuma bikin beberapa keputusan untuk kamu aja.  
+Panduan belajar ini (UsagiSpoon) hanya mengambilkan beberapa keputusan untukmu.  
 
 
-**Q: Apa sih gaya hidup ideal UsagiSpoon?**  
+**T: Seperti apa gaya hidup ideal UsagiSpoon?**  
 
-A: [https://www.youtube.com/watch?v=r5Qxr8OGkaA](https://www.youtube.com/watch?v=r5Qxr8OGkaA)  
+J: [https://www.youtube.com/watch?v=r5Qxr8OGkaA](https://www.youtube.com/watch?v=r5Qxr8OGkaA)  
 
+
+---
 
 ## Hari 31 dan seterusnya: Setelah UsagiSpoon?  
 
-Di titik ini, kamu udah punya fondasi yang cukup buat lanjut belajar sendiri.  
+Di titik ini, kamu sudah punya fondasi yang cukup untuk lanjut belajar sendiri.  
 
-Ada beberapa “tugas belajar bahasa Jepang” yang pengen aku kasih.  
+Berikut beberapa “tugas belajar bahasa Jepang” untukmu.  
 
-Nggak ada batas waktu untuk tugas-tugas ini.  
+Tidak ada batas waktu untuk tugas-tugas ini.  
 
 Beberapa bahkan mungkin baru bisa kamu lakukan berbulan-bulan atau bertahun-tahun ke depan!  
 
-Tapi tetep, aku sangat nyaranin buat nyelesainnya.  
+Meski begitu, semuanya sangat disarankan untuk diselesaikan.  
 
 - Selesaikan seluruh Yotsubato volume 1  
-- Selesaikan Kaishi 1.5k deck  
-- Selesaikan RRTK450 deck  
-- Kerjain [Kanji Phonetics](https://learnjapanese.moe/kanjiphonetics/) deck  
-- Selesaikan panduan bunpou Cure Dolly  
-- Pelajari semua bunpou Jepang dari Dictionary of Japanese bunpou. Ada Anki deck-nya [di sini](https://ankiweb.net/shared/info/1013111837). Total ada 629 poin bunpou dari level pemula sampai mahir.  
-- Mulai belajar pengucapan bahasa Jepang dan pitch accent pakai [panduan ini](https://docs.google.com/document/d/1ReBf08JFK4n0PXdOxThAfWuiK9UWVZEWWzeKSECWTQo)  
-- Mulai baca teks yang lebih panjang seperti visual novel. Ikut gabung di club TheMoeWay Discord biar bisa nongkrong bareng orang lain yang ngelakuin hal yang sama.  
+- Selesaikan dek kosakata yang kamu mulai di Hari 4  
+- Selesaikan dek RRTK450  
+- Kerjakan dek [Kanji Phonetics](https://learnjapanese.moe/kanjiphonetics/)  
+- Selesaikan panduan tata bahasa Cure Dolly  
+- Pelajari semua tata bahasa Jepang dari Dictionary of Japanese Grammar. Dek Anki-nya ada [di sini](https://ankiweb.net/shared/info/1013111837). Totalnya 629 poin tata bahasa, dari level pemula sampai mahir.  
+- Mulai belajar pelafalan bahasa Jepang dan pitch accent dengan [panduan ini](https://docs.google.com/document/d/1ReBf08JFK4n0PXdOxThAfWuiK9UWVZEWWzeKSECWTQo)  
+- Mulai membaca teks yang lebih panjang seperti visual novel. Gabung ke klub VN di Discord TheMoeWay supaya bisa nongkrong bareng orang lain yang melakukan hal yang sama.  
 - Latih kemampuan mengenali dan membaca angka Jepang dengan sumber ini: [Practice Japanese Numbers](https://langpractice.com/japanese/)  
-- Mulai bikin “mining” Anki deck setelah selesai Kaishi 1.5k deck (atau saat udah nyentuh 1000an kosakata) 
+- Mulai membuat dek Anki “mining” setelah menyelesaikan dek kosakata tadi (atau saat kosakatamu sudah sekitar 1.000 kata) 
 - Selesaikan satu visual novel dalam waktu kurang dari 6 bulan setelah mulai  
-- Coba pakai kamus monolingual setelah selesai satu visual novel  
+- Coba pakai kamus monolingual setelah menamatkan satu visual novel  
 - Tambah jam immersion kamu  
 

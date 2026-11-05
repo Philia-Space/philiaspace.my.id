@@ -7,20 +7,22 @@ description: Struktur folder anime lokal yang didukung untuk Manatan.
 
 Manatan dapat memutar anime yang tersimpan secara lokal di perangkat.
 
+---
+
 ## Atur folder anime lokal
 
-1. Buka **Settings** > **Browse**.
-2. Atur **Local anime source location** menuju folder penyimpanan anime lokalmu.
-3. Buka sumber anime Lokal (biasanya berada di paling bawah jika tidak dipin) dan pilih judul serial.
+1. Buka `Settings` > `Browse`.
+2. Atur `Local anime source location` ke folder tempat anime lokalmu disimpan.
+3. Buka sumber anime lokal (biasanya ada di paling bawah kalau tidak di-pin), lalu pilih judul serial.
 
-Jika kamu menambahkan episode di kemudian hari, segarkan daftar episode.
+Kalau nanti kamu menambahkan episode baru, segarkan daftar episodenya.
 
 ---
 ## Struktur folder yang didukung
 
 ### Format folder tunggal
 
-Kamu dapat menggunakan satu folder per seri, dengan file video langsung di dalamnya.
+Kamu bisa memakai satu folder untuk setiap serial, dengan file video langsung di dalamnya.
 
 ```text
 📁 [Folder anime lokal]
@@ -31,7 +33,7 @@ Kamu dapat menggunakan satu folder per seri, dengan file video langsung di dalam
 ```
 
 ### Format multi-musim
-Manatan juga mendukung pustaka dengan folder musiman.
+Manatan juga mendukung pustaka dengan folder per musim.
 
 ```text
 📁 [Folder anime lokal]
@@ -46,7 +48,7 @@ Manatan juga mendukung pustaka dengan folder musiman.
 │       └─ 🎥 ep02.mkv
 ```
 
-Format umum yang digunakan adalah .mp4 dan .mkv.
+Format yang umum dipakai adalah `.mp4` dan `.mkv`.
 
 ---
 
@@ -56,17 +58,17 @@ Format umum yang digunakan adalah .mp4 dan .mkv.
 
 ???+ note info "Pengurutan yang stabil <small>(klik di sini)</small>"
 
-    Gunakan penamaan seperti ep01, ep02, ep10.
+    Beri nama file dengan awalan nol, seperti `ep01`, `ep02`, `ep10`.
 
 #### Info 2: Gambar sampul khusus
 
 ???+ note info "Gambar sampul khusus <small>(klik di sini)</small>"
 
-    Tambahkan file cover.jpg di dalam folder serial
+    Tambahkan file `cover.jpg` di dalam folder serial.
 
 #### Info 3: Pembersihan galeri Android
 
 ???+ note info "Pembersihan galeri Android <small>(klik di sini)</small>"
 
-    Buat file kosong bernama .nomedia untuk menyembunyikan video/sampul dari aplikasi galeri
+    Buat file kosong bernama `.nomedia` untuk menyembunyikan video dan sampul dari aplikasi galeri.
 	

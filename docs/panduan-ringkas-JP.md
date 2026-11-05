@@ -5,66 +5,68 @@ hide:
 # Panduan Ringkas Belajar Bahasa Jepang
 ---
 
- Diunggah: 3 Agustus 2025 – `Yaaacha`
+Diunggah: 3 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adalah terjemahan dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/) dengan beberapa pengubahan referensi dan lokalisasi sumber Bahasa Indonesia
+    - Panduan ini terjemahan dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/), dengan beberapa referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
 
-    - Jika kamu bisa bahasa inggris, silakan kunjungi panduan di sana
+    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
 
-- Panduan super singkat buat ngelawan panduan lain yang isinya tembok teks dan link ke hal-hal berbayar yang sebenernya nggak perlu, apalagi buat pemula yang malah bikin makin bingung
+- Panduan ini sengaja dibuat sangat singkat, sebagai lawan dari panduan lain yang isinya tembok teks dan tautan ke hal-hal berbayar yang sebenarnya tidak perlu. Untuk pemula, panduan seperti itu malah bikin makin bingung.
 
-- Aku lulus JLPT N2 (2022) waktu nulis ini dan pendapatku masih sama sampai sekarang
+- Penulis asli LazyGuide sudah lulus JLPT N2 (2022) saat menulis panduan ini, dan pendapatnya masih sama sampai sekarang.
+
+---
 
 ## Tips
 
-??? tips "5 Tips buat Pemula <small>(klik di sini)</small>"
-    - `Konsisten dan fokus itu kuncinya`, nggak ada trik lain yang beneran manjur
+??? tips "5 Tips untuk Pemula <small>(klik di sini)</small>"
+    - **Konsisten dan fokus itu kuncinya.** Tidak ada trik lain yang benar-benar manjur.
 
-    - `Jangan bandingin dirimu sama orang lain`, jangan nyerah, jangan percaya sama yang bilang bisa jago dalam waktu cepat
+    - **Jangan bandingkan dirimu dengan orang lain.** Jangan menyerah, dan jangan percaya pada orang yang bilang kamu bisa jago dalam waktu singkat.
 
-    - Lakuin aja, `banyak orang malah lebih banyak mikir daripada beneran mulai`, kamu nggak akan pernah siap kalau nggak mulai-mulai
+    - **Lakukan saja.** Banyak orang lebih banyak berpikir daripada benar-benar mulai. Kamu tidak akan pernah merasa siap kalau tidak mulai.
 
-    - `Waktu/Jumlah yang ditulis di sini nggak saklek`, meskipun kamu butuh waktu 10x lebih lama atau lebih cepat dari yang aku tulis, itu cuma patokan dasar aja
+    - **Waktu dan jumlah di panduan ini bukan aturan kaku.** Kalau kamu butuh waktu 10 kali lebih lama, atau justru lebih cepat, tidak apa-apa. Angka di sini cuma patokan dasar.
 
-    - Nggak, `kamu nggak bodoh/terlalu tua`, kalau kamu bisa belajar bahasa ibu kamu, kamu juga bisa belajar bahasa lain, bahkan burung beo aja bisa
+    - **Kamu tidak bodoh, dan tidak terlalu tua.** Kalau kamu bisa belajar bahasa ibumu, kamu juga bisa belajar bahasa lain. Burung beo saja bisa.
 
 ---
 
 ## Langkah-Langkah
 
-1. Belajar `Kana`; [Hiragana](https://youtu.be/icK6kVTegDA/)(duluan) lalu [Katakana](https://youtu.be/5lC9rhjrHxU?/)(setelahnya)
-    - `Pelajari 15 Kana baru per hari`
-    - Kamu bisa lewati penjelasan panjangnya, langsung ke bagian `mempelajari hurufnya`
-    - Langsung kerjain [Kana Quiz](https://kana-quiz.tofugu.com/) `setiap kali udah belajar +5 kana`, kasih jeda antar review, misalnya 15 menit / 30 menit / 1 jam / 8 jam
-    - Harusnya selesai dalam waktu 2 minggu
+1. Pelajari kana: [Hiragana](https://youtu.be/icK6kVTegDA/) dulu, lalu [Katakana](https://youtu.be/5lC9rhjrHxU?/).
+    - Targetkan **15 kana baru per hari**.
+    - Lewati saja penjelasan panjangnya dan langsung ke bagian mempelajari hurufnya.
+    - Kerjakan [Kana Quiz](https://kana-quiz.tofugu.com/) **setiap kali selesai belajar 5 kana baru**. Beri jeda antarulasan, misalnya 15 menit, 30 menit, 1 jam, lalu 8 jam.
+    - Tahap ini biasanya selesai dalam 2 minggu.
 
-2. Download [Anki](https://apps.ankiweb.net/) dan [add-on Anki](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing) punyaku
-    - Extract `Anki add-on`-nya (Password: `lazyguide`) terus paste ke folder:
+2. Unduh [Anki](https://apps.ankiweb.net/) dan [paket add-on Anki dari LazyGuide](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing).
+    - Ekstrak arsip add-on itu (password: `lazyguide`), lalu tempel isinya ke folder berikut:
     === "Windows"
-        Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
+        Folder di Windows: `C:\Users\NamaUserKamu\AppData\Roaming\Anki2`
         ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
     === "MacOS"
-        Folder MacOS = `~/Library/Application Support/Anki2`
+        Folder di MacOS: `~/Library/Application Support/Anki2`
 
-        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd++++shift++ + G) > paste alamat folder di atas > tekan `Enter`
+        Folder `Library` tersembunyi secara bawaan. Untuk membukanya, klik `Finder` > `Go` > `Go to Folder...` (++cmd+shift+g++), tempel alamat folder di atas, lalu tekan `Enter`.
 
         ![Finder Go to Folder](img/finder-go-to-folder.jpg){height=50% width=50%}
 
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
-    - Restart `Anki` kamu
+    - Mulai ulang Anki.
 
-3. Download **satu** `deck kosakata` sesuai tujuan kamu, terus buka filenya
-    - [Kaishi V2](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753475051556954): paling disarankan buat mulai immersion, isinya kata yang paling sering dipakai orang Jepang. Baru mulai? Kerjain ini dulu
-    - [Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335) atau [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (versi asli, bahasa Inggris)
-    - Mau fokus JLPT? Pakai [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713), atau [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432) kalau mau alternatif
-    - Boleh juga main dua deck sekaligus, misalnya Kaishi plus deck JLPT
-    - Waktu ngerjain deck-nya, cukup pake tombol `again (1 = aku nggak tahu jawabannya)` atau `good (spasi atau 3 = aku tahu jawabannya)`, jadi kamu nggak perlu mikir mau `easy (2)` atau `hard (4)`
+3. Unduh **satu** dek kosakata sesuai tujuanmu, lalu buka berkasnya.
+    - [Kaishi V2](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753475051556954): paling disarankan untuk mulai immersion. Isinya kata-kata yang paling sering dipakai orang Jepang. Kalau baru mulai, kerjakan dek ini dulu.
+    - [Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335) atau [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (versi asli berbahasa Inggris).
+    - Kalau tujuanmu JLPT, pakai [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713), atau [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432) sebagai alternatif.
+    - Mengerjakan dua dek sekaligus juga boleh, misalnya Kaishi dan dek JLPT.
+    - Saat mengerjakan dek, cukup pakai dua tombol: `Again` (++1++) kalau kamu tidak tahu jawabannya, dan `Good` (++space++ atau ++3++) kalau tahu. Kamu tidak perlu memikirkan `Hard` (++2++) atau `Easy` (++4++).
 
-4. Masuk ke menu `Deck` > klik ikon gear > salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah
-    - (Bar Menu - Kiri Atas) `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](panduan-ringkas-JP.md/#__tabbed_2_4)
+4. Buka menu `Deck`, klik ikon gir, lalu salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah.
+    - Klik `Tools` > `Preferences` di bilah menu kiri atas, lalu sesuaikan dengan [pengaturan ini](panduan-ringkas-JP.md/#__tabbed_2_4).
 
     ??? info "Pengaturan Anki <small>(klik di sini)</small>"
     
@@ -77,29 +79,29 @@ hide:
         === "Pengaturan Preferences Anki"
             ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
 
-5. Kerjain `Deck Kosakata Kaishi 1.5k`, mulai dengan `10 kartu baru/hari` (maksimal 30; jangan berlebihan) barengin juga dengan `panduan grammar` di `langkah 6`;
-    - Kanji udah ada di deck ini; cara belajarnya adalah `belajar kosakata, bukan kanji terpisah`
+5. Kerjakan dek kosakata Kaishi. Mulai dengan **10 kartu baru per hari** (maksimal 30, jangan berlebihan), bersamaan dengan panduan tata bahasa di langkah 6.
+    - Kanji sudah termasuk di dek ini. Cara belajarnya: **pelajari kosakata, bukan kanji secara terpisah**.
 
-6. Pakai salah satu: [Panduan Grammar Teks Tae Kim](https://guidetojapanese.org/learn/grammar/basic), [Panduan Grammar Video-nya Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (Cukup 34 video pertama aja), atau [NHK World](https://www3.nhk.or.jp/nhkworld/lesson/indonesian/learn/list/).
-    - Nggak, kamu nggak perlu sempurna kerjain quiz-nya, `bahkan bisa dilewatin`
-    - Yang penting itu `nangkep isi materinya` atau minimal tahu garis besarnya karena `kamu bakal balik lagi ke situ ratusan kali nantinya`
-    - Untuk sumber belajar bunpou lain dalam bahasa indonesia bisa cek [sumber daya di discord](https://discord.com/channels/1370274344571240552/1394673355910545471/1394673744546369577)
+6. Pilih salah satu panduan tata bahasa: [panduan teks Tae Kim](https://guidetojapanese.org/learn/grammar/basic), [panduan video Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (cukup 34 video pertama), atau [NHK World](https://www3.nhk.or.jp/nhkworld/lesson/indonesian/learn/list/).
+    - Kuisnya tidak perlu dikerjakan dengan sempurna, **bahkan boleh dilewati**.
+    - Yang penting kamu **menangkap isi materinya**, atau minimal tahu garis besarnya, karena **kamu bakal kembali ke materi itu ratusan kali nanti**.
+    - Sumber belajar tata bahasa lain dalam bahasa Indonesia ada di [daftar sumber belajar di Discord](https://discord.com/channels/1370274344571240552/1394673355910545471/1394673744546369577).
 
-7. Setelah selesai `Deck Kosakata Kaishi 1.5k` dan `Panduan Grammar Teks` atau `Panduan Grammar Video`, sekarang kamu bisa mulai `mining` dan `melakukan immersion beneran`
-    - Deck kaishi `biasanya butuh waktu 2-4 bulan` untuk diselesaikan tergantung usaha kamu buat bisa mulai immersion
+7. Setelah menyelesaikan dek Kaishi dan panduan tata bahasa (teks atau video), kamu bisa mulai **mining** dan **immersion sungguhan**.
+    - Dek Kaishi **biasanya selesai dalam 2–4 bulan**, tergantung usahamu.
 
-8. Saat immersion kamu bisa cek cepat `poin grammar` dari [DoJG](https://dojglite.github.io/main/) (Pemula) dan [Nihongokyoshi](https://nihongokyoshi-net.com/jlpt-grammars/) (Menengah+)
-    - `Baca/tonton hal yang kamu suka`, tapi cukup sampai level kesulitan sedang aja, atau 4-5/10 di [jpdb](https://jpdb.io/), awalnya bakal berat banget, tapi lakuin aja
+8. Saat immersion, cek poin tata bahasa dengan cepat di [DoJG](https://dojglite.github.io/main/) (pemula) dan [Nihongokyoshi](https://nihongokyoshi-net.com/jlpt-grammars/) (menengah ke atas).
+    - **Baca atau tonton hal yang kamu suka**, tapi cukup sampai tingkat kesulitan sedang, sekitar 4–5/10 di [jpdb](https://jpdb.io/). Awalnya bakal berat sekali, tapi jalani saja.
 
-9. Buka [Panduan Lazy Mining](setup.md) yang aku bikin buat setup gampang alat mining terbaru buat semua jenis media
-    - Mining = proses `bikin kartu dari media` yang kamu pakai buat immersion, tools-ku `bisa bikin mining cukup dengan sekali klik`
+9. Buka [Panduan Lazy Mining](setup.md) untuk menyiapkan alat mining terbaru dengan mudah, untuk semua jenis media.
+    - Mining adalah proses **membuat kartu dari media** yang kamu pakai untuk immersion. Dengan alat di panduan itu, kartu **bisa dibuat cukup dengan sekali klik**.
 
 ---
 
 ### Penutup
 
-- Ini `versi yang super disederhanakan`, jadi emang nggak lengkap, langsung aja jalanin sambil belajar, kalau bingung bisa tanya di server-server Japanese Immersion atau cari aku di Discord
+- Panduan ini **versi yang sangat disederhanakan**, jadi memang tidak lengkap. Jalani saja sambil belajar. Kalau bingung, tanya di server Discord seputar Japanese immersion.
 
-- `Nggak ada buku teks omong kosong`, `nggak perlu langganan`, dan nggak usah terjebak bertahun-tahun belajar doang sambil mikir kamu belum siap, karena kamu nggak akan pernah siap kalau nggak mulai immersion
+- **Tidak perlu buku teks yang bertele-tele** dan **tidak perlu langganan**. Jangan juga terjebak bertahun-tahun belajar teori sambil merasa belum siap, karena kamu tidak akan pernah siap kalau tidak mulai immersion.
 
-- Kamu bisa coba baca panduan lebih lanjut di [Panduan Bahasa Jepang](panduan.md)
+- Versi yang lebih lengkap ada di [Panduan Bahasa Jepang](panduan.md).

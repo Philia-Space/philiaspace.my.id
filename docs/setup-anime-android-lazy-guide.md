@@ -1,58 +1,58 @@
 # Setup Mining Anime di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/)
 ---
 
- Diunggah: 24 Agustus 2025 – `Yaaacha`
+ Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
-- `asbplayer` adalah pemutar video di browser yang bisa memutar `Anime` dan `takarir` supaya kamu bisa hover kata-kata dan pakai `Yomitan`.
+- `asbplayer` adalah pemutar video di browser yang bisa memutar anime beserta subtitle-nya, supaya kamu bisa hover kata di subtitle dan memakai Yomitan.
 
 ---
 
-## Download dan Install
+## Unduh dan Pasang
 
-- Download `Anime` dan `JP Subtitle` kamu  
-    - Untuk `JP subtitles` bisa ambil di [Jimaku](https://jimaku.cc/)
+- Unduh anime dan subtitle Jepang kamu  
+    - Subtitle Jepang bisa diambil di [Jimaku](https://jimaku.cc/)
 
-- (Opsional) Untuk video streaming, install ekstensi [asbplayer](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab)
+- (Opsional) Untuk video streaming, pasang ekstensi [asbplayer](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab)
 
   **Syarat:**
 
-  - [Yomitan di Android](setup-yomitan-android-lazy-guide.md) sudah ter-setup
+  - [Yomitan di Android](setup-yomitan-android-lazy-guide.md) sudah terpasang
 
 ---
 
-## Setting Awal
+## Pengaturan Awal
 
 1. Di browser, buka `edge://flags`  
-    - Cari `Experimental Web Platform features` > ubah jadi `Enabled`
+    - Cari `Experimental Web Platform features`, lalu ubah jadi `Enabled`
 
     ![Enable Experimental Web Platform Android](img/enable-experimental-web-platform-android.png){height=200 width=400}
 
-2. Buka [asbplayer](https://killergerbah.github.io/asbplayer/)  
-    - Abaikan `request permission` ke `Anki` dan pemasangan ekstensi `Chrome`
+2. Buka [asbplayer](https://app.asbplayer.dev/)  
+    - Abaikan permintaan izin (`request permission`) ke Anki dan tawaran memasang ekstensi Chrome
 
-3. Upload `Anime` dan `Subtitle` kamu ke `asbplayer` dengan klik `browse`  
-    - Langkah ini nggak berlaku untuk platform streaming seperti `Youtube` atau `Netflix`
+3. Unggah file anime dan subtitle kamu ke `asbplayer` dengan menekan `browse`  
+    - Langkah ini tidak berlaku untuk platform streaming seperti `Youtube` atau `Netflix`
 
     === "Upload Files"
         ![Pick Anime Android](img/pick-anime-pc.jpg){height=200 width=400}
     === "Pick Anime and Sub"
         ![Pick Anime & Subtitle Android](img/pick-anime-sub-android.png){height=200 width=400}
 
-4. Putar layar `Android` ke `Landscape` supaya tampilan `asbplayer` pas, lalu klik tombol di kanan atas untuk `full-screen`
+4. Putar HP ke posisi landscape supaya tampilan `asbplayer` pas, lalu tekan tombol di kanan atas untuk masuk mode layar penuh
 
     ![Android Player Buttons](img/android-player-buttons.png){height=400 width=800}
 
-5. Sekarang kamu bisa mining pakai `Yomitan` dengan hover di kata-kata takarir  
+5. Sekarang kamu bisa mining pakai Yomitan dengan hover di kata-kata subtitle  
     - Lihat [Demo Mining Anime](setup-anime-pc-lazy-guide.md/#info-1-demo-mining-anime) (untuk PC)  
-    - Sayangnya, untuk ambil `Picture`, harus screenshot manual dan upload ke detail kartu di `Ankidroid`
+    - Sayangnya, untuk mengisi `Picture`, kamu harus screenshot manual lalu mengunggahnya ke detail kartu di Ankidroid
 
     ![Android Player Mining](img/android-player-mining.png){height=400 width=800}
 
-Mantap! Setup mining tools akhirnya kelar.
+Setup mining anime di Android selesai.
 
-<small>Kalau ada masalah, cek [FAQs](setup-anime-android-lazy-guide.md/#faqs)</small>
+<small>Kalau ada masalah, cek [FAQs](setup-anime-android-lazy-guide.md/#pertanyaan-umum)</small>
 
 ---
 
@@ -62,7 +62,7 @@ Mantap! Setup mining tools akhirnya kelar.
 
 ??? info "Demo Mining Anime <small>(klik di sini)</small>"
 
-    Aku pakai note type Mining-JP di tutorial ini, di bagian pengaturan anki di yomitan kamu serharusnya sudah menggunakan note type Lapis. Aku pakai shortcut ++ctrl++++shift++ + X agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
+    Video ini memakai note type Mining-JP. Di pengaturan Anki di Yomitan, kamu seharusnya sudah memakai note type Lapis. Di video, pintasan ++ctrl+shift+x++ dipakai untuk mengedit audio, screenshot, dan subtitle yang akan dikirim ke Anki.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
@@ -70,44 +70,44 @@ Mantap! Setup mining tools akhirnya kelar.
 
 ??? tip "Sinkronisasi Subtitle <small>(klik di sini)</small>"
 
-    Tergantung sumber `Anime` kamu, `Subtitle` bisa aja nggak sinkron. Untuk menyesuaikan:
+    Tergantung sumber anime kamu, subtitle bisa saja tidak sinkron. Untuk menyesuaikannya:
 
-    - +100ms = ++ctrl++++shift++ + ←
-    - -100ms = ++ctrl++++shift++ + →
+    - +100ms = ++ctrl+shift+left++
+    - -100ms = ++ctrl+shift+right++
 
-#### Tip 2: Lewatin Rekaman Audio saat Mining
+#### Tip 2: Lewati Rekaman Audio saat Mining
 
-??? tip "Lewatin Rekaman Audio saat Mining <small>(klik di sini)</small>"
+??? tip "Lewati rekaman audio saat mining <small>(klik di sini)</small>"
 
-    - Bisa skip rekaman audio waktu mining biar nggak makan waktu
-    - Kalau kartu Anki kamu bisa dikerjain di bawah 5 detik per kartu, hampir nggak bakal kepakai audionya
+    - Rekaman audio bisa dilewati saat mining supaya tidak makan waktu
+    - Kalau kamu bisa menjawab satu kartu Anki dalam waktu kurang dari 5 detik, audionya hampir tidak akan terpakai
 
 ---
 
-## FAQs
+## Pertanyaan Umum
 
-#### Pertanyaan 1: Gimana cara pakai Monolingual Setup di Android?
+#### Pertanyaan 1: Bagaimana cara memakai Monolingual Setup di Android?
 
-??? question "Gimana cara pakai Monolingual Setup di Android? <small>(klik di sini)</small>"
+??? question "Bagaimana cara memakai Monolingual Setup di Android? <small>(klik di sini)</small>"
 
-    1. Buka `Yomitan` settings > `Dictionary` > Nyalain `all`
+    1. Buka `Yomitan settings` > `Dictionary`, lalu nyalakan `all`
 
         ![Dictionary Toggle](img/dictionary-toggle.png){height=250 width=500}
 
-#### Pertanyaan 2: Kenapa Harus Nyalain Experimental Web Platform features?
+#### Pertanyaan 2: Kenapa Harus Menyalakan Experimental Web Platform features?
 
-??? question "Kenapa Harus Nyalain Experimental Web Platform features? <small>(klik di sini)</small>"
+??? question "Kenapa harus menyalakan Experimental Web Platform features? <small>(klik di sini)</small>"
 
-    - Beberapa `Anime` punya banyak `audio source` seperti `en` dan `jp`. Dengan fitur ini, kita bisa pilih `jp` kalau bukan default.
+    - Beberapa anime punya lebih dari satu sumber audio, misalnya `en` dan `jp`. Dengan fitur ini, kamu bisa memilih `jp` kalau itu bukan audio bawaannya.
 
 #### Pertanyaan 3: Kenapa Abaikan Request Permission ke Anki?
 
-??? question "Kenapa Abaikan Request Permission ke Anki? <small>(klik di sini)</small>"
+??? question "Kenapa request permission ke Anki diabaikan? <small>(klik di sini)</small>"
 
-    - Karena kita pakai metode biasa supaya semua fitur `Anki` dan `Yomitan` tetap bisa dipakai.
+    - Karena panduan ini memakai cara biasa, supaya semua fitur Anki dan Yomitan tetap bisa dipakai.
 
-#### Pertanyaan 4: Kenapa Nggak Install Chrome Extension?
+#### Pertanyaan 4: Kenapa Tidak Memasang Chrome Extension?
 
-??? question "Kenapa Nggak Install Chrome Extension? <small>(klik di sini)</small>"
+??? question "Kenapa tidak memasang ekstensi Chrome? <small>(klik di sini)</small>"
 
-    - Sama alasannya kayak `Pertanyaan 3`, soalnya `asbplayer` punya dukungan `Anki` bawaan yang fiturnya nggak selengkap setup `Anki` + `Yomitan` kita.
+    - Alasannya sama dengan Pertanyaan 3. Ekstensi `asbplayer` punya dukungan Anki bawaan, tapi fiturnya tidak selengkap setup Anki + Yomitan di panduan ini.

@@ -12,6 +12,8 @@ Diunggah: 10 Agustus 2025 – `Yaaacha`
 
 *Mau langsung ke bagian praktik? Lompat ke [2.1 Cara belajar bahasa Jepang](#21-cara-belajar-bahasa-jepang).*
 
+---
+
 ## 1.1 Mengapa banyak orang “gagal” belajar bahasa Jepang
 
 Kebanyakan orang belajar bahasa Jepang dengan tujuan sederhana: bisa menikmati konten Jepang tanpa bergantung pada terjemahan, dan bisa ngobrol dengan lancar. Nyatanya banyak yang berhenti di tengah jalan padahal sudah belajar bertahun-tahun. Apakah bahasa Jepangnya yang terlalu sulit, atau usahanya yang kurang?
@@ -19,6 +21,8 @@ Kebanyakan orang belajar bahasa Jepang dengan tujuan sederhana: bisa menikmati k
 Dua-duanya bukan. Masalahnya ada di **cara belajarnya**.
 
 Kelas tradisional saja tidak cukup untuk sampai ke tingkat yang benar-benar bisa dipakai. Banyak yang gagal karena melewatkan satu hal utama dalam rutinitas mereka: **immersion**, yaitu membaca atau mendengarkan konten asli yang dibuat oleh dan untuk penutur asli. Contohnya nonton anime tanpa takarir bahasa Indonesia atau Inggris, baca manga, atau dengarkan siniar (*podcast*) orang Jepang.
+
+---
 
 ## 1.2 Masalah dengan metode tradisional
 
@@ -42,6 +46,8 @@ Ibarat belajar berenang, kamu tidak akan bisa kalau cuma berdiri di kolam dangka
 
 Perfeksionisme sering jadi penghambat terbesar. Terlalu terpaku pada detail kecil memakan waktu yang seharusnya dipakai untuk menambah jam terbang. Buku teks dan teori itu seperti tali bantu saat mendaki gunung: berguna, tapi jalurnya tetap harus kamu daki sendiri.
 
+---
+
 ## 1.3 Skala sebuah bahasa
 
 Bahasa itu luas sekali. Nuansa, konteks budaya, dan keluwesan pemakaian penutur asli jauh melampaui rumus kaku "X artinya Y" di aplikasi atau lembar kerja.
@@ -51,6 +57,8 @@ Tanpa pengalaman langsung, kalimat yang kamu susun akan terasa ganjil bagi penut
 Di sinilah immersion bekerja: membiasakan otak menyerap pola bahasa langsung dari sumbernya.
 
 Bahasa diperoleh lewat *comprehensible input* (masukan yang bisa dipahami), dan polanya terinternalisasi tanpa kamu sadari. Saat kamu paham maksud sebuah pesan di konten yang kamu nikmati, otak mencatat sendiri hubungan antarkata, konteks situasinya, dan struktur kalimatnya. Prosesnya sama seperti caramu memahami kalimat ini sekarang tanpa perlu membedah subjek, predikat, dan objeknya satu per satu.
+
+---
 
 ## 1.4 Berdamai dengan ketidakpahaman awal
 
@@ -73,6 +81,8 @@ Kuncinya: turunkan standar kesempurnaan, dan jaga paparan harianmu tetap konsist
 
 Dalam istilah teknisnya, ini disebut penyerapan *input*, dan dari sinilah otak membangun intuisi berbahasa.
 
+---
+
 ## 1.6 Pendekatan *top-down*
 
 Pendekatan *top-down* menuntutmu siap menerima ambiguitas. Berbeda dari penilaian kelas yang menghukum kesalahan sekecil apa pun, pendekatan ini fokus pada menangkap inti pesan walau kosakatamu masih terbatas.
@@ -90,6 +100,8 @@ Rutinitas pemula dibuat ringkas supaya kamu cepat sampai ke konten asli:
 2. **Hafalkan kosakata dasar dan kanji** dengan sistem pengulangan berjarak (*Spaced Repetition System*) lewat Anki.
 3. **Pahami dasar tata bahasa (*bunpou*)** lewat panduan ringkas yang sudah dikurasi.
 4. **Mulai rutinitas immersion harian** dengan konten ramah pemula yang kamu suka.
+
+---
 
 ## 2.2 Hiragana dan Katakana
 
@@ -390,6 +402,8 @@ Berbeda dari banyak metode berbasis immersion lain, panduan ini tidak menganggap
 
 Selama lebih dari 4 tahun menjalankan TheMoeWay dan ngobrol dengan berbagai pembelajar immersion, penulis aslinya jarang menemukan yang percaya diri dengan output-nya. Kenapa? Kebanyakan bahkan tidak mau mencoba sama sekali: takut salah ngomong, takut bahasa Jepangnya rusak, takut ditertawakan. Semua itu buah dari perfeksionisme yang sama, dan itu merugikan belajar lewat immersion.
 
+---
+
 ## 3.2 Pelafalan dan *Pitch Accent*
 
 Dibanding komunitas dan sumber belajar bahasa lain, sumber belajar, tutor, dan pembelajar bahasa Jepang cenderung menomorduakan pelafalan, karena pelafalan Jepang memang sederhana. Benar sederhana, dan benar kamu tidak perlu takut disalahpahami, tapi sebagian orang memang punya target pelafalan yang bagus.
@@ -397,6 +411,8 @@ Dibanding komunitas dan sumber belajar bahasa lain, sumber belajar, tutor, dan p
 Panduan ini ikut barisan yang bilang kamu tidak wajib belajar pelafalan: kalau kamu tidak terlalu peduli terdengar sempurna, tidak usah pusing soal pelafalan.
 
 Kalau mau lebih dari itu, pelajari *pitch accent* dan pelafalan IPA yang benar secara mandiri, sebaiknya sedini mungkin.
+
+---
 
 ## 3.3 Tolok Ukur Kemajuan Belajar
 
@@ -408,6 +424,8 @@ Buat yang penasaran, kira-kira begini kemampuan yang bisa kamu harapkan setelah 
 - **1 novel selesai dibaca:** Buku ini pasti berat, tapi kamu mulai benar-benar lepas dari tahap pemula. Buku berikutnya akan terasa jelas lebih mudah.
 - **5 novel / 1 novel visual sedang-panjang:** Kamu bukan pemula lagi. Kemampuan membacamu mulai terbentuk dengan baik.
 - **10 novel / 2 novel visual sedang-panjang:** Sudah benar-benar tingkat menengah. Selamat!
+
+---
 
 ## 3.4 Penutup: Lepas dari Tahap Pemula
 

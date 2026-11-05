@@ -1,27 +1,27 @@
 # Pengantar Setup
 ---
 
- Diunggah: 2 Agustus 2025 – `Yaaacha`
+ Diunggah: 2 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
-??? note "Apa sih tujuan dari Panduan ini? <small>(klik di sini)</small>"
+??? note "Apa tujuan panduan ini? <small>(klik di sini)</small>"
 
-    - Buat kamu yang males ribet ngatur ini itu atau ngerti hal-hal teknis
-    - Buat yang pengen langsung impor semua tools sekaligus tanpa harus nyari-nyari satu-satu
-    - Kamu pengen tool yang stabil dan awet dipakai selamanya (asal nggak diupdate, ya nggak bakal rusak)
+    - Untuk kamu yang malas repot mengatur ini-itu atau memahami hal-hal teknis
+    - Untuk yang ingin langsung mengimpor semua alat sekaligus tanpa harus mencarinya satu per satu
+    - Untuk yang ingin alat yang stabil dan awet dipakai (selama tidak diperbarui, tidak akan rusak)
 
-    Mau panduan yang super lengkap dan nggak cuma tinggal pakai? Cek [Panduan Donkuri](https://donkuri.github.io/learn-japanese/)
+    Mau panduan yang jauh lebih lengkap dan bukan sekadar tinggal pakai? Cek [Panduan Donkuri](https://donkuri.github.io/learn-japanese/)
 
 ---
 
-Baru mulai belajar Jepang dan pengen cepet immersion? Lihat [Panduan Singkat untuk Mulai Japanese](panduan-ringkas-JP.md).
+Baru mulai belajar bahasa Jepang dan ingin cepat mulai immersion? Lihat [Panduan Singkat untuk Mulai Japanese](panduan-ringkas-JP.md).
 
 ---
 
 ## Format Anki dan Yomitan
 
-- Support 4-in-1 Profile: `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, `Android (VN)`
+- Mendukung 4 profil sekaligus: `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, `Android (VN)`
 
 === "Anki"
     === "PC | Dark"
@@ -50,15 +50,15 @@ Baru mulai belajar Jepang dan pengen cepet immersion? Lihat [Panduan Singkat unt
 
 ??? info "Demo Mining Anime <small>(klik untuk lihat)</small>"
 
-    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki kamu cocokkan dengan note type Lapis.
+    Video ini memakai note type Mining-JP. Di bagian pengaturan Anki, sesuaikan dengan note type Lapis.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-Kalau kamu baru pertama kali setup, ikuti panduan ini dari atas sampai bawah ya, soalnya ada bagian-bagian yang memang harus diikutin urut.
+Kalau kamu baru pertama kali setup, ikuti panduan ini dari atas sampai bawah, karena ada bagian yang memang harus dikerjakan berurutan.
 
-Panduan ini adalah Setup Hybrid dari [Lapis](https://github.com/donkuri/lapis), Add-ons Anki, Yomitan, dan setting tools yang aku (LazyGuide) pakai.
+Panduan ini menggabungkan [Lapis](https://github.com/donkuri/lapis), add-on Anki, Yomitan, dan pengaturan alat yang dipakai LazyGuide.
 
 
 ![Intro Wallpaper](img/intro-wallpaper-1.jpg){height=500 width=1000}
 
-[Klik di sini buat mulai pengaturan](setup-anki-pc-lazy-guide.md){ .md-button .md-button }
+[Klik di sini untuk mulai pengaturan](setup-anki-pc-lazy-guide.md){ .md-button .md-button }

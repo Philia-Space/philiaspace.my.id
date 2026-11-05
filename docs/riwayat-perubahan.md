@@ -12,6 +12,8 @@ hide:
 
     - Perbaikan = Memperbaiki kesalahan apapun dari halaman yang sudah ada
 
+    - Untuk Penulis = Aturan atau konvensi baru untuk yang ikut menulis dan menyunting panduan
+
 ---
 
 ## 2026
@@ -20,10 +22,99 @@ hide:
 
 ### November
 
+**06-11-2026** · Sumber Belajar
+
+- Penambahan
+       - [Sumber Belajar](resources.md): kumpulan tautan alat dan bahan belajar bahasa Jepang dari kuri, TheMoeWay, Ten, dan Wotaku, dikelompokkan per topik dengan deskripsi bahasa Indonesia
+       - [Rekomendasi Add-on Anki](resources.md#rekomendasi-add-on-anki): daftar add-on pilihan Philia Space beserta fungsi dan kode pasangnya
+       - [JIDict Web](resources.md#kamus-di-hp) di daftar kamus, lengkap dengan cara memasangnya di Android dan iOS
+- Pembaruan
+       - Menu **Sumber Belajar** ditambahkan di navigasi, di atas **Proyek Komunitas**
+- Perbaikan
+       - [Setup Fushi](Setup-Fushi.md#sumber-online-manga-anime-novel): tautan toko manga Keiyoushi diperbarui, dan ada cara menambah sumber web novel (Syosetsu dan Kakuyomu) lewat toko LNReader
+       - [Setup Manatan](Setup-Manatan.md#pasang-ekstensi): daftar repositori ekstensi diperbarui; tautan Keiyoushi diganti, repositori yang sudah mati (Yuzono manga, Kohi-den, Skittyblock) dihapus, Yuzono sekarang jadi rekomendasi untuk anime, dan ada tambahan repositori Amqx untuk manga
+
+**06-11-2026** · Hoshi Reader untuk iPhone
+
+- Penambahan
+       - [Setup Hoshi Reader (iOS)](Setup-Hoshi-Reader-iOS.md): membaca light novel dan buku di iPhone atau iPad, dari pasang aplikasi, kamus, kartu Anki lewat AnkiMobile atau AnkiConnect, audio lokal, sampai audiobook, lengkap dengan tips, pertanyaan umum, dan masalah umum
+       - [Proyek Komunitas](proyek.md#jidict-frequency): JIDict Frequency, kamus frekuensi Jepang-Indonesia untuk Yomitan dengan 13.168 kosakata N1–N5
+- Pembaruan
+       - Menu mining dipisah jadi dua: **LazyGuide - Mining** untuk halaman adaptasi LazyGuide, dan **Setup Mining** untuk panduan buatan Philia Space
+       - Kedua menu itu sekarang dikelompokkan per perangkat: PC, Android, dan iOS
+       - Menu "Anime Desktop" sekarang bernama "Anime PC"
+       - [Setup Mining Anime di PC](setup-anime-pc-lazy-guide.md) tidak lagi berlabel MacOS, karena langkahnya berlaku untuk semua PC
+       - [Belajar Kanji](kanji.md) ditulis ulang agar lebih santai, dengan tabel ringkasan di awal
+       - [Perbaiki Font](font.md) ditulis ulang dan disamakan dengan TheMoeWay terbaru: langkah Windows 11 dengan dua pilihan cara, langkah macOS terbaru, dan tips nama file font di Anki supaya tidak terhapus
+
+**06-11-2026** · Audiobook di Yatsu Reader
+
+- Pembaruan
+       - [LN & Buku PC](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync): cara membaca sambil mendengarkan audiobook di Yatsu Reader dengan Yatsu Whispersync
+
+**05-11-2026** · Panduan Gaya Penulisan
+
+- Untuk Penulis
+       - Ada [panduan gaya penulisan](https://github.com/phi-li-a/philiaspace.my.id/blob/main/PANDUAN-GAYA.md) di repo: menyapa pembaca dengan "kamu", memakai "tidak" dan bukan "nggak", dan istilah yang diseragamkan seperti unduh, pasang, pengaturan, dan immersion
+       - Semua halaman panduan akan disunting bertahap mengikuti panduan gaya ini supaya bahasanya seragam
+- Pembaruan
+       - Alamat halaman [Kartu Anime Satu Klik](kartu-anime-satu-klik.md) berubah dari `/Auto-Mining%20Anime/` menjadi `/kartu-anime-satu-klik/`, jadi tautan lama yang tersimpan perlu diganti
+
+**05-11-2026** · Penyuntingan Bahasa Tahap 1
+
+- Pembaruan
+       - Bahasa di [30 Hari Awal](rutinitas-awal.md), [Panduan Ringkas](panduan-ringkas-JP.md), [Belajar Kanji](kanji.md), dan [Perbaiki Font](font.md) dirapikan agar seragam dengan [Panduan Bahasa Jepang](panduan.md) dan lebih mudah dibaca
+       - Langkah-langkah di [Perbaiki Font](font.md) sekarang bernomor, satu tindakan per langkah
+- Perbaikan
+       - [Panduan Ringkas](panduan-ringkas-JP.md): tombol Anki yang tertukar (Hard itu ++2++, Easy itu ++4++), dan semua langkah sekarang menyebut dek Kaishi yang sama
+       - [Perbaiki Font](font.md): contoh kode styling kartu Anki yang sebelumnya tidak jalan kalau disalin, dan alamat folder Windows yang tampil dengan garis miring ganda
+       - [Belajar Kanji](kanji.md): tautan 生ビール yang sebelumnya membuka kata lain
+       - Pintasan keyboard di halaman panduan sekarang tampil dengan tanda "+" di antara tombol, misalnya Ctrl+Shift+A
+
+**05-11-2026** · Sinkronisasi 30 Hari Awal
+
+- Pembaruan
+       - [30 Hari Awal](rutinitas-awal.md) disamakan dengan versi terbaru UsagiSpoon di TheMoeWay: pengaturan Anki di Hari 4 dan Hari 8 sekarang memakai FSRS, learning steps `10m`, dan kartu baru muncul setelah ulasan
+       - Hari 4 sekarang menawarkan pilihan dek kosakata yang sama dengan [Panduan Bahasa Jepang](panduan.md), dengan Kaishi V2 sebagai pilihan utama
+       - Hari 4: ada cara menyalakan terjemahan otomatis subtitle YouTube, karena video Anki-nya hanya punya subtitle Inggris
+       - Langkah "Learn ahead limit" dihapus karena sudah tidak ada di versi aslinya
+       - Hari 1: tiga video kana bisa ditonton langsung di halaman
+       - Setiap hari sekarang dipisah garis supaya batas antarhari lebih jelas
+       - Bagian-bagian utama di halaman panduan lain juga dipisah garis dengan cara yang sama
+- Perbaikan
+       - Hianime yang sudah mati diganti Anikoto (subtitle Inggris yang bisa dimatikan) dan Sankanime (subtitle Indonesia yang menempel)
+       - Tautan asbplayer di [30 Hari Awal](rutinitas-awal.md), [Anime MacOS](setup-anime-pc-lazy-guide.md), dan [Anime Android](setup-anime-android-lazy-guide.md) diganti ke alamat barunya
+       - Daftar rekomendasi anime di Hari 2 yang sebelumnya berupa tabel berantakan sekarang jadi daftar biasa
+
+**05-11-2026** · Penyuntingan Bahasa Tahap 2
+
+- Pembaruan
+       - Bahasa di semua halaman LazyGuide dirapikan mengikuti panduan gaya: [Pengantar](setup.md), [Anki PC](setup-anki-pc-lazy-guide.md), [Yomitan PC](setup-yomitan-pc-lazy-guide.md), [Yomitan Android](setup-yomitan-android-lazy-guide.md), [ShareX](setup-ShareX-pc.md), Anime, LN & Buku, dan Manga untuk PC dan Android, serta [Memperbarui Note Type](pembaruan-note-type.md)
+       - Judul bagian di halaman-halaman itu ikut diseragamkan, misalnya "Download dan Install" jadi "Unduh dan Pasang" dan "FAQs" jadi "Pertanyaan Umum", jadi tautan ke bagian lama yang tersimpan perlu diganti
+       - Langkah untuk HP sekarang memakai "tekan", langkah untuk PC memakai "klik"
+- Perbaikan
+       - [Yomitan PC](setup-yomitan-pc-lazy-guide.md): judul halaman yang sebelumnya tidak tampil sebagai judul
+       - [Anki PC](setup-anki-pc-lazy-guide.md): tombol Anki yang tertukar (Hard itu ++2++, Easy itu ++4++)
+       - [Manga PC](setup-manga-pc-lazy-guide.md): perintah PowerShell untuk menghapus Python bawaan Windows yang diawali kata `input` sehingga gagal kalau disalin, dan sub-poin langkah OCR yang tampil sebagai langkah bernomor terpisah
+       - [Anime MacOS](setup-anime-pc-lazy-guide.md): tombol untuk membuka `Load Subtitles` yang tampil rusak
+       - Tautan sumber Yomitan Local Audio diarahkan ke repo barunya, dan alamat folder Anki di beberapa halaman tidak lagi menampilkan tanda bintang
+
+**05-11-2026** · Penyuntingan Bahasa Tahap 3
+
+- Pembaruan
+       - Bahasa di [Setup Manatan](Setup-Manatan.md), [Manga Lokal](Setup-Manatan-manga-lokal.md), [Anime Lokal](Setup-Manatan-anime-lokal.md), [Novel (EPUB)](Setup-Manatan-novels.md), [Kartu Anime Satu Klik](kartu-anime-satu-klik.md), dan [Yomitan & Anki PC](setup-yomitan-pc.md) dirapikan mengikuti panduan gaya; dengan ini semua halaman panduan sudah disunting
+       - Judul bagian di halaman-halaman itu ikut diseragamkan (misalnya "FAQs" jadi "Pertanyaan Umum"), jadi tautan ke bagian lama yang tersimpan perlu diganti
+       - [Yomitan & Anki PC](setup-yomitan-pc.md) sekarang punya baris tanggal unggah dan pembaruan seperti halaman lain
+- Perbaikan
+       - [Setup Manatan](Setup-Manatan.md): daftar di bagian Info, Tips, dan Pertanyaan Umum yang tampil berantakan, serta saran "pasang sumber anime" di bagian manga yang seharusnya "sumber manga"
+       - [Yomitan & Anki PC](setup-yomitan-pc.md): tiga gambar langkah impor kamus yang kalau diklik membuka gambar lain
+       - Nama kamus 三省堂国語辞典第八版, BCCWJ, dan YouTube di daftar kamus Manatan dan Yomitan & Anki PC
+       - Label di beranda disesuaikan dengan menu: "Anime (Desktop)" untuk Kartu Anime Satu Klik, "Manatan (PC & HP)", dan Yomipv masuk daftar alat
+
 **05-11-2026** · Setup Fushi
 
 - Penambahan
-       - Halaman baru [Setup Fushi (Windows)](Setup-Fushi.md) (masih draf), muncul di menu LazyGuide > Setup Utama: cara instal, panduan awal di aplikasi, pasang kamus, kirim kartu ke Anki dengan note type Lapis, dan pasang ekstensi browser
+       - Halaman baru [Setup Fushi (Windows)](Setup-Fushi.md) (masih draf), muncul di menu Setup Mining > PC: cara instal, panduan awal di aplikasi, pasang kamus, kirim kartu ke Anki dengan note type Lapis, dan pasang ekstensi browser
        - Cara menambah sumber manga dan anime online di Fushi, lalu mencari judul dari dalam aplikasi
        - Cara membaca dialog visual novel lewat Fushi dan membuat kartu dari dialognya, lengkap dengan gambar bergerak dan suara karakter
        - Masalah umum Fushi: layar "Old data needs an upgrade first", hasil pencarian kosong, ekstensi browser belum terdeteksi, dan kartu tidak masuk ke Anki
@@ -54,9 +145,10 @@ hide:
 **04-11-2026** · Kartu Anime Satu Klik
 
 - Pembaruan
-       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
-       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
-       - [Kartu Anime Satu Klik](Auto-Mining%20Anime.md): bagian FAQ baru berisi terjemahan dokumentasi Yomipv soal jendela kamus, warna subtitle sesuai status kartu, AniList, dan cara atur definisi yang masuk ke kartu
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): bagian FAQ baru berisi terjemahan dokumentasi Yomipv soal jendela kamus, warna subtitle sesuai status kartu, AniList, dan cara atur definisi yang masuk ke kartu
+       - Tombol "sebelumnya/berikutnya" di bawah halaman dan teks lain bawaan situs sekarang berbahasa Indonesia
 - Perbaikan
        - Tautan (?) ke halaman cara ekstrak file dihapus dari langkah ekstrak di Panduan Ringkas, Setup Anki PC, dan Setup Yomitan PC & Android
 
@@ -161,7 +253,7 @@ hide:
 - Setup Utama
        - Penambahan Panduan [Setup Manatan](Setup-Manatan.md)
 - Setup PC
-       - Penambahan Panduan [Mining Windows](Auto-Mining Anime.md)
+       - Penambahan Panduan [Mining Windows](kartu-anime-satu-klik.md)
 	   
 ---
 

@@ -2,74 +2,74 @@
 # Setup Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
 ---
 
- Diunggah: 1 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
+ Diunggah: 1 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
-- Anki adalah program flash card berbasis SRS (Spaced Repetition System) untuk _review_ kartu yang penjadwalan ulangnya ditentukan oleh algoritma.
-- Bisa digunakan di perangkat mobile juga.
+- Anki adalah program flashcard berbasis SRS (Spaced Repetition System). Algoritmanya yang menentukan kapan setiap kartu perlu diulas lagi.
+- Bisa dipakai juga di HP.
 - Tampilan Anki: [Light](img/anki-pc-light.png) | [Dark](img/anki-pc-dark.png)
 
 ---
 
-- Mau update Format Lapis (atau note type lain) yang sudah kamu punya?
+- Mau memperbarui format Lapis (atau note type lain) yang sudah kamu punya?
     - Buka [Memperbarui Note Type](pembaruan-note-type.md)
 
 ---
 
 ## Unduh dan Pasang
 
-- Instal Anki di `PC` [Anki](https://apps.ankiweb.net/)
-    - [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en_US) | [iOS](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (Panduan ini untuk `PC`, tapi nanti bisa dipakai juga di HP)
-- Unduh [Anki addons](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing)
+- Pasang [Anki](https://apps.ankiweb.net/) di PC
+    - [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en_US) | [iOS](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (panduan ini untuk PC, tapi hasilnya nanti bisa dipakai juga di HP)
+- Unduh [add-on Anki](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing)
 
 ---
 
 ## Cara Setup
-1. Buka Anki, buat akun dan profil dengan klik tombol `Sync`
+1. Buka Anki, lalu klik `Sync` untuk membuat akun dan profil
 
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
-2. Ekstrak file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
+2. Ekstrak file `Anki addons21.7z` (password: `lazyguide`), lalu pindahkan folder `addons21` ke folder Anki sesuai sistem operasimu
 
     === "Windows"
-        Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
+        Folder di Windows: `C:\Users\NamaUserKamu\AppData\Roaming\Anki2`
         ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
     === "MacOS"
-        Folder MacOS = `~/Library/Application Support/Anki2`
+        Folder di MacOS: `~/Library/Application Support/Anki2`
 
-        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd++++shift++ + G) > paste alamat folder di atas > tekan `Enter`
+        Folder `Library` tersembunyi secara bawaan, jadi buka lewat `Finder` > `Go` > `Go to Folder...` (++cmd+shift+g++), tempel alamat folder di atas, lalu tekan ++enter++
 
         ![Finder Go to Folder](img/finder-go-to-folder.jpg){height=50% width=50%}
 
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
 
-3. Restart Anki kamu, lalu tekan ++ctrl++++shift++ + A (Win)/++cmd++++shift++ + A (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
-    - Update semua `addons` lalu restart lagi
+3. Tutup lalu buka lagi Anki. Tekan ++ctrl+shift+a++ (Windows) atau ++cmd+shift+a++ (MacOS) untuk membuka menu add-on, atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
+    - Perbarui semua add-on, lalu tutup dan buka lagi Anki
 
     ![Anki Addons Update](img/addons-update.png){height=250 width=500}
 
 4. Unduh format [Lapis](https://github.com/donkuri/lapis/releases/latest)
-    - Scroll ke bagian Assets, cari `Lapis.apkg`
+    - Gulir ke bagian `Assets`, lalu cari `Lapis.apkg`
 
     ![lapis apkg](img/lapis-apkg.png){height=150 width=300}
 
-5. Impor `Lapis.apkg` ke Anki dengan langsung buka file yang sudah diunduh sebelumnya, akan muncul tampilan ini, tekan `Import`
+5. Buka file `Lapis.apkg` yang tadi diunduh untuk mengimpornya ke Anki. Saat tampilan ini muncul, klik `Import`
 
     ![lapis import](img/lapis-import.png){height=300 width=600}
 
-6. Ganti nama `Lapis` jadi `Mining Deck`
+6. Ganti nama dek `Lapis` jadi `Mining Deck`
 
     ![Deck rename](img/deck-rename.png){height=250 width=500}
 
-7. Masuk ke opsi `Deck` kamu, desktop dengan tekan ikon gir, Android dengan tahan `Deck` lalu pilih Deck Option, lalu salin [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
+7. Buka opsi dek kamu. Di desktop, klik ikon gir di samping dek. Di Android, tahan nama dek lalu pilih `Deck Option`. Samakan isinya dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
     - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Aktifkan `FSRS`
         - Isi `Desired Retention` dengan `85%`
-    - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Dalam 1 bulan pertama, pakai `FSRS Parameter` default; setelah itu:
-        - Tekan `Optimize Current Preset` setiap bulan
-        - (Opsional) `Deck Options` > `FSRS Helper` > `Reschedule all cards`
+    - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Selama bulan pertama, biarkan `FSRS Parameter` bawaan. Setelah itu:
+        - Klik `Optimize Current Preset` setiap bulan
+        - (Opsional) Klik `Deck Options` > `FSRS Helper` > `Reschedule all cards`
 
-    - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_4)
+    - Klik `Tools` > `Preferences` di menu kiri atas, lalu samakan isinya dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_4)
 
     === "Pengaturan 1"
         ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
@@ -82,9 +82,9 @@
     === "Preferensi Anki (Android)"
         ![Anki Preference Settings](img/anki-preference-settings-android.jpg){height=300 width=600}
 
-8. Restart `Anki` kamu dan selesai deh!
+8. Tutup lalu buka lagi Anki. Selesai!
 
-Template Anki kamu udah siap, selanjutnya setup Yomitan:
+Template Anki kamu sudah siap. Selanjutnya, siapkan Yomitan:
 
 [Langsung ke Setup Yomitan](setup-yomitan-pc-lazy-guide.md){ .md-button .md-button }
 
@@ -94,12 +94,12 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 #### Info 1: Daftar Add-ons Anki
 
-??? info "Daftar Add-ons Anki <small>(klik untuk buka)</small>"
+??? info "Daftar add-on Anki <small>(klik untuk buka)</small>"
 
-    Daftar Add-ons Anki yang digunakan:
+    Daftar add-on Anki yang dipakai:
 
-    - Kamu bisa cari tahu fungsinya dengan klik `View Add-on Page`
-    - Sebagian besar bisa diakses dari menu `Tools` di `Taskbar`
+    - Fungsi tiap add-on bisa dicek dengan klik `View Add-on Page`
+    - Sebagian besar bisa dibuka dari menu `Tools` di bagian atas jendela Anki
 
     ![Anki Add-Ons](img/anki-addons.png){height=250 width=500}
 
@@ -107,7 +107,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? info "Mode Terang & Gelap Anki <small>(klik untuk buka)</small>"
 
-    Untuk ganti tema Anki, klik `Tools` > `Preferences` > `Theme`
+    Klik `Tools` > `Preferences` > `Theme` untuk mengganti tema Anki.
 
     ![Anki Theme](img/anki-theme.png){height=300 width=600}
 
@@ -115,26 +115,26 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? info "Cara Atur Retention <small>(klik untuk buka)</small>"
 
-    Kalau kamu merasa retensi kamu rendah, buka [Tentang Retention](tentang-retention.md) buat saran pengaturan Anki dan tips lainnya. (Tutorial belum dibuat, tunggu pembaruan selanjutnya, ya)
+    Kalau retensimu terasa rendah, buka [Tentang Retention](tentang-retention.md) untuk saran pengaturan Anki dan tips lainnya. (Halamannya belum selesai, tunggu pembaruan berikutnya, ya.)
 
 #### Info 4: Diagram Troubleshooting Interval FSRS
 
 ??? info "Diagram Troubleshooting Interval FSRS <small>(klik untuk buka)</small>"
 
-    Kalau interval kartu kamu terasa aneh (terlalu panjang atau terlalu pendek), ikuti diagram ini. [Sumber](https://www.reddit.com/r/Anki/comments/1mrsr30/i_updated_the_fsrs_interval_troubleshooting/)
+    Kalau interval kartumu terasa aneh (terlalu panjang atau terlalu pendek), ikuti diagram ini. [Sumber](https://www.reddit.com/r/Anki/comments/1mrsr30/i_updated_the_fsrs_interval_troubleshooting/)
 
     ![FSRS Interval Troubleshooting](img/fsrs-interval-troubleshooting.png){height=70% width=70%}
 
-#### Tip 1: Saat Review di Anki
+#### Tip 1: Saat Mengulas Kartu di Anki
 
-??? tip "Saat Review di Anki <small>(klik untuk buka)</small>"
+??? tip "Saat mengulas kartu di Anki <small>(klik untuk buka)</small>"
 
-    - Cukup pakai tombol `again (1 = lupa)` atau `good (spasi/3 = tahu)` aja. Gak perlu ribet mikir `easy (2)` atau `hard (4)`
-    - Cara penilaian simpelnya gini:
-         - Bisa baca ✅ tau makna ✅ = Good/Pass
-         - Bisa baca ✅ tau makna ❌ = Again/Fail
-         - Bisa baca ❌ tau makna ✅ = Again/Fail
-         - Bisa baca ❌ tau makna ❌ = Again/Fail
+    - Cukup pakai tombol `again (1 = lupa)` atau `good (spasi/3 = tahu)` saja. Tidak perlu repot memikirkan `hard (2)` atau `easy (4)`
+    - Cara menilainya sederhana:
+         - Bisa baca ✅ tahu makna ✅ = Good/Pass
+         - Bisa baca ✅ tahu makna ❌ = Again/Fail
+         - Bisa baca ❌ tahu makna ✅ = Again/Fail
+         - Bisa baca ❌ tahu makna ❌ = Again/Fail
 
 #### Tip 2: Warna Pitch Accent Anki
 
@@ -148,25 +148,27 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? tip "Ganti Kamus Bilingual/Monolingual <small>(klik untuk buka)</small>"
 
-    Saat review kartu, kamu bisa klik bagian kiri definisinya buat ganti antara `Monolingual` dan `Bilingual`
+    Saat mengulas kartu, klik bagian kiri definisi untuk berganti antara `Monolingual` dan `Bilingual`
 
     ![Anki Glossary Switch](img/anki-glossary-switch.png){height=250 width=500}
 
-## FAQs
+---
 
-#### Pertanyaan 1: Bisa nambah gambar selain screenshot?
+## Pertanyaan Umum
 
-??? question "Bisa nambah gambar selain screenshot <small>(klik untuk buka)</small>"
+#### Pertanyaan 1: Bisa menambah gambar selain screenshot?
 
-    - Kamu bisa tambahkan banyak gambar ke kolom `DefinitionPicture` lewat `Anki` > `Browse` > pilih `Card`
+??? question "Bisa menambah gambar selain screenshot? <small>(klik untuk buka)</small>"
 
-    - Atau tempel langsung saat review dengan mode `Edit` (tekan `E`)
+    - Bisa. Tambahkan gambar sebanyak yang kamu mau ke field `DefinitionPicture` lewat `Browse` di Anki, lalu pilih kartunya
 
-#### Pertanyaan 2: Kalau ada masalah sama Format Lapis gimana?
+    - Atau tempel langsung saat mengulas lewat mode `Edit` (tekan ++e++)
 
-??? question "Kalau ada masalah sama Format Lapis gimana? <small>(klik untuk buka)</small>"
+#### Pertanyaan 2: Bagaimana kalau ada masalah dengan Format Lapis?
 
-    - Langsung cek [FAQ Lapis](https://github.com/donkuri/lapis?tab=readme-ov-file#faq)
+??? question "Ada masalah dengan format Lapis? <small>(klik untuk buka)</small>"
+
+    - Cek [FAQ Lapis](https://github.com/donkuri/lapis?tab=readme-ov-file#faq)
 
 #### Pertanyaan 3: Mau ganti font atau ukuran teks?
 
@@ -174,28 +176,28 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
     - Cek [panduan ini](https://github.com/donkuri/lapis?tab=readme-ov-file#how-can-i-change-the-font-size)
 
-#### Pertanyaan 4: Deck bisa diganti nama?
+#### Pertanyaan 4: Dek bisa diganti nama?
 
-??? question "Deck bisa diganti nama? <small>(klik untuk buka)</small>"
+??? question "Dek bisa diganti nama? <small>(klik untuk buka)</small>"
 
-    - Secara teknis bisa, tapi tidak disarankan. Kamu harus setting ulang `Anki Card Format` di Yomitan dan Add-on `AutoReorder` di Anki
+    - Secara teknis bisa, tapi tidak disarankan. Kamu harus mengatur ulang `Anki Card Format` di Yomitan dan add-on `AutoReorder` di Anki
 
-#### Pertanyaan 5: Gimana cara pakai sentence card?
+#### Pertanyaan 5: Bagaimana cara memakai sentence card?
 
-??? question "Gimana cara pakai sentence card? <small>(klik untuk buka)</small>"
+??? question "Bagaimana cara memakai sentence card? <small>(klik untuk buka)</small>"
 
-    Silakan setup [Yomitan](setup-yomitan-pc-lazy-guide.md) dulu kalau belum (ini panduan selanjutnya setelah ini)
+    Ikuti [Setup Yomitan](setup-yomitan-pc-lazy-guide.md) dulu kalau belum. Panduan itu urutan berikutnya setelah halaman ini.
 
-    ??? info "Saya udah setup Yomitan kok <small>(klik untuk buka)</small>"
+    ??? info "Yomitan sudah terpasang <small>(klik untuk buka)</small>"
 
-        Masuk ke `Yomitan settings` > `Anki` > `configure Anki card format...`
+        Buka `Yomitan settings` > `Anki` > `configure Anki card format...`
 
         ![Sentence Card Instruction 1](img/sentence-card-instruction-1.png){height=300 width=600}
         
-        Di tab `Terms` (di yomitan versi lama namanya Terms, di versi baru ada di bagian Expression), scroll ke bawah, cari `IsSentenceCard`, dan isi dengan `1`, lalu tutup jendelanya
+        Di tab `Terms` (nama di Yomitan versi lama; di versi baru bagian ini bernama `Expression`), gulir ke bawah, cari `IsSentenceCard`, isi dengan `1`, lalu tutup jendelanya
 
         ![Sentence Card Instruction 2](img/sentence-card-instruction-2.png){height=300 width=600}
 
-        Terapkan pengaturan ini di semua profil di `Active Profile` (versi lama ada Editing dan default profile, bisa diabaikan), pastikan semua seperti `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)` juga sudah diubah
+        Terapkan pengaturan ini di semua profil lewat `Active Profile`. Pastikan `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)` sudah diubah semua. Di versi lama ada juga profil Editing dan default, keduanya bisa diabaikan
 
         ![Yomitan Profile](img/yomitan-profiles.png){align=left height=300 width=600}

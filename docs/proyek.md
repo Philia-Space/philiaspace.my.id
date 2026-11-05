@@ -21,6 +21,17 @@ Belum pasang Yomitan? Ikuti [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) a
 [JIDict Web (kamus offline di browser)](https://jidict.vercel.app/){ .md-button }
 </div>
 
+### JIDict Frequency
+
+**Kamus frekuensi Jepang-Indonesia pertama dalam format Yomitan.** Berisi 13.168 kosakata level N1 sampai N5, disusun dari JIDict. Di popup kamus, kata yang punya data frekuensi akan menampilkan angkanya, jadi kamu tahu kata mana yang lebih penting dipelajari duluan. Bisa dipakai di Yomitan dan Yomichan, dan bisa diperbarui otomatis lewat **Check for Updates** di pengaturan Yomitan.
+
+Cara pasangnya sama dengan JIDict: unduh ZIP-nya, lalu impor di **Dictionaries** → **Import**.
+
+<div class="ps-actions" markdown="span">
+[Unduh JIDict Frequency](https://github.com/philiaspaceai/jidict-frequency-yomitan/releases/latest/download/jidict-frequency-yomitan.zip){ .md-button .md-button--primary }
+[Repo JIDict Frequency](https://github.com/philiaspaceai/jidict-frequency-yomitan){ .md-button }
+</div>
+
 ---
 
 ## Alat Belajar Lainnya
@@ -68,6 +79,8 @@ Belum pasang Yomitan? Ikuti [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) a
   </div>
 
 </div>
+
+---
 
 ## Untuk yang Mau Kerja di Jepang
 

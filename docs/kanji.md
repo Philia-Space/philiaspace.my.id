@@ -1,106 +1,124 @@
 # Belajar Kanji
----
-
- Diunggah: 10 Agustus 2025 – `Yaaacha`
 
 ---
+
+Diunggah: 10 Agustus 2025 · Diperbarui: 6 November 2026 – `Yaaacha`
+
+---
+
 ??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adalah terjemahan dari [TheMoeWay](https://learnjapanese.moe/kanji/) dengan beberapa pengubahan referensi dan lokalisasi sumber Bahasa Indonesia
+    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/kanji/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
+    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
 
-    - Jika kamu bisa bahasa inggris, kamu bisa kunjungi panduan di sana
+"Belajar kanji" kedengarannya wajar. Tapi coba pikir lagi: yang dipelajari itu apa?
 
-Kalau ada orang bilang “belajar kanji”, jujur aku agak tergelitik, soalnya hal itu sebenarnya agak nggak masuk akal.  
-Kamu nggak bisa cuma “belajar” sebuah kanji, karena kanji itu punya banyak banget komponen di dalamnya. Kamu nggak bisa gitu aja dibilang udah “menguasai” kanji tertentu. Mengenai belajar kanji ini seakan-akan sama kayak bilang, “Aku belajar mobil”, “Aku belajar gaming”, atau bahkan “Aku belajar bahasa Jepang” misalnya. Maksudnya gimana tuh kalau kamu bilang “Aku lagi belajar kanji”?
+Satu kanji punya arti, beberapa cara baca, urutan goresan, dan puluhan kata yang memakainya. Bilang "sedang belajar kanji" itu mirip bilang "sedang belajar mobil". Terlalu luas, sampai tidak jelas maksudnya.
 
-Halaman ini bakal ngebahas seberapa bergunanya belajar kanji secara terpisah (isolated kanji study), yang biasanya jadi bayangan orang kalau denger kata “belajar kanji”. Padahal, dalam jangka panjang, belajar kanji itu akan selalu nyatu sama belajar kosakata (Kanji with Vocab). Nah, sekarang kita lihat seberapa bergunanya belajar kanji secara terpisah!
+Biasanya yang dimaksud adalah belajar kanji secara terpisah (*isolated kanji study*): menghafal kanji satu per satu, lepas dari kata yang memakainya. Halaman ini membahas empat bagian dari cara itu dan seberapa berguna masing-masing. Ringkasnya:
 
-### Belajar Arti Kanji – Lumayan Membantu
+| Bagian | Perlu? |
+|---|---|
+| [Arti](#arti-lumayan-membantu) | Lumayan membantu, terutama untuk pemula |
+| [Cara baca secara terpisah](#cara-baca-secara-terpisah-jangan) | Jangan |
+| [Urutan goresan](#urutan-goresan-wajib) | Wajib, tapi cukup dasarnya |
+| [Menulis tangan](#menulis-tangan-tergantung) | Tergantung kebutuhanmu |
 
-Belajar arti sebuah “kanji” itu oke banget kalau kanji itu memang sebuah kata utuh, kayak [麓](https://jisho.org/search/%20%23kanji%20%E9%BA%93), [源](https://jisho.org/search/%20%23kanji%20%E6%BA%90), [力](https://jisho.org/search/%20%23kanji%20%E5%8A%9B), dan lain-lain. Tapi, bisa dibilang juga, sebenarnya kamu lagi belajar *kata* bukan *kanji*.  
-Selain itu, belajar arti kanji **bisa berguna** buat kata seperti [連続](https://jisho.org/word/%E9%80%A3%E7%B6%9A) yang artinya “keberlanjutan, berlanjut” — arti kanjinya sendiri adalah *serial, berurutan*. Mengingat arti ini bisa membantu kalau kamu sering banget lupa arti suatu kata. Tapi, seberapa efektifnya metode ini masih bisa diperdebatkan. Ada yang bilang kalau kata kunci yang kamu tempelin ke kanji itu bakal memudar seiring kemampuan bahasa Jepangnya meningkat, dan kalau kamu udah jago bahasa Jepang tanpa pernah belajar arti kanji pun, kamu bakal tahu arti [連](https://jisho.org/search/%E9%80%A3%20%23kanji) secara otomatis.  
+Dalam jangka panjang, kanji paling efektif dipelajari lewat kosakata.
 
-Kalau kamu belajar [茶](https://jisho.org/search/%E8%8C%B6%20%23kanji) sebagai sebuah kata, kamu bakal tahu artinya *teh*. Jadi kalau nemu [紅茶](https://jisho.org/word/%E7%B4%85%E8%8C%B6) dan [抹茶](https://jisho.org/search/%E6%8A%B9%E8%8C%B6), kamu bisa nebak kalau dua-duanya juga termasuk jenis *teh*.  
+---
 
-Selain itu, orang Jepang sendiri biasanya mendeskripsikan 連 sebagai “[連勝](https://jisho.org/word/%E9%80%A3%E5%8B%9D)の連” atau “[連射](https://jisho.org/word/%E9%80%A3%E5%B0%84)の連” — bukan kata kunci yang kamu hafalin waktu belajar.  
+### Arti – Lumayan Membantu
 
-**Kesimpulan:** Lumayan berguna buat pemula, tapi sebenarnya nggak terlalu penting.
+Menghafal arti kanji berguna kalau kanji itu sendiri sudah berupa kata, seperti [麓](https://jisho.org/search/%20%23kanji%20%E9%BA%93) (kaki gunung), [源](https://jisho.org/search/%20%23kanji%20%E6%BA%90) (sumber), atau [力](https://jisho.org/search/%20%23kanji%20%E5%8A%9B) (tenaga). Tapi kalau dipikir lagi, yang kamu pelajari di sini sebenarnya *kata*, bukan *kanji*.
 
-### Belajar Cara Baca (Onyomi dan Kunyomi) secara terpisah – BIG NO.
+Arti kanji juga bisa membantu menebak arti kata gabungan. Kalau kamu sudah tahu [茶](https://jisho.org/search/%E8%8C%B6%20%23kanji) artinya *teh*, kamu bisa menebak bahwa [紅茶](https://jisho.org/word/%E7%B4%85%E8%8C%B6) dan [抹茶](https://jisho.org/search/%E6%8A%B9%E8%8C%B6) juga sejenis teh. Begitu juga [連続](https://jisho.org/word/%E9%80%A3%E7%B6%9A) (*berturut-turut*): kalau sering lupa artinya, ingat saja bahwa 連 berarti *berurutan*.
 
-Di sini aku nggak ngomongin belajar kata, misalnya ada kata [夢中](https://jisho.org/word/%E5%A4%A2%E4%B8%AD) plus contoh kalimat yang berguna :grin:  
-Maksudku itu yang kayak gini:
+Hanya saja, manfaatnya tidak sebesar yang dibayangkan:
 
-> Kanji: 涯  
+- Kata kunci yang kamu tempelkan ke tiap kanji lama-lama memudar seiring kemampuanmu naik
+- Orang yang sudah lancar bahasa Jepang tetap tahu arti [連](https://jisho.org/search/%E9%80%A3%20%23kanji) walaupun tidak pernah menghafal arti kanji
+- Orang Jepang sendiri menjelaskan kanji lewat kata yang memakainya, misalnya "[連勝](https://jisho.org/word/%E9%80%A3%E5%8B%9D)の連" atau "[連射](https://jisho.org/word/%E9%80%A3%E5%B0%84)の連", bukan lewat kata kunci
+
+**Kesimpulan:** lumayan membantu untuk pemula, tapi tidak wajib.
+
+---
+
+### Cara Baca secara Terpisah – Jangan
+
+Yang dimaksud di sini bukan belajar kata seperti [夢中](https://jisho.org/word/%E5%A4%A2%E4%B8%AD) beserta contoh kalimatnya. Yang dimaksud adalah menghafal seperti ini:
+
+> 涯  
 > Kun: はて  
-> On: ガイ  
+> On: ガイ
 
-<h3> ↑ JANGAN BELAJAR KANJI KAYAK GINI ↑ </h3>
+<h3>↑ Jangan belajar kanji seperti ini ↑</h3>
 
-Belajar cara baca kanji satu per satu itu sangat-sangat buang-buang waktu. Bacaan kanji itu nggak konsisten. Banyak kanji yang punya lebih dari satu onyomi dan kunyomi. Contohnya:
+Cara baca kanji tidak konsisten. Banyak kanji punya beberapa onyomi dan kunyomi, dan bacaan yang dipakai bergantung pada katanya:
 
-| Kata    | Bacaan | | Kata    | Bacaan |
-| :--------: | :-------: | | :--------: | :-------: | 
-| [家路](https://jisho.org/word/%E5%AE%B6%E8%B7%AF)  |  いえじ   | | [家賃](https://jisho.org/word/%E5%AE%B6%E8%B3%83) | やちん    | 
-| [通路](https://jisho.org/word/%E9%80%9A%E8%B7%AF)    | つうろ   | | [漫画家](https://jisho.org/word/%E6%BC%AB%E7%94%BB%E5%AE%B6) | まんがか | 
-| [小学校](https://jisho.org/word/小学校) | しょうがっこう | | [袋小路](https://jisho.org/word/袋小路)| ふくろこうじ | 
-| [素足](https://jisho.org/word/素足) | すあし| | [素人](https://jisho.org/word/素人) | しろうと | 
-| [恋人](https://jisho.org/word/恋人) | こいびと | | [日本人](https://jisho.org/word/日本人) | にほんじん | 
-| [狩人](https://jisho.org/word/狩人) | かりゅうど | 
+| Kata | Bacaan | | Kata | Bacaan |
+| :---: | :---: | | :---: | :---: |
+| [家路](https://jisho.org/word/%E5%AE%B6%E8%B7%AF) | いえじ | | [家賃](https://jisho.org/word/%E5%AE%B6%E8%B3%83) | やちん |
+| [通路](https://jisho.org/word/%E9%80%9A%E8%B7%AF) | つうろ | | [漫画家](https://jisho.org/word/%E6%BC%AB%E7%94%BB%E5%AE%B6) | まんがか |
+| [小学校](https://jisho.org/word/小学校) | しょうがっこう | | [袋小路](https://jisho.org/word/袋小路) | ふくろこうじ |
+| [素足](https://jisho.org/word/素足) | すあし | | [素人](https://jisho.org/word/素人) | しろうと |
+| [恋人](https://jisho.org/word/恋人) | こいびと | | [日本人](https://jisho.org/word/日本人) | にほんじん |
+| [狩人](https://jisho.org/word/狩人) | かりゅうど | | | |
 
-dan favorit kita semua: [生](https://jisho.org/search/%20%23kanji%20%E7%94%9F)
+Lalu juara bertahannya, [生](https://jisho.org/search/%20%23kanji%20%E7%94%9F):
 
-| Kata    | Bacaan | | Kata    | Bacaan |
-| :--------: | :-------: | | :--------: | :-------: | 
-| [先生](https://jisho.org/word/先生/) | せんせい | | [生涯](https://jisho.org/word/生涯) | しょうがい | 
+| Kata | Bacaan | | Kata | Bacaan |
+| :---: | :---: | | :---: | :---: |
+| [先生](https://jisho.org/word/先生/) | せんせい | | [生涯](https://jisho.org/word/生涯) | しょうがい |
 | [生粋](https://jisho.org/word/生粋) | きっすい | | [芝生](https://jisho.org/word/芝生) | しばふ |
-| [生き残る](https://jisho.org/word/生き残る) | いきのこる | | [生ビール](https://jisho.org/word/生き残る) | なまびーる | 
-| [生真面目](https://jisho.org/word/生真面目) | きまじめ | | [生い茂る](https://jisho.org/word/生い茂る) | おいしげる|
+| [生き残る](https://jisho.org/word/生き残る) | いきのこる | | [生ビール](https://jisho.org/word/生ビール) | なまビール |
+| [生真面目](https://jisho.org/word/生真面目) | きまじめ | | [生い茂る](https://jisho.org/word/生い茂る) | おいしげる |
 
-Selain itu, ngafalin cara baca dengan format gini juga susah diinget:  
-`涯`  
-`Kun: はて`  
-`On: ガイ`  
+Menghafal "Kun: はて, On: ガイ" juga susah karena tidak ada yang bisa dikaitkan. Bacaan jauh lebih gampang diingat kalau muncul di dalam kata, misalnya [生涯](https://jisho.org/word/生涯) di kartu Anki. Kalau kamu sudah tahu [涙腺](https://jisho.org/word/涙腺) dibaca るいせん, lalu bertemu [熱涙](https://jisho.org/word/熱涙), kamu langsung bisa menebak bahwa [涙](https://jisho.org/search/%E6%B6%99%20%23kanji) di situ dibaca るい.
 
-Jauh lebih gampang nginget kalau dia ada di sebuah kata, misalnya [生涯](https://jisho.org/word/生涯) di kartu Anki atau semacamnya.  
-Kalau kamu udah belajar [涙腺](https://jisho.org/word/涙腺)「るいせん」terus ketemu [熱涙](https://jisho.org/word/熱涙), kamu bakal langsung tahu kalau bagian [涙](https://jisho.org/search/%E6%B6%99%20%23kanji) dibaca るい, bener kan?  
+**Kesimpulan:** buang-buang waktu. Jangan hafalkan bacaan kanji, pelajari katanya.
 
-Intinya, bacaan akan jauh lebih gampang diingat kalau ada di konteks kata asli yang memang bisa kamu pakai. Ngafalin bacaan kanji secara terpisah itu sangat buang-buang waktu.
+---
 
-**Kesimpulan:** Nggak ada gunanya. Jangan belajar bacaan kanjinya, belajar kosakatanya aja.
+### Urutan Goresan – Wajib
 
+Urutan goresan (*stroke order*) itu wajib. Bukan berarti kamu harus menghafal urutan goresan setiap kanji baru. Yang penting kamu paham **aturan dasarnya**, supaya bisa menebak urutan goresan kanji yang belum pernah kamu tulis dengan benar hampir setiap kali.
 
-### Belajar Urutan Goresan (Stroke Order) – Wajib
+Contoh aturan dasar yang berlaku di banyak kanji:
 
-Belajar urutan goresan itu wajib. Nah, maksudku bukan berarti kamu harus ngafalin semua urutan goresan untuk setiap karakter baru, bukan. Maksudku adalah kuasai dulu dasarnya, supaya kamu bisa nebak urutan goresan karakter baru dengan akurasi 90%.  
+- Cara menulis kotak seperti 口 beserta isinya
+- Urutan garis tegak dan mendatar yang saling bersilangan, seperti di 井, 艹, 王, 丰, dan 羊
+- Cara menulis 己 yang terpakai lagi di 起, dan bagian bawah 起 yang sama dengan 足
+- Goresan pertama katakana チ yang terpakai di 私, lalu di 香 dan 馨
 
-Misalnya, aturan nulis kotak seperti 口 dan apa yang ada di dalamnya, atau aturan urutan garis vertikal dan horizontal saat saling nyilang seperti di 井, 艹, 王, 丰, atau 羊, dll. Cara nulis 己 yang bisa diterapkan ke 起, dan bagian bawahnya bisa dipelajari dari urutan goresan 足. Goresan pertama チ (katakana) bisa diterapkan ke 私, yang bisa diterapkan lagi ke 香 dan 馨.  
+Semuanya saling terhubung. Mirip dengan RTK (*Remembering the Kanji*), walau tidak sama. Untuk kanji yang bentuknya aneh seperti 飛, kamu mungkin tetap perlu melihat urutannya. Tapi kalau sudah paham dasarnya dari 押 dan 車, menulis kanji yang belum kamu kenal seperti 揮 tidak akan jadi masalah.
 
-Cara ini nggak kaya RTK (Remembering The Kanji), beda, tapi mirip. Semua nyambung. Tentu, untuk karakter ribet kayak 飛, kadang kamu perlu lihat urutan goresannya. Tapi kalau kamu udah paham dasar-dasarnya dari, misalnya, 押 dan 車, nulis karakter yang belum kamu tahu seperti 揮 nggak akan jadi masalah :grin:  
+**Kesimpulan:** wajib, tapi jangan sampai kewalahan sendiri.
 
-**Kesimpulan:** Wajib, tapi jangan sampai kebanyakan mikir atau bikin diri sendiri kewalahan.
+---
 
+### Menulis Tangan – Tergantung
 
-### Belajar Cara Nulis Kanji (dengan tangan + pen/pensil) – Tergantung
+Ini beda dengan urutan goresan. Walaupun kamu sudah tahu sebuah kata dan urutan goresan kanjinya, besar kemungkinan kamu tetap lupa cara menulisnya saat benar-benar harus menulis.
 
-Ini beda sama yang tadi kita bahas soal urutan goresan.  
-Sayangnya, walaupun kamu udah tahu kata itu dan urutan goresan kanji yang nyusunnya, besar kemungkinan pas beneran disuruh nulis, kamu nggak bakal inget gimana cara nulisnya. Masalah ini bisa diatasi dengan belajar nulis tiap kata secara langsung. Caranya? Tulis kalimat (jangan nulis kata yang terisolasi, tapi tulis dalam bentuk kalimat, ini membantu soal proporsi).  
+Kalau memang perlu, latih menulis kata demi kata. Tulis dalam bentuk kalimat, bukan kata lepas, supaya proporsi hurufnya ikut terlatih.
 
-Tapi ya… kegunaan belajar nulis tangan ini bisa diperdebatkan.  
-Di zaman teknologi kayak sekarang, emang perlu banget nulis semua kata itu? Kayaknya nggak juga. Kamu tinggal ketik di IME dan beres. Kecuali kamu punya tujuan untuk bekerja atau belajar yang sangat mengharuskan bisa menulis kanji. Kamu bisa prioritasin aja nulis nama dan alamatmu. Habis itu bisa kamu abaikan.
+Pertanyaannya: perlukah? Sekarang hampir semua tulisan diketik lewat keyboard (IME). Jadi pikirkan kebutuhanmu:
 
-Dengan begitu, pikirkan prioritas kamu: kalau kamu kerja di Jepang dan memang perlu nulis tangan bahasa Jepang buat pekerjaan, jelas ini jadi hal yang wajib. Tapi kalau nggak, menurutku sih nggak ada gunanya.  
+- **Bekerja atau sekolah di Jepang dan harus menulis tangan:** wajib. Mulai dari yang paling sering dipakai, misalnya nama dan alamatmu sendiri
+- **Selain itu:** menurut TheMoeWay, tidak perlu
 
-**Kesimpulan:** Tergantung.
+**Kesimpulan:** tergantung kebutuhan.
 
-### Kesimpulan Utama – Belajar Kosakata, Bukan Kanji
+---
 
-Aku bener-bener nggak suka sama kalimat, “Aku lagi belajar kanji”, soalnya nggak masuk akal. Tiap kali ada yang ngomong gitu, jelas mereka nggak tahu kalau yang mereka “pelajari” itu, secara simpel, ya… bisa dibilang nggak berguna.  
+### Kesimpulan Utama – Pelajari Kata, Bukan Kanji
 
-Mau pakai cara “keren” apapun buat ngapalin lebih dari 2.000 kanji itu (RTK, KKLC, WaniKani, dll.), ujung-ujungnya kamu tetep harus baca teks bahasa Jepang ratusan jam dan ngapalin banyak kosakata supaya bener-bener “menguasai” kanji.  
+Apa pun cara keren yang kamu pakai untuk menghafal lebih dari 2.000 kanji (RTK, KKLC, WaniKani, dan lainnya), ujung-ujungnya kamu tetap harus membaca bahasa Jepang ratusan jam dan menghafal banyak kosakata supaya benar-benar "menguasai" kanji.
 
-Buatku, sebuah kanji baru dianggap “dikuasai” kalau kamu tahu semua kata umum yang make kanji itu *dan* bisa nulisnya dari ingetan penuh tanpa lihat contekan.  
+Ukurannya begini: sebuah kanji baru dianggap dikuasai kalau kamu tahu semua kata umum yang memakainya, **dan** bisa menulisnya dari ingatan tanpa contekan.
 
-Jadi jangan “belajar kanji”, belajarlah kosakata.  
-Jangan cuma “belajar” kanji, tapi rasakan kanji.
+Jadi, jangan "belajar kanji". Pelajari kata, dan biarkan kanjinya terasa sendiri.
 
-**Honorable Credit:** Tae Kim, makasih idenya.
+Kanji akan kamu temui terus saat immersion. Pasang kamus popup seperti [JIDict](proyek.md#proyek-utama-jidict) supaya setiap kata baru bisa langsung dicari dan dijadikan kartu.
+
+**Terima kasih:** Tae Kim, atas idenya.
