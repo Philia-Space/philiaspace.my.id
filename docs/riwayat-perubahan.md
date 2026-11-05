@@ -56,6 +56,19 @@ hide:
        - Tautan asbplayer di [30 Hari Awal](rutinitas-awal.md), [Anime MacOS](setup-anime-pc-lazy-guide.md), dan [Anime Android](setup-anime-android-lazy-guide.md) diganti ke alamat barunya
        - Daftar rekomendasi anime di Hari 2 yang sebelumnya berupa tabel berantakan sekarang jadi daftar biasa
 
+**05-11-2026** · Penyuntingan Bahasa Tahap 2
+
+- Pembaruan
+       - Bahasa di semua halaman LazyGuide dirapikan mengikuti panduan gaya: [Pengantar](setup.md), [Anki PC](setup-anki-pc-lazy-guide.md), [Yomitan PC](setup-yomitan-pc-lazy-guide.md), [Yomitan Android](setup-yomitan-android-lazy-guide.md), [ShareX](setup-ShareX-pc.md), Anime, LN & Buku, dan Manga untuk PC dan Android, serta [Memperbarui Note Type](pembaruan-note-type.md)
+       - Judul bagian di halaman-halaman itu ikut diseragamkan, misalnya "Download dan Install" jadi "Unduh dan Pasang" dan "FAQs" jadi "Pertanyaan Umum", jadi tautan ke bagian lama yang tersimpan perlu diganti
+       - Langkah untuk HP sekarang memakai "tekan", langkah untuk PC memakai "klik"
+- Perbaikan
+       - [Yomitan PC](setup-yomitan-pc-lazy-guide.md): judul halaman yang sebelumnya tidak tampil sebagai judul
+       - [Anki PC](setup-anki-pc-lazy-guide.md): tombol Anki yang tertukar (Hard itu ++2++, Easy itu ++4++)
+       - [Manga PC](setup-manga-pc-lazy-guide.md): perintah PowerShell untuk menghapus Python bawaan Windows yang diawali kata `input` sehingga gagal kalau disalin, dan sub-poin langkah OCR yang tampil sebagai langkah bernomor terpisah
+       - [Anime MacOS](setup-anime-pc-lazy-guide.md): tombol untuk membuka `Load Subtitles` yang tampil rusak
+       - Tautan sumber Yomitan Local Audio diarahkan ke repo barunya, dan alamat folder Anki di beberapa halaman tidak lagi menampilkan tanda bintang
+
 **04-11-2026** · Panduan Manatan
 
 - Pembaruan

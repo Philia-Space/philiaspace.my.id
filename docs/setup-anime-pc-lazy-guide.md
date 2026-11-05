@@ -2,51 +2,51 @@
 # Setup Mining Anime di MacOS
 ---
 
- Diunggah: 18 Januari 2026 – `Yaaacha`
+ Diunggah: 18 Januari 2026 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 ## Permulaan
 
-- `asbplayer` adalah pemutar video di browser yang bisa digunakan untuk menonton `anime` dan `subtitle`, lalu hover kata menggunakan `yomitan`.
-- `animetan` adalah fork dari asbplayer dengan tambahan fitur automatic subtitle inserter.
+- asbplayer adalah pemutar video di browser untuk menonton anime beserta subtitle-nya. Kata di subtitle bisa dicari dengan Yomitan cukup dengan mengarahkan kursor.
+- animetan adalah fork dari asbplayer dengan tambahan fitur memasukkan subtitle secara otomatis.
 
 ---
 
 ## Unduh & Pasang
 
-- Akun [Jimaku](https://jimaku.cc/) (bisa dilewati jika tidak menggunakan animetan)
-- Unduh `anime` dan `subtitle JP` kamu
-    - Untuk subtitle JP, bisa ke [Jimaku](https://jimaku.cc/)
+- Akun [Jimaku](https://jimaku.cc/) (bisa dilewati kalau tidak memakai animetan)
+- Unduh anime dan subtitle Jepang yang mau kamu tonton
+    - Subtitle Jepang bisa dicari di [Jimaku](https://jimaku.cc/)
 
 - Untuk video streaming, pasang ekstensi [animetan](https://chromewebstore.google.com/detail/animetan-asbplayer-with-a/mmoglblloplhkmjpeckknpadfhpgjhoi)
 !!! warning "Untuk Pengguna Firefox"
-    Untuk pengguna Firefox, bisa instal [dari sini](https://addons.mozilla.org/en-US/firefox/addon/animetan-auto-subtitles/), tapi banyak fitur yang hilang, lihat [catatan ini](https://docs.asbplayer.dev/docs/compatibility).
+    Pengguna Firefox bisa memasang animetan [dari sini](https://addons.mozilla.org/en-US/firefox/addon/animetan-auto-subtitles/), tapi banyak fiturnya tidak tersedia. Lihat [catatan ini](https://docs.asbplayer.dev/docs/compatibility).
 
 
 Syarat:
 
-- Sudah pasang [Yomitan di PC](setup-yomitan-pc-lazy-guide.md)
+- [Yomitan di PC](setup-yomitan-pc-lazy-guide.md) sudah terpasang
 
 ---
 
 ## Langkah-langkah Penggunaan Video Lokal
 
-1. Di browser buka `chrome://flags` atau `edge://flags`
-    - Cari `Experimental Web Platform features` lalu aktifkan
+1. Di browser, buka `chrome://flags` atau `edge://flags`
+    - Cari `Experimental Web Platform features`, lalu aktifkan
 
     ![Aktifkan Fitur Eksperimen](img/enable-experimental-web-platform.png){height=300 width=600}
 
 2. Buka [asbplayer](https://app.asbplayer.dev/)
 
-3. Di bagian atas kanan halaman pengaturan (ikon gir); salin [pengaturan](setup-anime-pc-lazy-guide.md/#__tabbed_1_1) di bawah
+3. Buka pengaturan lewat ikon gir di kanan atas, lalu samakan isinya dengan [pengaturan](setup-anime-pc-lazy-guide.md/#__tabbed_1_1) di bawah
 
     === "Anki"
         ![Anki Settings 1](img/asbplayer-settings-1.png){height=400 width=800}
     === "Mining"
         ![Anki Settings 2](img/asbplayer-settings-2.png){height=400 width=800}
 
-4. Buka `Anime` dan `Subtitle` di `asbplayer` dengan klik tombol `browse`
-    - Abaikan cara ini untuk situs streaming seperti `Youtube` atau `Netflix`
+4. Klik tombol `browse` di asbplayer, lalu pilih file anime dan subtitle-nya
+    - Langkah ini tidak perlu untuk situs streaming seperti YouTube atau Netflix
 
     === "Buka Anime"
         ![Pick Anime PC](img/pick-anime-pc.jpg){height=300 width=600}
@@ -55,15 +55,15 @@ Syarat:
     === "Pilih Anime dan Sub (Mac)"
         ![Pick Anime & Subtitle PC](img/pick-anime-sub-mac.jpg){height=300 width=600}
 
-5. Untuk mining:
-    - Arahkan kursor ke kata di subtitle dan mining dengan `Yomitan`
-    - Tekan ++ctrl+shift+u++  untuk otomatis menambahkan `screenshot` dan `audio` ke `Anki`
-    - (Opsional) Untuk mengganti shortcut: `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
+5. Cara mining:
+    - Arahkan kursor ke kata di subtitle, lalu mining dengan Yomitan
+    - Tekan ++ctrl+shift+u++ untuk menambahkan screenshot dan audio ke kartu Anki secara otomatis
+    - (Opsional) Shortcut ini bisa diganti di `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
 
-6. Sekarang kamu bisa Mining dengan `asbplayer` dan `yomitan`!
-    - lihat [Demo Mining Anime](setup-anime-pc-lazy-guide.md/#info-1-demo-mining-anime)
+6. Sekarang kamu sudah bisa mining dengan asbplayer dan Yomitan
+    - Lihat [Demo Mining Anime](setup-anime-pc-lazy-guide.md/#info-1-demo-mining-anime)
 
-Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light Novel?
+Kamu sudah bisa mining anime di PC. Mau lanjut ke panduan Setup Mining Light Novel?
 
 [Lanjut ke Setup Mining Light Novel di PC](setup-LN-pc-lazy-guide.md){ .md-button .md-button }
 
@@ -72,12 +72,12 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 ---
 ## Langkah-langkah Penggunaan Video Streaming
 
-1. Buka web nonton anime kesayanganmu, contoh: Hianime
-2. Saat pertama kali penggunaan akan muncul dialog untuk memasukkan API
-3. Dapatkan API Key dari [jimaku.cc](https://jimaku.cc/account) dengan cara membuat akun
-4. Buat API key dengan pencet tombol "API" lalu copy kode yang muncul
-5. Masukkan kode tersebut ke Animetan
-6. Jika judul anime sudah sesuai dengan judul yang tertulis di Jimaku, untuk kesempatan selanjutnya, animetan akan otomatis memasukkan subtitle
+1. Buka situs nonton anime favoritmu, misalnya Hianime
+2. Saat pertama kali dipakai, animetan akan menampilkan kotak untuk memasukkan API key
+3. Buat akun di [jimaku.cc](https://jimaku.cc/account) untuk mendapatkan API key
+4. Klik tombol `API` untuk membuat API key, lalu salin kode yang muncul
+5. Tempel kode itu ke Animetan
+6. Kalau judul anime di situs itu sama dengan judul di Jimaku, berikutnya animetan akan memasukkan subtitle secara otomatis
 
 
 ---
@@ -86,34 +86,34 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 
 #### Info 1: Demo Mining Anime
 
-??? info "Demo Mining Anime <small>(klik untuk lihat)</small>"
+??? info "Demo Mining Anime <small>(klik di sini)</small>"
 
-    Aku pakai note type Mining-JP di tutorial ini, di bagian pengaturan anki di yomitan kamu serharusnya sudah menggunakan note type Lapis. Aku pakai shortcut ++ctrl+shift+x++ agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`. Kamu bisa pakai shortcut ++ctrl+shift+u++ untuk langsung update kartu yang ditambahkan terakhir oleh Yomitan.
+    Video demo ini memakai note type Mining-JP. Di pengaturan Anki di Yomitan, kamu seharusnya sudah memakai note type Lapis. Di video, shortcut ++ctrl+shift+x++ dipakai supaya audio, screenshot, dan subtitle bisa disunting dulu sebelum dikirim ke Anki. Kalau mau langsung memperbarui kartu terakhir yang ditambahkan Yomitan, pakai ++ctrl+shift+u++.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Tip 1: Sinkronisasi Subtitle
 
-??? tip "Sinkronisasi Subtitle <small>(klik untuk lihat)</small>"
+??? tip "Sinkronisasi Subtitle <small>(klik di sini)</small>"
 
-    Terkadang `subtitle` tidak sinkron karena beda sumber `anime`, untuk menyesuaikan:
+    Kadang subtitle tidak pas dengan videonya karena sumber anime-nya berbeda. Untuk menggesernya:
 
     - +100ms = ++ctrl+shift+left++
     - -100ms = ++ctrl+shift+right++
 
 #### Tip 2: Lewatkan Rekaman Audio saat Mining
 
-??? tip "Lewatkan Rekaman Audio saat Mining <small>(klik untuk lihat)</small>"
+??? tip "Lewatkan Rekaman Audio saat Mining <small>(klik di sini)</small>"
 
-    - Bisa lewati rekaman audio biar lebih cepat
-    - Kalau kartu Anki kamu dibuat <5 detik, audio rekaman bisa jadi hampir tidak terdengar
+    - Rekaman audio bisa dilewati supaya mining lebih cepat
+    - Kalau kartu Anki dibuat kurang dari 5 detik, rekaman audionya bisa hampir tidak terdengar
 
 #### Tip 3: ASBPlayer di Youtube, Netflix, dan Web lain
 
-??? tip "ASBPlayer bisa digunakan di Youtube, Netflix, dll <small>(klik untuk lihat)</small>"
+??? tip "asbplayer bisa dipakai di YouTube, Netflix, dan situs lain <small>(klik di sini)</small>"
 
-    - Kamu hanya perlu buka video yang ingin diputar, tekan shortcut `` (tanda petik tunggal, di samping angka 1)`, lalu klik `Load Subtitles`
-    - Kamu bisa mengaktifkan hingga 3 subtitle secara langsung dari subtitle yang disediakan webnya atau impor file .SRT
-    - Untuk kompatibilitas di web lain, kamu bisa cek [ini](https://docs.asbplayer.dev/docs/compatibility#streaming-services-and-subtitle-detection)
+    - Buka video yang mau diputar, tekan tombol `` ` `` (tanda petik terbalik, di samping angka 1), lalu klik `Load Subtitles`
+    - Kamu bisa menampilkan hingga 3 subtitle sekaligus, dari subtitle bawaan situsnya atau dari file `.srt` yang kamu impor
+    - Daftar situs lain yang didukung ada di [dokumentasi asbplayer](https://docs.asbplayer.dev/docs/compatibility#streaming-services-and-subtitle-detection)
 
 ---
 
@@ -121,12 +121,12 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 
 #### Pertanyaan 1: Kenapa harus aktifkan Experimental Web Platform?
 
-??? question "Kenapa aktifkan fitur eksperimen? <small>(klik untuk lihat)</small>"
+??? question "Kenapa fitur eksperimen perlu diaktifkan? <small>(klik di sini)</small>"
 
-    - Beberapa anime punya banyak `audio`, kayak `jp` dan `en`, jadi kita bisa pilih `jp` kalau bukan default-nya
+    - Beberapa file anime punya lebih dari satu audio, misalnya Jepang dan Inggris. Dengan fitur ini, kamu bisa memilih audio Jepang kalau audio bawaannya bukan Jepang
 
-#### Pertanyaan 2: Aku ada eror, bisa cek di mana?
+#### Pertanyaan 2: Muncul error, cek di mana?
 
-??? question "Aku ada eror tertentu saat mencoba menambang di ASBplayer <small>(klik untuk lihat)</small>"
+??? question "Muncul error tertentu saat mining di asbplayer <small>(klik di sini)</small>"
 
-    - Kamu bisa cek [_Common Issue_ di ASBplayer](https://docs.asbplayer.dev/docs/common-issues). Kalau masalahmu tidak ada di sana, kita diskusikan di [server](https://discord.com/channels/1370274344571240552/1376885138352242688)
+    - Cek dulu [_Common Issues_ di dokumentasi asbplayer](https://docs.asbplayer.dev/docs/common-issues). Kalau masalahmu tidak ada di sana, tanyakan di [server Discord Philia Space](https://discord.com/channels/1370274344571240552/1376885138352242688)

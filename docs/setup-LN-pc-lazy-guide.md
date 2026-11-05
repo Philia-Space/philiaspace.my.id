@@ -1,49 +1,49 @@
 # Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
 ---
 
- Diunggah: 10 Agustus 2025 – `Yaaacha`
+ Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
-- Kamu bisa baca `Light Novel` di `PC` selama kamu punya file `epub` dari `Light Novel` itu, situs buat buka `epub`-nya, dan `yomitan` sudah terpasang.
+- Kamu bisa membaca light novel di PC selama punya file EPUB-nya, situs untuk membuka EPUB, dan Yomitan yang sudah terpasang.
 
 ---
 
 ## Persyaratan
 
-- Download `Light Novel` dalam format `epubs` sesuai pilihan kamu
+- Unduh light novel pilihanmu dalam format EPUB
 
-- [Yomitan di PC](setup-yomitan-pc-lazy-guide.md) sudah terpasang dan di-setup
+- [Yomitan di PC](setup-yomitan-pc-lazy-guide.md) sudah terpasang dan diatur
 
 ---
 
 ## Cara Setup
 
-1. Di `browser`, buka [Yatsu Reader](https://app.yatsu.moe/)
+1. Di browser, buka [Yatsu Reader](https://app.yatsu.moe/)
 
     ![Yatsu Reader](img/ttu-reader.png){height=500 width=1000}
 
-2. Klik `Import` (kanan atas) > pilih `Import File(s)` atau `Import Folder(s)` yang berisi `EPUB LN`
-    - Bisa juga langsung drag & drop file `EPUB` ke halaman `Library`
+2. Klik `Import` (kanan atas), lalu pilih `Import File(s)` atau `Import Folder(s)` dan pilih file atau folder EPUB light novel-mu
+    - Bisa juga dengan menyeret file EPUB langsung ke halaman `Library`
 
     ![Yatsu Reader Import](img/ttu-upload.png){height=250 width=315}
 
-3. Sekarang kamu bisa mining pakai `Yomitan` seperti biasa
+3. Sekarang kamu bisa mining dengan Yomitan seperti biasa
 
     ![Yatsu Reader PC](img/ttu-reader-pc.png){height=500 width=1000}
 
-Sekarang kamu udah bisa baca Light Novel, Novel, ataupun Buku lain di PC.
+Sekarang kamu sudah bisa membaca light novel, novel, atau buku lain di PC.
 
-<small>Kalau ada masalah, cek [FAQs](setup-LN-pc-lazy-guide.md/#faqs)</small>
+<small>Kalau ada masalah, cek [FAQs](setup-LN-pc-lazy-guide.md/#pertanyaan-umum)</small>
 
 ---
 
 ## Info Tambahan dan Tips
 
-#### Info 1: Setting Yatsu Reader Punyaku
+#### Info 1: Pengaturan Yatsu Reader dari LazyGuide
 
-??? info "Setting Yatsu Reader Punyaku <small>(klik di sini)</small>"
-    Ini setting `Yatsu Reader` yang aku pakai di `PC`. Bukan rekomendasi wajib, cuma sharing; sesuaikan aja sama selera kamu. Buka lewat menu `Settings` di bagian atas.
+??? info "Contoh pengaturan Yatsu Reader <small>(klik di sini)</small>"
+    Ini contoh pengaturan Yatsu Reader di PC. Tidak wajib diikuti, sesuaikan saja dengan selera kamu. Pengaturannya dibuka lewat menu `Settings` di bagian atas.
 
     === "Theme"
         ![Yatsu Settings Theme](img/yatsu-settings-theme.png){height=500 width=1000}
@@ -82,14 +82,14 @@ Sekarang kamu udah bisa baca Light Novel, Novel, ataupun Buku lain di PC.
 
 ??? info "Pola Penggantian Teks <small>(klik di sini)</small>"
 
-    Kalau nggak pakai settinganku, kamu harus masukin ini manual supaya teks bisa discan dengan akurat
+    Kalau tidak memakai pengaturan dari panduan ini, masukkan pola berikut secara manual supaya teks bisa dipindai dengan akurat.
 
-    1. Di `Yomitan settings` > aktifin `Advanced` settings, ada di `pojok kiri bawah` atau `scroll ke bawah`
+    1. Di halaman pengaturan Yomitan, nyalakan `Advanced` di pojok kiri bawah (atau gulir ke paling bawah)
 
-    2. Di menu `Translation` > pilih `Configure custom text replacement patterns...`
+    2. Di bagian `Translation`, pilih `Configure custom text replacement patterns...`
 
-    3. Copy dan paste [ini](https://pastebin.com/er57E9Hw)
+    3. Salin pola dari [tautan ini](https://pastebin.com/er57E9Hw), lalu tempel di sana
 
 ---
 
-## FAQs
+## Pertanyaan Umum
