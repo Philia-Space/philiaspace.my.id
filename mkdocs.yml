@@ -43,8 +43,7 @@ nav:
         - 'LN & Buku': 'Setup-Hoshi-Reader-iOS.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
     #   - 'Mangatan Android': 'setup-mangatan-android.md'
-    #  - 'Resources':
-    #    - 'Resources': 'resources.md' 
+  - 'Sumber Belajar': 'resources.md'
   - 'Proyek Komunitas': 'proyek.md'
   - 'Lain-lain':
     # - 'Tentang Retention': 'tentang-retention.md'
