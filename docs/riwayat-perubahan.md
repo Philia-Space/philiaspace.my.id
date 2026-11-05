@@ -22,6 +22,24 @@ hide:
 
 ### November
 
+**06-11-2026** · Hoshi Reader untuk iPhone
+
+- Penambahan
+       - [Setup Hoshi Reader (iOS)](Setup-Hoshi-Reader-iOS.md): membaca light novel dan buku di iPhone atau iPad, dari pasang aplikasi, kamus, kartu Anki lewat AnkiMobile atau AnkiConnect, audio lokal, sampai audiobook, lengkap dengan tips, pertanyaan umum, dan masalah umum
+       - [Proyek Komunitas](proyek.md#jidict-frequency): JIDict Frequency, kamus frekuensi Jepang-Indonesia untuk Yomitan dengan 13.168 kosakata N1–N5
+- Pembaruan
+       - Menu mining dipisah jadi dua: **LazyGuide - Mining** untuk halaman adaptasi LazyGuide, dan **Setup Mining** untuk panduan buatan Philia Space
+       - Kedua menu itu sekarang dikelompokkan per perangkat: PC, Android, dan iOS
+       - Menu "Anime Desktop" sekarang bernama "Anime PC"
+       - [Setup Mining Anime di PC](setup-anime-pc-lazy-guide.md) tidak lagi berlabel MacOS, karena langkahnya berlaku untuk semua PC
+       - [Belajar Kanji](kanji.md) ditulis ulang agar lebih santai, dengan tabel ringkasan di awal
+       - [Perbaiki Font](font.md) ditulis ulang dan disamakan dengan TheMoeWay terbaru: langkah Windows 11 dengan dua pilihan cara, langkah macOS terbaru, dan tips nama file font di Anki supaya tidak terhapus
+
+**06-11-2026** · Audiobook di Yatsu Reader
+
+- Pembaruan
+       - [LN & Buku PC](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync): cara membaca sambil mendengarkan audiobook di Yatsu Reader dengan Yatsu Whispersync
+
 **05-11-2026** · Panduan Gaya Penulisan
 
 - Untuk Penulis
