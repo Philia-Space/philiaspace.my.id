@@ -2,56 +2,56 @@
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 – 'Yaaacha' · Diperbarui: 4 November 2026
+ Diunggah: 12 April 2026 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
 ??? info "Info: panduan ini mengikuti Manatan versi baru <small>(klik di sini)</small>"
 
-    Manatan versi sekarang memakai tampilan aplikasi baru di desktop dan HP. Versi lama memakai Web UI di browser (panel menu di kiri), jadi kalau tampilan aplikasimu masih seperti itu, update dulu ke versi terbaru.
+    Manatan versi sekarang memakai tampilan aplikasi baru di desktop dan HP. Versi lama memakai Web UI di browser (panel menu di kiri), jadi kalau tampilan aplikasimu masih seperti itu, perbarui dulu ke versi terbaru.
 
-    Langkah di halaman ini diterjemahkan dan diringkas dari [dokumentasi resmi Manatan](https://manatan.com/docs/guides/getting-started). Sebagian screenshot di bawah masih dari versi lama, jadi letak menunya bisa sedikit beda.
+    Langkah di halaman ini diterjemahkan dan diringkas dari [dokumentasi resmi Manatan](https://manatan.com/docs/guides/getting-started). Sebagian screenshot di bawah masih dari versi lama, jadi letak menunya bisa sedikit berbeda.
 
 ---
 
 ## **Persiapan**
 Langkah-langkah persiapan sebelum menjalankan Manatan:
 
-1. Unduh Manatan dari [halaman download resmi](https://manatan.com/download)
+1. Unduh Manatan dari [halaman unduhan resmi](https://manatan.com/download)
 
     | Perangkat | Pilih |
     |---|---|
     | Windows | Windows x64 (Windows 10 atau 11, 64-bit) |
     | macOS | Apple Silicon untuk Mac M-series, Intel untuk Mac lama. Cek di menu Apple > `About This Mac` |
     | Linux | Installer Linux atau [Flatpak resmi](https://kolbyml.github.io/Manatan/io.github.kolbyml.Manatan.flatpakref) |
-    | Android | APK ARM64 (hampir semua HP sekarang). Butuh Android 8.0 ke atas. Izinkan instalasi saat diminta |
+    | Android | APK ARM64 (hampir semua HP sekarang). Butuh Android 8.0 ke atas. Izinkan pemasangan aplikasi saat diminta |
     | iPhone & iPad | [App Store](https://apps.apple.com/ca/app/manatan/id6756917436). Versi beta (TestFlight) opsional, tautannya ada di [Discord Manatan](https://discord.gg/tDAtpPN8KK) |
 
-    Kalau halaman download tidak bisa dibuka, ambil installer desktop dan Android dari [rilis resmi di GitHub](https://github.com/KolbyML/Manatan/releases/latest).
+    Kalau halaman unduhan tidak bisa dibuka, ambil installer desktop dan Android dari [rilis resmi di GitHub](https://github.com/KolbyML/Manatan/releases/latest).
 
 2. Buat API Key Jimaku (opsional, untuk mencari subtitle anime):
 	- Buat akun di [Jimaku](https://jimaku.cc/account)
 	- Buat API Key dengan menekan tombol `Generate` di bagian bawah pada menu `Account Setting`
-	- Salin/simpan API Key untuk nanti dimasukkan ke kolom Jimaku API Key di aplikasi Manatan
-3. Unduh Kamus. Panduan pemilihan kamus dapat diakses di bagian [Kamus](#kamus)
+	- Salin dan simpan API Key untuk nanti dimasukkan ke kolom `Jimaku API Key` di aplikasi Manatan
+3. Unduh kamus. Panduan memilih kamus ada di bagian [Kamus](#kamus)
 	- Kamus JP-ID
 		- [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan)
 		- [RH Dict](https://discord.com/channels/1370274344571240552/1544821080148025484/1544821080148025484) (di Discord Philia Space)
 	- Kamus JP-EN dan monolingual JP
-		- [JMdict dan JMnedict](https://github.com/yomidevs/jmdict-yomitan?tab=readme-ov-file#jmdict-for-yomitan). Pilih yang JMdict_english.zip dan JMnedict.zip.
+		- [JMdict dan JMnedict](https://github.com/yomidevs/jmdict-yomitan?tab=readme-ov-file#jmdict-for-yomitan). Pilih `JMdict_english.zip` dan `JMnedict.zip`.
 		- [Koleksi Marv](https://drive.google.com/drive/u/0/folders/1LXMIOoaWASIntlx1w08njNU005lS5lez)
 		- [Koleksi Shoui](https://drive.google.com/drive/u/0/folders/16nPmTCQtpi43wkYdvTh7Qfngr21FE36W)
 4. Tentukan mau menyimpan kata ke mana. Detailnya ada di bagian [Kartu Flashcard](#kartu-flashcard)
 	- **Manatan SRS**: flashcard bawaan Manatan. Tidak perlu Anki, bisa langsung dipakai di HP
-	- **Anki lewat AnkiConnect**: kalau kamu sudah review di Anki desktop. Note type bawaannya sekarang **Manatan-NoteType** dan dipasang otomatis saat kartu pertama dibuat
+	- **Anki lewat AnkiConnect**: kalau kamu sudah mengerjakan ulasan di Anki desktop. Note type bawaannya sekarang **Manatan-NoteType** dan dipasang otomatis saat kartu pertama dibuat
 
 ### **Setup Awal**
 
 1. Jalankan aplikasi Manatan yang sesuai dengan perangkat, lalu tunggu sampai setup awalnya selesai. Peluncuran pertama bisa memakan waktu sekitar 30 detik.
 
-	??? info "Peringatan Saat Instal Pertama"
+	??? info "Peringatan Saat Pertama Dibuka"
         === "MacOS"
-		    Saat pertama kali menjalankan Manatan, akan muncul peringatan ini. Tekan done > buka `settings` > `privacy & security` > (scroll ke bawah) `open anyway` > `open anyway` > Selesai. Buka kembali Manatan seperti biasa
+		    Saat pertama kali menjalankan Manatan, akan muncul peringatan ini. Klik `Done` > buka `System Settings` > `Privacy & Security` > (gulir ke bawah) `Open Anyway` > `Open Anyway` > selesai. Buka kembali Manatan seperti biasa
 		   
 	        ![Peringatan MacOS](img/peringatan-macos.png){height=300 width=300}
  
@@ -60,14 +60,14 @@ Langkah-langkah persiapan sebelum menjalankan Manatan:
 3. Kalau diminta Jimaku API Key, masukkan API Key dari langkah persiapan. Bisa juga dilewati dan diisi nanti
 4. Pastikan kamu bisa membuka `Library` dan `Settings`. Kalau aplikasinya tidak mau terbuka, lihat [Manatan tidak terbuka](#masalah-1-manatan-tidak-terbuka) sebelum menghapus data apa pun
 
-> Pengaturan Manatan ada di `More` > ikon gear di kanan atas. Di halaman ini disebut `Settings`.
+> Pengaturan Manatan ada di `More` > ikon roda gigi di kanan atas. Di halaman ini disebut `Settings`.
 
-### **Instal ekstensi**
+### **Pasang ekstensi**
 
 Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Untuk EPUB atau file lokal milikmu sendiri, langkah ini bisa dilewati.
 
 1. Buka `Settings` > `Browse`
-2. Salin URL repositori di bawah, lalu masukkan satu persatu URL repositori sesuai masing-masing kategori di pengaturan Manatan
+2. Salin URL repositori di bawah, lalu masukkan satu per satu sesuai kategorinya di pengaturan Manatan
         <table>
       <thead>
         <tr>
@@ -113,20 +113,20 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
       </tbody>
     </table>
 
-3. Matikan `Show NSFW` jika kamu tidak ingin ada media NSFW muncul di pencarianmu
+3. Matikan `Show NSFW` jika kamu tidak ingin media NSFW muncul di hasil pencarian
 4. Kembali ke halaman utama
 
 ### **Tambah sumber**
 
-1. Pergi ke **Browse**.
-2. Buka **Video Extensions** / **Manga Extensions** dan instal ekstensi yang kamu butuhkan.
-3. Buka **Anime Sources** / **Manga Sources**, pilih salah satu, lalu mulai browsing.
-	- Untuk Anime, kamu perlu membuka salah satu **Source**/ web penyedia untuk dapat mencari anime yang kamu mau
-	- Untuk Manga, kamu bisa langsung membuka **Manga Sources** dan menekan tombol `global search` di kanan atas untuk mencari judul manga yang ingin dibaca. Jangan lupa ganti opsi `pinned` ke `all` agar manatan dapat emncari dari semua penyedia yang sudah diinstal.
-4. Setelah judul serial yang kamu cari muncul, pencet `Add to Library`
+1. Buka `Browse`.
+2. Buka `Video Extensions` / `Manga Extensions` dan pasang ekstensi yang kamu butuhkan.
+3. Buka `Anime Sources` / `Manga Sources`, pilih salah satu, lalu mulai mencari judul.
+	- Untuk anime, kamu perlu membuka salah satu sumber (situs penyedia) dulu untuk bisa mencari anime yang kamu mau
+	- Untuk manga, kamu bisa langsung membuka `Manga Sources` dan menekan tombol `global search` di kanan atas untuk mencari judul manga yang ingin dibaca. Jangan lupa ganti opsi `pinned` ke `all` agar Manatan bisa mencari dari semua penyedia yang sudah dipasang.
+4. Setelah judul serial yang kamu cari muncul, tekan `Add to Library`
 
 ??? warning "Catatan keamanan" 
-    repositori ekstensi seringkali disediakan oleh pihak ketiga. Silakan instal dari penyedia yang kamu percayai.
+    Repositori ekstensi sering kali disediakan oleh pihak ketiga. Pasang hanya dari penyedia yang kamu percayai.
 
 ---
 ## **Penggunaan Media**
@@ -138,16 +138,16 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 	- Buka judul serial lalu pilih chapter
 2. Membaca dari berkas lokal.
 	- [Manga Lokal](Setup-Manatan-manga-lokal.md)
-=== "Manga Setting Layout"
-	![Manatan Manga Setting Layout](img/manga-setting-layout.jpg){height=500 width=500}
-=== "Manga Setting General"
-	![Manatan Manga Setting General](img/manga-setting-general.jpg){height=500 width=500}
-=== "Manga Setting Custom Filter"
-	![Manatan Manga Setting Custom Filter](img/manga-setting-filter.jpg){height=500 width=500}
-=== "Manga Setting Behaviour"
-	![Manatan Manga Setting Behaviour](img/manga-setting-behaviour.jpg){height=500 width=500}
-=== "Manga Setting Keybinds"
-	![Manatan Manga Setting Keybinds](img/manga-setting-keybind.jpg){height=500 width=500}
+=== "Pengaturan Layout"
+	![Pengaturan Layout manga di Manatan](img/manga-setting-layout.jpg){height=500 width=500}
+=== "Pengaturan General"
+	![Pengaturan General manga di Manatan](img/manga-setting-general.jpg){height=500 width=500}
+=== "Pengaturan Custom Filter"
+	![Pengaturan Custom Filter manga di Manatan](img/manga-setting-filter.jpg){height=500 width=500}
+=== "Pengaturan Behaviour"
+	![Pengaturan Behaviour manga di Manatan](img/manga-setting-behaviour.jpg){height=500 width=500}
+=== "Pengaturan Keybinds"
+	![Pengaturan Keybinds manga di Manatan](img/manga-setting-keybind.jpg){height=500 width=500}
 	
 ### **Anime**
 
@@ -170,20 +170,20 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 
 Impor berkas EPUB dan baca.
 
-- Next: [Novel (EPUB)](Setup-Manatan-novels.md)
+- Selanjutnya: [Novel (EPUB)](Setup-Manatan-novels.md)
 
 ---
 ## **Popup Dictionary**
 
 ### **Kamus**
 
-Saat pertama kali menginstal Manatan, kamu perlu memuat kamus untuk menggunakan fitur popup dictionary.
+Saat pertama kali memasang Manatan, kamu perlu memuat kamus untuk memakai fitur popup dictionary.
 File kamus berformat `.zip` dan **tidak perlu diekstrak**.
 
 **Cara impor kamus**
 
 1. Buka `Settings` > `Language learning` > `Dictionary`
-2. Scroll ke `Installed Dictionaries`, lalu tekan `Import New`
+2. Gulir ke `Installed Dictionaries`, lalu tekan `Import New`
 3. Pilih file `.zip` kamus, lalu tunggu sampai muncul tanda berhasil dan tekan `Done`
     - Pilih file `.zip` kamusnya, bukan folder hasil ekstrak, file subtitle, atau tombol `Download ZIP` repo GitHub
 4. Pastikan tombol kamus yang baru diimpor dalam keadaan **nyala**
@@ -192,24 +192,24 @@ File kamus berformat `.zip` dan **tidak perlu diekstrak**.
 
 Tombol kamus dan tombol `Video`/`Manga`/`Novel` punya fungsi berbeda, jadi cek keduanya kalau popup tidak muncul. Mulai dari satu kamus definisi dulu, lalu tambahkan kamus frekuensi, pitch, atau lainnya belakangan.
 
-Kalau kamu tidak ingin punya terlalu banyak kamus, kamu bisa gunakan daftar yang ringkas
+Kalau tidak ingin memasang terlalu banyak kamus, kamu bisa memakai daftar ringkas ini.
 
-??? info "Daftar Ringkas oleh [Donkuri](https://donkuri.github.io/learn-japanese/setup/#what-if-i-dont-want-to-use-all-these-dictionaries): <small>(tekan sini)</small>"
+??? info "Daftar Ringkas oleh [Donkuri](https://donkuri.github.io/learn-japanese/setup/#what-if-i-dont-want-to-use-all-these-dictionaries): <small>(klik di sini)</small>"
 
 	<ul>
 	  <li>JMdict (atau Jitendex)</li>
 	  <li>JMnedict</li>
-	  <li>三省堂 8th Ed (or 明鏡 2nd Ed)</li>
+	  <li>三省堂 8th Ed (atau 明鏡 2nd Ed)</li>
 	  <li>Kanji Jitenon</li>
 	  <li>NHK2016</li>
 	  <li>JPDB Frequency v2.2</li>
 	</ul>
 
-Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semua, sesuai keinginanmu.
+Di bawah ini ada beberapa daftar rekomendasi. Kamu bisa mencampurnya atau mengikuti semuanya, sesuai keinginanmu.
 
 <details>
-<summary><b>Daftar Rekomendasi <i>shoui</i> dari TMW TheMoeWay:</b> <i>(Tekan sini)</i></summary>
-  Daftar lebih lengkap dan penjelasan lebih lanjut dari Shoui dapat kamu akses di web <a href="https://learnjapanese.moe/monolingual/#getting-and-using-monolingual-dictionaries">TheMoeWay</a>
+<summary><b>Daftar Rekomendasi <i>shoui</i> dari TheMoeWay:</b> <i>(klik di sini)</i></summary>
+  Daftar lebih lengkap dan penjelasan lebih lanjut dari Shoui ada di situs <a href="https://learnjapanese.moe/monolingual/#getting-and-using-monolingual-dictionaries">TheMoeWay</a>
 <p><b>Bilingual</b></p>
 <ul>
   <li>[Bilingual] JMdict Extra (Recommended).zip</li>
@@ -233,7 +233,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
   <li>[Monolingual, Encyclopedia] PixivLight.zip</li>
 </ul>
 
-<p><b>Grammar</b></p>
+<p><b>Tata Bahasa</b></p>
 <ul>
   <li>[Grammar] Dictionary of Japanese Grammar 日本語文法辞典 (Recommended).zip</li>
   <li>[Grammar] どんなとき使う日本語表現文型辞典.zip</li>
@@ -255,7 +255,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
 </details>
 
 <details>
-<summary><b>Daftar Rekomendasi <i>marv</i> dari Yomitan:</b> <i>(Tekan sini)</i></summary>
+<summary><b>Daftar Rekomendasi <i>marv</i> dari Yomitan:</b> <i>(klik di sini)</i></summary>
 
 <p><b>Bilingual</b></p>
 <ul>
@@ -264,7 +264,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
   <li>[JA-EN] 新和英</li>
 </ul>
 
-<p><b>Grammar</b></p>
+<p><b>Tata Bahasa</b></p>
 <ul>
   <li>[JA Grammar] dojg-consolidated-v1_01</li>
 </ul>
@@ -297,7 +297,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
 </details>
 
 <details>
-<summary><b>Daftar Kamus yang kupasang:</b> <i>(Tekan sini)</i></summary>
+<summary><b>Daftar Kamus Lengkap:</b> <i>(klik di sini)</i></summary>
 
 <p><b>Kamus Bilingual</b></p>
 <ul>
@@ -324,7 +324,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
   <li>14. 精選版 日本国語大辞典<br> Versi ringkas dari 日本国語大辞典, tetap komprehensif namun lebih praktis.</li>
   <li>15. ハイブリッド新辞林<br> Gabungan dari berbagai sumber, cepat dan ringan untuk pencarian harian.</li>
   <li>16. 新明解国語辞典 第八版<br> Dikenal karena penjelasan yang berani dan interpretatif.</li>
-  <li>17. 三省堂国語辞典 第八版<br> Kamus ringkas namun mendalam, sangat cocok untuk pengguna intermediate.</li>
+  <li>17. 三省堂国語辞典 第八版<br> Kamus ringkas namun mendalam, sangat cocok untuk pengguna tingkat menengah.</li>
   <li>18. 例解学習国語辞典 第十一版<br> Kamus anak-anak yang sangat ramah pelajar asing.</li>
   <li>19. 新選国語辞典 第十版<br> Kamus ringkas untuk referensi cepat.</li>
   <li>20. 国語辞典オンライン<br> Versi daring ringan yang berisi banyak entri praktis.</li>
@@ -333,10 +333,10 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
 </ul>
 <p><b>Kamus untuk Bunpou & Pelajaran:</b></p>
 <ul>
-  <li>23. 日本語文法辞典（全集）<br> Seri lengkap kamus grammar DoJG (Beginner–Advanced) dalam format searchable.</li>
-  <li>24. JLPT文法解説まとめ<br> Ringkasan grammar JLPT dari berbagai sumber, mudah dinavigasi.</li>
-  <li>25. 毎日のんびり日本語教師<br> Penjelasan grammar ringan dan jelas, dengan label level JLPT.</li>
-  <li>26. 絵でわかる日本語<br> Kamus grammar berbasis ilustrasi, cocok untuk pemula dan visual learner.</li>
+  <li>23. 日本語文法辞典（全集）<br> Seri lengkap kamus tata bahasa DoJG (Beginner–Advanced) dalam format searchable.</li>
+  <li>24. JLPT文法解説まとめ<br> Ringkasan tata bahasa JLPT dari berbagai sumber, mudah dinavigasi.</li>
+  <li>25. 毎日のんびり日本語教師<br> Penjelasan tata bahasa yang ringan dan jelas, dengan label level JLPT.</li>
+  <li>26. 絵でわかる日本語<br> Kamus tata bahasa berbasis ilustrasi, cocok untuk pemula dan pelajar visual.</li>
 </ul>
 
 <p><b>Kamus Pendukung (3 kanji atau lebih):</b></p>
@@ -353,20 +353,20 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
   <li>32. 全国方言辞典<br>Kamus dialek dari berbagai daerah Jepang.</li>
 </ul>
 
-<p><b>Kamus JLPT, Frequency & Korpus:</b></p>
+<p><b>Kamus JLPT, Frekuensi & Korpus:</b></p>
 <ul>
   <li>33. JLPT<br>Kumpulan kosakata JLPT level N1–N5.</li>
   <li>34. CC100<br>Korpus bahasa Jepang yang digunakan untuk analisis frekuensi kata.</li>
   <li>35. JPDB<br>Frekuensi kosakata dari database JPDB.</li>
-  <li>36. Youtube<br>Frekuensi kata berdasarkan subtitle video YouTube Jepang.</li>
-  <li>37. BcCWJ<br>Balanced corpus of contemporary written Japanese (BCCWJ).</li>
+  <li>36. YouTube<br>Frekuensi kata berdasarkan subtitle video YouTube Jepang.</li>
+  <li>37. BCCWJ<br>Balanced corpus of contemporary written Japanese (BCCWJ).</li>
   <li>38. PixivLight<br>Frekuensi kosakata dari karya buatan pengguna di Pixiv.</li>
 </ul>
 
 <p><b>Kamus Pitch Accent:</b></p>
 <ul>
   <li>39. 大辞林第四版<br>Selain kamus besar, versi ini menyertakan informasi pitch accent.</li>
-  <li>40. 三省堂国語辞典第八番 (pitch)<br>Tambahan aksen dari 三省堂 untuk entri tertentu.</li>
+  <li>40. 三省堂国語辞典第八版 (pitch)<br>Tambahan aksen dari 三省堂 untuk entri tertentu.</li>
   <li>41. 新明解第八版 (pitch)<br>Informasi pitch berdasarkan edisi 新明解 ke-8.</li>
   <li>42. 大辞泉 (pitch)<br>Pitch accent versi tambahan untuk entri 大辞泉.</li>
   <li>43. アクセント辞典<br>Kamus aksen khusus untuk penutur asli dan pembelajar tingkat lanjut.</li>
@@ -381,7 +381,7 @@ Di bawah ini Rekomendasi yang bisa kamu pilih. Bisa kamu campur atau ikutin semu
 Manatan mendukung penggunaan **kamus frekuensi** yang menunjukkan seberapa umum sebuah kata digunakan.
 
 <b>JPDB</b>
-Merupakan daftar frekuensi yang diambil dari [jpdb.io](https://jpdb.io), sebuah situs yang menganalisis banyak *light novel*, *visual novel*, anime, dan *J-drama*. Jadi, daftar ini merefleksikan seberapa sering kata muncul dalam media fiksi berbahasa Jepang.
+Merupakan daftar frekuensi yang diambil dari [jpdb.io](https://jpdb.io), sebuah situs yang menganalisis banyak *light novel*, *visual novel*, anime, dan *J-drama*. Jadi, daftar ini mencerminkan seberapa sering kata muncul dalam media fiksi berbahasa Jepang.
 
 <b>CC100</b>
 Merupakan daftar frekuensi dari data korpus internet Jepang. Kata-kata formal akan tampak lebih umum dalam daftar ini.  
@@ -399,56 +399,56 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 
 ### **Pengaturan Popup Dictionary**
 
-Pengaturan Popup Dictionary Manatan ada di `Settings` > `Language learning` > `Dictionary`. Ikon Manatan Settings  ![Manatan](img/manatan_logo.png){ width="20" valign="middle" }  juga ada di beberapa tempat, misalnya di bagian atas video player, manga reader, dan EPUB reader.
+Pengaturan Popup Dictionary Manatan ada di `Settings` > `Language learning` > `Dictionary`. Ikon pengaturan Manatan  ![Manatan](img/manatan_logo.png){ width="20" valign="middle" }  juga ada di beberapa tempat, misalnya di bagian atas video player, manga reader, dan EPUB reader.
 
-Secara umum, kamu dapat mengikuti pengaturan yang ada di bawah ini. Selanjutnya, kamu dapat menyesuaikan pengaturan-pengaturan lainnya sesuai dengan kenyamananmu sendiri. Screenshot ini masih dari versi lama, jadi tampilannya bisa sedikit beda.
+Secara umum, kamu bisa mengikuti pengaturan di bawah ini, lalu menyesuaikan pengaturan lainnya sesuai kenyamananmu. Screenshot ini masih dari versi lama, jadi tampilannya bisa sedikit berbeda.
 === "Pengaturan Popup 1"
 	![Pengaturan Popup 1](img/manatan-popup-1.jpg){height=200 width=400}
 === "Pengaturan Popup 2"
 	![Pengaturan Popup 2](img/manatan-popup-2.jpg){height=200 width=400}
-=== "Anime Setting 1"
-	![Anime Setting 1](img/manatan-anime-settings-1.jpg){height=200 width=400}
-=== "Anime Setting 2"
-	![Anime Setting 2](img/manatan-anime-settings-2.jpg){height=200 width=400}
-=== "Anime Setting 3"
-	![Anime Setting 3](img/manatan-anime-settings-3.jpg){height=1000 width=600}
-=== "Manga Setting 1"
-	![Manga Setting 1](img/manatan-manga-settings-1.jpg){height=200 width=400}
-=== "Manga Setting 2"
-	![Manga Setting 2](img/manatan-manga-settings-2.jpg){height=1000 width=600}
+=== "Pengaturan Anime 1"
+	![Pengaturan Anime 1](img/manatan-anime-settings-1.jpg){height=200 width=400}
+=== "Pengaturan Anime 2"
+	![Pengaturan Anime 2](img/manatan-anime-settings-2.jpg){height=200 width=400}
+=== "Pengaturan Anime 3"
+	![Pengaturan Anime 3](img/manatan-anime-settings-3.jpg){height=1000 width=600}
+=== "Pengaturan Manga 1"
+	![Pengaturan Manga 1](img/manatan-manga-settings-1.jpg){height=200 width=400}
+=== "Pengaturan Manga 2"
+	![Pengaturan Manga 2](img/manatan-manga-settings-2.jpg){height=1000 width=600}
 
 
 ---
 
 ## **Kartu Flashcard**
 
-Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Settings` > `Language learning` > `Flashcards`.
+Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Settings` > `Language learning` > `Flashcards`.
 
 === "Manatan SRS"
 
     Flashcard bawaan Manatan. Tidak perlu Anki atau add-on apa pun.
 
     1. Buka `Settings` > `Language learning` > `Flashcards`
-    2. Nyalakan `Enable flashcards`, pilih `Manatan SRS`, lalu pilih deck tujuan. `Default` juga boleh untuk awal
+    2. Nyalakan `Enable flashcards`, pilih `Manatan SRS`, lalu pilih dek tujuan. `Default` juga boleh untuk awal
     3. Biarkan `Card Type` di `Manatan-NoteType`
     4. Cari kata, lalu tekan tombol **plus hijau** di samping arti kata. Tombol berubah jadi ikon buku emas kalau kartu sudah tersimpan. Tombol `Track` itu fungsi lain, bukan untuk menyimpan kartu
-    5. Untuk review: `More` > `Manatan SRS` > `Decks` > pilih deck > `Study Now`
+    5. Untuk mengerjakan ulasan: `More` > `Manatan SRS` > `Decks` > pilih dek > `Study Now`
 
-    Manatan SRS juga bisa dipakai di [browser](https://manatan.com/srs/) dengan akun Manatan, dan ada [deck buatan komunitas](https://manatan.com/srs/shared-decks) yang bisa diunduh.
+    Manatan SRS juga bisa dipakai di [browser](https://manatan.com/srs/) dengan akun Manatan, dan ada [dek buatan komunitas](https://manatan.com/srs/shared-decks) yang bisa diunduh.
 
     Sumber: [Manatan SRS](https://manatan.com/docs/guides/manatan-srs)
 
 === "Anki (AnkiConnect)"
 
-    Untuk kamu yang sudah review di **Anki desktop**. Manatan dan Anki harus di komputer yang sama.
+    Untuk kamu yang sudah mengerjakan ulasan di **Anki desktop**. Manatan dan Anki harus di komputer yang sama.
 
-    1. Di Anki, buka `Tools` > `Add-ons` > `Get Add-ons`, masukkan kode `2055492159` ([AnkiConnect](https://ankiweb.net/shared/info/2055492159)), lalu tekan `OK`
+    1. Di Anki, buka `Tools` > `Add-ons` > `Get Add-ons`, masukkan kode `2055492159` ([AnkiConnect](https://ankiweb.net/shared/info/2055492159)), lalu klik `OK`
     2. Tutup lalu buka lagi Anki. Biarkan Anki tetap terbuka selama mengirim kartu
     3. Di Manatan, buka `Settings` > `Language learning` > `Flashcards`
     4. Nyalakan `Enable flashcards` dan pilih `AnkiConnect`
-    5. Pakai alamat `http://127.0.0.1:8765`, lalu tekan `Retry Connection` kalau perlu sampai muncul `Connected`
-    6. Pilih deck di `Target Deck`, lalu pilih `Manatan-NoteType (default)` di `Card Type`. Note type ini dipasang otomatis saat kartu pertama, dan field-nya sudah diatur, jadi tidak perlu dicocokkan satu per satu
-    7. Cari kata, tekan tombol **plus hijau** (Add to Anki) **sekali**, lalu tunggu. Setelah berhasil tombolnya berubah jadi `Open in Anki`
+    5. Pakai alamat `http://127.0.0.1:8765`, lalu klik `Retry Connection` kalau perlu sampai muncul `Connected`
+    6. Pilih dek di `Target Deck`, lalu pilih `Manatan-NoteType (default)` di `Card Type`. Note type ini dipasang otomatis saat kartu pertama dibuat, dan field-nya sudah diatur, jadi tidak perlu dicocokkan satu per satu
+    7. Cari kata, klik tombol **plus hijau** (`Add to Anki`) **sekali**, lalu tunggu. Setelah berhasil, tombolnya berubah jadi `Open in Anki`
     8. Cek kartunya di Anki dulu sebelum menambah banyak kartu
 
     Audio dan gambar tergantung sumbernya, jadi field media yang kosong belum tentu berarti koneksinya gagal.
@@ -483,7 +483,7 @@ Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Se
 
         Field lain (`SelectionText`, `DefinitionPicture`, `SentenceFurigana`, `Hint`, `Is...Card`) dikosongkan.
 
-        Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering review di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
+        Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering mengerjakan ulasan di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
 
     Sumber: [Connect Manatan to Anki](https://manatan.com/docs/guides/ankiconnect-guide) dan [Kiku custom note type](https://manatan.com/docs/guides/kiku-guide)
 
@@ -494,67 +494,78 @@ Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Se
 #### Info 1: Pembuatan Kategori
 
 ??? info "Penambahan kategori Anime dan Manga <small>(klik di sini)</small>"
-    Kamu dapat membuat kategori dengan cara:
-	    
-		1. Tekan tombol `More`(Titik tiga di bawah)
-	    2. Tekan "Edit Category Manga/Anime"
+
+    Kamu bisa membuat kategori dengan cara:
+
+    1. Tekan tombol `More` (titik tiga di bawah).
+    2. Tekan `Edit Category Manga/Anime`.
 
 #### Info 2: Custom Popup CSS
 
 ??? info "Custom Popup CSS <small>(klik di sini)</small>"
 
-    Manatan punya 2 pengaturan Custom Popup CSS. 1 yang berada di bagian Popup Dictionary dan 1 yang berada di Anime Settings.
-	Sesuai deskripsi yang ada di kedua pengaturan tersebut, pengaturan ini tidak berlaku universal. Kamu bisa mendapatkan Custom CSS dengan masuk ke server [Discord Manatan](https://discord.gg/h9xJzTqjrZ)
+    Manatan punya dua pengaturan Custom Popup CSS: satu di bagian Popup Dictionary dan satu di Anime Settings. Seperti tertulis di deskripsi keduanya, pengaturan ini tidak berlaku di semua tempat. Custom CSS bisa kamu dapatkan di server [Discord Manatan](https://discord.gg/h9xJzTqjrZ).
+
     === "Manatan Popup CSS"
-            Pengaturan ini berlaku untuk manga reader dan EPUB/Novel reader.
-	    ![Manatan Popup CSS](img/manatan-popup-CSS-settings.jpg){height=200 width=400}
+        Pengaturan ini berlaku untuk manga reader dan EPUB/Novel reader.
+
+        ![Manatan Popup CSS](img/manatan-popup-CSS-settings.jpg){height=200 width=400}
+
     === "Manatan Anime Popup CSS"
-	        Pengaturan ini berlaku untuk anime player.
-		![Manatan Anime Popup CSS](img/manatan-anime-popup-CSS-settings.jpg){height=1000 width=600}
-	
+        Pengaturan ini berlaku untuk anime player.
+
+        ![Manatan Anime Popup CSS](img/manatan-anime-popup-CSS-settings.jpg){height=1000 width=600}
+
 #### Tips 1: Penguraian kosakata yang lebih baik
 
 ??? tip "Penguraian kosakata yang lebih baik <small>(klik di sini)</small>"
 
-    Jika Kamu menggunakan Yomitan, atur penghentian kalimat (sentence termination) ke mode kustom yang tidak memisahkan kalimat berdasarkan baris baru.
+    Jika kamu memakai Yomitan, atur penghentian kalimat (sentence termination) ke mode kustom yang tidak memisahkan kalimat berdasarkan baris baru.
 
 #### Tips 2: Media dalam bahasa lain
 
 ??? tip "Pencarian media dalam bahasa lain <small>(klik di sini)</small>"
-    Manatan juga bisa digunakan untuk membaca dan menonton anime dalam bahasa lain. Kamu bisa mengaksesnya dengan cara:
-	1. Pergi ke menu `Browse`
-	2. Tekan tombol 3 garis di atas kanan
-	3. Pilih bahasa penyedia yang diinginkan
-	Setelah mengaktifkan ini, setiap bahasa dan source dari bahasa tersebut yang sudah diaktifkan juga akan memunculkan hasil pencarian. Kamus yomitan dalam bahasa lain bisa kamu temukan [di sini](https://github.com/MarvNC/yomitan-dictionaries)
+
+    Manatan juga bisa dipakai untuk membaca dan menonton dalam bahasa lain. Caranya:
+
+    1. Buka menu `Browse`.
+    2. Tekan tombol tiga garis di kanan atas.
+    3. Pilih bahasa penyedia yang diinginkan.
+
+    Setelah itu, setiap sumber dari bahasa yang sudah diaktifkan juga akan muncul di hasil pencarian. Kamus Yomitan dalam bahasa lain bisa kamu temukan [di sini](https://github.com/MarvNC/yomitan-dictionaries).
+
 ---
 
-## **FAQs**
+## **Pertanyaan Umum**
 
-#### Pertanyaan 1: Source rekomendasi untuk Anime dan Manga?
+#### Pertanyaan 1: Rekomendasi sumber anime dan manga?
 
 ??? question "Source mana saja yang direkomendasikan untuk sumber Anime dan Manga? <small>(klik di sini)</small>"
 
     - Anime
-	    - Aniwatch (di kategori English>Aniyomi:Aniwatch)
-	    - AnimePahe (di kategori English>Aniyomi:AnimePahe)
-	- Untuk manga, sangat disarankan untuk menginstal sebanyak-banyaknya sumber anime, bahkan ekstensi dengan tag `18+` karena ketersediaan manga di masing-masing penyedia bisa sangat beragam, beberapa rekomendasi utama yang sudah diuji antara lain:
-	    - MangaMura (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
-	    - Love4u (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
-		- Rawkuma (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
+        - Aniwatch (di kategori English > Aniyomi:Aniwatch)
+        - AnimePahe (di kategori English > Aniyomi:AnimePahe)
+    - Untuk manga, sebaiknya pasang sebanyak mungkin sumber manga, termasuk ekstensi dengan tag `18+`, karena ketersediaan manga di tiap penyedia sangat beragam. Beberapa rekomendasi utama yang sudah diuji:
+        - MangaMura (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
+        - Love4u (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
+        - Rawkuma (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
 
-#### Pertanyaan 2: Manga yang aku cari tidak ada, bagaimana mencarinya?
-??? question "Manga yang aku cari tidak ada? Kenapa? <small>(klik di sini)</small>"
-    Ketersediaan manga sangat bergantung penyedia ekstensi, untuk memudahkan pencarian, lakukan ini:
-    - Aktifkan `Show NSFW` di pengaturan
-	- Tambahkan source seperti MangaMura dan Rawkuma, atau lebih baik lagi instal semua daftar ekstensi yang ada di kategori 日本語
-	- Kamu bisa membiarkan `Show NSFW` atau menonaktifkannya
+#### Pertanyaan 2: Manga yang kamu cari tidak ada, bagaimana mencarinya?
 
-#### Pertanyaan 3: Kapan kamus di-update? Harus update sendiri?
+??? question "Manga yang kamu cari tidak ada? Kenapa? <small>(klik di sini)</small>"
 
-??? question "Kapan kamusnya di-update? Perlu update sendiri gak? <small>(klik di sini)</small>"
+    Ketersediaan manga sangat bergantung pada penyedia ekstensi. Untuk memudahkan pencarian:
 
-    - Aku jarang update; nggak perlu buru-buru ke versi terbaru karena isinya jarang berubah.  
-	- Tapi kalau mau ngejar yang paling baru, bisa update sendiri tiap 4 bulan sekali.
+    1. Aktifkan `Show NSFW` di pengaturan.
+    2. Tambahkan sumber seperti MangaMura dan Rawkuma, atau lebih baik lagi pasang semua ekstensi di kategori 日本語.
+    3. Setelah sumbernya terpasang, `Show NSFW` boleh dibiarkan menyala atau dimatikan lagi.
+
+#### Pertanyaan 3: Kapan kamus diperbarui? Harus memperbarui sendiri?
+
+??? question "Kapan kamusnya diperbarui? Perlu diperbarui sendiri? <small>(klik di sini)</small>"
+
+    - Kamus jarang diperbarui dan isinya jarang berubah, jadi tidak perlu buru-buru pindah ke versi terbaru.  
+	- Kalau ingin selalu memakai versi terbaru, kamu bisa memperbaruinya sendiri tiap 4 bulan sekali.
 
 #### Pertanyaan 4: Apakah Manatan butuh browser?
 
@@ -574,7 +585,7 @@ Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Se
 
 ??? question "Apakah Manatan sudah termasuk sumber anime dan manga? <small>(klik di sini)</small>"
 
-    - Tidak. Manatan hanya pembaca dan pemutar. Sumber daring perlu kamu tambahkan sendiri lewat [ekstensi](#instal-ekstensi), atau pakai file milikmu sendiri
+    - Tidak. Manatan hanya pembaca dan pemutar. Sumber daring perlu kamu tambahkan sendiri lewat [ekstensi](#pasang-ekstensi), atau pakai file milikmu sendiri
 
 ---
 
@@ -607,7 +618,7 @@ Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Se
     - Coba dulu satu kata umum di EPUB yang teksnya bisa dipilih
     - Halaman manga berupa gambar, jadi teksnya harus dibaca OCR dulu sebelum bisa dicari di kamus
     - Pastikan yang kamu impor kamus definisi, bukan cuma kamus frekuensi atau pitch
-    - Jika menggunakan Yomitan, terapkan rekomendasi parsing dari [tips](#tips-1-penguraian-kosakata-yang-lebih-baik)
+    - Jika menggunakan Yomitan, terapkan rekomendasi penguraian kosakata dari [tips](#tips-1-penguraian-kosakata-yang-lebih-baik)
 
 #### Masalah 4: Subtitle hilang atau tidak sinkron
 
@@ -620,17 +631,17 @@ Simpan kata yang kamu cari supaya bisa di-review nanti. Pengaturannya ada di `Se
 #### Masalah 5: Kartu tidak masuk ke Anki
 
 ??? warning "Kartu tidak masuk ke Anki <small>(klik di sini)</small>"
-    - Pastikan Anki desktop terbuka dan sudah di-restart setelah memasang AnkiConnect
+    - Pastikan Anki desktop terbuka dan sudah dibuka ulang setelah memasang AnkiConnect
     - Cek di Anki `Tools` > `Add-ons` bahwa AnkiConnect aktif
-    - Pastikan alamat di Manatan sama dengan port AnkiConnect (biasanya `8765`), dan deck tujuannya benar
+    - Pastikan alamat di Manatan sama dengan port AnkiConnect (biasanya `8765`), dan dek tujuannya benar
     - Kalau katanya sudah pernah dijadikan kartu, cek pengaturan duplikat dulu
-    - Jangan buka AnkiConnect ke internet atau mematikan pengaman supaya koneksinya jalan
+    - Jangan membuka akses AnkiConnect ke internet atau mematikan pengaman hanya supaya koneksinya jalan
 
 #### Masalah 6: Mau reset data aplikasi
 
 ??? warning "Mau reset data aplikasi <small>(klik di sini)</small>"
     - **Jangan** langsung menghapus folder aplikasi sebagai langkah pertama
-    - Ekspor atau backup dulu library, koleksi review (SRS), dan pengaturanmu
+    - Ekspor atau cadangkan dulu library, koleksi ulasan (SRS), dan pengaturanmu
     - Kalau tidak yakin data mana yang akan terhapus, tanya dulu di Discord
 
 #### Masalah 7: Masih bingung?

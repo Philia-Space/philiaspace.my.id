@@ -69,6 +69,17 @@ hide:
        - [Anime MacOS](setup-anime-pc-lazy-guide.md): tombol untuk membuka `Load Subtitles` yang tampil rusak
        - Tautan sumber Yomitan Local Audio diarahkan ke repo barunya, dan alamat folder Anki di beberapa halaman tidak lagi menampilkan tanda bintang
 
+**05-11-2026** · Penyuntingan Bahasa Tahap 3
+
+- Pembaruan
+       - Bahasa di [Setup Manatan](Setup-Manatan.md), [Manga Lokal](Setup-Manatan-manga-lokal.md), [Anime Lokal](Setup-Manatan-anime-lokal.md), [Novel (EPUB)](Setup-Manatan-novels.md), [Kartu Anime Satu Klik](kartu-anime-satu-klik.md), dan [Yomitan & Anki PC](setup-yomitan-pc.md) dirapikan mengikuti panduan gaya; dengan ini semua halaman panduan sudah disunting
+       - Judul bagian di halaman-halaman itu ikut diseragamkan (misalnya "FAQs" jadi "Pertanyaan Umum"), jadi tautan ke bagian lama yang tersimpan perlu diganti
+       - [Yomitan & Anki PC](setup-yomitan-pc.md) sekarang punya baris tanggal unggah dan pembaruan seperti halaman lain
+- Perbaikan
+       - [Setup Manatan](Setup-Manatan.md): daftar di bagian Info, Tips, dan Pertanyaan Umum yang tampil berantakan, serta saran "pasang sumber anime" di bagian manga yang seharusnya "sumber manga"
+       - [Yomitan & Anki PC](setup-yomitan-pc.md): tiga gambar langkah impor kamus yang kalau diklik membuka gambar lain
+       - Nama kamus 三省堂国語辞典第八版, BCCWJ, dan YouTube di daftar kamus Manatan dan Yomitan & Anki PC
+
 **04-11-2026** · Panduan Manatan
 
 - Pembaruan
