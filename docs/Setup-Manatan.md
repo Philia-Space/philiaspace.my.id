@@ -2,7 +2,7 @@
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 · Diperbarui: 5 November 2026 – `Yaaacha`
+ Diunggah: 12 April 2026 · Diperbarui: 6 November 2026 – `Yaaacha`
 
 ---
 
@@ -81,11 +81,7 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
         </tr>
         <tr>
           <td><b>Keiyoushi</b></td>
-          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json">URL</a> **Recommended**</td>
-        </tr>
-        <tr>
-          <td><b>Yuzono</b></td>
-          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json">URL</a></td>
+          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://github.com/keiyoushi/extensions/raw/repo/index.pb">URL</a> **Recommended**</td>
         </tr>
         <tr>
           <td><b>Kareadita</b></td>
@@ -96,19 +92,15 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
           <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://aidoku-community.github.io/sources/index.min.json">URL</a></td>
         </tr>
         <tr>
-          <td><b>Skittyblock Aidoku</b></td>
-          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://skittyblock.github.io/aidoku-community-sources/index.min.json">URL</a></td>
+          <td><b>Amqx (Aidoku)</b></td>
+          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://amqx.github.io/sources/index.min.json">URL</a></td>
         </tr>
         <tr>
           <th colspan="2" style="text-align:center; border-top: 1px solid var(--md-typeset-table-color)">Anime</th>
         </tr>
         <tr>
-          <td><b>Kohi-den</b></td>
-          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json">URL</a> **Recommended**</td>
-        </tr>
-        <tr>
           <td><b>Yuzono</b></td>
-          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json">URL</a></td>
+          <td style="border-left: 1px solid var(--md-typeset-table-color)"><a href="https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json">URL</a> **Recommended**</td>
         </tr>
       </tbody>
     </table>
