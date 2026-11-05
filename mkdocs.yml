@@ -19,26 +19,28 @@ nav:
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
   - 'LazyGuide - Mining':
-      - 'Pengantar - LazyGuide': 'setup.md'
-      - 'Setup Utama - LazyGuide':
-        - 'Anki PC': 'setup-anki-pc-lazy-guide.md'
-        - 'Yomitan PC': 'setup-yomitan-pc-lazy-guide.md'
-        - 'Yomitan & Anki PC': 'setup-yomitan-pc.md'
-        - 'Yomitan Android': 'setup-yomitan-android-lazy-guide.md'
-        - 'Manatan': 'Setup-Manatan.md'
+      - 'Pengantar': 'setup.md'
+      - 'PC':
+        - 'Anki': 'setup-anki-pc-lazy-guide.md'
+        - 'Yomitan': 'setup-yomitan-pc-lazy-guide.md'
         - 'ShareX (Windows)': 'setup-ShareX-pc.md'
     #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
-      - 'Setup PC - LazyGuide':
-        - 'Anime MacOS': 'setup-anime-pc-lazy-guide.md'
-        - 'Anime Desktop': 'kartu-anime-satu-klik.md'
+        - 'Anime': 'setup-anime-pc-lazy-guide.md'
         - 'LN & Buku': 'setup-LN-pc-lazy-guide.md'
         - 'Manga': 'setup-manga-pc-lazy-guide.md'
-      - 'Setup Android - LazyGuide':
+      - 'Android':
+        - 'Yomitan': 'setup-yomitan-android-lazy-guide.md'
         - 'Anime': 'setup-anime-android-lazy-guide.md'
         - 'LN & Buku': 'setup-LN-android-lazy-guide.md'
         - 'Manga': 'setup-manga-android-lazy-guide.md'
-      - 'Setup Lain':
+  - 'Setup Mining':
+      - 'Manatan (semua perangkat)': 'Setup-Manatan.md'
+      - 'PC':
+        - 'Yomitan & Anki': 'setup-yomitan-pc.md'
+        - 'Anime PC': 'kartu-anime-satu-klik.md'
         - 'Memperbarui Note Type': 'pembaruan-note-type.md'
+      - 'iOS':
+        - 'LN & Buku': 'Setup-Hoshi-Reader-iOS.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
     #   - 'Mangatan Android': 'setup-mangatan-android.md'
     #  - 'Resources':

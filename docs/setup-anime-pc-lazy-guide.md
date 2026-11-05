@@ -1,5 +1,5 @@
 
-# Setup Mining Anime di MacOS
+# Setup Mining Anime di PC
 ---
 
  Diunggah: 18 Januari 2026 · Diperbarui: 5 November 2026 – `Yaaacha`

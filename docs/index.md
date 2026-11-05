@@ -56,7 +56,7 @@ hide:
     <article class="ps-phase ps-phase-dark">
       <span class="ps-phase-num">02</span>
       <h3>Tooling &amp; mining</h3>
-      <p>Kamus popup + kartu otomatis. Sekali setup, tiap kata baru masuk Anki dalam satu klik. Ada LazyGuide untuk PC dan Android.</p>
+      <p>Kamus popup + kartu otomatis. Sekali setup, tiap kata baru masuk Anki dalam satu klik. Ada panduan untuk PC, Android, dan iOS.</p>
       <ul class="ps-links">
         <li><a href="setup/">Pengantar LazyGuide</a></li>
         <li><a href="setup-anki-pc-lazy-guide/">Anki PC</a></li>
@@ -73,13 +73,14 @@ hide:
       <h3>Immersion media</h3>
       <p>Mining sambil nonton anime, baca manga, dan light novel. Ini yang dijalani tiap hari, bertahun-tahun.</p>
       <ul class="ps-links">
-        <li><a href="kartu-anime-satu-klik/">Anime (Desktop)</a></li>
-        <li><a href="setup-anime-pc-lazy-guide/">Anime (macOS)</a></li>
+        <li><a href="kartu-anime-satu-klik/">Kartu Anime Satu Klik (PC)</a></li>
+        <li><a href="setup-anime-pc-lazy-guide/">Anime (PC)</a></li>
         <li><a href="setup-anime-android-lazy-guide/">Anime (Android)</a></li>
         <li><a href="setup-manga-pc-lazy-guide/">Manga (PC)</a></li>
         <li><a href="setup-manga-android-lazy-guide/">Manga (Android)</a></li>
         <li><a href="setup-LN-pc-lazy-guide/">Light Novel &amp; Buku (PC)</a></li>
         <li><a href="setup-LN-android-lazy-guide/">Light Novel &amp; Buku (Android)</a></li>
+        <li><a href="Setup-Hoshi-Reader-iOS/">Light Novel &amp; Buku (iOS)</a></li>
       </ul>
     </article>
   </div>
