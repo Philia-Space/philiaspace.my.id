@@ -22,6 +22,17 @@ hide:
 
 ### November
 
+**06-11-2026** · Sumber Belajar
+
+- Penambahan
+       - [Sumber Belajar](resources.md): kumpulan tautan alat dan bahan belajar bahasa Jepang dari kuri, TheMoeWay, Ten, dan Wotaku, dikelompokkan per topik dengan deskripsi bahasa Indonesia
+       - [Rekomendasi Add-on Anki](resources.md#rekomendasi-add-on-anki): daftar add-on pilihan Philia Space beserta fungsi dan kode pasangnya
+       - [JIDict Web](resources.md#kamus-di-hp) di daftar kamus, lengkap dengan cara memasangnya di Android dan iOS
+- Pembaruan
+       - Menu **Sumber Belajar** ditambahkan di navigasi, di atas **Proyek Komunitas**
+- Perbaikan
+       - [Setup Manatan](Setup-Manatan.md#pasang-ekstensi): daftar repositori ekstensi diperbarui; tautan Keiyoushi diganti, repositori yang sudah mati (Yuzono manga, Kohi-den, Skittyblock) dihapus, Yuzono sekarang jadi rekomendasi untuk anime, dan ada tambahan repositori Amqx untuk manga
+
 **06-11-2026** · Hoshi Reader untuk iPhone
 
 - Penambahan
