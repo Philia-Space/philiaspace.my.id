@@ -216,9 +216,9 @@ Pengaturan kartu ada di `Pengaturan` > `Pembuatan Kartu`.
 
 ---
 
-## **Sumber Online (Manga & Anime)**
+## **Sumber Online (Manga, Anime & Novel)**
 
-Fushi bisa membaca manga dan menonton anime dari situs online lewat ekstensi sumber. Ekstensinya sama dengan yang dipakai Mihon (manga) dan Aniyomi (anime). Fushi tidak menyertakan satu sumber pun, jadi kamu perlu menambahkan **toko ekstensi** (repositori) dulu, lalu memasang ekstensi dari toko itu.
+Fushi bisa membaca manga, menonton anime, dan membaca web novel dari situs online lewat ekstensi sumber. Ekstensinya sama dengan yang dipakai Mihon (manga), Aniyomi (anime), dan LNReader (novel). Fushi tidak menyertakan satu sumber pun, jadi kamu perlu menambahkan **toko ekstensi** (repositori) dulu, lalu memasang ekstensi dari toko itu.
 
 Ekstensi sumber ini berbeda dengan menu `Ekstensi` di samping kiri. Menu itu untuk [ekstensi browser](#ekstensi-browser).
 
@@ -228,11 +228,14 @@ Salin tautan toko sesuai jenisnya:
 
 | Jenis | Tab di Fushi | Tautan toko ekstensi |
 |---|---|---|
-| Manga | `Manga` | `https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.pb` |
+| Manga | `Manga` | `https://github.com/keiyoushi/extensions/raw/repo/index.pb` |
 | Anime | `Video` | `https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json` |
+| Novel | `Novel` | `https://raw.githubusercontent.com/LNReader/lnreader-plugins/plugins/v3.0.0/.dist/plugins.min.json` |
+
+Sumber novel berbahasa Jepang di toko LNReader saat ini hanya dua, Syosetsu dan Kakuyomu. Keduanya situs web novel, jadi isinya bukan light novel terbitan resmi.
 
 1. Buka `Jelajah` di menu samping, lalu pilih tab `Sumber` di atas
-2. Pilih jenisnya: `Manga` untuk manga, `Video` untuk anime
+2. Pilih jenisnya: `Manga` untuk manga, `Video` untuk anime, `Novel` untuk novel
 3. Di kanan atas, pilih `Ekstensi`
 4. Tekan `Tambah toko ekstensi`
 
@@ -268,7 +271,7 @@ Tautan toko anime di atas otomatis diganti Fushi ke versi `index.pb` setelah dit
 
 ### **Cari judul**
 
-1. Buka `Jelajah`, pilih tab `Jelajahi`, lalu pilih jenisnya (`Manga` atau `Video`)
+1. Buka `Jelajah`, pilih tab `Jelajahi`, lalu pilih jenisnya (`Manga`, `Video`, atau `Novel`)
 2. Ketik judul di kolom `Cari setiap sumber yang aktif`, lalu tekan `Enter`. Fushi mencari di semua sumber yang sudah terpasang sekaligus. Kalau mau mencari di satu sumber saja, pilih sumbernya di menu `Semua sumber` di sebelah kiri kolom pencarian
 3. Kalau belum tahu mau baca apa, gulir ke bawah. Ada daftar judul populer dari setiap sumber, dan bagian `Jelajahi sumber` untuk menjelajahi satu sumber tertentu
 
