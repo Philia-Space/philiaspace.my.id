@@ -31,6 +31,7 @@ hide:
 - Pembaruan
        - Menu **Sumber Belajar** ditambahkan di navigasi, di atas **Proyek Komunitas**
 - Perbaikan
+       - [Setup Fushi](Setup-Fushi.md#sumber-online-manga-anime-novel): tautan toko manga Keiyoushi diperbarui, dan ada cara menambah sumber web novel (Syosetsu dan Kakuyomu) lewat toko LNReader
        - [Setup Manatan](Setup-Manatan.md#pasang-ekstensi): daftar repositori ekstensi diperbarui; tautan Keiyoushi diganti, repositori yang sudah mati (Yuzono manga, Kohi-den, Skittyblock) dihapus, Yuzono sekarang jadi rekomendasi untuk anime, dan ada tambahan repositori Amqx untuk manga
 
 **06-11-2026** · Hoshi Reader untuk iPhone
