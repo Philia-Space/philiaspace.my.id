@@ -24,7 +24,7 @@
         - Firefox/Brave: `yomitan settings` [di sini](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
     - Tambahan kamus [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan) (Jepang-Indonesia)
 - Setelah download:
-    - Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Pass: `lazyguide`)
+    - Ekstrak `Font.7z` dan `yomitan dictionary.7z` (Pass: `lazyguide`)
     - `yomitan dictionary.7z` cuma perlu diekstrak 1x, `jangan ekstrak isi dictionary-nya`
 
 ---
@@ -118,7 +118,7 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
     1. Download semua dari [link ini](https://github.com/yomidevs/local-audio-yomichan?tab=readme-ov-file#steps). Baca pelan-pelan panduannya. Download audio jepang aja kalau ga butuh audio bahasa lain.
 
-    2. Di dalam `Anki`: tekan ++ctrl++++shift++ + A untuk Windows, ++cmd++++shift++ + A untuk MacOS, atau `Tools` > `Add-ons` > `Get Add-ons...` > masukin `1045800357` > restart `Anki`
+    2. Di dalam `Anki`: tekan ++ctrl+shift+a++ untuk Windows, ++cmd+shift+a++ untuk MacOS, atau `Tools` > `Add-ons` > `Get Add-ons...` > masukin `1045800357` > restart `Anki`
 
     3. Ekstrak `local-yomitan-audio-collection` lalu paste folder `user_files` ke:
         - Di `Add-ons window` > pilih `Local Audio Server for Yomitan` > `View Files`

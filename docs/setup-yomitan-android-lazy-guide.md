@@ -25,7 +25,7 @@
     - Tambahan kamus [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan) (Jepang-Indonesia)
 
 - Setelah download:
-    - Extract ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Password: `lazyguide`)
+    - Extract `Font.7z` dan `yomitan dictionary.7z` (Password: `lazyguide`)
     - `yomitan dictionary.7z` cukup di-extract sekali, **jangan extract dictionary di dalamnya**.
 
 ---
@@ -108,7 +108,7 @@ Setup Yomitan selesai.
     1. Di `Anki` PC: `Tools` > `Local Audio Server` > `Generate Android database`  
          - Proses ini 30+ menit (Anki nggak bisa dipakai untuk sementara, tapi masih bisa mining)
     
-    2. Di `Anki` PC: ++ctrl++++shift++ + A (Win) / ++cmd++++shift++ + A (MacOS) atau `Tools` > `Add-ons` > pilih `Local Audio Server for Yomitan` > `View Files`  
+    2. Di `Anki` PC: ++ctrl+shift+a++ (Win) / ++cmd+shift+a++ (MacOS) atau `Tools` > `Add-ons` > pilih `Local Audio Server for Yomitan` > `View Files`  
          - Akan ada file `android` atau `android.db`
 
     3. Di Android, buka `AnkiConnect Android` > `Settings` > `Print Local Audio Directory`  

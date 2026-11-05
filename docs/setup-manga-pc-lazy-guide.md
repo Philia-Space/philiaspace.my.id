@@ -160,7 +160,7 @@ Kamu bisa pilih 3 metode:
     Skip `Step 1` kalau kamu pakai [setup](setup-anki-pc-lazy-guide.md) punyaku
     
 
-1. Di Anki kamu, tekan ++ctrl++++shift++ + A (Win) / ++cmd++++shift++ + A (MacOS) atau `Tools` > `Add-ons`
+1. Di Anki kamu, tekan ++ctrl+shift+a++ (Win) / ++cmd+shift+a++ (MacOS) atau `Tools` > `Add-ons`
     - Pilih [AnkiConnect](https://ankiweb.net/shared/info/2055492159) > `Config`
     - Di bagian `webCorsOriginList` paste `https://reader.mokuro.app` atau copy config di bawah ini:
 
@@ -239,6 +239,8 @@ Sekarang kamu bisa mining Manga di PC.
     3. Gunakan `Forward Button` di mouse untuk jalanin scan
         - Ini dengan asumsi hotkey `OCR (manga_ocr)` di `ShareX` masih default `Shift + Alt + Q`
         - Kalau mau, kamu bisa ubah hotkey-nya dengan ngedit script-nya.
+
+---
 
 ## FAQs
 

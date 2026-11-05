@@ -12,6 +12,8 @@ hide:
 
     - Perbaikan = Memperbaiki kesalahan apapun dari halaman yang sudah ada
 
+    - Untuk Penulis = Aturan atau konvensi baru untuk yang ikut menulis dan menyunting panduan
+
 ---
 
 ## 2026
@@ -19,6 +21,85 @@ hide:
 ---
 
 ### November
+
+**05-11-2026** · Panduan Gaya Penulisan
+
+- Untuk Penulis
+       - Ada [panduan gaya penulisan](https://github.com/phi-li-a/philiaspace.my.id/blob/main/PANDUAN-GAYA.md) di repo: menyapa pembaca dengan "kamu", memakai "tidak" dan bukan "nggak", dan istilah yang diseragamkan seperti unduh, pasang, pengaturan, dan immersion
+       - Semua halaman panduan akan disunting bertahap mengikuti panduan gaya ini supaya bahasanya seragam
+- Pembaruan
+       - Alamat halaman [Kartu Anime Satu Klik](kartu-anime-satu-klik.md) berubah dari `/Auto-Mining%20Anime/` menjadi `/kartu-anime-satu-klik/`, jadi tautan lama yang tersimpan perlu diganti
+
+**05-11-2026** · Penyuntingan Bahasa Tahap 1
+
+- Pembaruan
+       - Bahasa di [30 Hari Awal](rutinitas-awal.md), [Panduan Ringkas](panduan-ringkas-JP.md), [Belajar Kanji](kanji.md), dan [Perbaiki Font](font.md) dirapikan agar seragam dengan [Panduan Bahasa Jepang](panduan.md) dan lebih mudah dibaca
+       - Langkah-langkah di [Perbaiki Font](font.md) sekarang bernomor, satu tindakan per langkah
+- Perbaikan
+       - [Panduan Ringkas](panduan-ringkas-JP.md): tombol Anki yang tertukar (Hard itu ++2++, Easy itu ++4++), dan semua langkah sekarang menyebut dek Kaishi yang sama
+       - [Perbaiki Font](font.md): contoh kode styling kartu Anki yang sebelumnya tidak jalan kalau disalin, dan alamat folder Windows yang tampil dengan garis miring ganda
+       - [Belajar Kanji](kanji.md): tautan 生ビール yang sebelumnya membuka kata lain
+       - Pintasan keyboard di halaman panduan sekarang tampil dengan tanda "+" di antara tombol, misalnya Ctrl+Shift+A
+
+**05-11-2026** · Sinkronisasi 30 Hari Awal
+
+- Pembaruan
+       - [30 Hari Awal](rutinitas-awal.md) disamakan dengan versi terbaru UsagiSpoon di TheMoeWay: pengaturan Anki di Hari 4 dan Hari 8 sekarang memakai FSRS, learning steps `10m`, dan kartu baru muncul setelah ulasan
+       - Hari 4 sekarang menawarkan pilihan dek kosakata yang sama dengan [Panduan Bahasa Jepang](panduan.md), dengan Kaishi V2 sebagai pilihan utama
+       - Hari 4: ada cara menyalakan terjemahan otomatis subtitle YouTube, karena video Anki-nya hanya punya subtitle Inggris
+       - Langkah "Learn ahead limit" dihapus karena sudah tidak ada di versi aslinya
+       - Hari 1: tiga video kana bisa ditonton langsung di halaman
+       - Setiap hari sekarang dipisah garis supaya batas antarhari lebih jelas
+       - Bagian-bagian utama di halaman panduan lain juga dipisah garis dengan cara yang sama
+- Perbaikan
+       - Hianime yang sudah mati diganti Anikoto (subtitle Inggris yang bisa dimatikan) dan Sankanime (subtitle Indonesia yang menempel)
+       - Tautan asbplayer di [30 Hari Awal](rutinitas-awal.md), [Anime MacOS](setup-anime-pc-lazy-guide.md), dan [Anime Android](setup-anime-android-lazy-guide.md) diganti ke alamat barunya
+       - Daftar rekomendasi anime di Hari 2 yang sebelumnya berupa tabel berantakan sekarang jadi daftar biasa
+
+**04-11-2026** · Panduan Manatan
+
+- Pembaruan
+       - [Setup Manatan](Setup-Manatan.md) disesuaikan dengan Manatan versi baru (tampilan aplikasi, bukan Web UI lagi), mengikuti dokumentasi resmi di manatan.com: download dari halaman resmi (termasuk App Store untuk iPhone/iPad), langkah setup awal, dan cara impor kamus
+       - Note type bawaan Manatan sekarang Manatan-NoteType, bukan Kiku; Kiku dan Lapis tetap bisa dipakai dengan tabel field di bagian Kartu Flashcard
+       - Bagian Masalah Umum diperbarui: Manatan tidak terbuka, popup kamus tidak muncul, kartu tidak masuk ke Anki, dan peringatan untuk backup dulu sebelum reset data
+       - [Manga Lokal](Setup-Manatan-manga-lokal.md): file tunggal di folder utama, manga EPUB, format gambar yang didukung, dan saran memilih struktur folder
+       - [Novel (EPUB)](Setup-Manatan-novels.md): tips membaca dan cara mengecek kalau popup kamus tidak muncul
+       - Kamus JP-ID JPdict di [Setup Manatan](Setup-Manatan.md) diganti RH Dict (di Discord Philia Space)
+- Penambahan
+       - Bagian Kartu Flashcard di [Setup Manatan](Setup-Manatan.md): menyimpan kata ke Manatan SRS atau ke Anki lewat AnkiConnect
+       - FAQ baru: apakah Manatan butuh browser, apakah OCR jalan offline, dan apakah sumber anime/manga sudah termasuk
+- Perbaikan
+       - Tautan Manga lokal dan Anime lokal di bagian Masalah Umum Setup Manatan yang sebelumnya rusak
+
+**04-11-2026** · Memperbarui Note Type
+
+- Penambahan
+       - [Memperbarui Note Type](pembaruan-note-type.md): halaman baru untuk update semua note type yang dipakai di panduan (Lapis, Kiku, Senren, dan Mining-JP), lengkap dengan tabel note type mana dipakai di panduan mana
+- Pembaruan
+       - Halaman Memperbarui Format Lapis digabung ke halaman di atas; di menu Setup Lain namanya sekarang "Memperbarui Note Type"
+       - Catatan bahwa Kiku sangat bergantung pada Anki desktop dan masih punya bug tampilan di iPhone/iPad, di halaman tersebut dan di [Setup Manatan](Setup-Manatan.md)
+
+**04-11-2026** · Kartu Anime Satu Klik
+
+- Pembaruan
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): Autocards diganti Yomipv, yang bisa cari arti dan bikin kartu langsung di MPV dan bisa dipakai di Windows, Linux, dan macOS; di menu namanya sekarang "Anime Desktop" (sebelumnya "Anime Windows")
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): ada perintah siap copy-paste untuk PowerShell dan Terminal buat cek apakah semua prasyarat sudah terpenuhi
+       - [Kartu Anime Satu Klik](kartu-anime-satu-klik.md): bagian FAQ baru berisi terjemahan dokumentasi Yomipv soal jendela kamus, warna subtitle sesuai status kartu, AniList, dan cara atur definisi yang masuk ke kartu
+       - Tombol "sebelumnya/berikutnya" di bawah halaman dan teks lain bawaan situs sekarang berbahasa Indonesia
+- Perbaikan
+       - Tautan (?) ke halaman cara ekstrak file dihapus dari langkah ekstrak di Panduan Ringkas, Setup Anki PC, dan Setup Yomitan PC & Android
+
+**04-11-2026** · Deck Kaishi
+
+- Pembaruan
+       - Deck Kaishi 1.5k Indonesia Simplified diganti ke Kaishi V2 di [Panduan Ringkas](panduan-ringkas-JP.md) dan [Panduan Bahasa Jepang](panduan.md)
+- Penambahan
+       - Pilihan deck sesuai tujuan di kedua halaman tersebut: Kaishi V2 untuk mulai immersion, Kaishi 1.5k versi RenRen, serta Multilingual Eggrolls JLPT 10k dan Ankidrone Essential V9 untuk JLPT
+
+**04-11-2026** · Menu di HP
+
+- Perbaikan
+       - Sub-menu di menu samping HP tidak lagi bergeser dan menumpuk dengan menu sebelumnya, dan tombol kembali (←) di atasnya muncul lagi
 
 **04-11-2026** · Sinkronisasi LazyGuide
 
@@ -94,7 +175,7 @@ hide:
 - Setup Utama
        - Penambahan Panduan [Setup Manatan](Setup-Manatan.md)
 - Setup PC
-       - Penambahan Panduan [Mining Windows](Auto-Mining Anime.md)
+       - Penambahan Panduan [Mining Windows](kartu-anime-satu-klik.md)
 	   
 ---
 

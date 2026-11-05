@@ -12,8 +12,8 @@
 
 ---
 
-- Mau update Format Lapis yang sudah kamu punya?
-    - Buka [Memperbarui Format Lapis](pembaruan-format-lapis.md)
+- Mau update Format Lapis (atau note type lain) yang sudah kamu punya?
+    - Buka [Memperbarui Note Type](pembaruan-note-type.md)
 
 ---
 
@@ -30,7 +30,7 @@
 
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
-2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
+2. Ekstrak file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
 
     === "Windows"
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
@@ -38,13 +38,13 @@
     === "MacOS"
         Folder MacOS = `~/Library/Application Support/Anki2`
 
-        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd++++shift++ + G) > paste alamat folder di atas > tekan `Enter`
+        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd+shift+g++) > paste alamat folder di atas > tekan `Enter`
 
         ![Finder Go to Folder](img/finder-go-to-folder.jpg){height=50% width=50%}
 
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
 
-3. Restart Anki kamu, lalu tekan ++ctrl++++shift++ + A (Win)/++cmd++++shift++ + A (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
+3. Restart Anki kamu, lalu tekan ++ctrl+shift+a++ (Win)/++cmd+shift+a++ (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
     - Update semua `addons` lalu restart lagi
 
     ![Anki Addons Update](img/addons-update.png){height=250 width=500}
@@ -151,6 +151,8 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
     Saat review kartu, kamu bisa klik bagian kiri definisinya buat ganti antara `Monolingual` dan `Bilingual`
 
     ![Anki Glossary Switch](img/anki-glossary-switch.png){height=250 width=500}
+
+---
 
 ## FAQs
 

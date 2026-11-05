@@ -413,6 +413,8 @@ Aku tetap menyarankan kamu baca _startup guide_ supaya kamu bisa paham cara kerj
 	[![](img/Setting-Yomitan-2.jpg)](img/Setting-Yomitan-2.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 
+---
+
 ## Penyesuaian Akhir
 
 ### Penyesuaian Deck
@@ -428,6 +430,8 @@ Kita perlu membuat dek baru.
 - Kamu juga bisa berganti note type dengan mengimpor template note type yang lain. Untuk mengeksplore note type yang kamu suka, bisa cek [di sini](https://arbyste.github.io/jp-mining-note/alternatives/)
 - Yomitan dan dek Anki siap digunakan
 
+
+---
 
 ## Penutup
 

@@ -73,7 +73,7 @@ hide:
       <h3>Immersion media</h3>
       <p>Mining sambil nonton anime, baca manga, dan light novel. Ini yang dijalani tiap hari, bertahun-tahun.</p>
       <ul class="ps-links">
-        <li><a href="Auto-Mining%20Anime/">Anime (Windows)</a></li>
+        <li><a href="kartu-anime-satu-klik/">Anime (Windows)</a></li>
         <li><a href="setup-anime-pc-lazy-guide/">Anime (macOS)</a></li>
         <li><a href="setup-anime-android-lazy-guide/">Anime (Android)</a></li>
         <li><a href="setup-manga-pc-lazy-guide/">Manga (PC)</a></li>

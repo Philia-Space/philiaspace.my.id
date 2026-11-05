@@ -78,7 +78,7 @@ Sekarang kamu bisa baca Light Novel di Android.
     1. Di `Anki` PC: `Tools` > `Local Audio Server` > `Generate Android database`  
          - Proses ini 30+ menit (Anki nggak bisa dipakai, tapi kamu masih bisa mining)
 
-    2. Di `Anki` PC: ++ctrl++ + ++shift++ + A (Win) / ++cmd++ + ++shift++ + A (MacOS) atau `Tools` > `Add-ons` > pilih `Local Audio Server for Yomitan` > `View Files`  
+    2. Di `Anki` PC: ++ctrl+shift+a++ (Win) / ++cmd+shift+a++ (MacOS) atau `Tools` > `Add-ons` > pilih `Local Audio Server for Yomitan` > `View Files`  
          - Akan ada file bernama `android` atau `android.db`
 
     3. Di Android: buka `AnkiConnect Android` > `Settings` > `Print Local Audio Directory`  

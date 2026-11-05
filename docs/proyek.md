@@ -69,6 +69,8 @@ Belum pasang Yomitan? Ikuti [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) a
 
 </div>
 
+---
+
 ## Untuk yang Mau Kerja di Jepang
 
 Dua alat ini bukan untuk belajar bahasa, jadi ditaruh terpisah.

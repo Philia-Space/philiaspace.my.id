@@ -90,4 +90,6 @@ Sekarang kamu udah bisa baca Light Novel, Novel, ataupun Buku lain di PC.
 
     3. Copy dan paste [ini](https://pastebin.com/er57E9Hw)
 
+---
+
 ## FAQs

@@ -290,8 +290,15 @@ html, body {
   scrollbar-color: var(--nx-border) transparent;
 }
 
-.md-nav--primary .md-nav__title {
+.md-nav--primary > .md-nav__title {
   display: none; /* Hide redundant sidebar title */
+}
+
+/* Nested titles are the mobile drawer's back button, hide on desktop only */
+@media screen and (min-width: 60em) {
+  .md-nav--primary .md-nav__title {
+    display: none;
+  }
 }
 
 .md-nav__list {
@@ -329,12 +336,15 @@ html, body {
   color: var(--md-default-fg-color) !important;
 }
 
-.md-nav--primary .md-nav__item--nested > .md-nav {
-  border-left: 1px solid var(--nx-border);
-  margin-left: 0.85rem;
-  padding-left: 0.5rem;
-  margin-top: 0.2rem;
-  margin-bottom: 0.35rem;
+/* Desktop only: on mobile nested navs are absolute slide-in panels, margins would offset them */
+@media screen and (min-width: 60em) {
+  .md-nav--primary .md-nav__item--nested > .md-nav {
+    border-left: 1px solid var(--nx-border);
+    margin-left: 0.85rem;
+    padding-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.35rem;
+  }
 }
 
 /* --- Main Article Content (Default Typography & Scaling) --- */

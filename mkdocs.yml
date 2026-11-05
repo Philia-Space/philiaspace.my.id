@@ -30,7 +30,7 @@ nav:
     #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
       - 'Setup PC - LazyGuide':
         - 'Anime MacOS': 'setup-anime-pc-lazy-guide.md'
-        - 'Anime Windows': 'Auto-Mining Anime.md'
+        - 'Anime Desktop': 'kartu-anime-satu-klik.md'
         - 'LN & Buku': 'setup-LN-pc-lazy-guide.md'
         - 'Manga': 'setup-manga-pc-lazy-guide.md'
       - 'Setup Android - LazyGuide':
@@ -38,7 +38,7 @@ nav:
         - 'LN & Buku': 'setup-LN-android-lazy-guide.md'
         - 'Manga': 'setup-manga-android-lazy-guide.md'
       - 'Setup Lain':
-        - 'Memperbarui Format Lapis': 'pembaruan-format-lapis.md'
+        - 'Memperbarui Note Type': 'pembaruan-note-type.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
     #   - 'Mangatan Android': 'setup-mangatan-android.md'
     #  - 'Resources':
@@ -84,6 +84,7 @@ theme:
     - search.highlighting
     - search.share
   name: material
+  language: id
   custom_dir: overrides
   favicon: img/favicon.png
   logo: img/philia-space-logo.jpg
@@ -111,7 +112,7 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
-      title: "On this page"
+      title: "Di halaman ini"
 extra_css:
   - stylesheets/extra.css
 extra_javascript:

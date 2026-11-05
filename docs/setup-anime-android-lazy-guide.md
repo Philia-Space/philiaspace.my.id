@@ -29,7 +29,7 @@
 
     ![Enable Experimental Web Platform Android](img/enable-experimental-web-platform-android.png){height=200 width=400}
 
-2. Buka [asbplayer](https://killergerbah.github.io/asbplayer/)  
+2. Buka [asbplayer](https://app.asbplayer.dev/)  
     - Abaikan `request permission` ke `Anki` dan pemasangan ekstensi `Chrome`
 
 3. Upload `Anime` dan `Subtitle` kamu ke `asbplayer` dengan klik `browse`  
@@ -62,7 +62,7 @@ Mantap! Setup mining tools akhirnya kelar.
 
 ??? info "Demo Mining Anime <small>(klik di sini)</small>"
 
-    Aku pakai note type Mining-JP di tutorial ini, di bagian pengaturan anki di yomitan kamu serharusnya sudah menggunakan note type Lapis. Aku pakai shortcut ++ctrl++++shift++ + X agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
+    Aku pakai note type Mining-JP di tutorial ini, di bagian pengaturan anki di yomitan kamu serharusnya sudah menggunakan note type Lapis. Aku pakai shortcut ++ctrl+shift+x++ agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
@@ -72,8 +72,8 @@ Mantap! Setup mining tools akhirnya kelar.
 
     Tergantung sumber `Anime` kamu, `Subtitle` bisa aja nggak sinkron. Untuk menyesuaikan:
 
-    - +100ms = ++ctrl++++shift++ + ←
-    - -100ms = ++ctrl++++shift++ + →
+    - +100ms = ++ctrl+shift+left++
+    - -100ms = ++ctrl+shift+right++
 
 #### Tip 2: Lewatin Rekaman Audio saat Mining
 
