@@ -1,7 +1,7 @@
 # Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
 ---
 
- Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+ Diunggah: 10 Agustus 2025 · Diperbarui: 6 November 2026 – `Yaaacha`
 
 ---
 
@@ -89,6 +89,39 @@ Sekarang kamu sudah bisa membaca light novel, novel, atau buku lain di PC.
     2. Di bagian `Translation`, pilih `Configure custom text replacement patterns...`
 
     3. Salin pola dari [tautan ini](https://pastebin.com/er57E9Hw), lalu tempel di sana
+
+#### Info 3: Audiobook dengan Yatsu Whispersync
+
+??? info "Baca sambil mendengarkan audiobook <small>(klik di sini)</small>"
+
+    [Yatsu Whispersync](https://docs.yatsu.moe/ttu-whispersync/) menambahkan pemutar audiobook ke Yatsu Reader. Kalimat yang sedang dibacakan ditandai di buku, dan halaman bisa ikut bergeser sendiri.
+
+    **Yang dibutuhkan**
+
+    - Browser Chrome, Edge, atau Brave di PC. Browser lain bisa, tapi file audio harus dipilih ulang setiap kali halaman dimuat ulang
+    - File audiobook (`.m4a`, `.m4b`, atau `.mp3`) dan subtitle-nya (`.srt` atau `.vtt`) untuk buku yang sama
+
+    **Pasang**
+
+    1. Pasang ekstensi [Violentmonkey](https://violentmonkey.github.io/get-it/)
+    2. Buka [script Yatsu Whispersync](https://github.com/ytrms/yatsu-whispersync/releases/latest/download/yatsu-whispersync.user.js), lalu klik `Install` di halaman Violentmonkey yang muncul
+    3. Muat ulang tab Yatsu Reader, lalu buka bukunya. Ikon Whispersync muncul di bagian bawah pembaca
+
+    **Pakai untuk satu buku**
+
+    1. Klik ikon Whispersync di bagian bawah pembaca
+    2. Pilih file subtitle, lalu file audiobook-nya
+    3. Buka tab `Match`, lalu cocokkan subtitle dengan teks buku
+    4. Klik `Save & reload page` saat diminta
+    5. Setelah halaman dimuat ulang, buka lagi menu Whispersync untuk mulai memutar audio
+
+    File audio tetap di komputermu dan tidak diunggah ke Yatsu.
+
+    **Kirim kalimat dan audio ke Anki (opsional)**
+
+    Whispersync bisa membuat kartu lewat AnkiConnect. Tambahkan alamat Yatsu ke pengaturan AnkiConnect di Anki: `Tools` > `Add-ons` > pilih `AnkiConnect` > `Config`, lalu tambahkan `"https://app.yatsu.moe"` ke daftar `webCorsOriginList`. Setelah itu, atur dek dan note type di menu Whispersync.
+
+    Kalau ikon Whispersync tidak muncul atau audionya tidak pas, cek [bagian Troubleshooting di dokumentasi Yatsu](https://docs.yatsu.moe/ttu-whispersync/#troubleshooting).
 
 ---
 
