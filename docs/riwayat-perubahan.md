@@ -22,6 +22,11 @@ hide:
 
 ### November
 
+**08-11-2026** · Subtitle Jimaku di asbplayer
+
+- Pembaruan
+       - [Setup Mining Anime di PC](setup-anime-pc-lazy-guide.md#langkah-langkah-penggunaan-video-streaming): ekstensi animetan diganti ke asbplayer resmi, yang sekarang sudah bisa mencari subtitle Jimaku sendiri, lengkap dengan langkah dan screenshot barunya
+
 **06-11-2026** · Sumber Belajar
 
 - Penambahan
