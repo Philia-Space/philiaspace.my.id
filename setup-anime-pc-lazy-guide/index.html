@@ -1925,17 +1925,17 @@
 
 <h1 id="setup-mining-anime-di-pc">Setup Mining Anime di PC<a class="headerlink" href="#setup-mining-anime-di-pc" title="Permanent link">¶</a></h1>
 <hr>
-<p>Diunggah: 18 Januari 2026 · Diperbarui: 5 November 2026 – <code>Yaaacha</code></p>
+<p>Diunggah: 18 Januari 2026 · Diperbarui: 8 November 2026 – <code>Yaaacha</code></p>
 <hr>
 <h2 id="permulaan">Permulaan<a class="headerlink" href="#permulaan" title="Permanent link">¶</a></h2>
 <ul>
 <li>asbplayer adalah pemutar video di browser untuk menonton anime beserta subtitle-nya. Kata di subtitle bisa dicari dengan Yomitan cukup dengan mengarahkan kursor.</li>
-<li>animetan adalah fork dari asbplayer dengan tambahan fitur memasukkan subtitle secara otomatis.</li>
+<li>asbplayer juga bisa mencari dan memuat subtitle Jepang dari Jimaku langsung di situs streaming, tanpa perlu mengunduh file subtitle dulu.</li>
 </ul>
 <hr>
 <h2 id="unduh-pasang">Unduh &amp; Pasang<a class="headerlink" href="#unduh-pasang" title="Permanent link">¶</a></h2>
 <ul>
-<li>Akun <a href="https://jimaku.cc/">Jimaku</a> (bisa dilewati kalau tidak memakai animetan)</li>
+<li>Akun <a href="https://jimaku.cc/">Jimaku</a> (opsional, untuk mencari subtitle langsung dari asbplayer)</li>
 <li>
 <p>Unduh anime dan subtitle Jepang yang mau kamu tonton</p>
 <ul>
@@ -1943,12 +1943,12 @@
 </ul>
 </li>
 <li>
-<p>Untuk video streaming, pasang ekstensi <a href="https://chromewebstore.google.com/detail/animetan-asbplayer-with-a/mmoglblloplhkmjpeckknpadfhpgjhoi">animetan</a></p>
+<p>Untuk video streaming, pasang ekstensi <a href="https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab">asbplayer</a></p>
 </li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Untuk Pengguna Firefox</p>
-<p>Pengguna Firefox bisa memasang animetan <a href="https://addons.mozilla.org/en-US/firefox/addon/animetan-auto-subtitles/">dari sini</a>, tapi banyak fiturnya tidak tersedia. Lihat <a href="https://docs.asbplayer.dev/docs/compatibility">catatan ini</a>.</p>
+<p>asbplayer juga ada untuk Firefox, tapi banyak fiturnya tidak tersedia. Lihat <a href="https://docs.asbplayer.dev/docs/compatibility">catatan ini</a>.</p>
 </div>
 <p>Syarat:</p>
 <ul>
@@ -2019,14 +2019,70 @@
 <p><small>Kalau ada masalah, cek <a href="./#pertanyaan-umum">Pertanyaan Umum</a></small></p>
 <hr>
 <h2 id="langkah-langkah-penggunaan-video-streaming">Langkah-langkah Penggunaan Video Streaming<a class="headerlink" href="#langkah-langkah-penggunaan-video-streaming" title="Permanent link">¶</a></h2>
+<p>Buka situs nonton anime favoritmu, misalnya Hianime, lalu putar episodenya.</p>
 <ol>
-<li>Buka situs nonton anime favoritmu, misalnya Hianime</li>
-<li>Saat pertama kali dipakai, animetan akan menampilkan kotak untuk memasukkan API key</li>
-<li>Buat akun di <a href="https://jimaku.cc/account">jimaku.cc</a> untuk mendapatkan API key</li>
-<li>Klik tombol <code>API</code> untuk membuat API key, lalu salin kode yang muncul</li>
-<li>Tempel kode itu ke Animetan</li>
-<li>Kalau judul anime di situs itu sama dengan judul di Jimaku, berikutnya animetan akan memasukkan subtitle secara otomatis</li>
+<li>
+<p>Buka sidebar asbplayer, lalu klik <code>Load Subtitles</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-1-panel.webp" data-desc-position="bottom"><img alt="Sidebar asbplayer" height="300" src="../img/asbplayer-jimaku-1-panel.webp" width="600"></a></p>
+</li>
+<li>
+<p>Muncul popup <code>Select Subtitles</code>. Klik <code>Search online subtitles</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-2-select.png" data-desc-position="bottom"><img alt="Popup Select Subtitles" height="300" src="../img/asbplayer-jimaku-2-select.png" width="600"></a></p>
+</li>
+<li>
+<p>Masukkan API key Jimaku, lalu pilih <code>Anime</code> atau <code>Drama</code></p>
+<ul>
+<li>Belum punya API key? Buat akun di <a href="https://jimaku.cc/account">jimaku.cc</a>, lalu buat API key di halaman akunmu</li>
+<li>Cukup sekali, asbplayer akan menyimpannya otomatis</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-3-apikey.png" data-desc-position="bottom"><img alt="Masukkan API key Jimaku" height="300" src="../img/asbplayer-jimaku-3-apikey.png" width="600"></a></p>
+</li>
+<li>
+<p>Ketik judulnya di <code>Search term</code>, lalu klik ikon kaca pembesar</p>
+<ul>
+<li>Semua judul yang pernah kamu cari dan pakai tetap tersimpan di bagian <code>Recent</code>, jadi lain kali tinggal diklik</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-4-search.png" data-desc-position="bottom"><img alt="Ketik judul" height="300" src="../img/asbplayer-jimaku-4-search.png" width="600"></a></p>
+</li>
+<li>
+<p>Judul muncul di bawah, pilih yang cocok</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-5-results.png" data-desc-position="bottom"><img alt="Pilih judul" height="300" src="../img/asbplayer-jimaku-5-results.png" width="600"></a></p>
+</li>
+<li>
+<p>Pilih subtitle sesuai episode yang sedang ditonton</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-6-files.png" data-desc-position="bottom"><img alt="Pilih subtitle" height="300" src="../img/asbplayer-jimaku-6-files.png" width="600"></a></p>
+</li>
+<li>
+<p>Klik <code>OK</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-7-ok.png" data-desc-position="bottom"><img alt="Klik OK" height="300" src="../img/asbplayer-jimaku-7-ok.png" width="600"></a></p>
+</li>
+<li>
+<p>Jadi! Subtitle Jepang muncul di video, dan kamu bisa mining seperti biasa</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-8-done.webp" data-desc-position="bottom"><img alt="Subtitle Jepang muncul" height="300" src="../img/asbplayer-jimaku-8-done.webp" width="600"></a></p>
+</li>
 </ol>
+<details class="tip">
+<summary>Opsional: tampilkan sampai 3 subtitle sekaligus <small>(klik di sini)</small></summary>
+<p>asbplayer bisa menampilkan sampai 3 subtitle. Kalau beruntung, subtitle bawaan situs nonton juga bisa ikut "diambil", jadi kamu bisa menampilkan subtitle Jepang dan subtitle bawaan situs bersamaan.</p>
+<ol>
+<li>
+<p>Di popup <code>Select Subtitles</code>, gulir ke bawah, nyalakan <code>Use generic subtitle detection for this site</code>, lalu muat ulang halaman</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-9-generic.png" data-desc-position="bottom"><img alt="Nyalakan generic subtitle detection" height="300" src="../img/asbplayer-jimaku-9-generic.png" width="600"></a></p>
+</li>
+<li>
+<p>Lanjutkan seperti langkah 6 sampai subtitle Jimaku terpasang di <code>Subtitle Track 1</code>. Di <code>Subtitle Track 2</code>, pilih <code>Detected subtitle</code>, lalu klik <code>OK</code></p>
+<ul>
+<li>Kalau <code>Detected subtitle</code> tidak muncul, berarti subtitle situs itu tidak bisa diambil</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-10-detected.png" data-desc-position="bottom"><img alt="Pilih Detected subtitle" height="300" src="../img/asbplayer-jimaku-10-detected.png" width="600"></a></p>
+</li>
+<li>
+<p>Dua subtitle sekarang muncul bersamaan di video</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/asbplayer-jimaku-11-double.webp" data-desc-position="bottom"><img alt="Dua subtitle muncul" height="300" src="../img/asbplayer-jimaku-11-double.webp" width="600"></a></p>
+</li>
+</ol>
+</details>
+<p>Panduan lengkapnya ada di <a href="https://docs.asbplayer.dev/docs/guides/online-subtitles">dokumentasi asbplayer</a>.</p>
 <hr>
 <h2 id="info-tambahan-tips">Info Tambahan &amp; Tips<a class="headerlink" href="#info-tambahan-tips" title="Permanent link">¶</a></h2>
 <h4 id="info-1-demo-mining-anime">Info 1: Demo Mining Anime<a class="headerlink" href="#info-1-demo-mining-anime" title="Permanent link">¶</a></h4>
