@@ -25,7 +25,8 @@ hide:
 **11-11-2026** · Audiobook di Manatan
 
 - Perbaikan
-       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#audiobook): catatan bahwa audiobook belum didukung ternyata keliru dan sudah diganti dengan langkah memutar audiobook bersamaan dengan bukunya; fitur ini hanya ada di aplikasi versi sekarang, bukan di versi lama yang dibuka lewat browser
+       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#audiobook): catatan bahwa audiobook belum didukung ternyata keliru dan sudah diganti dengan langkah memutar audiobook bersamaan dengan bukunya, lengkap dengan screenshot tiap langkah; fitur ini hanya ada di aplikasi versi sekarang, bukan di versi lama yang dibuka lewat browser
+       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#impor-buku): langkah impor buku disesuaikan dengan aplikasi versi sekarang (ikon `+` di halaman `Novel`), screenshot-nya diganti
 
 **10-11-2026** · Screenshot Hoshi Reader Android
 
