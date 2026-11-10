@@ -100,7 +100,7 @@ Cara membaca tabel:
     | reading | `Reading` | `Overwrite if available` |
     | sentence | `Custom Template`: `<span class="group">{cloze-prefix}<span class="highlight">{cloze-body}</span>{cloze-suffix}</span>` | `Append` |
     | sentenceFurigana | `Custom Template`: `<span class="group">{sentence-furigana}</span>` | `Append` |
-    | sentenceTranslation | Kosong | `Append` |
+    | sentenceTranslation | `Sentence translation` | `Append` |
     | sentenceCard | Kosong | `Fill if empty` |
     | audioCard | Kosong | `Fill if empty` |
     | notes | Kosong | `Fill if empty` |
@@ -121,11 +121,13 @@ Cara membaca tabel:
 
     - `<span class="group">` adalah penanda satu adegan. Jangan dihapus dari template `sentence` dan `sentenceFurigana`.
     - Tombol pindah adegan baru muncul kalau kartunya punya minimal dua audio kalimat.
-    - `sentenceTranslation` diisi sendiri di Anki kalau kamu mau terjemahan kalimat. Bungkus tiap terjemahan dengan `<span class="group">...</span>` supaya ikut adegannya. Manatan tidak bisa mengambil teks dari clipboard seperti Yomitan.
+    - `sentenceTranslation` diambil dari subtitle kedua, biasanya subtitle Inggris atau Indonesia. Pasang subtitle kedua dulu lewat menu subtitle pemutar (tombol `S`) sebelum menambang. Kalau tidak memakai terjemahan, pilih `None`.
+    - Manatan tidak bisa mengambil teks dari clipboard seperti Yomitan. Kalau subtitle kedua tidak ada, tempel terjemahannya sendiri di Anki.
+    - Isi `Sentence translation` tidak bisa dibungkus `<span class="group">` dari Manatan. Kalau terjemahan muncul di adegan yang salah, bungkus manual di Anki dengan `<span class="group">...</span>`.
 
     ??? info "Bedanya dengan pengaturan Senren di Yomitan <small>(klik di sini)</small>"
 
-        Di Yomitan, `picture` dan `sentenceAudio` biasanya dikosongkan karena diisi oleh alat lain, misalnya asbplayer. Di Manatan, gambar dan audio kalimat diambil langsung oleh Manatan, jadi kedua field itu diisi `Image` dan `Sentence Audio` dengan `Append` supaya tiap adegan punya gambar dan audionya sendiri. Field lainnya sama dengan pengaturan Yomitan.
+        Di Yomitan, `picture` dan `sentenceAudio` biasanya dikosongkan karena diisi oleh alat lain, misalnya asbplayer. Di Manatan, gambar dan audio kalimat diambil langsung oleh Manatan, jadi kedua field itu diisi `Image` dan `Sentence Audio` dengan `Append` supaya tiap adegan punya gambar dan audionya sendiri. Di Yomitan, `sentenceTranslation` biasanya diisi dari clipboard (salin subtitle kedua sebelum menambang); di Manatan langsung diambil dari subtitle kedua. Field lainnya sama dengan pengaturan Yomitan.
 
     Sumber: [Senren: scene switching](https://brenoaqua.github.io/Senren/scene_switching) dan [Senren Setup](https://brenoaqua.github.io/Senren/setup_overview/)
 
