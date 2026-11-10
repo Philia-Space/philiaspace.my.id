@@ -530,7 +530,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
     ??? info "Mau pakai Lapis, Kiku, Senren, atau Mining-JP? <small>(klik di sini)</small>"
 
-        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Note type lain tetap bisa dipakai, tapi field-nya harus diisi sendiri. Isiannya ada di [Field Note Type di Manatan](manatan-field-note-type.md).
+        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Note type lain tetap bisa dipakai, tapi field-nya harus diisi sendiri. Isiannya ada di [Pengaturan Note Type](pengaturan-note-type.md).
 
         Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering mengerjakan ulasan di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
 
@@ -539,42 +539,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ### **Isi field sesuai note type**
 
-Tiap note type punya kebutuhan sendiri. Sebelum memakai note type selain Manatan-NoteType, baca dulu panduan note type tersebut: field apa yang harus diisi, dan apakah field-nya perlu template khusus.
-
-Di Manatan, tiap field di `Field mapping` punya dua pilihan: isi kartunya (`Card content`) dan `Update Mode`. `Update Mode` menentukan apa yang terjadi pada field itu kalau kamu menambang kata yang kartunya sudah ada.
-
-![Pilihan Update Mode di pengaturan flashcard Manatan](img/manatan-flashcard-update-mode.jpg){height=400 width=500}
-
-| Update Mode | Yang terjadi pada field |
-|---|---|
-| Overwrite | Isi lama diganti isi baru |
-| Overwrite if available | Isi lama diganti hanya kalau isi baru tidak kosong |
-| Append | Isi baru ditambahkan di belakang isi lama |
-| Prepend | Isi baru ditambahkan di depan isi lama |
-| Fill if empty | Diisi hanya kalau field masih kosong |
-| Skip | Field tidak diubah |
-
-Kartu yang sudah ada diatur di bagian `Duplicates` di paling bawah. `Check for Duplicates` memeriksa apakah kata itu sudah punya kartu, lalu `Duplicate Action` menentukan tindakannya: `Prevent` (tidak membuat kartu), `Overwrite` (memperbarui kartu lama sesuai `Update Mode` tiap field), atau `Add anyway` (tetap membuat kartu baru). `Check Scope` menentukan pemeriksaannya di dek mana saja.
-
-![Pengaturan kartu duplikat di Manatan](img/manatan-flashcard-duplicates.jpg){height=250 width=500}
-
-Kebanyakan note type hanya menyimpan satu kalimat per kartu. Untuk note type seperti itu, field kalimat sebaiknya `Overwrite` supaya kalimat tidak menumpuk.
-
-Isian lengkap untuk Lapis, Kiku, Senren, dan Mining-JP ada di [Field Note Type di Manatan](manatan-field-note-type.md).
-
-??? example "Contoh: Senren dengan banyak adegan <small>(klik di sini)</small>"
-
-    [Senren](https://brenoaqua.github.io/Senren/scene_switching) bisa menyimpan beberapa adegan (kalimat, gambar, dan audio) untuk satu kata, lalu kamu bisa berpindah adegan di kartunya. Supaya ini jalan, menambang kata yang sama harus menambah adegan ke kartu lama, bukan membuat kartu baru atau menghapus adegan sebelumnya:
-
-    1. Di `Card Type`, pilih `Senren`.
-    2. Di bagian `Duplicates`, nyalakan `Check for Duplicates` dan pilih `Overwrite` di `Duplicate Action`.
-    3. Atur `Update Mode` field berikut ke `Append`: `picture`, `sentence`, `sentenceFurigana`, `sentenceAudio`, dan `miscInfo`. Kalau kamu memakai terjemahan kalimat, `sentenceTranslation` juga `Append`.
-    4. Field lain yang isinya tetap, seperti kata, bacaan, pitch, dan frekuensi, pakai `Overwrite if available`. Field yang hanya perlu diisi sekali, seperti arti kata dan audio kata, pakai `Fill if empty`. Daftar lengkapnya ada di [tab Senren](manatan-field-note-type.md#isian-per-note-type).
-    5. Untuk `sentence` dan `sentenceFurigana`, pilih `Custom Template` dan bungkus isinya dengan `<span class="group">...</span>`. Tanda ini yang memisahkan satu adegan dengan adegan berikutnya.
-
-    Tombol pindah adegan baru muncul kalau kartunya punya minimal dua audio kalimat.
-
-    Sumber: [Senren: scene switching](https://brenoaqua.github.io/Senren/scene_switching)
+Tiap note type punya kebutuhan sendiri: field apa yang diisi, isinya apa, dan apa yang terjadi kalau kamu menambang kata yang sudah punya kartu. Kalau kamu memakai note type selain Manatan-NoteType, ikuti [Pengaturan Note Type](pengaturan-note-type.md). Halaman itu memuat isian Lapis, Kiku, Senren, dan Mining-JP untuk Manatan maupun Yomitan, termasuk pengaturan Senren untuk kartu berisi banyak adegan.
 
 ---
 
