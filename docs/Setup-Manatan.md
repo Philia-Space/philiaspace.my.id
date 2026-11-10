@@ -2,7 +2,7 @@
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 · Diperbarui: 6 November 2026 – `Yaaacha`
+ Diunggah: 12 April 2026 · Diperbarui: 10 November 2026 – `Yaaacha`
 
 ---
 
@@ -111,11 +111,8 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 ### **Tambah sumber**
 
 1. Buka `Browse`.
-2. Buka `Video Extensions` / `Manga Extensions` dan pasang ekstensi yang kamu butuhkan.
-3. Buka `Anime Sources` / `Manga Sources`, pilih salah satu, lalu mulai mencari judul.
-	- Untuk anime, kamu perlu membuka salah satu sumber (situs penyedia) dulu untuk bisa mencari anime yang kamu mau
-	- Untuk manga, kamu bisa langsung membuka `Manga Sources` dan menekan tombol `global search` di kanan atas untuk mencari judul manga yang ingin dibaca. Jangan lupa ganti opsi `pinned` ke `all` agar Manatan bisa mencari dari semua penyedia yang sudah dipasang.
-4. Setelah judul serial yang kamu cari muncul, tekan `Add to Library`
+2. Buka `Video Extensions` (anime) atau `Manga Extensions`, lalu pasang ekstensi yang kamu butuhkan. Daftar ekstensi anime yang sudah dicoba ada di bagian [Anime](#anime).
+3. Ekstensi yang sudah terpasang muncul di `Video Sources` dan `Manga Sources`. Cara mencari judul dan menyimpannya ke Library ada di [Penggunaan Media](#penggunaan-media).
 
 ??? warning "Catatan keamanan" 
     Repositori ekstensi sering kali disediakan oleh pihak ketiga. Pasang hanya dari penyedia yang kamu percayai.
@@ -125,42 +122,114 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 
 ### **Manga**
 
-1. Membaca dari sumber daring
-	- Buka menu `Manga`
-	- Buka judul serial lalu pilih chapter
+1. Membaca dari sumber daring (ekstensi)
+	- Buka `Browse` > `Manga Sources`, lalu tekan ikon kaca pembesar di kanan atas untuk membuka pencarian global
+	- Pastikan opsi `All` yang aktif, bukan `Pinned`, supaya Manatan mencari di semua sumber manga yang sudah dipasang
+	- Ketik judul manga. Hasil dari tiap sumber akan muncul berurutan
+	- Buka judul yang cocok, lalu tekan `Add to Library`
+	- Pilih chapter untuk mulai membaca. Selanjutnya judul ini bisa dibuka langsung dari menu `Manga`
 2. Membaca dari berkas lokal.
 	- [Manga Lokal](Setup-Manatan-manga-lokal.md)
-=== "Pengaturan Layout"
-	![Pengaturan Layout manga di Manatan](img/manga-setting-layout.jpg){height=500 width=500}
-=== "Pengaturan General"
-	![Pengaturan General manga di Manatan](img/manga-setting-general.jpg){height=500 width=500}
-=== "Pengaturan Custom Filter"
-	![Pengaturan Custom Filter manga di Manatan](img/manga-setting-filter.jpg){height=500 width=500}
-=== "Pengaturan Behaviour"
-	![Pengaturan Behaviour manga di Manatan](img/manga-setting-behaviour.jpg){height=500 width=500}
-=== "Pengaturan Keybinds"
-	![Pengaturan Keybinds manga di Manatan](img/manga-setting-keybind.jpg){height=500 width=500}
+3. Pengaturan pembaca
+	- Klik bagian tengah halaman manga untuk membuka menu di kiri, lalu tekan `Settings`
+	- Untuk manga Jepang, pilih `Reading mode` > `Single page (right to left)` atau `Double page (right to left)` supaya halaman dibalik dari kanan ke kiri
+=== "Menu Pembaca"
+	![Menu samping pembaca manga di Manatan](img/manga-reader-menu.jpg){height=500 width=500}
+=== "Layout"
+	![Pengaturan Layout pembaca manga di Manatan](img/manga-setting-layout.jpg){height=500 width=500}
+=== "General"
+	![Pengaturan General pembaca manga di Manatan](img/manga-setting-general.jpg){height=500 width=500}
+=== "Custom Filter"
+	![Pengaturan Custom Filter pembaca manga di Manatan](img/manga-setting-filter.jpg){height=500 width=500}
+=== "Behaviour"
+	![Pengaturan Behaviour pembaca manga di Manatan](img/manga-setting-behaviour.jpg){height=500 width=500}
+=== "Keybinds"
+	![Pengaturan Keybinds pembaca manga di Manatan](img/manga-setting-keybind.jpg){height=500 width=500}
+
+??? info "Isi tiap tab pengaturan pembaca manga <small>(klik di sini)</small>"
+
+    | Tab | Isi |
+    |---|---|
+    | Layout | Mode baca (satu halaman, dua halaman, gulir, webtoon) dan arahnya, zona ketuk untuk pindah halaman beserta ukurannya, dan ukuran gambar (pas lebar, pas tinggi, pas layar) |
+    | General | Tampilan menu, warna latar, dan bilah progres |
+    | Custom Filter | Kecerahan, kontras, dan filter warna halaman |
+    | Behaviour | Halaman yang dibuka saat keluar, jarak gulir, dobel klik untuk zoom, kecepatan gulir otomatis, dan pemberitahuan saat pindah chapter |
+    | Keybinds | Shortcut keyboard. Bawaannya: `←` `→` pindah halaman, `,` `.` pindah chapter, `M` buka menu, `R` ganti mode baca, `Space` gulir otomatis, `C` keluar |
+
+    Di tab Layout, bagian `Series settings` hanya berlaku untuk judul yang sedang dibuka. Kalau pilihannya `Default`, Manatan memakai pengaturan bawaan mode baca yang ada di bawahnya (misalnya bagian `Single page`).
 	
 ### **Anime**
 
-1. Menonton dari sumber daring
-	- Buka menu `Video`
-	- Buka judul serial lalu pilih episode
+1. Menonton dari sumber daring (ekstensi)
+	- Buka `Browse` > `Video Sources`, lalu pilih salah satu sumber. Sumber dikelompokkan per bahasa, jadi sumber `English` ada di bawah kelompok `All`. Pencarian global belum bisa dipakai untuk anime, jadi judul harus dicari di tiap sumber satu per satu
+	- Tekan ikon kaca pembesar di kanan atas, ketik judul anime, lalu tekan Enter. Kamu juga bisa melihat-lihat daftar `Popular` dan `Latest`
+	- Buka judul yang cocok, lalu tekan `Add to Library`
+	- Pilih episode, atau tekan `Start` untuk mulai dari episode pertama. Selanjutnya judul ini bisa dibuka langsung dari menu `Video`
+	- Kalau judulnya tidak ketemu, coba ketik judul versi lain (romaji atau Inggris). Kalau masih tidak ketemu atau videonya tidak mau diputar, coba sumber lain dari [daftar ekstensi anime](#ekstensi-anime-yang-sudah-dicoba) di akhir bagian ini
 2. Menonton dari sumber berkas lokal
 	- [Anime lokal](Setup-Manatan-anime-lokal.md)
-3. Pengaturan Video Player
-=== "Video Player Layout"
-	![Manatan Video Player Layout](img/manatan-video-player-1.jpg){height=1000 width=600}
-=== "Episode Selector"
-	![Manatan Video Player Episode Selector](img/manatan-video-player-2.jpg){height=1000 width=600}
-=== "Resolution Selector"
-	![Manatan Video Player Resolution Selector](img/manatan-video-player-3.jpg){height=1000 width=600}
-=== "Subtitle Selector"
-	![Manatan Video Player Subtitle Selector](img/manatan-video-player-4.jpg){height=1000 width=600}
+3. Pemutar video
+	- Untuk memasang subtitle Jepang, tekan ikon subtitle (nomor 3 di gambar) > `Find online subtitles` > `Jimaku`. Cari judul animenya dalam romaji (misalnya `Jigokuraku`), pilih judul yang cocok, lalu pilih salah satu file `Jimaku - ...` di daftar subtitle
+	- Kalau subtitle tidak pas dengan suara, geser 100 ms per klik dengan tombol `‹` dan `›` di kanan bawah
+	- Mode putar dan shortcut keyboard ada di [Tips 3](#tips-3-mode-putar-dan-shortcut-pemutar-video)
+=== "Tata Letak"
+	![Tata letak pemutar video Manatan dengan nomor tiap tombol](img/manatan-video-player-1.jpg){height=1000 width=600}
+=== "Pilih Episode"
+	![Daftar episode di pemutar video Manatan](img/manatan-video-player-2.jpg){height=1000 width=600}
+=== "Kualitas Video"
+	![Pilihan server dan kualitas video di Manatan](img/manatan-video-player-3.jpg){height=1000 width=600}
+=== "Subtitle"
+	![Menu subtitle di pemutar video Manatan](img/manatan-video-player-4.jpg){height=1000 width=600}
+
+??? info "Fungsi tiap tombol di pemutar video <small>(klik di sini)</small>"
+
+    Nomor mengikuti gambar **Tata Letak**.
+
+    | No | Fungsi |
+    |---|---|
+    | 1 | Judul dan episode yang sedang diputar. Tekan untuk membuka daftar episode |
+    | 2 | Pilih server dan kualitas video |
+    | 3 | Menu subtitle: cari subtitle di Jimaku, buat subtitle otomatis, impor file subtitle, dan pilih subtitle utama (`P`) atau kedua (`S`) |
+    | 4 | Sembunyikan atau tampilkan subtitle |
+    | 5 | Mode putar dan kecepatan video |
+    | 6 | Daftar shortcut keyboard |
+    | 7 | Pengaturan video: huruf, ukuran, dan posisi subtitle |
+    | 8 | Episode sebelumnya |
+    | 9 | Mundur ke kalimat subtitle sebelumnya |
+    | 10 | Maju ke kalimat subtitle berikutnya |
+    | 11 | Episode berikutnya |
+    | 12 | Jumlah huruf subtitle yang sudah lewat dari total satu episode |
+    | 13 | Putar episode berikutnya secara otomatis |
+    | 14 | Jadikan detik ini awal kalimat subtitle sebelumnya |
+    | 15 | Jadikan detik ini awal kalimat subtitle berikutnya |
+    | 16 | Subtitle 100 ms lebih cepat |
+    | 17 | Subtitle 100 ms lebih lambat |
+
+#### Ekstensi anime yang sudah dicoba
+
+Dicoba pada 6 November 2026 dengan Manatan Windows v6.3.8, repositori [Yuzono](#pasang-ekstensi), dan DNS Cloudflare menyala di perangkat. Sumber daring bisa berubah atau mati sewaktu-waktu, jadi kalau satu sumber bermasalah, coba yang lain.
+
+- **Softsub**: subtitle terpisah dari video, bisa dimatikan dan diganti subtitle Jepang dari Jimaku. Paling cocok untuk immersion
+- **Hardsub**: subtitle menempel di video dan tidak bisa dimatikan
+
+| Kategori | Ekstensi | Catatan |
+|---|---|---|
+| ALL / Multi | AnimeOnsen | Tidak bisa dibuka saat DNS Cloudflare menyala, bisa tanpa DNS |
+| ALL / Multi | AnimeXin | Donghua (animasi Tiongkok) |
+| ALL / Multi | LMAnime | Donghua (animasi Tiongkok) |
+| Bahasa Indonesia | Oploverz | Hardsub Indonesia. Dicoba tanpa DNS |
+| English | Animekai (Unoriginal) | Softsub |
+| English | Anichi | Softsub |
+| English | Anikoto | Softsub |
+| English | AllAnime | Hardsub Inggris |
+| English | AnimePahe | Hardsub Inggris |
+| English | AnimeGG | Campuran hardsub Inggris, dub, dan raw. Setidaknya salah satunya tersedia |
+| English | AniWave (Unoriginal) | Softsub, kadang ada subtitle Indonesia |
+| English | Aniwaves.ru | Hardsub Inggris |
 	
 ### **Novel (EPUB)**
 
-Impor berkas EPUB dan baca.
+Impor berkas EPUB, PDF, atau TXT dan baca. Audiobook belum didukung.
 
 - Selanjutnya: [Novel (EPUB)](Setup-Manatan-novels.md)
 
@@ -526,6 +595,40 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
     Setelah itu, setiap sumber dari bahasa yang sudah diaktifkan juga akan muncul di hasil pencarian. Kamus Yomitan dalam bahasa lain bisa kamu temukan [di sini](https://github.com/MarvNC/yomitan-dictionaries).
 
+#### Tips 3: Mode putar dan shortcut pemutar video
+
+??? tip "Mode putar dan shortcut pemutar video <small>(klik di sini)</small>"
+
+    Mode putar dibuka dari ikon pengaturan putar (nomor 5 di gambar [Tata Letak](#anime)).
+
+    ![Pengaturan mode putar di pemutar video Manatan](img/manatan-video-player-5.jpg){height=1000 width=600}
+
+    | Mode | Cara kerja |
+    |---|---|
+    | Default | Diputar biasa, tanpa jeda otomatis dan tanpa menyembunyikan subtitle |
+    | Primed Listening | Jeda sebelum tiap kalimat dan tampilkan subtitle kedua |
+    | Intensive Reading | Jeda sebelum tiap kalimat supaya subtitle sempat dibaca |
+    | Intensive Listening | Subtitle disembunyikan selama kalimat diucapkan, lalu video jeda dan subtitle muncul |
+    | Intensive Hybrid | Jeda setelah tiap kalimat, subtitle tetap terlihat |
+    | Show on Pause | Subtitle hanya muncul saat video dijeda |
+    | 1T Focus | Subtitle muncul untuk kalimat yang hanya punya satu kata yang belum kamu kenal, lalu video mundur dan jeda |
+    | Custom | Atur sendiri kapan video jeda dan kapan subtitle terlihat |
+
+    Di bawahnya ada `Skip scenes with no dialogue` untuk mempercepat (2× sampai 8×) atau melompati adegan tanpa dialog, dan `Playback Speed` untuk kecepatan video.
+
+    Shortcut keyboard (bisa juga dilihat dari ikon tanda tanya):
+
+    | Tombol | Fungsi |
+    |---|---|
+    | `Space` | Putar atau jeda |
+    | `←` / `→` | Kalimat subtitle sebelumnya / berikutnya |
+    | `↑` | Ulangi kalimat yang sedang tampil |
+    | `↓` | Sembunyikan atau tampilkan subtitle |
+    | `Shift` + `↓` | Sembunyikan atau tampilkan subtitle kedua |
+    | `Shift` + `←` / `→` | Mundur / maju beberapa detik |
+    | `Ctrl` + `←` / `→` | Jadikan detik ini awal kalimat subtitle sebelumnya / berikutnya |
+    | `Ctrl` + `Shift` + `←` / `→` | Subtitle 100 ms lebih cepat / lebih lambat |
+
 ---
 
 ## **Pertanyaan Umum**
@@ -534,9 +637,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ??? question "Source mana saja yang direkomendasikan untuk sumber Anime dan Manga? <small>(klik di sini)</small>"
 
-    - Anime
-        - Aniwatch (di kategori English > Aniyomi:Aniwatch)
-        - AnimePahe (di kategori English > Aniyomi:AnimePahe)
+    - Untuk anime, lihat [daftar ekstensi anime yang sudah dicoba](#ekstensi-anime-yang-sudah-dicoba). Pilih yang softsub supaya subtitle bawaannya bisa diganti subtitle Jepang
     - Untuk manga, sebaiknya pasang sebanyak mungkin sumber manga, termasuk ekstensi dengan tag `18+`, karena ketersediaan manga di tiap penyedia sangat beragam. Beberapa rekomendasi utama yang sudah diuji:
         - MangaMura (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
         - Love4u (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
@@ -616,7 +717,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ??? warning "Subtitle hilang atau tidak sinkron <small>(klik di sini)</small>"
     - Coba trek subtitle lainnya.
-    - Sesuaikan waktu subtitle jika kontrol pemutar tersedia.
+    - Geser waktu subtitle 100 ms per klik dengan tombol `‹` dan `›` di kanan bawah pemutar. Lihat [fungsi tiap tombol](#anime).
     - Untuk file lokal, pastikan subtitle memang ada di dalam file videonya.
     - Menambah kamus tidak akan memunculkan subtitle yang memang tidak ada.
 
