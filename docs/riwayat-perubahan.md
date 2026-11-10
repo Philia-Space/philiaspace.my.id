@@ -30,8 +30,7 @@ hide:
        - [Setup Manatan](Setup-Manatan.md#info-2-custom-popup-css): Custom Popup CSS sekarang satu untuk video, manga, dan novel, tidak lagi terpisah
        - [Setup Manatan](Setup-Manatan.md#tips-1-media-dalam-bahasa-lain): catatan bahwa popup kamus untuk bahasa lain butuh profil tambahan (membership), karena versi gratis hanya punya satu profil
 - Penambahan
-       - [Field Note Type di Manatan](manatan-field-note-type.md): halaman baru berisi isian field kartu Anki di Manatan untuk Lapis, Kiku, Senren, dan Mining-JP, termasuk pengaturan kartu duplikat; ada di menu **Setup Mining**
-       - [Setup Manatan](Setup-Manatan.md#isi-field-sesuai-note-type): penjelasan isi field dan pilihan pembaruan kartu yang sudah ada, dengan contoh pengaturan Senren untuk kartu berisi banyak adegan
+       - [Pengaturan Note Type](pengaturan-note-type.md): halaman baru berisi isian field kartu Anki untuk Lapis, Kiku, Senren, dan Mining-JP, dalam versi Yomitan dan Manatan, termasuk pengaturan kartu duplikat dan cara Senren menyimpan banyak adegan dalam satu kartu; ada di menu **Setup Mining**
 - Perbaikan
        - [Setup Manatan](Setup-Manatan.md#info-tambahan-dan-tips): tips penguraian kosakata dihapus karena hanya berlaku untuk Yomitan, bukan popup kamus Manatan
 
