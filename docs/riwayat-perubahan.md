@@ -29,6 +29,7 @@ hide:
        - [Setup Manatan](Setup-Manatan.md#ekstensi-anime-yang-sudah-dicoba): daftar ekstensi anime yang sudah dicoba, lengkap dengan bahasa dan jenis subtitlenya, menggantikan rekomendasi lama di Pertanyaan Umum
        - [Setup Manatan](Setup-Manatan.md#anime): screenshot pemutar video diganti mengikuti tampilan baru, ada langkah memasang subtitle Jimaku langsung dari pemutar, dan fungsi tiap tombol dijelaskan per nomor
        - [Setup Manatan](Setup-Manatan.md#manga): screenshot pengaturan pembaca manga diganti mengikuti tampilan baru, ditambah cara membuka pengaturannya, saran mode baca kanan ke kiri untuk manga Jepang, dan penjelasan singkat tiap tab
+       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md): cara impor diperbarui (menu tiga titik di `Novels`, bisa EPUB, PDF, atau TXT), ada catatan konversi file `.azw3`, screenshot pembaca dan pengaturannya, serta catatan bahwa audiobook belum didukung
        - [Setup Manatan](Setup-Manatan.md#tips-3-mode-putar-dan-shortcut-pemutar-video): tips baru tentang mode putar (misalnya jeda otomatis tiap kalimat) dan shortcut keyboard pemutar video
 
 **08-11-2026** · Subtitle Jimaku di asbplayer
