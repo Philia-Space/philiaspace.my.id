@@ -2,7 +2,7 @@
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 · Diperbarui: 6 November 2026 – `Yaaacha`
+ Diunggah: 12 April 2026 · Diperbarui: 10 November 2026 – `Yaaacha`
 
 ---
 
@@ -111,11 +111,8 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 ### **Tambah sumber**
 
 1. Buka `Browse`.
-2. Buka `Video Extensions` / `Manga Extensions` dan pasang ekstensi yang kamu butuhkan.
-3. Buka `Anime Sources` / `Manga Sources`, pilih salah satu, lalu mulai mencari judul.
-	- Untuk anime, kamu perlu membuka salah satu sumber (situs penyedia) dulu untuk bisa mencari anime yang kamu mau
-	- Untuk manga, kamu bisa langsung membuka `Manga Sources` dan menekan tombol `global search` di kanan atas untuk mencari judul manga yang ingin dibaca. Jangan lupa ganti opsi `pinned` ke `all` agar Manatan bisa mencari dari semua penyedia yang sudah dipasang.
-4. Setelah judul serial yang kamu cari muncul, tekan `Add to Library`
+2. Buka `Video Extensions` (anime) atau `Manga Extensions`, lalu pasang ekstensi yang kamu butuhkan. Daftar ekstensi anime yang sudah dicoba ada di bagian [Anime](#anime).
+3. Ekstensi yang sudah terpasang muncul di `Video Sources` dan `Manga Sources`. Cara mencari judul dan menyimpannya ke Library ada di [Penggunaan Media](#penggunaan-media).
 
 ??? warning "Catatan keamanan" 
     Repositori ekstensi sering kali disediakan oleh pihak ketiga. Pasang hanya dari penyedia yang kamu percayai.
@@ -125,9 +122,12 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 
 ### **Manga**
 
-1. Membaca dari sumber daring
-	- Buka menu `Manga`
-	- Buka judul serial lalu pilih chapter
+1. Membaca dari sumber daring (ekstensi)
+	- Buka `Browse` > `Manga Sources`, lalu tekan ikon kaca pembesar di kanan atas untuk membuka pencarian global
+	- Pastikan opsi `All` yang aktif, bukan `Pinned`, supaya Manatan mencari di semua sumber manga yang sudah dipasang
+	- Ketik judul manga. Hasil dari tiap sumber akan muncul berurutan
+	- Buka judul yang cocok, lalu tekan `Add to Library`
+	- Pilih chapter untuk mulai membaca. Selanjutnya judul ini bisa dibuka langsung dari menu `Manga`
 2. Membaca dari berkas lokal.
 	- [Manga Lokal](Setup-Manatan-manga-lokal.md)
 === "Pengaturan Layout"
@@ -143,9 +143,12 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 	
 ### **Anime**
 
-1. Menonton dari sumber daring
-	- Buka menu `Video`
-	- Buka judul serial lalu pilih episode
+1. Menonton dari sumber daring (ekstensi)
+	- Buka `Browse` > `Video Sources`, lalu pilih salah satu sumber. Pencarian global belum bisa dipakai untuk anime, jadi judul harus dicari di tiap sumber satu per satu
+	- Tekan ikon kaca pembesar di kanan atas, ketik judul anime, lalu tekan Enter. Kamu juga bisa melihat-lihat daftar `Popular` dan `Latest`
+	- Buka judul yang cocok, lalu tekan `Add to Library`
+	- Pilih episode, atau tekan `Start` untuk mulai dari episode pertama. Selanjutnya judul ini bisa dibuka langsung dari menu `Video`
+	- Kalau judulnya tidak ketemu, coba ketik judul versi lain (romaji atau Inggris). Kalau masih tidak ketemu atau videonya tidak mau diputar, coba sumber lain dari [daftar ekstensi anime](#ekstensi-anime-yang-sudah-dicoba) di akhir bagian ini
 2. Menonton dari sumber berkas lokal
 	- [Anime lokal](Setup-Manatan-anime-lokal.md)
 3. Pengaturan Video Player
@@ -157,6 +160,28 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 	![Manatan Video Player Resolution Selector](img/manatan-video-player-3.jpg){height=1000 width=600}
 === "Subtitle Selector"
 	![Manatan Video Player Subtitle Selector](img/manatan-video-player-4.jpg){height=1000 width=600}
+
+#### Ekstensi anime yang sudah dicoba
+
+Dicoba pada 6 November 2026 dengan Manatan Windows v6.3.8, repositori [Yuzono](#pasang-ekstensi), dan DNS Cloudflare menyala di perangkat. Sumber daring bisa berubah atau mati sewaktu-waktu, jadi kalau satu sumber bermasalah, coba yang lain.
+
+- **Softsub**: subtitle terpisah dari video, bisa dimatikan dan diganti subtitle Jepang dari Jimaku. Paling cocok untuk immersion
+- **Hardsub**: subtitle menempel di video dan tidak bisa dimatikan
+
+| Kategori | Ekstensi | Catatan |
+|---|---|---|
+| ALL / Multi | AnimeOnsen | Tidak bisa dibuka saat DNS Cloudflare menyala, bisa tanpa DNS |
+| ALL / Multi | AnimeXin | Donghua (animasi Tiongkok) |
+| ALL / Multi | LMAnime | Donghua (animasi Tiongkok) |
+| Bahasa Indonesia | Oploverz | Hardsub Indonesia. Dicoba tanpa DNS |
+| English | Animekai (Unoriginal) | Softsub |
+| English | Anichi | Softsub |
+| English | Anikoto | Softsub |
+| English | AllAnime | Hardsub Inggris |
+| English | AnimePahe | Hardsub Inggris |
+| English | AnimeGG | Campuran hardsub Inggris, dub, dan raw. Setidaknya salah satunya tersedia |
+| English | AniWave (Unoriginal) | Softsub, kadang ada subtitle Indonesia |
+| English | Aniwaves.ru | Hardsub Inggris |
 	
 ### **Novel (EPUB)**
 
@@ -534,9 +559,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ??? question "Source mana saja yang direkomendasikan untuk sumber Anime dan Manga? <small>(klik di sini)</small>"
 
-    - Anime
-        - Aniwatch (di kategori English > Aniyomi:Aniwatch)
-        - AnimePahe (di kategori English > Aniyomi:AnimePahe)
+    - Untuk anime, lihat [daftar ekstensi anime yang sudah dicoba](#ekstensi-anime-yang-sudah-dicoba). Pilih yang softsub supaya subtitle bawaannya bisa diganti subtitle Jepang
     - Untuk manga, sebaiknya pasang sebanyak mungkin sumber manga, termasuk ekstensi dengan tag `18+`, karena ketersediaan manga di tiap penyedia sangat beragam. Beberapa rekomendasi utama yang sudah diuji:
         - MangaMura (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
         - Love4u (memiliki tag 18+, tapi tidak semua isinya berupa manga 18+)
