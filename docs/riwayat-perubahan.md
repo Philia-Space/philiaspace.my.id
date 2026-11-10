@@ -27,6 +27,8 @@ hide:
 - Pembaruan
        - [Setup Manatan](Setup-Manatan.md#penggunaan-media): ada langkah mencari judul dari ekstensi dan menyimpannya ke Library, lewat pencarian global untuk manga dan per sumber untuk anime
        - [Setup Manatan](Setup-Manatan.md#ekstensi-anime-yang-sudah-dicoba): daftar ekstensi anime yang sudah dicoba, lengkap dengan bahasa dan jenis subtitlenya, menggantikan rekomendasi lama di Pertanyaan Umum
+       - [Setup Manatan](Setup-Manatan.md#anime): screenshot pemutar video diganti mengikuti tampilan baru, ada langkah memasang subtitle Jimaku langsung dari pemutar, dan fungsi tiap tombol dijelaskan per nomor
+       - [Setup Manatan](Setup-Manatan.md#tips-3-mode-putar-dan-shortcut-pemutar-video): tips baru tentang mode putar (misalnya jeda otomatis tiap kalimat) dan shortcut keyboard pemutar video
 
 **08-11-2026** · Subtitle Jimaku di asbplayer
 
