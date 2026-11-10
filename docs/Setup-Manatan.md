@@ -528,32 +528,9 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
     !!!warning "Khusus Anki desktop"
         Langkah di atas untuk Anki di PC. AnkiDroid (Android) dan AnkiMobile (iOS) memakai cara lain, jadi jangan ikuti langkah pasang add-on ini di HP. Kalau kamu belajar di HP, pakai Manatan SRS saja.
 
-    ??? info "Mau tetap pakai Kiku atau Lapis? <small>(klik di sini)</small>"
+    ??? info "Mau pakai Lapis, Kiku, Senren, atau Mining-JP? <small>(klik di sini)</small>"
 
-        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Kiku dan Lapis tetap bisa dipakai, tapi field-nya harus dicocokkan sendiri:
-
-        1. Pasang note type-nya di Anki ([Kiku](https://github.com/youyoumu/kiku/releases/latest) atau [Lapis](https://github.com/donkuri/lapis/releases/latest))
-        2. Di pengaturan `Flashcards` Manatan, pilih note type itu di `Card Type`
-        3. Isi field-nya seperti tabel ini:
-
-        | Field Anki | Isi |
-        |---|---|
-        | Expression | Target Word |
-        | ExpressionFurigana | Furigana |
-        | ExpressionReading | Reading |
-        | ExpressionAudio | Word Audio |
-        | MainDefinition | Misalnya Single Glossary JMdict. Pilih lewat panah di samping field |
-        | Sentence | Sentence with Bold Word |
-        | SentenceAudio | Sentence Audio |
-        | Picture | Image |
-        | Glossary | Glossary |
-        | PitchPosition | Pitch Accent Positions |
-        | PitchCategories | Pitch Accent Categories |
-        | Frequency | Frequency |
-        | FreqSort | Harmonic Frequency |
-        | MiscInfo | Media Name |
-
-        Field lain (`SelectionText`, `DefinitionPicture`, `SentenceFurigana`, `Hint`, `Is...Card`) dikosongkan.
+        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Note type lain tetap bisa dipakai, tapi field-nya harus diisi sendiri. Isiannya ada di [Field Note Type di Manatan](manatan-field-note-type.md).
 
         Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering mengerjakan ulasan di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
 
@@ -583,6 +560,8 @@ Kartu yang sudah ada diatur di bagian `Duplicates` di paling bawah. `Check for D
 
 Kebanyakan note type hanya menyimpan satu kalimat per kartu. Untuk note type seperti itu, field kalimat sebaiknya `Overwrite` supaya kalimat tidak menumpuk.
 
+Isian lengkap untuk Lapis, Kiku, Senren, dan Mining-JP ada di [Field Note Type di Manatan](manatan-field-note-type.md).
+
 ??? example "Contoh: Senren dengan banyak adegan <small>(klik di sini)</small>"
 
     [Senren](https://brenoaqua.github.io/Senren/scene_switching) bisa menyimpan beberapa adegan (kalimat, gambar, dan audio) untuk satu kata, lalu kamu bisa berpindah adegan di kartunya. Supaya ini jalan, menambang kata yang sama harus menambah adegan ke kartu lama, bukan membuat kartu baru atau menghapus adegan sebelumnya:
@@ -590,8 +569,8 @@ Kebanyakan note type hanya menyimpan satu kalimat per kartu. Untuk note type sep
     1. Di `Card Type`, pilih `Senren`.
     2. Di bagian `Duplicates`, nyalakan `Check for Duplicates` dan pilih `Overwrite` di `Duplicate Action`.
     3. Atur `Update Mode` field berikut ke `Append`: `picture`, `sentence`, `sentenceFurigana`, `sentenceAudio`, dan `miscInfo`. Kalau kamu memakai terjemahan kalimat, `sentenceTranslation` juga `Append`.
-    4. Field lainnya pakai `Overwrite`.
-    5. Untuk `sentence` dan `sentenceFurigana`, pilih `Custom Template` dan bungkus isinya dengan `<span class="group">...</span>`, misalnya `<span class="group">{sentence-bold}</span>`. Tanda ini yang memisahkan satu adegan dengan adegan berikutnya.
+    4. Field lain yang isinya tetap, seperti kata, bacaan, pitch, dan frekuensi, pakai `Overwrite if available`. Field yang hanya perlu diisi sekali, seperti arti kata dan audio kata, pakai `Fill if empty`. Daftar lengkapnya ada di [tab Senren](manatan-field-note-type.md#isian-per-note-type).
+    5. Untuk `sentence` dan `sentenceFurigana`, pilih `Custom Template` dan bungkus isinya dengan `<span class="group">...</span>`. Tanda ini yang memisahkan satu adegan dengan adegan berikutnya.
 
     Tombol pindah adegan baru muncul kalau kartunya punya minimal dua audio kalimat.
 
