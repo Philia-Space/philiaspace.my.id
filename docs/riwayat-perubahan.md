@@ -28,6 +28,7 @@ hide:
        - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md): screenshot dari HP untuk setiap langkah, dan langkah disesuaikan dengan versi 1.5.0 (impor buku lewat tombol `+`, format kartu Anki, letak audio lokal, tombol volume yang perlu dinyalakan dulu)
        - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md#info-2-audiobook): langkah memutar audiobook dengan Sasayaki, termasuk cara mencocokkan audio tanpa file subtitle
        - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md#membaca-dan-mining): penjelasan menu di dalam pembaca, cara mengelola buku dan rak, statistik membaca, dan cara memperbarui aplikasi
+       - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md#info-4-pilihan-sumber-audio): pilihan sumber audio untuk HP dengan memori terbatas, yaitu versi ringan sekitar 2 GB dan versi online tanpa unduhan
 
 **10-11-2026** · Anime dan manga dari ekstensi di Manatan
 
