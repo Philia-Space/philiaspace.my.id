@@ -169,9 +169,10 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 2. Menonton dari sumber berkas lokal
 	- [Anime lokal](Setup-Manatan-anime-lokal.md)
 3. Pemutar video
-	- Untuk memasang subtitle Jepang, tekan ikon subtitle (nomor 3 di gambar) > `Find online subtitles` > `Jimaku`. Cari judul animenya dalam romaji (misalnya `Jigokuraku`), pilih judul yang cocok, lalu pilih salah satu file `Jimaku - ...` di daftar subtitle
+	- Untuk memasang subtitle Jepang, tekan ikon subtitle (nomor 4 di gambar) > `Find online subtitles` > `Jimaku`. Cari judul animenya dalam romaji (misalnya `Jigokuraku`), pilih judul yang cocok, lalu pilih salah satu file `Jimaku - ...` di daftar subtitle
 	- Kalau subtitle tidak pas dengan suara, geser 100 ms per klik dengan tombol `‹` dan `›` di kanan bawah
-	- Mode putar dan shortcut keyboard ada di [Tips 3](#tips-3-mode-putar-dan-shortcut-pemutar-video)
+	- Ikon grafik (nomor 7) membuka `Vocabulary stats`: perkiraan berapa banyak kata di episode ini yang sudah kamu kenal, dihitung dari subtitle utama. Supaya angkanya berguna, pakai subtitle Jepang sebagai subtitle utama (`P`)
+	- Mode putar dan shortcut keyboard ada di [Tips 2](#tips-2-mode-putar-dan-shortcut-pemutar-video)
 === "Tata Letak"
 	![Tata letak pemutar video Manatan dengan nomor tiap tombol](img/manatan-video-player-1.jpg){height=1000 width=600}
 === "Pilih Episode"
@@ -180,6 +181,10 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 	![Pilihan server dan kualitas video di Manatan](img/manatan-video-player-3.jpg){height=1000 width=600}
 === "Subtitle"
 	![Menu subtitle di pemutar video Manatan](img/manatan-video-player-4.jpg){height=1000 width=600}
+=== "Daftar Subtitle"
+	![Daftar kalimat subtitle di samping pemutar video Manatan](img/manatan-video-sidebar.jpg){height=1000 width=600}
+=== "Statistik Kosakata"
+	![Statistik kosakata satu episode di pemutar video Manatan](img/manatan-video-stats.jpg){height=1000 width=600}
 
 ??? info "Fungsi tiap tombol di pemutar video <small>(klik di sini)</small>"
 
@@ -189,21 +194,24 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
     |---|---|
     | 1 | Judul dan episode yang sedang diputar. Tekan untuk membuka daftar episode |
     | 2 | Pilih server dan kualitas video |
-    | 3 | Menu subtitle: cari subtitle di Jimaku, buat subtitle otomatis, impor file subtitle, dan pilih subtitle utama (`P`) atau kedua (`S`) |
-    | 4 | Sembunyikan atau tampilkan subtitle |
-    | 5 | Mode putar dan kecepatan video |
-    | 6 | Daftar shortcut keyboard |
-    | 7 | Pengaturan video: huruf, ukuran, dan posisi subtitle |
-    | 8 | Episode sebelumnya |
-    | 9 | Mundur ke kalimat subtitle sebelumnya |
-    | 10 | Maju ke kalimat subtitle berikutnya |
-    | 11 | Episode berikutnya |
-    | 12 | Jumlah huruf subtitle yang sudah lewat dari total satu episode |
-    | 13 | Putar episode berikutnya secara otomatis |
-    | 14 | Jadikan detik ini awal kalimat subtitle sebelumnya |
-    | 15 | Jadikan detik ini awal kalimat subtitle berikutnya |
-    | 16 | Subtitle 100 ms lebih cepat |
-    | 17 | Subtitle 100 ms lebih lambat |
+    | 3 | Pilih trek audio, kalau videonya punya lebih dari satu |
+    | 4 | Menu subtitle: cari subtitle di Jimaku, buat subtitle otomatis, impor file subtitle, dan pilih subtitle utama (`P`) atau kedua (`S`) |
+    | 5 | Sembunyikan atau tampilkan subtitle |
+    | 6 | Daftar kalimat subtitle di samping video. Tekan salah satu kalimat untuk melompat ke sana |
+    | 7 | Statistik kosakata (`Vocabulary stats`): berapa kata di episode ini yang sudah dikenal, belum dikenal, dan sedang dipelajari |
+    | 8 | Mode putar dan kecepatan video |
+    | 9 | Daftar shortcut keyboard |
+    | 10 | Pengaturan: profil, kamus, flashcard, dan tampilan subtitle |
+    | 11 | Episode sebelumnya |
+    | 12 | Mundur ke kalimat subtitle sebelumnya |
+    | 13 | Maju ke kalimat subtitle berikutnya |
+    | 14 | Episode berikutnya |
+    | 15 | Jumlah huruf subtitle yang sudah lewat dari total satu episode |
+    | 16 | Putar episode berikutnya secara otomatis |
+    | 17 | Jadikan detik ini awal kalimat subtitle sebelumnya |
+    | 18 | Jadikan detik ini awal kalimat subtitle berikutnya |
+    | 19 | Subtitle 100 ms lebih cepat |
+    | 20 | Subtitle 100 ms lebih lambat |
 
 #### Ekstensi anime yang sudah dicoba
 
@@ -229,7 +237,7 @@ Dicoba pada 6 November 2026 dengan Manatan Windows v6.3.8, repositori [Yuzono](#
 	
 ### **Novel (EPUB)**
 
-Impor berkas EPUB, PDF, atau TXT dan baca. Audiobook belum didukung.
+Impor berkas EPUB, PDF, atau TXT dan baca. Bisa juga sambil mendengarkan audiobook-nya.
 
 - Selanjutnya: [Novel (EPUB)](Setup-Manatan-novels.md)
 
@@ -460,24 +468,27 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 
 ### **Pengaturan Popup Dictionary**
 
-Pengaturan Popup Dictionary Manatan ada di `Settings` > `Language learning` > `Dictionary`. Ikon pengaturan Manatan  ![Manatan](img/manatan_logo.png){ width="20" valign="middle" }  juga ada di beberapa tempat, misalnya di bagian atas video player, manga reader, dan EPUB reader.
+Pengaturan Popup Dictionary ada di `More` > ikon roda gigi di kanan atas > `Settings` > `Language learning` > `Dictionary`. Isi yang sama juga bisa dibuka dari ikon roda gigi di pemutar video, pembaca manga, dan pembaca novel, lewat tab `Dictionary`.
 
-Secara umum, kamu bisa mengikuti pengaturan di bawah ini, lalu menyesuaikan pengaturan lainnya sesuai kenyamananmu. Screenshot ini masih dari versi lama, jadi tampilannya bisa sedikit berbeda.
-=== "Pengaturan Popup 1"
-	![Pengaturan Popup 1](img/manatan-popup-1.jpg){height=200 width=400}
-=== "Pengaturan Popup 2"
-	![Pengaturan Popup 2](img/manatan-popup-2.jpg){height=200 width=400}
-=== "Pengaturan Anime 1"
-	![Pengaturan Anime 1](img/manatan-anime-settings-1.jpg){height=200 width=400}
-=== "Pengaturan Anime 2"
-	![Pengaturan Anime 2](img/manatan-anime-settings-2.jpg){height=200 width=400}
-=== "Pengaturan Anime 3"
-	![Pengaturan Anime 3](img/manatan-anime-settings-3.jpg){height=1000 width=600}
-=== "Pengaturan Manga 1"
-	![Pengaturan Manga 1](img/manatan-manga-settings-1.jpg){height=200 width=400}
-=== "Pengaturan Manga 2"
-	![Pengaturan Manga 2](img/manatan-manga-settings-2.jpg){height=1000 width=600}
+![Pengaturan Popup Dictionary di Manatan](img/manatan-popup-1.jpg){height=500 width=800}
 
+Kolom kiri mengatur cara mencari kata dan isi hasilnya, kolom kanan mengatur tampilan popup, pitch accent, audio, dan daftar kamus. Pengaturan bawaannya sudah bisa langsung dipakai. Yang paling sering diubah:
+
+| Pengaturan | Isi |
+|---|---|
+| Popup dictionary | Nyalakan popup untuk `Video`, `Manga`, dan `Novel` |
+| Lookup trigger | Cara memunculkan popup. Bawaannya `Left click`, dan bisa ditambah cara kedua di `Second lookup trigger` |
+| Show word status footer | Tombol `Track` dan `Unknown/Known` di bawah popup |
+| Show learning underlines | Garis warna di bawah kata yang belum dikenal, sedang dipelajari, atau sedang dilacak |
+| Collapsible dictionaries | Hasil tiap kamus bisa dilipat supaya popup tidak terlalu panjang |
+| Popup Width, Height, Scale | Ukuran popup. Berlaku untuk video, manga, dan novel sekaligus |
+| Popup theme | Warna popup (terang atau gelap) |
+| Custom Popup CSS | Tampilan popup sesuai seleramu, lihat [Info 2](#info-2-custom-popup-css) |
+| Pitch coloring | Warna kata sesuai pola pitch accent |
+| Auto-play word audio | Audio kata langsung diputar saat popup muncul |
+| Installed Dictionaries | Daftar kamus yang dipasang. Urutan di sini menentukan urutan hasil di popup |
+
+---
 
 ---
 
@@ -517,36 +528,18 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
     !!!warning "Khusus Anki desktop"
         Langkah di atas untuk Anki di PC. AnkiDroid (Android) dan AnkiMobile (iOS) memakai cara lain, jadi jangan ikuti langkah pasang add-on ini di HP. Kalau kamu belajar di HP, pakai Manatan SRS saja.
 
-    ??? info "Mau tetap pakai Kiku atau Lapis? <small>(klik di sini)</small>"
+    ??? info "Mau pakai Lapis, Kiku, Senren, atau Mining-JP? <small>(klik di sini)</small>"
 
-        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Kiku dan Lapis tetap bisa dipakai, tapi field-nya harus dicocokkan sendiri:
-
-        1. Pasang note type-nya di Anki ([Kiku](https://github.com/youyoumu/kiku/releases/latest) atau [Lapis](https://github.com/donkuri/lapis/releases/latest))
-        2. Di pengaturan `Flashcards` Manatan, pilih note type itu di `Card Type`
-        3. Isi field-nya seperti tabel ini:
-
-        | Field Anki | Isi |
-        |---|---|
-        | Expression | Target Word |
-        | ExpressionFurigana | Furigana |
-        | ExpressionReading | Reading |
-        | ExpressionAudio | Word Audio |
-        | MainDefinition | Misalnya Single Glossary JMdict. Pilih lewat panah di samping field |
-        | Sentence | Sentence with Bold Word |
-        | SentenceAudio | Sentence Audio |
-        | Picture | Image |
-        | Glossary | Glossary |
-        | PitchPosition | Pitch Accent Positions |
-        | PitchCategories | Pitch Accent Categories |
-        | Frequency | Frequency |
-        | FreqSort | Harmonic Frequency |
-        | MiscInfo | Media Name |
-
-        Field lain (`SelectionText`, `DefinitionPicture`, `SentenceFurigana`, `Hint`, `Is...Card`) dikosongkan.
+        Untuk setup baru, Manatan menyarankan Manatan-NoteType. Note type lain tetap bisa dipakai, tapi field-nya harus diisi sendiri. Isiannya ada di [Pengaturan Note Type](pengaturan-note-type.md).
 
         Kiku butuh Anki 25.09 ke atas dan sangat bergantung pada Anki desktop, jadi kurang cocok kalau kamu sering mengerjakan ulasan di HP. Detailnya di [Memperbarui Note Type](pembaruan-note-type.md).
 
     Sumber: [Connect Manatan to Anki](https://manatan.com/docs/guides/ankiconnect-guide) dan [Kiku custom note type](https://manatan.com/docs/guides/kiku-guide)
+
+
+### **Isi field sesuai note type**
+
+Tiap note type punya kebutuhan sendiri: field apa yang diisi, isinya apa, dan apa yang terjadi kalau kamu menambang kata yang sudah punya kartu. Kalau kamu memakai note type selain Manatan-NoteType, ikuti [Pengaturan Note Type](pengaturan-note-type.md). Halaman itu memuat isian Lapis, Kiku, Senren, dan Mining-JP untuk Manatan maupun Yomitan, termasuk pengaturan Senren untuk kartu berisi banyak adegan.
 
 ---
 
@@ -565,25 +558,11 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ??? info "Custom Popup CSS <small>(klik di sini)</small>"
 
-    Manatan punya dua pengaturan Custom Popup CSS: satu di bagian Popup Dictionary dan satu di Anime Settings. Seperti tertulis di deskripsi keduanya, pengaturan ini tidak berlaku di semua tempat. Custom CSS bisa kamu dapatkan di server [Discord Manatan](https://discord.gg/h9xJzTqjrZ).
+    Sekarang Manatan hanya punya satu kolom `Custom Popup CSS`, dan isinya berlaku untuk popup di video, manga, dan novel sekaligus. Kolom ini ada di [pengaturan Popup Dictionary](#pengaturan-popup-dictionary), di kolom kanan bagian `Popup appearance`.
 
-    === "Manatan Popup CSS"
-        Pengaturan ini berlaku untuk manga reader dan EPUB/Novel reader.
+    Tulis aturannya untuk `.popup-dictionary-popup`, seperti keterangan di bawah kolomnya. Custom CSS buatan pengguna lain bisa kamu dapatkan di server [Discord Manatan](https://discord.gg/h9xJzTqjrZ). CSS lama yang dulu dibuat terpisah untuk anime dan manga mungkin perlu disesuaikan dulu.
 
-        ![Manatan Popup CSS](img/manatan-popup-CSS-settings.jpg){height=200 width=400}
-
-    === "Manatan Anime Popup CSS"
-        Pengaturan ini berlaku untuk anime player.
-
-        ![Manatan Anime Popup CSS](img/manatan-anime-popup-CSS-settings.jpg){height=1000 width=600}
-
-#### Tips 1: Penguraian kosakata yang lebih baik
-
-??? tip "Penguraian kosakata yang lebih baik <small>(klik di sini)</small>"
-
-    Jika kamu memakai Yomitan, atur penghentian kalimat (sentence termination) ke mode kustom yang tidak memisahkan kalimat berdasarkan baris baru.
-
-#### Tips 2: Media dalam bahasa lain
+#### Tips 1: Media dalam bahasa lain
 
 ??? tip "Pencarian media dalam bahasa lain <small>(klik di sini)</small>"
 
@@ -595,11 +574,18 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
     Setelah itu, setiap sumber dari bahasa yang sudah diaktifkan juga akan muncul di hasil pencarian. Kamus Yomitan dalam bahasa lain bisa kamu temukan [di sini](https://github.com/MarvNC/yomitan-dictionaries).
 
-#### Tips 3: Mode putar dan shortcut pemutar video
+    !!! warning "Popup kamus untuk bahasa lain"
+        Menonton dan membaca dalam bahasa apa pun bisa dilakukan gratis. Popup kamusnya lain cerita: kamus, flashcard, dan pengaturan disimpan per **profil**, dan tiap profil hanya punya satu bahasa belajar. Versi gratis hanya punya satu profil (`Default`, bahasa Jepang). Profil tambahan untuk bahasa lain butuh membership Manatan.
+
+        Profil gratis memang bisa diganti bahasanya lewat `Settings` > `Profiles` > ikon tiga titik > `Change language`, tapi setelah itu profil tersebut tidak lagi berbahasa Jepang.
+
+        ![Daftar profil di pengaturan Manatan](img/manatan-profiles.jpg){height=300 width=800}
+
+#### Tips 2: Mode putar dan shortcut pemutar video
 
 ??? tip "Mode putar dan shortcut pemutar video <small>(klik di sini)</small>"
 
-    Mode putar dibuka dari ikon pengaturan putar (nomor 5 di gambar [Tata Letak](#anime)).
+    Mode putar dibuka dari ikon pengaturan putar (nomor 8 di gambar [Tata Letak](#anime)).
 
     ![Pengaturan mode putar di pemutar video Manatan](img/manatan-video-player-5.jpg){height=1000 width=600}
 
@@ -614,7 +600,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
     | 1T Focus | Subtitle muncul untuk kalimat yang hanya punya satu kata yang belum kamu kenal, lalu video mundur dan jeda |
     | Custom | Atur sendiri kapan video jeda dan kapan subtitle terlihat |
 
-    Di bawahnya ada `Skip scenes with no dialogue` untuk mempercepat (2× sampai 8×) atau melompati adegan tanpa dialog, dan `Playback Speed` untuk kecepatan video.
+    Di bawahnya ada `Automatic resume` untuk melanjutkan video otomatis setelah jeda mode belajar, `Skip scenes with no dialogue` untuk mempercepat (2× sampai 8×) atau melompati adegan tanpa dialog, dan `Playback Speed` untuk kecepatan video.
 
     Shortcut keyboard (bisa juga dilihat dari ikon tanda tanya):
 
@@ -711,7 +697,6 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
     - Coba dulu satu kata umum di EPUB yang teksnya bisa dipilih
     - Halaman manga berupa gambar, jadi teksnya harus dibaca OCR dulu sebelum bisa dicari di kamus
     - Pastikan yang kamu impor kamus definisi, bukan cuma kamus frekuensi atau pitch
-    - Jika menggunakan Yomitan, terapkan rekomendasi penguraian kosakata dari [tips](#tips-1-penguraian-kosakata-yang-lebih-baik)
 
 #### Masalah 4: Subtitle hilang atau tidak sinkron
 

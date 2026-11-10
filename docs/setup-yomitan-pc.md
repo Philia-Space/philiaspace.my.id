@@ -434,6 +434,7 @@ Buat dek baru di Anki.
 
 - Buka pengaturan Yomitan > `Anki` > `Configure Anki flashcards...`, lalu sesuaikan dek seperti di gambar.
 - Kamu juga bisa mengganti note type dengan mengimpor template note type lain. Pilihan note type lainnya bisa dicek [di sini](https://arbyste.github.io/jp-mining-note/alternatives/).
+- Isi field untuk Lapis, Kiku, Senren, dan Mining-JP ada di [Pengaturan Note Type](pengaturan-note-type.md).
 - Yomitan dan dek Anki siap dipakai.
 
 

@@ -22,6 +22,24 @@ hide:
 
 ### November
 
+**11-11-2026** · Pemutar video, popup kamus, dan flashcard Manatan
+
+- Pembaruan
+       - [Setup Manatan](Setup-Manatan.md#anime): gambar dan daftar tombol pemutar video diganti mengikuti aplikasi versi sekarang, termasuk tombol baru untuk trek audio, daftar kalimat subtitle, dan statistik kosakata
+       - [Setup Manatan](Setup-Manatan.md#pengaturan-popup-dictionary): pengaturan popup kamus ditulis ulang mengikuti tampilan baru, dengan penjelasan pengaturan yang paling sering diubah
+       - [Setup Manatan](Setup-Manatan.md#info-2-custom-popup-css): Custom Popup CSS sekarang satu untuk video, manga, dan novel, tidak lagi terpisah
+       - [Setup Manatan](Setup-Manatan.md#tips-1-media-dalam-bahasa-lain): catatan bahwa popup kamus untuk bahasa lain butuh profil tambahan (membership), karena versi gratis hanya punya satu profil
+- Penambahan
+       - [Pengaturan Note Type](pengaturan-note-type.md): halaman baru berisi isian field kartu Anki untuk Lapis, Kiku, Senren, dan Mining-JP, dalam versi Yomitan dan Manatan, termasuk pengaturan kartu duplikat dan cara Senren menyimpan banyak adegan dalam satu kartu; ada di menu **Setup Mining**
+- Perbaikan
+       - [Setup Manatan](Setup-Manatan.md#info-tambahan-dan-tips): tips penguraian kosakata dihapus karena hanya berlaku untuk Yomitan, bukan popup kamus Manatan
+
+**11-11-2026** · Audiobook di Manatan
+
+- Perbaikan
+       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#audiobook): catatan bahwa audiobook belum didukung ternyata keliru dan sudah diganti dengan langkah memutar audiobook bersamaan dengan bukunya, lengkap dengan screenshot tiap langkah; fitur ini hanya ada di aplikasi versi sekarang, bukan di versi lama yang dibuka lewat browser
+       - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#impor-buku): langkah impor buku disesuaikan dengan aplikasi versi sekarang (ikon `+` di halaman `Novel`), screenshot-nya diganti
+
 **11-11-2026** · Hoshi Reader Android masuk menu
 
 - Pembaruan
@@ -43,7 +61,7 @@ hide:
        - [Setup Manatan](Setup-Manatan.md#anime): screenshot pemutar video diganti mengikuti tampilan baru, ada langkah memasang subtitle Jimaku langsung dari pemutar, dan fungsi tiap tombol dijelaskan per nomor
        - [Setup Manatan](Setup-Manatan.md#manga): screenshot pengaturan pembaca manga diganti mengikuti tampilan baru, ditambah cara membuka pengaturannya, saran mode baca kanan ke kiri untuk manga Jepang, dan penjelasan singkat tiap tab
        - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md): cara impor diperbarui (menu tiga titik di `Novels`, bisa EPUB, PDF, atau TXT), ada catatan konversi file `.azw3`, screenshot pembaca dan pengaturannya, serta catatan bahwa audiobook belum didukung, dengan tautan ke Yatsu Whispersync (PC) dan Hoshi Reader (Android dan iPhone) sebagai gantinya
-       - [Setup Manatan](Setup-Manatan.md#tips-3-mode-putar-dan-shortcut-pemutar-video): tips baru tentang mode putar (misalnya jeda otomatis tiap kalimat) dan shortcut keyboard pemutar video
+       - [Setup Manatan](Setup-Manatan.md#tips-2-mode-putar-dan-shortcut-pemutar-video): tips baru tentang mode putar (misalnya jeda otomatis tiap kalimat) dan shortcut keyboard pemutar video
 
 **08-11-2026** · Subtitle Jimaku di asbplayer
 

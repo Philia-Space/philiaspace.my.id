@@ -35,6 +35,7 @@ nav:
         - 'Manga': 'setup-manga-android-lazy-guide.md'
   - 'Setup Mining':
       - 'Manatan (semua perangkat)': 'Setup-Manatan.md'
+      - 'Pengaturan Note Type': 'pengaturan-note-type.md'
       - 'PC':
         - 'Yomitan & Anki': 'setup-yomitan-pc.md'
         - 'Anime PC': 'kartu-anime-satu-klik.md'
