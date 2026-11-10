@@ -22,6 +22,13 @@ hide:
 
 ### November
 
+**10-11-2026** · Screenshot Hoshi Reader Android
+
+- Pembaruan
+       - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md): screenshot dari HP untuk setiap langkah, dan langkah disesuaikan dengan versi 1.5.0 (impor buku lewat tombol `+`, format kartu Anki, letak audio lokal, tombol volume yang perlu dinyalakan dulu)
+       - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md#info-2-audiobook): langkah memutar audiobook dengan Sasayaki, termasuk cara mencocokkan audio tanpa file subtitle
+       - [Setup Hoshi Reader (Android)](Setup-Hoshi-Reader.md#membaca-dan-mining): penjelasan menu di dalam pembaca, cara mengelola buku dan rak, statistik membaca, dan cara memperbarui aplikasi
+
 **10-11-2026** · Anime dan manga dari ekstensi di Manatan
 
 - Pembaruan
