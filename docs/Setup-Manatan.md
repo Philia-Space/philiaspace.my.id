@@ -144,22 +144,49 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 ### **Anime**
 
 1. Menonton dari sumber daring (ekstensi)
-	- Buka `Browse` > `Video Sources`, lalu pilih salah satu sumber. Pencarian global belum bisa dipakai untuk anime, jadi judul harus dicari di tiap sumber satu per satu
+	- Buka `Browse` > `Video Sources`, lalu pilih salah satu sumber. Sumber dikelompokkan per bahasa, jadi sumber `English` ada di bawah kelompok `All`. Pencarian global belum bisa dipakai untuk anime, jadi judul harus dicari di tiap sumber satu per satu
 	- Tekan ikon kaca pembesar di kanan atas, ketik judul anime, lalu tekan Enter. Kamu juga bisa melihat-lihat daftar `Popular` dan `Latest`
 	- Buka judul yang cocok, lalu tekan `Add to Library`
 	- Pilih episode, atau tekan `Start` untuk mulai dari episode pertama. Selanjutnya judul ini bisa dibuka langsung dari menu `Video`
 	- Kalau judulnya tidak ketemu, coba ketik judul versi lain (romaji atau Inggris). Kalau masih tidak ketemu atau videonya tidak mau diputar, coba sumber lain dari [daftar ekstensi anime](#ekstensi-anime-yang-sudah-dicoba) di akhir bagian ini
 2. Menonton dari sumber berkas lokal
 	- [Anime lokal](Setup-Manatan-anime-lokal.md)
-3. Pengaturan Video Player
-=== "Video Player Layout"
-	![Manatan Video Player Layout](img/manatan-video-player-1.jpg){height=1000 width=600}
-=== "Episode Selector"
-	![Manatan Video Player Episode Selector](img/manatan-video-player-2.jpg){height=1000 width=600}
-=== "Resolution Selector"
-	![Manatan Video Player Resolution Selector](img/manatan-video-player-3.jpg){height=1000 width=600}
-=== "Subtitle Selector"
-	![Manatan Video Player Subtitle Selector](img/manatan-video-player-4.jpg){height=1000 width=600}
+3. Pemutar video
+	- Untuk memasang subtitle Jepang, tekan ikon subtitle (nomor 3 di gambar) > `Find online subtitles` > `Jimaku`. Cari judul animenya dalam romaji (misalnya `Jigokuraku`), pilih judul yang cocok, lalu pilih salah satu file `Jimaku - ...` di daftar subtitle
+	- Kalau subtitle tidak pas dengan suara, geser 100 ms per klik dengan tombol `‹` dan `›` di kanan bawah
+	- Mode putar dan shortcut keyboard ada di [Tips 3](#tips-3-mode-putar-dan-shortcut-pemutar-video)
+=== "Tata Letak"
+	![Tata letak pemutar video Manatan dengan nomor tiap tombol](img/manatan-video-player-1.jpg){height=1000 width=600}
+=== "Pilih Episode"
+	![Daftar episode di pemutar video Manatan](img/manatan-video-player-2.jpg){height=1000 width=600}
+=== "Kualitas Video"
+	![Pilihan server dan kualitas video di Manatan](img/manatan-video-player-3.jpg){height=1000 width=600}
+=== "Subtitle"
+	![Menu subtitle di pemutar video Manatan](img/manatan-video-player-4.jpg){height=1000 width=600}
+
+??? info "Fungsi tiap tombol di pemutar video <small>(klik di sini)</small>"
+
+    Nomor mengikuti gambar **Tata Letak**.
+
+    | No | Fungsi |
+    |---|---|
+    | 1 | Judul dan episode yang sedang diputar. Tekan untuk membuka daftar episode |
+    | 2 | Pilih server dan kualitas video |
+    | 3 | Menu subtitle: cari subtitle di Jimaku, buat subtitle otomatis, impor file subtitle, dan pilih subtitle utama (`P`) atau kedua (`S`) |
+    | 4 | Sembunyikan atau tampilkan subtitle |
+    | 5 | Mode putar dan kecepatan video |
+    | 6 | Daftar shortcut keyboard |
+    | 7 | Pengaturan video: huruf, ukuran, dan posisi subtitle |
+    | 8 | Episode sebelumnya |
+    | 9 | Mundur ke kalimat subtitle sebelumnya |
+    | 10 | Maju ke kalimat subtitle berikutnya |
+    | 11 | Episode berikutnya |
+    | 12 | Jumlah huruf subtitle yang sudah lewat dari total satu episode |
+    | 13 | Putar episode berikutnya secara otomatis |
+    | 14 | Jadikan detik ini awal kalimat subtitle sebelumnya |
+    | 15 | Jadikan detik ini awal kalimat subtitle berikutnya |
+    | 16 | Subtitle 100 ms lebih cepat |
+    | 17 | Subtitle 100 ms lebih lambat |
 
 #### Ekstensi anime yang sudah dicoba
 
@@ -551,6 +578,40 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
     Setelah itu, setiap sumber dari bahasa yang sudah diaktifkan juga akan muncul di hasil pencarian. Kamus Yomitan dalam bahasa lain bisa kamu temukan [di sini](https://github.com/MarvNC/yomitan-dictionaries).
 
+#### Tips 3: Mode putar dan shortcut pemutar video
+
+??? tip "Mode putar dan shortcut pemutar video <small>(klik di sini)</small>"
+
+    Mode putar dibuka dari ikon pengaturan putar (nomor 5 di gambar [Tata Letak](#anime)).
+
+    ![Pengaturan mode putar di pemutar video Manatan](img/manatan-video-player-5.jpg){height=1000 width=600}
+
+    | Mode | Cara kerja |
+    |---|---|
+    | Default | Diputar biasa, tanpa jeda otomatis dan tanpa menyembunyikan subtitle |
+    | Primed Listening | Jeda sebelum tiap kalimat dan tampilkan subtitle kedua |
+    | Intensive Reading | Jeda sebelum tiap kalimat supaya subtitle sempat dibaca |
+    | Intensive Listening | Subtitle disembunyikan selama kalimat diucapkan, lalu video jeda dan subtitle muncul |
+    | Intensive Hybrid | Jeda setelah tiap kalimat, subtitle tetap terlihat |
+    | Show on Pause | Subtitle hanya muncul saat video dijeda |
+    | 1T Focus | Subtitle muncul untuk kalimat yang hanya punya satu kata yang belum kamu kenal, lalu video mundur dan jeda |
+    | Custom | Atur sendiri kapan video jeda dan kapan subtitle terlihat |
+
+    Di bawahnya ada `Skip scenes with no dialogue` untuk mempercepat (2× sampai 8×) atau melompati adegan tanpa dialog, dan `Playback Speed` untuk kecepatan video.
+
+    Shortcut keyboard (bisa juga dilihat dari ikon tanda tanya):
+
+    | Tombol | Fungsi |
+    |---|---|
+    | `Space` | Putar atau jeda |
+    | `←` / `→` | Kalimat subtitle sebelumnya / berikutnya |
+    | `↑` | Ulangi kalimat yang sedang tampil |
+    | `↓` | Sembunyikan atau tampilkan subtitle |
+    | `Shift` + `↓` | Sembunyikan atau tampilkan subtitle kedua |
+    | `Shift` + `←` / `→` | Mundur / maju beberapa detik |
+    | `Ctrl` + `←` / `→` | Jadikan detik ini awal kalimat subtitle sebelumnya / berikutnya |
+    | `Ctrl` + `Shift` + `←` / `→` | Subtitle 100 ms lebih cepat / lebih lambat |
+
 ---
 
 ## **Pertanyaan Umum**
@@ -639,7 +700,7 @@ Simpan kata yang kamu cari supaya bisa kamu ulas nanti. Pengaturannya ada di `Se
 
 ??? warning "Subtitle hilang atau tidak sinkron <small>(klik di sini)</small>"
     - Coba trek subtitle lainnya.
-    - Sesuaikan waktu subtitle jika kontrol pemutar tersedia.
+    - Geser waktu subtitle 100 ms per klik dengan tombol `‹` dan `›` di kanan bawah pemutar. Lihat [fungsi tiap tombol](#anime).
     - Untuk file lokal, pastikan subtitle memang ada di dalam file videonya.
     - Menambah kamus tidak akan memunculkan subtitle yang memang tidak ada.
 
