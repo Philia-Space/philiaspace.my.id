@@ -40,6 +40,8 @@ nav:
         - 'Anime PC': 'kartu-anime-satu-klik.md'
         - 'Memperbarui Note Type': 'pembaruan-note-type.md'
         - 'Fushi (Windows)': 'Setup-Fushi.md'
+      - 'Android':
+        - 'LN & Buku': 'Setup-Hoshi-Reader.md'
       - 'iOS':
         - 'LN & Buku': 'Setup-Hoshi-Reader-iOS.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
