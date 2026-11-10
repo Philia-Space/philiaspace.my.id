@@ -6,7 +6,7 @@
 ---
 
 !!! warning "Draft"
-    Halaman ini masih draft dan belum masuk menu. Screenshot diambil dari Hoshi Reader Android v1.5.0. Langkah membaca dan mining di dalam buku belum ada screenshot-nya, jadi letak tombolnya bisa sedikit berbeda.
+    Halaman ini masih draft dan belum masuk menu. Screenshot diambil dari Hoshi Reader Android v1.5.0. Popup kamus dan pembuatan kartu belum ada screenshot-nya, jadi letak tombolnya bisa sedikit berbeda.
 
 ??? info "Info: tentang Hoshi Reader <small>(klik di sini)</small>"
 
@@ -70,7 +70,9 @@
 ![Halaman Dictionaries di Hoshi Reader Android](img/hoshi-android-dictionaries.jpg){width=250}
 
 !!! tip "HP dengan RAM kecil"
-    Kalau RAM HP-mu di bawah 3 GB dan impor kamus gagal atau aplikasinya tertutup sendiri, nyalakan `Low Memory Usage Mode` di halaman yang sama, lalu impor ulang.
+    Kalau RAM HP-mu di bawah 3 GB dan impor kamus gagal atau aplikasinya tertutup sendiri, buka `Settings` di halaman `Dictionaries`, nyalakan `Low Memory Usage Mode`, lalu impor ulang.
+
+    ![Pengaturan kamus di Hoshi Reader Android](img/hoshi-android-dictionaries-settings.jpg){width=250}
 
 **Cek kamus sudah jalan:** buka tab `Dictionary`, ketik kata Jepang di kolom `Search`, lalu lihat apakah artinya muncul.
 
@@ -102,9 +104,25 @@ Pastikan AnkiDroid sudah terpasang dan pernah dibuka sekali.
 3. Tekan kata yang tidak kamu tahu untuk membuka popup kamus. Kata di dalam arti kamus juga bisa ditekan untuk dicari lagi
 4. Tekan tombol tambah kartu di popup untuk mengirim kata ke Anki. Kalimat tempat kata itu muncul ikut masuk ke kartu
 
-![Menu impor buku di Hoshi Reader Android](img/hoshi-android-import.jpg){width=250}
+=== "Impor"
+    ![Menu impor buku di Hoshi Reader Android](img/hoshi-android-import.jpg){width=250}
+=== "Menu Pembaca"
+    ![Menu di kanan bawah pembaca Hoshi Reader Android](img/hoshi-android-reader-menu.jpg){width=250}
 
-Tampilan teks (vertikal atau horizontal, ukuran, font) dan ukuran popup kamus diatur di `Settings` > `Appearance`, tema warna di `Settings` > `Theme`. Kalau mau membalik halaman dengan tombol volume, nyalakan `Volume Keys Turn Pages` di `Settings` > `Behavior`.
+Saat membaca, tombol di kanan bawah membuka menu `Sasayaki` (audiobook), `Statistics`, `Contents` (daftar isi, highlight, galeri gambar, dan pencarian), `Appearance`, dan `Theme`. Tombol di kiri bawah untuk kembali ke daftar buku.
+
+Tampilan teks (vertikal atau horizontal, ukuran, font) dan ukuran popup kamus diatur di `Appearance`, tema warna di `Theme`. Keduanya juga ada di tab `Settings`. Kalau mau membalik halaman dengan tombol volume, nyalakan `Volume Keys Turn Pages` di `Settings` > `Behavior`.
+
+??? info "Isi menu Contents <small>(klik di sini)</small>"
+
+    `Contents` berisi daftar bab (`Chapters`), kata atau kalimat yang kamu tandai (`Highlights`), semua gambar di buku (`Gallery`), dan pencarian teks (`Search`). Tekan bab untuk melompat ke sana, atau `Jump` untuk melompat ke posisi tertentu.
+
+    === "Chapters"
+        ![Daftar bab di menu Contents](img/hoshi-android-contents-chapters.jpg){width=250}
+    === "Highlights"
+        ![Daftar highlight di menu Contents](img/hoshi-android-contents-highlights.jpg){width=250}
+    === "Gallery"
+        ![Galeri gambar di menu Contents](img/hoshi-android-contents-gallery.jpg){width=250}
 
 ??? info "Mengelola buku: rak, urutan, ganti nama, hapus <small>(klik di sini)</small>"
 
@@ -173,7 +191,27 @@ Hoshi Reader bisa menyinkronkan buku dan posisi baca lewat Google Drive, dengan 
 
 #### Info 2: Audiobook
 
-Kalau punya audiobook dan subtitle-nya, Hoshi Reader bisa memutar audio sambil menandai kalimat yang sedang dibacakan dan membalik halaman sendiri. Pengaturannya ada di `Settings` > `Advanced` > `Sasayaki (Audiobooks)`, dengan cara yang sama seperti [versi iOS](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki). Untuk fitur yang sama di PC, lihat [Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync).
+Hoshi Reader bisa memutar audiobook sambil menandai kalimat yang sedang dibacakan dan membalik halaman sendiri. Untuk fitur yang sama di PC, lihat [Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync).
+
+??? info "Cara memutar audiobook (Sasayaki) <small>(klik di sini)</small>"
+
+    1. Buka bukunya, tekan tombol di kanan bawah, lalu pilih `Sasayaki`
+    2. Di tab `Resources`, bagian `Audiobook`, tekan `Open` dan pilih file audiobook (`.mp3`, `.m4b`, `.m4a`, atau `.opus`). `Copy Audiobook to App Storage` menyalin file audiobook ke penyimpanan aplikasi
+    3. Cocokkan audio dengan teks buku:
+        - Punya subtitle `.srt` untuk audiobook itu: pilih `Subtitles`, lalu muat file subtitle-nya. Subtitle bisa dibuat dengan [SubPlz](https://github.com/kanjieater/SubPlz)
+        - Tidak punya: pilih `Transcription`, atur `Transcription performance` (`Low`, `Balanced`, atau `High`), lalu tekan `Transcribe`. Hoshi Reader akan membuat teks dari audionya langsung di HP, jadi butuh waktu
+    4. Tab `Settings` di Sasayaki untuk mengatur jeda (`Delay`), kecepatan, gulir otomatis, dan jeda otomatis saat mencari kata (`Auto-Pause on Lookup`)
+
+    Pengaturan umum Sasayaki ada di `Settings` > `Advanced` > `Sasayaki (Audiobooks)`. Alurnya mirip dengan [versi iOS](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki).
+
+    === "Resources"
+        ![Tab Resources di Sasayaki](img/hoshi-android-sasayaki-resources.jpg){width=250}
+    === "Chapters"
+        ![Tab Chapters di Sasayaki](img/hoshi-android-sasayaki-chapters.jpg){width=250}
+    === "Settings 1"
+        ![Tab Settings di Sasayaki bagian atas](img/hoshi-android-sasayaki-settings-1.jpg){width=250}
+    === "Settings 2"
+        ![Tab Settings di Sasayaki bagian bawah](img/hoshi-android-sasayaki-settings-2.jpg){width=250}
 
 #### Info 3: Statistik membaca
 
