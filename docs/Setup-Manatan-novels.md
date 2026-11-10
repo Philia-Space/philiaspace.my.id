@@ -18,11 +18,36 @@ Impor file EPUB, PDF, atau TXT, lalu baca dengan kamus popup.
 
 ![Menu impor buku di Novels Manatan](img/manatan-novel-import.jpg){height=500 width=500}
 
-??? warning "Audiobook belum didukung <small>(klik di sini)</small>"
+---
 
-    Per November 2026, Manatan belum bisa memutar audiobook bersamaan dengan bukunya. Yang tersedia hanya text-to-speech (suara buatan) lewat ikon speaker di bilah atas pembaca.
+## Audiobook
 
-    Kalau ingin membaca sambil mendengarkan audiobook, pakai [Yatsu Reader dengan Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync) di PC, [Hoshi Reader](Setup-Hoshi-Reader.md#info-2-audiobook) di Android, atau [Hoshi Reader](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki) di iPhone dan iPad.
+Manatan bisa memutar audiobook bersamaan dengan bukunya. Kalimat yang sedang dibacakan disorot, dan halaman ikut berpindah mengikuti suara.
+
+Fitur ini hanya ada di aplikasi Manatan versi sekarang (dicoba di versi 6.3.14). Versi lama yang dibuka lewat browser (Web UI) tidak punya fitur ini.
+
+1. Buka bukunya, lalu munculkan bilah menu di bagian atas layar dan pilih `Audiobook`.
+2. Pilih file audionya. Format yang diterima: MP3, M4B, M4A, Ogg, Opus, FLAC, dan WAV.
+3. Supaya suara bisa mengikuti teks, Manatan butuh data waktu tiap kalimat. Ada dua cara:
+    - Impor file subtitle audiobook-nya (SRT, VTT, atau LRC) kalau punya.
+    - Kalau tidak punya, biarkan Manatan membuat transkripnya sendiri dari audio. Prosesnya berjalan di perangkatmu dan bisa lama untuk audiobook yang panjang.
+4. Setelah teks dan suara cocok, bilah putar muncul di bagian bawah layar.
+   > **NB:** Kalau muncul pesan `No text matched`, periksa apakah audio, subtitle, dan bukunya berasal dari edisi yang sama.
+
+Tombol di bilah putar, dari kiri ke kanan:
+
+| Tombol | Fungsi |
+|---|---|
+| Mundur | Kalimat sebelumnya |
+| Putar/jeda | Memutar atau menjeda audiobook |
+| Ulang | Mengulang kalimat yang sedang dibacakan |
+| Maju | Kalimat berikutnya |
+| Garis waktu | Pindah ke bagian lain audiobook |
+| Headphone | Pengaturan audiobook, misalnya kecepatan putar dan warna sorotan |
+
+Selain audiobook, ikon speaker di bilah atas pembaca tetap bisa dipakai untuk text-to-speech (dibacakan suara buatan).
+
+Pilihan lain untuk membaca sambil mendengarkan audiobook: [Yatsu Reader dengan Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync) di PC, [Hoshi Reader](Setup-Hoshi-Reader.md#info-2-audiobook) di Android, atau [Hoshi Reader](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki) di iPhone dan iPad.
 
 ---
 

@@ -229,7 +229,7 @@ Dicoba pada 6 November 2026 dengan Manatan Windows v6.3.8, repositori [Yuzono](#
 	
 ### **Novel (EPUB)**
 
-Impor berkas EPUB, PDF, atau TXT dan baca. Audiobook belum didukung.
+Impor berkas EPUB, PDF, atau TXT dan baca. Bisa juga sambil mendengarkan audiobook-nya.
 
 - Selanjutnya: [Novel (EPUB)](Setup-Manatan-novels.md)
 
