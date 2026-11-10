@@ -130,16 +130,33 @@ Ekstensi hanya perlu kalau kamu mau membaca atau menonton dari sumber daring. Un
 	- Pilih chapter untuk mulai membaca. Selanjutnya judul ini bisa dibuka langsung dari menu `Manga`
 2. Membaca dari berkas lokal.
 	- [Manga Lokal](Setup-Manatan-manga-lokal.md)
-=== "Pengaturan Layout"
-	![Pengaturan Layout manga di Manatan](img/manga-setting-layout.jpg){height=500 width=500}
-=== "Pengaturan General"
-	![Pengaturan General manga di Manatan](img/manga-setting-general.jpg){height=500 width=500}
-=== "Pengaturan Custom Filter"
-	![Pengaturan Custom Filter manga di Manatan](img/manga-setting-filter.jpg){height=500 width=500}
-=== "Pengaturan Behaviour"
-	![Pengaturan Behaviour manga di Manatan](img/manga-setting-behaviour.jpg){height=500 width=500}
-=== "Pengaturan Keybinds"
-	![Pengaturan Keybinds manga di Manatan](img/manga-setting-keybind.jpg){height=500 width=500}
+3. Pengaturan pembaca
+	- Klik bagian tengah halaman manga untuk membuka menu di kiri, lalu tekan `Settings`
+	- Untuk manga Jepang, pilih `Reading mode` > `Single page (right to left)` atau `Double page (right to left)` supaya halaman dibalik dari kanan ke kiri
+=== "Menu Pembaca"
+	![Menu samping pembaca manga di Manatan](img/manga-reader-menu.jpg){height=500 width=500}
+=== "Layout"
+	![Pengaturan Layout pembaca manga di Manatan](img/manga-setting-layout.jpg){height=500 width=500}
+=== "General"
+	![Pengaturan General pembaca manga di Manatan](img/manga-setting-general.jpg){height=500 width=500}
+=== "Custom Filter"
+	![Pengaturan Custom Filter pembaca manga di Manatan](img/manga-setting-filter.jpg){height=500 width=500}
+=== "Behaviour"
+	![Pengaturan Behaviour pembaca manga di Manatan](img/manga-setting-behaviour.jpg){height=500 width=500}
+=== "Keybinds"
+	![Pengaturan Keybinds pembaca manga di Manatan](img/manga-setting-keybind.jpg){height=500 width=500}
+
+??? info "Isi tiap tab pengaturan pembaca manga <small>(klik di sini)</small>"
+
+    | Tab | Isi |
+    |---|---|
+    | Layout | Mode baca (satu halaman, dua halaman, gulir, webtoon) dan arahnya, zona ketuk untuk pindah halaman beserta ukurannya, dan ukuran gambar (pas lebar, pas tinggi, pas layar) |
+    | General | Tampilan menu, warna latar, dan bilah progres |
+    | Custom Filter | Kecerahan, kontras, dan filter warna halaman |
+    | Behaviour | Halaman yang dibuka saat keluar, jarak gulir, dobel klik untuk zoom, kecepatan gulir otomatis, dan pemberitahuan saat pindah chapter |
+    | Keybinds | Shortcut keyboard. Bawaannya: `←` `→` pindah halaman, `,` `.` pindah chapter, `M` buka menu, `R` ganti mode baca, `Space` gulir otomatis, `C` keluar |
+
+    Di tab Layout, bagian `Series settings` hanya berlaku untuk judul yang sedang dibuka. Kalau pilihannya `Default`, Manatan memakai pengaturan bawaan mode baca yang ada di bawahnya (misalnya bagian `Single page`).
 	
 ### **Anime**
 
