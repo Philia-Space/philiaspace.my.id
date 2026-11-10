@@ -22,7 +22,7 @@ Impor file EPUB, PDF, atau TXT, lalu baca dengan kamus popup.
 
     Per November 2026, Manatan belum bisa memutar audiobook bersamaan dengan bukunya. Yang tersedia hanya text-to-speech (suara buatan) lewat ikon speaker di bilah atas pembaca.
 
-    Kalau ingin membaca sambil mendengarkan audiobook, pakai [Yatsu Reader dengan Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync) di PC, atau [Hoshi Reader](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki) di iPhone atau iPad.
+    Kalau ingin membaca sambil mendengarkan audiobook, pakai [Yatsu Reader dengan Yatsu Whispersync](setup-LN-pc-lazy-guide.md#info-3-audiobook-dengan-yatsu-whispersync) di PC, [Hoshi Reader](Setup-Hoshi-Reader.md#info-2-audiobook) di Android, atau [Hoshi Reader](Setup-Hoshi-Reader-iOS.md#audiobook-sasayaki) di iPhone dan iPad.
 
 ---
 
