@@ -22,6 +22,12 @@ hide:
 
 ### November
 
+**10-11-2026** · Anime dan manga dari ekstensi di Manatan
+
+- Pembaruan
+       - [Setup Manatan](Setup-Manatan.md#penggunaan-media): ada langkah mencari judul dari ekstensi dan menyimpannya ke Library, lewat pencarian global untuk manga dan per sumber untuk anime
+       - [Setup Manatan](Setup-Manatan.md#ekstensi-anime-yang-sudah-dicoba): daftar ekstensi anime yang sudah dicoba, lengkap dengan bahasa dan jenis subtitlenya, menggantikan rekomendasi lama di Pertanyaan Umum
+
 **08-11-2026** · Subtitle Jimaku di asbplayer
 
 - Pembaruan
