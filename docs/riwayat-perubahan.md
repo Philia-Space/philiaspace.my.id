@@ -22,6 +22,11 @@ hide:
 
 ### November
 
+**11-11-2026** · Hoshi Reader Android masuk menu
+
+- Pembaruan
+       - Menu **Setup Mining** sekarang punya kelompok **Android** berisi [LN & Buku](Setup-Hoshi-Reader.md), yaitu panduan Hoshi Reader untuk membaca light novel dan buku di HP Android
+
 **10-11-2026** · Screenshot Hoshi Reader Android
 
 - Pembaruan

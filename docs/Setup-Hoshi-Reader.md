@@ -1,12 +1,12 @@
 # Setup Hoshi Reader (Android)
 ---
 
- Diunggah: 6 November 2026 · Diperbarui: 10 November 2026 – `Yaaacha`
+ Diunggah: 6 November 2026 · Diperbarui: 11 November 2026 – `Yaaacha`
 
 ---
 
-!!! warning "Draft"
-    Halaman ini masih draft dan belum masuk menu. Screenshot diambil dari Hoshi Reader Android v1.5.0. Popup kamus dan pembuatan kartu belum ada screenshot-nya, jadi letak tombolnya bisa sedikit berbeda.
+!!! note "Versi aplikasi"
+    Screenshot diambil dari Hoshi Reader Android v1.5.0. Popup kamus dan pembuatan kartu belum ada screenshot-nya, jadi letak tombolnya bisa sedikit berbeda.
 
 ??? info "Info: tentang Hoshi Reader <small>(klik di sini)</small>"
 
