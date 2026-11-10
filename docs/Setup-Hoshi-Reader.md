@@ -171,7 +171,7 @@ Tampilan teks (vertikal atau horizontal, ukuran, font) dan ukuran popup kamus di
 Tanpa audio lokal, audio pengucapan diambil dari internet. Dengan audio lokal, audio tetap ada walaupun sedang offline, dan tidak perlu AnkiConnect Android.
 
 !!! warning "Butuh ruang kosong sekitar 6 GB"
-    File audionya sekitar 5,8 GB. Pastikan memori HP masih cukup sebelum impor.
+    File audionya sekitar 5,8 GB. Pastikan memori HP masih cukup sebelum impor. Kalau memori HP-mu terbatas, ada versi ringan sekitar 2 GB dan versi online, lihat [Info 4](#info-4-pilihan-sumber-audio).
 
 1. Unduh [android.db](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view)
 2. Buka `Settings` > `Advanced` > `Word audio`
@@ -223,6 +223,26 @@ Hoshi Reader bisa memutar audiobook sambil menandai kalimat yang sedang dibacaka
         ![Statistik target harian di Hoshi Reader Android](img/hoshi-android-statistics-1.jpg){width=250}
     === "Waktu Membaca"
         ![Statistik waktu membaca di Hoshi Reader Android](img/hoshi-android-statistics-2.jpg){width=250}
+
+#### Info 4: Pilihan sumber audio
+
+??? tip "Pilihan sumber audio untuk HP dengan memori terbatas <small>(klik di sini)</small>"
+
+    Sumber audio di bawah bisa dipakai di Hoshi Reader, Manatan, Chimahon, dan Hibiki.
+
+    | Pilihan | Ukuran | Cocok untuk |
+    |---|---|---|
+    | [Versi besar](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view) | Sekitar 5,8 GB | Memori masih lega. Ini file yang sama dengan langkah [Audio Lokal](#audio-lokal) |
+    | [Versi ringan](https://drive.google.com/drive/folders/1bDu2rAOmnGQEbtjG4VBj5LJoKjkxGPEX?usp=drive_link) | Sekitar 2 GB | Memori terbatas tapi tetap ingin audio offline. Impor dengan cara yang sama seperti versi besar |
+    | Online | Tidak perlu diunduh | Memori hampir penuh. Butuh internet setiap kali audio diputar |
+
+    URL untuk sumber audio online:
+
+    ```
+    https://audio.juranumunit.workers.dev/?term={term}&reading={reading}&sources=nhk16,shinmeikai8,jpod,tts1,tts2
+    ```
+
+    Salin URL itu dan tambahkan sebagai sumber audio custom di pengaturan audio aplikasimu. Biarkan `{term}` dan `{reading}` apa adanya, karena aplikasi akan menggantinya dengan kata yang sedang dicari.
 
 ---
 
