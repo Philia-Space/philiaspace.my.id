@@ -28,6 +28,11 @@ hide:
        - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#audiobook): catatan bahwa audiobook belum didukung ternyata keliru dan sudah diganti dengan langkah memutar audiobook bersamaan dengan bukunya, lengkap dengan screenshot tiap langkah; fitur ini hanya ada di aplikasi versi sekarang, bukan di versi lama yang dibuka lewat browser
        - [Novel (EPUB) di Manatan](Setup-Manatan-novels.md#impor-buku): langkah impor buku disesuaikan dengan aplikasi versi sekarang (ikon `+` di halaman `Novel`), screenshot-nya diganti
 
+**11-11-2026** · Hoshi Reader Android masuk menu
+
+- Pembaruan
+       - Menu **Setup Mining** sekarang punya kelompok **Android** berisi [LN & Buku](Setup-Hoshi-Reader.md), yaitu panduan Hoshi Reader untuk membaca light novel dan buku di HP Android
+
 **10-11-2026** · Screenshot Hoshi Reader Android
 
 - Pembaruan
