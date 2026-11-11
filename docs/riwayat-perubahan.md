@@ -22,6 +22,14 @@ hide:
 
 ### November
 
+**11-11-2026** · Tabel dan tampilan lebih mudah dibaca
+
+- Perbaikan
+       - Tabel lebar di semua halaman tidak lagi memotong isinya huruf per huruf. Tabel yang lebih lebar dari layar bisa digeser ke samping (geser jari di HP, Shift + scroll atau trackpad di PC), dan kolom pertamanya tetap terlihat saat digeser
+       - [Pengaturan Note Type](pengaturan-note-type.md#isian-per-note-type): tabel Senren dipecah jadi tab Yomitan dan Manatan, dan kolom cara pembaruan field dipindah ke depan supaya tidak terlewat
+       - Tautan, tulisan di bagian atas halaman, dan tombol "Sebelumnya/Berikutnya" di bawah halaman dibuat lebih mudah dibaca
+       - Tautan di dalam teks sekarang bergaris bawah, dan tombol di bagian atas halaman lebih mudah ditekan di HP
+
 **11-11-2026** · Pengaturan Senren di Manatan
 
 - Perbaikan
