@@ -1079,9 +1079,10 @@ body:has(.ps-landing) .md-footer { display: none; }
 .ps-footer-kanji { font-family: "BIZ UDPMincho", "Noto Serif JP", serif; font-size: 1.4rem; color: var(--ps-sky); }
 .ps-footer-name { font-weight: 800; letter-spacing: -0.02em; color: #fff; }
 .ps-footer-links { display: flex !important; flex-wrap: wrap; gap: 0.25rem 1.5rem !important; justify-self: end; }
-.ps-footer-links a { color: #9ca3af !important; font-size: 0.8rem; font-weight: 600; text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; }
+.ps-footer-links a { color: #9ca3af !important; font-size: 0.8rem; font-weight: 600; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .ps-footer-links a:hover { color: #fff !important; }
-.ps-footer-note { grid-column: 1 / -1; font-size: 0.75rem; line-height: 1.6; color: #6b7280; }
+.ps-footer-note { grid-column: 1 / -1; font-size: 0.75rem; line-height: 1.6; color: #9ca3af; } /* #6b7280 on #111 is only 3.9:1 */
+.md-typeset .ps-footer-note a { color: #38bdf8; text-decoration: underline; text-underline-offset: 0.15em; }
 @media screen and (max-width: 48em) {
   .ps-footer { grid-template-columns: 1fr; }
   .ps-footer-links { justify-self: start; }
