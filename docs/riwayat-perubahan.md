@@ -22,6 +22,13 @@ hide:
 
 ### November
 
+**11-11-2026** · Teks beranda
+
+- Perbaikan
+       - [Beranda](index.md): beberapa keterangan yang keliru diperbaiki, misalnya biaya situs (yang dibayar hanya domain), isi halaman Panduan, dan permintaan sebelum bertanya di Discord
+       - [Beranda](index.md): keterangan lisensi dilengkapi, isi panduan boleh disalin dan diubah dengan menyebut sumber dan memakai lisensi yang sama (CC BY-SA 4.0)
+       - [Beranda](index.md): tulisan kecil di bagian paling bawah lebih mudah dibaca
+
 **11-11-2026** · Tabel dan tampilan lebih mudah dibaca
 
 - Perbaikan
