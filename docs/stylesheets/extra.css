@@ -22,7 +22,7 @@
   --md-primary-fg-color--dark: #009ce0;
   --md-primary-fg-color--text: #ffffff;
   --md-accent-fg-color: #00bbff;
-  --md-typeset-a-color: #00bbff;
+  --md-typeset-a-color: #00669e; /* #00bbff on white is only 2.2:1 */
   --md-typeset-kbd-border-color: #517ae7;
 
   /* Nextra UI Tokens */
@@ -147,7 +147,7 @@ html, body {
   font-weight: 700;
 }
 
-/* Header Text & Icon Colors (Light Mode: White on Blue #00bbff) */
+/* Header Text & Icon Colors (Light Mode: Ink on Blue #00bbff, white on it is only 2.2:1) */
 [data-md-color-scheme="default"] .md-header {
   background-color: #00bbff !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -158,12 +158,12 @@ html, body {
 [data-md-color-scheme="default"] .md-header .md-header__button.md-icon,
 [data-md-color-scheme="default"] .md-header .md-header__source,
 [data-md-color-scheme="default"] .md-header .md-source__repository {
-  color: #ffffff !important;
+  color: #071727 !important;
 }
 
 [data-md-color-scheme="default"] .md-header .md-header__button.md-icon:hover {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: #071727 !important;
 }
 
 /* Header Text & Icon Colors (Dark Mode) */
@@ -238,10 +238,10 @@ html, body {
     color: var(--md-default-fg-color) !important;
   }
   [data-md-color-scheme="slate"] .md-search__input::placeholder {
-    color: var(--md-default-fg-color--lighter) !important;
+    color: var(--md-default-fg-color--light) !important;
   }
   [data-md-color-scheme="slate"] .md-search__icon {
-    color: var(--md-default-fg-color--lighter) !important;
+    color: var(--md-default-fg-color--light) !important;
   }
 
   .md-search__input {
@@ -365,13 +365,22 @@ html, body {
   font-weight: 500;
 }
 
-.md-typeset a:hover {
+.md-typeset a:hover,
+.md-typeset a:focus {
+  color: var(--md-typeset-a-color);
   text-decoration: underline;
+}
+
+/* Links inside running text are underlined, so they are not told apart by color alone. */
+.md-typeset :is(p, li, td, dd) > a:not(.md-button) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 
 /* Preserved Blockquote */
 .md-typeset blockquote {
-  border-left: 0.25rem solid hsl(262deg 47% 55%);
+  border-left: 0.25rem solid var(--md-primary-fg-color);
   background-color: var(--nx-hover-bg);
   border-radius: 0 6px 6px 0;
   padding: 0.75rem 1rem;
@@ -781,12 +790,10 @@ html, body {
 
 .md-footer__direction {
   display: block;
-  font-size: 0.5625rem;
+  font-size: 0.6875rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
   line-height: 1.2;
-  color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color--light);
   margin-bottom: 0.1rem;
 }
 
@@ -806,7 +813,7 @@ html, body {
   background: transparent !important;
   border-top: 1px solid var(--nx-border);
   font-size: 0.6875rem;
-  color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color--light);
   padding: 0.5rem 0;
 }
 
@@ -1182,6 +1189,26 @@ body:has(.ps-landing) .md-footer { display: none; }
 /* Kode add-on di halaman Sumber Belajar tidak terpotong supaya mudah disalin */
 .md-typeset .ps-addons td code { white-space: nowrap; }
 
+/* --- Touch targets: at least 44px on phones and tablets --- */
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-icon {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .md-nav__link {
+    min-height: 44px;
+  }
+
+  .md-typeset .tabbed-labels > label {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
 
 /* Phones: tighter cells, text columns may shrink, and the sticky first column
    stays narrow so the other columns keep room. */
