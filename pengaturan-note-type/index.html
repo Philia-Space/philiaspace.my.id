@@ -2101,174 +2101,257 @@
 </div>
 <div class="tabbed-block">
 <p>Senren bisa menyimpan beberapa adegan (kalimat, gambar, dan audio) untuk satu kata, lalu kamu bisa berpindah adegan di kartunya. Supaya ini jalan, menambang kata yang sama harus menambah adegan ke kartu lama.</p>
-<p>Kartu duplikat: nyalakan <code>Check for card duplicates</code> dan pilih <code>Allow overwriting</code> (Yomitan), atau nyalakan <code>Check for Duplicates</code> dan pilih <code>Overwrite</code> (Manatan). Lalu atur cara pembaruan tiap field sesuai tabel.</p>
+<p>Kartu duplikat: nyalakan <code>Check for card duplicates</code> dan pilih <code>Allow overwriting</code> (Yomitan), atau nyalakan <code>Check for Duplicates</code> dan pilih <code>Overwrite</code> (Manatan). Lalu atur cara pembaruan tiap field sesuai tabel di tab Yomitan atau Manatan.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><input id="__tabbed_3_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="__tabbed_3_1">Yomitan</label><label for="__tabbed_3_2">Manatan</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <table>
 <thead>
 <tr>
 <th>Field</th>
-<th>Yomitan</th>
-<th>Pembaruan (Yomitan)</th>
-<th>Manatan</th>
-<th>Pembaruan (Manatan)</th>
+<th>Pembaruan</th>
+<th>Isi</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>word</td>
+<td><code>Overwrite if available</code></td>
 <td><code>{expression}</code></td>
-<td><code>Overwrite if available</code></td>
-<td><code>Target Word</code></td>
-<td><code>Overwrite if available</code></td>
 </tr>
 <tr>
 <td>reading</td>
+<td><code>Overwrite if available</code></td>
 <td><code>{reading}</code></td>
-<td><code>Overwrite if available</code></td>
-<td><code>Reading</code></td>
-<td><code>Overwrite if available</code></td>
 </tr>
 <tr>
 <td>sentence</td>
+<td><code>Append</code></td>
 <td><code>&lt;span class="group"&gt;{cloze-prefix}&lt;span class="highlight"&gt;{cloze-body}&lt;/span&gt;{cloze-suffix}&lt;/span&gt;</code></td>
-<td><code>Append</code></td>
-<td><code>Custom Template</code>: <code>&lt;span class="group"&gt;{sentence-bold}&lt;/span&gt;</code></td>
-<td><code>Append</code></td>
 </tr>
 <tr>
 <td>sentenceFurigana</td>
+<td><code>Append</code></td>
 <td><code>&lt;span class="group"&gt;{sentence-furigana}&lt;/span&gt;</code></td>
-<td><code>Append</code></td>
-<td><code>Custom Template</code>: <code>&lt;span class="group"&gt;{sentence-furigana-bold}&lt;/span&gt;</code></td>
-<td><code>Append</code></td>
 </tr>
 <tr>
 <td>sentenceTranslation</td>
+<td><code>Append</code></td>
 <td><code>&lt;span class="group"&gt;{clipboard-text}&lt;/span&gt;</code></td>
-<td><code>Append</code></td>
-<td>Kosong, atau <code>Sentence translation</code> (lihat catatan)</td>
-<td><code>Append</code></td>
 </tr>
 <tr>
 <td>sentenceCard</td>
-<td>Kosong</td>
 <td><code>Fill if empty</code></td>
 <td>Kosong</td>
-<td><code>Overwrite</code></td>
 </tr>
 <tr>
 <td>audioCard</td>
-<td>Kosong</td>
 <td><code>Fill if empty</code></td>
 <td>Kosong</td>
-<td><code>Overwrite</code></td>
 </tr>
 <tr>
 <td>notes</td>
-<td>Kosong</td>
 <td><code>Fill if empty</code></td>
 <td>Kosong</td>
-<td><code>Overwrite</code></td>
 </tr>
 <tr>
 <td>hint</td>
-<td>Kosong</td>
 <td><code>Fill if empty</code></td>
 <td>Kosong</td>
-<td><code>Overwrite</code></td>
 </tr>
 <tr>
 <td>picture</td>
+<td><code>Append</code></td>
 <td>Kosong (diisi alat lain)</td>
-<td><code>Append</code></td>
-<td><code>Image</code></td>
-<td><code>Append</code></td>
 </tr>
 <tr>
 <td>wordAudio</td>
-<td><code>{audio}</code></td>
 <td><code>Fill if empty</code></td>
-<td><code>Word Audio</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{audio}</code></td>
 </tr>
 <tr>
 <td>sentenceAudio</td>
-<td>Kosong (diisi alat lain)</td>
 <td><code>Fill if empty</code></td>
-<td><code>Sentence Audio</code></td>
-<td><code>Append</code></td>
+<td>Kosong (diisi alat lain)</td>
 </tr>
 <tr>
 <td>selectionText</td>
-<td><code>{popup-selection-text}</code></td>
 <td><code>Fill if empty</code></td>
-<td><code>Popup Selection Text</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{popup-selection-text}</code></td>
 </tr>
 <tr>
 <td>definition</td>
-<td><code>{single-glossary-...}</code></td>
 <td><code>Fill if empty</code></td>
-<td><code>Glossary First</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{single-glossary-...}</code></td>
 </tr>
 <tr>
 <td>glossary</td>
-<td><code>{glossary}</code></td>
 <td><code>Fill if empty</code></td>
-<td><code>Glossary</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{glossary}</code></td>
 </tr>
 <tr>
 <td>pitchAccents</td>
-<td><code>{pitch-accents}</code></td>
 <td><code>Overwrite if available</code></td>
-<td><code>Pitch Accent</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{pitch-accents}</code></td>
 </tr>
 <tr>
 <td>pitchPositions</td>
-<td><code>{pitch-accent-positions}</code></td>
 <td><code>Overwrite if available</code></td>
-<td><code>Pitch Accent Positions</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{pitch-accent-positions}</code></td>
 </tr>
 <tr>
 <td>pitchCategories</td>
-<td><code>{pitch-accent-categories}</code></td>
 <td><code>Overwrite if available</code></td>
-<td><code>Pitch Accent Categories</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{pitch-accent-categories}</code></td>
 </tr>
 <tr>
 <td>frequencies</td>
-<td><code>{frequencies}</code></td>
 <td><code>Overwrite if available</code></td>
-<td><code>Frequencies</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{frequencies}</code></td>
 </tr>
 <tr>
 <td>freqSort</td>
-<td><code>{frequency-harmonic-rank}</code></td>
 <td><code>Overwrite if available</code></td>
-<td><code>Frequency Harmonic Rank</code></td>
-<td><code>Overwrite</code></td>
+<td><code>{frequency-harmonic-rank}</code></td>
 </tr>
 <tr>
 <td>miscInfo</td>
+<td><code>Append</code></td>
 <td><code>{document-title}</code></td>
-<td><code>Append</code></td>
-<td><code>Media Name</code></td>
-<td><code>Append</code></td>
 </tr>
 <tr>
 <td>dictionaryPreference</td>
-<td>Kosong</td>
 <td><code>Fill if empty</code></td>
 <td>Kosong</td>
-<td><code>Overwrite</code></td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Pembaruan</th>
+<th>Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>word</td>
+<td><code>Overwrite if available</code></td>
+<td><code>Target Word</code></td>
+</tr>
+<tr>
+<td>reading</td>
+<td><code>Overwrite if available</code></td>
+<td><code>Reading</code></td>
+</tr>
+<tr>
+<td>sentence</td>
+<td><code>Append</code></td>
+<td><code>Custom Template</code>: <code>&lt;span class="group"&gt;{sentence-bold}&lt;/span&gt;</code></td>
+</tr>
+<tr>
+<td>sentenceFurigana</td>
+<td><code>Append</code></td>
+<td><code>Custom Template</code>: <code>&lt;span class="group"&gt;{sentence-furigana-bold}&lt;/span&gt;</code></td>
+</tr>
+<tr>
+<td>sentenceTranslation</td>
+<td><code>Append</code></td>
+<td>Kosong, atau <code>Sentence translation</code> (lihat catatan)</td>
+</tr>
+<tr>
+<td>sentenceCard</td>
+<td><code>Overwrite</code></td>
+<td>Kosong</td>
+</tr>
+<tr>
+<td>audioCard</td>
+<td><code>Overwrite</code></td>
+<td>Kosong</td>
+</tr>
+<tr>
+<td>notes</td>
+<td><code>Overwrite</code></td>
+<td>Kosong</td>
+</tr>
+<tr>
+<td>hint</td>
+<td><code>Overwrite</code></td>
+<td>Kosong</td>
+</tr>
+<tr>
+<td>picture</td>
+<td><code>Append</code></td>
+<td><code>Image</code></td>
+</tr>
+<tr>
+<td>wordAudio</td>
+<td><code>Overwrite</code></td>
+<td><code>Word Audio</code></td>
+</tr>
+<tr>
+<td>sentenceAudio</td>
+<td><code>Append</code></td>
+<td><code>Sentence Audio</code></td>
+</tr>
+<tr>
+<td>selectionText</td>
+<td><code>Overwrite</code></td>
+<td><code>Popup Selection Text</code></td>
+</tr>
+<tr>
+<td>definition</td>
+<td><code>Overwrite</code></td>
+<td><code>Glossary First</code></td>
+</tr>
+<tr>
+<td>glossary</td>
+<td><code>Overwrite</code></td>
+<td><code>Glossary</code></td>
+</tr>
+<tr>
+<td>pitchAccents</td>
+<td><code>Overwrite</code></td>
+<td><code>Pitch Accent</code></td>
+</tr>
+<tr>
+<td>pitchPositions</td>
+<td><code>Overwrite</code></td>
+<td><code>Pitch Accent Positions</code></td>
+</tr>
+<tr>
+<td>pitchCategories</td>
+<td><code>Overwrite</code></td>
+<td><code>Pitch Accent Categories</code></td>
+</tr>
+<tr>
+<td>frequencies</td>
+<td><code>Overwrite</code></td>
+<td><code>Frequencies</code></td>
+</tr>
+<tr>
+<td>freqSort</td>
+<td><code>Overwrite</code></td>
+<td><code>Frequency Harmonic Rank</code></td>
+</tr>
+<tr>
+<td>miscInfo</td>
+<td><code>Append</code></td>
+<td><code>Media Name</code></td>
+</tr>
+<tr>
+<td>dictionaryPreference</td>
+<td><code>Overwrite</code></td>
+<td>Kosong</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <p>Yang penting di Manatan hanya tujuh field: <code>word</code> dan <code>reading</code> (<code>Overwrite if available</code>), lalu <code>sentence</code>, <code>sentenceFurigana</code>, <code>picture</code>, <code>sentenceAudio</code>, dan <code>miscInfo</code> (<code>Append</code>). Field lainnya cukup dibiarkan <code>Overwrite</code> seperti bawaannya. Dengan pengaturan ini, menambang kata yang sama dari adegan lain menambah kalimat, furigana, gambar, dan audio kalimat ke kartu lama, sementara audio kata tetap satu.</p>
 <ul>
 <li><code>&lt;span class="group"&gt;</code> adalah penanda satu adegan. Jangan dihapus dari template <code>sentence</code> dan <code>sentenceFurigana</code>.</li>

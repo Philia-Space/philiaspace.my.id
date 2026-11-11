@@ -22,7 +22,7 @@
   --md-primary-fg-color--dark: #009ce0;
   --md-primary-fg-color--text: #ffffff;
   --md-accent-fg-color: #00bbff;
-  --md-typeset-a-color: #00bbff;
+  --md-typeset-a-color: #00669e; /* #00bbff on white is only 2.2:1 */
   --md-typeset-kbd-border-color: #517ae7;
 
   /* Nextra UI Tokens */
@@ -147,7 +147,7 @@ html, body {
   font-weight: 700;
 }
 
-/* Header Text & Icon Colors (Light Mode: White on Blue #00bbff) */
+/* Header Text & Icon Colors (Light Mode: Ink on Blue #00bbff, white on it is only 2.2:1) */
 [data-md-color-scheme="default"] .md-header {
   background-color: #00bbff !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -158,12 +158,12 @@ html, body {
 [data-md-color-scheme="default"] .md-header .md-header__button.md-icon,
 [data-md-color-scheme="default"] .md-header .md-header__source,
 [data-md-color-scheme="default"] .md-header .md-source__repository {
-  color: #ffffff !important;
+  color: #071727 !important;
 }
 
 [data-md-color-scheme="default"] .md-header .md-header__button.md-icon:hover {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: #071727 !important;
 }
 
 /* Header Text & Icon Colors (Dark Mode) */
@@ -238,10 +238,10 @@ html, body {
     color: var(--md-default-fg-color) !important;
   }
   [data-md-color-scheme="slate"] .md-search__input::placeholder {
-    color: var(--md-default-fg-color--lighter) !important;
+    color: var(--md-default-fg-color--light) !important;
   }
   [data-md-color-scheme="slate"] .md-search__icon {
-    color: var(--md-default-fg-color--lighter) !important;
+    color: var(--md-default-fg-color--light) !important;
   }
 
   .md-search__input {
@@ -365,13 +365,22 @@ html, body {
   font-weight: 500;
 }
 
-.md-typeset a:hover {
+.md-typeset a:hover,
+.md-typeset a:focus {
+  color: var(--md-typeset-a-color);
   text-decoration: underline;
+}
+
+/* Links inside running text are underlined, so they are not told apart by color alone. */
+.md-typeset :is(p, li, td, dd) > a:not(.md-button) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 
 /* Preserved Blockquote */
 .md-typeset blockquote {
-  border-left: 0.25rem solid hsl(262deg 47% 55%);
+  border-left: 0.25rem solid var(--md-primary-fg-color);
   background-color: var(--nx-hover-bg);
   border-radius: 0 6px 6px 0;
   padding: 0.75rem 1rem;
@@ -528,15 +537,46 @@ html, body {
 }
 
 /* --- Nextra Tables --- */
-.md-typeset table:not([class]) {
+/* Tables size to their content and scroll sideways inside their own box,
+   so code in cells stays on one line instead of breaking letter by letter. */
+.md-typeset .md-typeset__scrollwrap {
+  position: relative;
+  margin: 1.5rem 0;
+  overflow: visible;
+}
+
+.md-typeset .md-typeset__table {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
   border: 1px solid var(--nx-border);
   border-radius: 8px;
+}
+
+.md-typeset .md-typeset__table:focus-visible {
+  outline: 2px solid var(--md-typeset-a-color);
+  outline-offset: 2px;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: auto;
+  min-width: 100%;
+  max-width: none;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
   border-collapse: separate;
   border-spacing: 0;
-  overflow-x: auto;
-  display: block;
-  width: 100%;
-  margin: 1.5rem 0;
+  overflow: visible;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  min-width: 6rem;
+  vertical-align: top;
 }
 
 .md-typeset table:not([class]) th {
@@ -554,8 +594,69 @@ html, body {
   border-bottom: 1px solid var(--nx-border);
 }
 
+.md-typeset table:not([class]) td code {
+  white-space: nowrap;
+}
+
 .md-typeset table:not([class]) tr:last-child td {
   border-bottom: 0;
+}
+
+/* Wide tables with 3+ columns keep the first column (the row name) in view while scrolling. */
+.md-typeset .md-typeset__table[data-scroll] table:has(tr > :nth-child(3)) :is(th, td):first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: var(--md-default-bg-color);
+}
+
+.md-typeset .md-typeset__table[data-scroll] table:has(tr > :nth-child(3)) th:first-child {
+  background-image: linear-gradient(var(--nx-hover-bg), var(--nx-hover-bg));
+}
+
+.md-typeset .md-typeset__table[data-scroll~="kiri"] table:has(tr > :nth-child(3)) :is(th, td):first-child {
+  box-shadow: 6px 0 8px -6px rgba(0, 0, 0, 0.25);
+}
+
+/* Fade at an edge that still has hidden content, so readers know the table scrolls. */
+.md-typeset .md-typeset__scrollwrap::before,
+.md-typeset .md-typeset__scrollwrap::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  width: 2rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 150ms;
+  z-index: 2;
+}
+
+.md-typeset .md-typeset__scrollwrap::before {
+  left: 1px;
+  border-radius: 8px 0 0 8px;
+  background: linear-gradient(to right, var(--md-default-bg-color), transparent);
+}
+
+.md-typeset .md-typeset__scrollwrap::after {
+  right: 1px;
+  border-radius: 0 8px 8px 0;
+  background: linear-gradient(to left, var(--md-default-bg-color), transparent);
+}
+
+.md-typeset .md-typeset__scrollwrap:has(> [data-scroll~="kanan"])::after {
+  opacity: 1;
+}
+
+.md-typeset .md-typeset__scrollwrap:has(> [data-scroll~="kiri"]):not(:has(table tr > :nth-child(3)))::before {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .md-typeset__scrollwrap::before,
+  .md-typeset .md-typeset__scrollwrap::after {
+    transition: none;
+  }
 }
 
 /* --- Right Sidebar (Locked & Isolated Scroll, Default Width) --- */
@@ -689,12 +790,10 @@ html, body {
 
 .md-footer__direction {
   display: block;
-  font-size: 0.5625rem;
+  font-size: 0.6875rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
   line-height: 1.2;
-  color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color--light);
   margin-bottom: 0.1rem;
 }
 
@@ -714,7 +813,7 @@ html, body {
   background: transparent !important;
   border-top: 1px solid var(--nx-border);
   font-size: 0.6875rem;
-  color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color--light);
   padding: 0.5rem 0;
 }
 
@@ -980,9 +1079,10 @@ body:has(.ps-landing) .md-footer { display: none; }
 .ps-footer-kanji { font-family: "BIZ UDPMincho", "Noto Serif JP", serif; font-size: 1.4rem; color: var(--ps-sky); }
 .ps-footer-name { font-weight: 800; letter-spacing: -0.02em; color: #fff; }
 .ps-footer-links { display: flex !important; flex-wrap: wrap; gap: 0.25rem 1.5rem !important; justify-self: end; }
-.ps-footer-links a { color: #9ca3af !important; font-size: 0.8rem; font-weight: 600; text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; }
+.ps-footer-links a { color: #9ca3af !important; font-size: 0.8rem; font-weight: 600; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .ps-footer-links a:hover { color: #fff !important; }
-.ps-footer-note { grid-column: 1 / -1; font-size: 0.75rem; line-height: 1.6; color: #6b7280; }
+.ps-footer-note { grid-column: 1 / -1; font-size: 0.75rem; line-height: 1.6; color: #9ca3af; } /* #6b7280 on #111 is only 3.9:1 */
+.md-typeset .ps-footer-note a { color: #38bdf8; text-decoration: underline; text-underline-offset: 0.15em; }
 @media screen and (max-width: 48em) {
   .ps-footer { grid-template-columns: 1fr; }
   .ps-footer-links { justify-self: start; }
@@ -1089,3 +1189,42 @@ body:has(.ps-landing) .md-footer { display: none; }
 
 /* Kode add-on di halaman Sumber Belajar tidak terpotong supaya mudah disalin */
 .md-typeset .ps-addons td code { white-space: nowrap; }
+
+/* --- Touch targets: at least 44px on phones and tablets --- */
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-icon {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .md-nav__link {
+    min-height: 44px;
+  }
+
+  .md-typeset .tabbed-labels > label {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* Phones: tighter cells, text columns may shrink, and the sticky first column
+   stays narrow so the other columns keep room. */
+@media screen and (max-width: 30em) {
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    padding: 0.5rem 0.65rem;
+  }
+
+  .md-typeset table:not([class]) :is(th, td):not(:first-child) {
+    min-width: 0;
+  }
+
+  .md-typeset .md-typeset__table[data-scroll] table:has(tr > :nth-child(3)) :is(th, td):first-child {
+    max-width: 7.5rem;
+    overflow-wrap: break-word;
+  }
+}
