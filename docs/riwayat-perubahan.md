@@ -22,6 +22,11 @@ hide:
 
 ### November
 
+**11-11-2026** · Pengaturan Senren di Manatan
+
+- Perbaikan
+       - [Pengaturan Note Type](pengaturan-note-type.md#isian-per-note-type): isian Senren untuk Manatan diganti dengan pengaturan yang sudah dicoba dan berhasil menggabungkan beberapa adegan ke satu kartu, dengan cara pembaruan field Yomitan dan Manatan ditulis terpisah
+
 **11-11-2026** · Pemutar video, popup kamus, dan flashcard Manatan
 
 - Pembaruan
