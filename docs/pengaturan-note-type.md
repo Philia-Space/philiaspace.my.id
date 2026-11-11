@@ -133,36 +133,39 @@ Cara membaca tabel:
 
     Senren bisa menyimpan beberapa adegan (kalimat, gambar, dan audio) untuk satu kata, lalu kamu bisa berpindah adegan di kartunya. Supaya ini jalan, menambang kata yang sama harus menambah adegan ke kartu lama.
 
-    Kartu duplikat: nyalakan `Check for card duplicates` dan pilih `Allow overwriting` (Yomitan), atau nyalakan `Check for Duplicates` dan pilih `Overwrite` (Manatan). Lalu atur cara pembaruan tiap field sesuai kolom terakhir.
+    Kartu duplikat: nyalakan `Check for card duplicates` dan pilih `Allow overwriting` (Yomitan), atau nyalakan `Check for Duplicates` dan pilih `Overwrite` (Manatan). Lalu atur cara pembaruan tiap field sesuai tabel.
 
-    | Field | Yomitan | Manatan | Pembaruan |
-    |---|---|---|---|
-    | word | `{expression}` | `Target Word` | `Overwrite if available` |
-    | reading | `{reading}` | `Reading` | `Overwrite if available` |
-    | sentence | `<span class="group">{cloze-prefix}<span class="highlight">{cloze-body}</span>{cloze-suffix}</span>` | `Custom Template`, isinya sama dengan Yomitan | `Append` |
-    | sentenceFurigana | `<span class="group">{sentence-furigana}</span>` | `Custom Template`, isinya sama dengan Yomitan | `Append` |
-    | sentenceTranslation | `<span class="group">{clipboard-text}</span>` | `Sentence translation` | `Append` |
-    | sentenceCard | Kosong | Kosong | `Fill if empty` |
-    | audioCard | Kosong | Kosong | `Fill if empty` |
-    | notes | Kosong | Kosong | `Fill if empty` |
-    | hint | Kosong | Kosong | `Fill if empty` |
-    | picture | Kosong (diisi alat lain) | `Image` | `Append` |
-    | wordAudio | `{audio}` | `Word Audio` | `Fill if empty` |
-    | sentenceAudio | Kosong (diisi alat lain) | `Sentence Audio` | Yomitan: `Fill if empty`, Manatan: `Append` |
-    | selectionText | `{popup-selection-text}` | `Custom Template`: `{popup-selection-text}` | `Fill if empty` |
-    | definition | `{single-glossary-...}` | `Single Glossary`, lalu pilih kamusnya | `Fill if empty` |
-    | glossary | `{glossary}` | `Glossary` | `Fill if empty` |
-    | pitchAccents | `{pitch-accents}` | `Pitch Accent` | `Overwrite if available` |
-    | pitchPositions | `{pitch-accent-positions}` | `Pitch Accent Positions` | `Overwrite if available` |
-    | pitchCategories | `{pitch-accent-categories}` | `Pitch Accent Categories` | `Overwrite if available` |
-    | frequencies | `{frequencies}` | `Frequencies` | `Overwrite if available` |
-    | freqSort | `{frequency-harmonic-rank}` | `Frequency Harmonic Rank` | `Overwrite if available` |
-    | miscInfo | `{document-title}` | `Media Name` | `Append` |
-    | dictionaryPreference | Kosong | Kosong | `Fill if empty` |
+    | Field | Yomitan | Pembaruan (Yomitan) | Manatan | Pembaruan (Manatan) |
+    |---|---|---|---|---|
+    | word | `{expression}` | `Overwrite if available` | `Target Word` | `Overwrite if available` |
+    | reading | `{reading}` | `Overwrite if available` | `Reading` | `Overwrite if available` |
+    | sentence | `<span class="group">{cloze-prefix}<span class="highlight">{cloze-body}</span>{cloze-suffix}</span>` | `Append` | `Custom Template`: `<span class="group">{sentence-bold}</span>` | `Append` |
+    | sentenceFurigana | `<span class="group">{sentence-furigana}</span>` | `Append` | `Custom Template`: `<span class="group">{sentence-furigana-bold}</span>` | `Append` |
+    | sentenceTranslation | `<span class="group">{clipboard-text}</span>` | `Append` | Kosong, atau `Sentence translation` (lihat catatan) | `Append` |
+    | sentenceCard | Kosong | `Fill if empty` | Kosong | `Overwrite` |
+    | audioCard | Kosong | `Fill if empty` | Kosong | `Overwrite` |
+    | notes | Kosong | `Fill if empty` | Kosong | `Overwrite` |
+    | hint | Kosong | `Fill if empty` | Kosong | `Overwrite` |
+    | picture | Kosong (diisi alat lain) | `Append` | `Image` | `Append` |
+    | wordAudio | `{audio}` | `Fill if empty` | `Word Audio` | `Overwrite` |
+    | sentenceAudio | Kosong (diisi alat lain) | `Fill if empty` | `Sentence Audio` | `Append` |
+    | selectionText | `{popup-selection-text}` | `Fill if empty` | `Popup Selection Text` | `Overwrite` |
+    | definition | `{single-glossary-...}` | `Fill if empty` | `Glossary First` | `Overwrite` |
+    | glossary | `{glossary}` | `Fill if empty` | `Glossary` | `Overwrite` |
+    | pitchAccents | `{pitch-accents}` | `Overwrite if available` | `Pitch Accent` | `Overwrite` |
+    | pitchPositions | `{pitch-accent-positions}` | `Overwrite if available` | `Pitch Accent Positions` | `Overwrite` |
+    | pitchCategories | `{pitch-accent-categories}` | `Overwrite if available` | `Pitch Accent Categories` | `Overwrite` |
+    | frequencies | `{frequencies}` | `Overwrite if available` | `Frequencies` | `Overwrite` |
+    | freqSort | `{frequency-harmonic-rank}` | `Overwrite if available` | `Frequency Harmonic Rank` | `Overwrite` |
+    | miscInfo | `{document-title}` | `Append` | `Media Name` | `Append` |
+    | dictionaryPreference | Kosong | `Fill if empty` | Kosong | `Overwrite` |
 
-    - `<span class="group">` adalah penanda satu adegan. Jangan dihapus dari template `sentence`, `sentenceFurigana`, dan `sentenceTranslation`.
+    Yang penting di Manatan hanya tujuh field: `word` dan `reading` (`Overwrite if available`), lalu `sentence`, `sentenceFurigana`, `picture`, `sentenceAudio`, dan `miscInfo` (`Append`). Field lainnya cukup dibiarkan `Overwrite` seperti bawaannya. Dengan pengaturan ini, menambang kata yang sama dari adegan lain menambah kalimat, furigana, gambar, dan audio kalimat ke kartu lama, sementara audio kata tetap satu.
+
+    - `<span class="group">` adalah penanda satu adegan. Jangan dihapus dari template `sentence` dan `sentenceFurigana`.
     - Tombol pindah adegan baru muncul kalau kartunya punya minimal dua audio kalimat.
-    - **Terjemahan kalimat** (`sentenceTranslation`) diambil dari subtitle kedua, biasanya Inggris atau Indonesia. Di Yomitan, salin dulu subtitle keduanya sebelum menekan tombol tambang, supaya `{clipboard-text}` terisi. Di Manatan, pasang subtitle kedua lewat menu subtitle pemutar (tombol `S`). Isian Manatan tidak bisa dibungkus `<span class="group">`, jadi kalau terjemahan muncul di adegan yang salah, bungkus manual di Anki. Kalau tidak memakai terjemahan, kosongkan saja.
+    - `miscInfo` ikut bertambah tiap adegan, jadi nama media yang sama bisa tertulis dua kali kalau kedua adegan dari judul yang sama.
+    - **Terjemahan kalimat** (`sentenceTranslation`) diambil dari subtitle kedua, biasanya Inggris atau Indonesia. Di Yomitan, salin dulu subtitle keduanya sebelum menekan tombol tambang, supaya `{clipboard-text}` terisi. Di Manatan, pilihan `Sentence translation` mengambil subtitle kedua yang sedang terpasang (tombol `S` di menu subtitle pemutar). Isinya tidak bisa dibungkus `<span class="group">`, jadi kalau terjemahan muncul di adegan yang salah, bungkus manual di Anki. Kalau tidak memakai terjemahan, kosongkan saja.
     - Di Yomitan, `picture` dan `sentenceAudio` dikosongkan karena diisi alat lain, misalnya asbplayer. Di Manatan, gambar dan audio kalimat diambil langsung oleh Manatan, jadi kedua field itu diisi dengan `Append` supaya tiap adegan punya gambar dan audionya sendiri.
 
     Sumber: [Senren: scene switching](https://brenoaqua.github.io/Senren/scene_switching) dan [Senren Setup](https://brenoaqua.github.io/Senren/setup_overview/)
@@ -177,7 +180,7 @@ Cara membaca tabel:
     | ExpressionFurigana | `{furigana-plain}` | `Custom Template`: `{furigana-plain}` |
     | ExpressionReading | `{reading}` | `Reading` |
     | ExpressionAudio | `{audio}` | `Word Audio` |
-    | MainDefinition | `{popup-selection-text}` | `Custom Template`: `{popup-selection-text}` |
+    | MainDefinition | `{popup-selection-text}` | `Popup Selection Text` |
     | Sentence | `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}` | `Sentence with Bold Word` |
     | SentenceFurigana | Kosong | Kosong |
     | SentenceAudio | Kosong (diisi alat lain) | `Sentence Audio` |
