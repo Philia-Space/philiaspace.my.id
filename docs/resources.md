@@ -26,9 +26,7 @@ Halaman ini kumpulan tautan, bukan panduan. Kalau kamu baru mulai, baca [Panduan
 - **[TheMoeWay](https://learnjapanese.moe/guide/)**: panduan immersion yang sudah membantu ribuan orang. Ditulis oleh shoui.
 - [Immersion-Based Japanese Learning](https://donkuri.github.io/learn-japanese/guide/): panduan dari kuri yang rutin diperbarui, lengkap dari awal sampai setup.
 - [Learn Japanese with Immersion](https://www.ten.guide/): panduan dari server Ten, lengkap dengan daftar sumber dan visual yang rapi.
-- [VNCR's guide](https://vnclub.org/guide/): panduan yang menekankan belajar lewat visual novel.
 - [morg.systems](https://morg.systems/Japanese): banyak tulisan seputar belajar bahasa Jepang.
-- [天's Immersion Guide](https://timm04.github.io/immersion-based-language-learning/): panduan immersion buatan Timm.
 - [Xelieu's Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/): panduan setup yang ringkas. Versi bahasa Indonesianya ada di menu **LazyGuide - Mining**.
 
 ### Metode dan Motivasi
@@ -117,7 +115,7 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 
 ### Referensi Cepat
 
-- [Master reference grammar](https://gohoneko.neocities.org/grammar/masterreference): tabel semua pola tata bahasa dari empat sumber ([versi lain](https://kenrick95.github.io/itazuraneko/grammar/masterreference.html)).
+- [Master reference grammar](https://kenrick95.github.io/itazuraneko/grammar/masterreference.html): tabel semua pola tata bahasa dari empat sumber.
 - [DOJG Lite](https://dojglite.github.io/main/index.html): referensi cepat dari *Dictionary of Japanese Grammar*. Lihat juga [halaman DOJG di DJT](https://djtguide.github.io/grammar/dojgmain.html) dan [Grammar Dictionaries untuk Yomitan](https://github.com/aiko-tanaka/Grammar-Dictionaries).
 - [NihongoKyoshi JLPT grammar](https://nihongokyoshi-net.com/jlpt-grammars/): pola tata bahasa JLPT yang dijelaskan dalam bahasa Jepang. Bagus dipelajari setelah selesai Yokubi atau Tae Kim.
 - [日本語文型バンク](https://www2.ninjal.ac.jp/bunkeibank): lebih dari 800 pola tata bahasa dari NINJAL, dalam bahasa Jepang.
@@ -125,7 +123,7 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 ### Dek Anki
 
 - **[NihongoKyoshi Deck](https://drive.google.com/file/d/1tDBaabwgZMO8nxkcwcw4qBXayuk_513T/view)**: dek tata bahasa monolingual. Sengaja tanpa terjemahan supaya kamu tidak mengaitkan tata bahasa Jepang dengan kata bahasa lain.
-- [DOJG Deck](https://dojgdeck.neocities.org/): dek dari seri *Dictionary of Japanese Grammar* ([versi AnkiWeb](https://ankiweb.net/shared/info/1013111837)).
+- [DOJG Deck](https://ankiweb.net/shared/info/1013111837): dek dari seri *Dictionary of Japanese Grammar*.
 - [Bunpro Deck](https://mega.nz/file/pZQUxLJB#uRuBfWzkCgwlunKc0kGS0YuMkeOLbbGeDJvntkBh_DE): dek dari aplikasi tata bahasa Bunpro.
 - [JLAB](https://ankiweb.net/shared/info/2110939339): dek yang mengajarkan kana, kanji, dan semua tata bahasa dari Tae Kim.
 
@@ -158,7 +156,6 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 - [xythh's resources](https://xythh.github.io/resources): kumpulan sumber belajar pitch accent.
 - [Dogen](https://www.youtube.com/playlist?list=PLeK-ilb1gk6md2oCbjPh4Rl0lnXXOV22P): seri fonetik bahasa Jepang dari YouTuber populer.
 - [Yudai Sensei](https://www.youtube.com/@yudaisensei2020): penutur asli yang membahas pitch accent dan kenapa itu penting.
-- [OJAD](https://www.gavo.t.u-tokyo.ac.jp/ojad/search): kamus pitch accent dan tabel konjugasi.
 - [名字アクセント辞典](https://myoji.scave.net): kamus pitch accent untuk nama orang.
 - [Numbers](https://langpractice.com/japanese): latihan mendengar angka dalam bahasa Jepang.
 
@@ -314,7 +311,6 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 - [Eijirou on the WEB](https://eow.alc.co.jp/): kamus Jepang-Inggris dengan banyak contoh kalimat.
 - [Weblio](https://www.weblio.jp/): kamus monolingual paling populer.
 - [日本語俗語辞書](http://zokugo-dict.com/): kamus bahasa gaul, ada juga versi Yomitan.
-- [Fuseji](http://fuseji.net/): menebak kata yang disensor dengan 〇.
 - [Forvo](https://forvo.com/languages/ja/): pelafalan kata oleh penutur asli.
 - [Jiten](https://jiten.moe/): kamus sekaligus statistik kosakata media Jepang.
 
@@ -416,7 +412,7 @@ Mining adalah mencari kata baru saat immersion, lalu menyimpannya ke Anki lewat 
 - [Manga-OCR](https://github.com/kha-white/manga-ocr): program OCR khusus manga. Ada versi GUI-nya, Poricom.
 - [GazouOCR](https://github.com/kamui-fin/gazou): OCR untuk Linux.
 - [OCR Reader](https://github.com/kotcrab/ocr-reader): membantu membaca hasil pindaian novel fisik.
-- [CDisplayEx](https://www.cdisplayex.com/desktop/) dan [NeeView](https://github.com/neeview/neeview): pembaca manga dan gambar di PC.
+- [CDisplayEx](https://www.cdisplayex.com/desktop/) dan [NeeView](https://github.com/neelabo/NeeView): pembaca manga dan gambar di PC.
 
 ### Visual Novel dan Gim
 
@@ -457,25 +453,24 @@ Untuk memilih tontonan atau bacaan sesuai level, lihat juga bagian [Tingkat Kesu
 
 ### Drama dan TV Jepang
 
-- [Bagikuy](https://bagikuy.com/) dan [Minidrama](https://minidrama.net/j-drama/): unduh drama Jepang.
+- [Bagikuy](https://bagikuy.com/): unduh drama Jepang.
 - [Rakuten Viki](https://www.viki.com/explore?country=japan&sort=all_time): streaming drama Jepang.
 - [Nyaa.si drama](https://nyaa.si/?q=&f=0&c=4_4): sebagian drama Jepang.
 - [Raredoramas](https://raredoramas.info/): kumpulan drama Jepang langka.
 - [Terrace House BGND](https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177): tautan unduh Terrace House versi raw.
 - [bilibili](https://www.bilibili.com/): situs Tiongkok yang punya banyak konten Jepang.
 - [ABEMA](https://abema.tv/): TV Jepang. Perlu VPN Jepang dari luar Jepang.
-- [Japanese Live TV](https://web.utako.moe/) dan [IPTV repo](https://gitflic.ru/project/utako/utako): siaran TV Jepang langsung, bisa diputar di VLC.
+- [IPTV repo](https://gitflic.ru/project/utako/utako): siaran TV Jepang langsung, bisa diputar di VLC.
 - [Twitcasting](https://twitcasting.tv): siaran langsung orang Jepang, termasuk siaran ngobrol santai (雑談).
 
 ### Manga
 
 - [Archive.org 2019 Archive](https://archive.org/download/2019-japanese-comics-pack): arsip manga.
-- [BilingualManga](https://bilingualmanga.org/): baca manga dengan Yomitan dan terjemahan satu klik.
 - [Hakuneko](https://hakuneko.download/): pengunduh manga dan anime dari berbagai situs. Pakai tag *raw* dan *japanese*.
 - [Manga Google Drive](https://drive.google.com/drive/folders/1Mx1Hhux0FfoK4-osN5xOmyVcew0mSZVA): folder berisi sebagian manga.
 - [Nyaa.si manga](https://nyaa.si/?q=&f=0&c=3_3): torrent manga raw, sangat banyak.
-- Baca online: [Rawkuma](https://rawkuma.net/), [Klmanga](https://klz9.com/index), [mangareader.to](https://mangareader.to).
-- Koleksi terbesar tapi perlu layanan *debrid* untuk unduh cepat: [A-zmanga](http://www.a-zmanga.net/), [DLRaw](https://dlraw.ac/), [13dl.to](http://13dl.to/), [JPDDL](https://jpddl.com/manga).
+- Baca online: [Rawkuma](https://rawkuma.net/) dan [Klmanga](https://klz9.com/index).
+- Koleksi terbesar tapi perlu layanan *debrid* untuk unduh cepat: [A-zmanga](http://www.a-zmanga.net/), [DLRaw](https://dlraw.ac/), [JPDDL](https://jpddl.com/manga).
 - [Manatan Extensions](https://manatan-community.github.io/extensions/add-repo/): repo ekstensi sumber manga untuk Manatan.
 
 ### Novel dan Bacaan
@@ -486,13 +481,13 @@ Untuk memilih tontonan atau bacaan sesuai level, lihat juga bagian [Tingkat Kesu
 - [Boroboro](https://boroboro.neocities.org/listfullepub.html) dan [Lolibrary](https://lolibrary.moe/): perpustakaan EPUB.
 - [Syosetsu](https://yomou.syosetu.com/), [Kakuyomu](https://kakuyomu.jp/), dan [Hameln](https://syosetu.org/): web novel dan fanfiksi (二次創作).
 - [Aozora Bunko](https://www.aozora.gr.jp/): karya sastra Jepang klasik yang sudah jadi domain publik.
-- [Satori Reader](https://www.satorireader.com/) dan [Todaii](https://todaii.app/): aplikasi bacaan bertingkat; Todaii juga punya berita dan simulasi JLPT.
+- [Satori Reader](https://www.satorireader.com/): aplikasi bacaan bertingkat.
 - [Apple Books](https://apps.apple.com/us/app/apple-books/id364709193): toko buku dengan banyak buku Jepang.
 
 ### Visual Novel dan Gim
 
 - [VNDB](https://vndb.org/): basis data visual novel.
-- [Visual Novel Club (VNCR)](https://vnclub.org/): sumber dan komunitas visual novel. Rekomendasi judul ada di [VN Guide TheMoeWay](https://learnjapanese.moe/vn/#unsure-what-to-play).
+- [VN Guide TheMoeWay](https://learnjapanese.moe/vn/#unsure-what-to-play): rekomendasi judul visual novel.
 - [Nyaa.si visual novel](https://nyaa.si/?f=0&c=6_2&q=_): sebagian visual novel. Lebih banyak lagi ada di [Sukebei](https://sukebei.nyaa.si/?f=0&c=1_3&q=) (18+).
 - [Ryuugames](https://www.ryuugames.com/tag/japanese/): unduh visual novel tanpa torrent.
 - [CraneAnime Upload List](https://docs.google.com/spreadsheets/d/1ECqqhEm2kDS0hgxZ0tD_73e04v5FUxQGkfCbfi0Kb9k/pubhtml#): spreadsheet berisi tautan unduh visual novel.
@@ -507,9 +502,8 @@ Visual novel versi konsol tidak punya konten 18+.
 
 ### Emulator dan ROM
 
-- [Ryujinx](https://ryujinx.app/) dan [Citron](https://citron-emu.org/): emulator Switch. [Yuzu](https://yuzu-emulator.com/) sudah dihentikan.
+- [Ryujinx](https://ryujinx.app/): emulator Switch. Yuzu sudah dihentikan.
 - [r/roms megathread](https://r-roms.github.io/): koleksi ROM paling banyak.
-- [CDRomance PSP](https://cdromance.com/psp/?filter_language=japanese&filter_region=japan) dan [CDRomance PS2](https://cdromance.com/ps2-iso/?filter_language=japanese&filter_region=japan): gim PSP dan PS2 versi Jepang.
 - [Softcobra](https://www.softcobra.com/): gim Switch.
 - [RoyalRoms](https://www.royalroms.com/roms/): ROM Game Boy, SNES, Genesis, dan lainnya. Urutkan region ke "Japan".
 - [Emuparadise Workaround](https://greasyfork.org/en/scripts/407947-emuparadise-download-workaround): skrip Tampermonkey supaya bisa mengunduh dari Emuparadise lagi.
@@ -528,7 +522,6 @@ Visual novel versi konsol tidak punya konten 18+.
 
 - **[Jimaku](https://jimaku.cc/)**: sumber subtitle anime paling bisa diandalkan.
 - [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F): koleksi subtitle Jepang terbesar. Hindari subtitle buatan "kamigami" karena sering salah transkrip.
-- [Itazuraneko](https://itazuraneko.neocities.org/library/sub.html): subtitle Jepang.
 - [JP-Subbers](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/): subtitle drama.
 - [BritVSJapan](https://github.com/Matchoo95/JP-Subtitles): subtitle dari Netflix. Bisa juga dipakai untuk mencari kalimat lewat fitur pencarian repo.
 - [Japanese Movies Subtitles](https://github.com/eurusdagr/Japanese-Movies-Subtitles): subtitle film Jepang.
@@ -579,7 +572,7 @@ Audio dari anime atau drama yang bagian tanpa dialognya sudah dipotong, untuk im
 - [Aozora Bunko example sentences](https://kanji.reader.bz/examples/): cari contoh kalimat dari karya Aozora Bunko.
 - [Jisho](https://jisho.org/search/%20%23sentences): kalimat dari proyek Tatoeba.
 - [X (Twitter)](https://X.com/search?q=%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C&f=top): melihat pemakaian kata sehari-hari. Mungkin perlu masuk akun.
-- Korpus NINJAL: [Kotonoha](http://nlb.ninjal.ac.jp/search/), [BCCWJ](https://bonten.ninjal.ac.jp/bccwj/string_search), dan [NWJC](https://bonten.ninjal.ac.jp/nwjc/string_search).
+- [Kotonoha](http://nlb.ninjal.ac.jp/search/): korpus NINJAL.
 
 ---
 
@@ -647,16 +640,13 @@ Kanal YouTube untuk contoh tulisan tangan:
 - [Bunpro JLPT](https://bunpro.jp/jlpt_practice_tests): simulasi ujian untuk semua level.
 - [JPDrills](https://www.jpdrills.com/): soal tata bahasa, kosakata, dan kanji JLPT.
 - [Migii](https://migii.net/en/): aplikasi dan situs berbayar untuk latihan JLPT lengkap.
-- [Todaii](https://todaii.app/): ada simulasi ujian JLPT.
 
 ---
 
 ## Mencatat Immersion
 
 - [kechimochi](https://github.com/Morgawr/kechimochi): pencatat immersion pribadi.
-- [Misuzu](https://github.com/logantgt/Misuzu): mencatat semua aktivitas immersion, dari anime sampai visual novel.
 - [Xelieu's immersion spreadsheet](https://lazyguidejp.github.io/jp-lazy-guide/immersionDataSpreadsheet/) dan [spreadsheet anime ねむい](https://docs.google.com/spreadsheets/d/1CJ5rRmQYg6ckm0U56d3R_IIJBfHiEIZgKfBX4J-sXEs/edit?gid=0#gid=0): spreadsheet untuk mencatat immersion.
-- [HoriSan](https://github.com/Flare155/HoriSanBot): bot Discord untuk mencatat immersion.
 - [多読 Tracker (tadoku)](https://github.com/Eroge-Abyss/tadoku): pencatat bacaan visual novel. Perlu di-*build* sendiri.
 - [jp343](https://github.com/mh-343/jp343-tracker): ekstensi browser yang otomatis mencatat waktu tontonan di YouTube, Netflix, Crunchyroll, dan Prime Video.
 - [Anilist](https://anilist.co/home): mencatat anime yang ditonton.
