@@ -245,6 +245,8 @@ Untuk membangun kosakata awal dengan cepat, pakai dek kosakata frekuensi tinggi 
 
     Mau mengerjakan dua dek sekaligus, misalnya Kaishi dan dek JLPT, juga boleh. Dek dari Discord bisa diunduh di **[server Discord Philia Space](https://discord.com/channels/1370274344571240552/1386235512993611909/1564014312560005165){: target="_blank" }**.
 
+    Dek komunitas lain untuk tes, kerja, atau sekolah, lengkap dengan status pembaruannya, ada di **[Dek Anki Komunitas](proyek.md#dek-anki-komunitas)**.
+
 3. Buka Anki, pilih menu **Import File**, lalu pilih berkas `.apkg` yang tadi diunduh.
 
 <figure>

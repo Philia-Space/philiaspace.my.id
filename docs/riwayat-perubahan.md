@@ -22,6 +22,21 @@ hide:
 
 ### November
 
+**16-11-2026** · Dek Anki komunitas di halaman Proyek Komunitas
+
+- Penambahan
+       - [Proyek Komunitas](proyek.md#dek-anki-komunitas): bagian baru berisi dek Anki buatan anggota, terutama yang masih dirawat RenRen, Raychi, dan Jibal, lengkap dengan status dan tanggal pembaruan terakhir
+       - [Proyek Komunitas](proyek.md#dek-anki-komunitas): dek dikelompokkan dalam empat rute: bahasa untuk diri sendiri, untuk tes, untuk kerja, dan untuk lanjut pendidikan
+       - [Proyek Komunitas](proyek.md#kendala-yang-diketahui): kendala dek yang sudah dilaporkan beserta cara mengatasinya, misalnya kartu kosong di HP pada Kotoba Deck
+       - [Proyek Komunitas](proyek.md#kendala-yang-diketahui): cara mengunduh dek dan kamus dari Google Drive di HP kalau muncul "Jenis file ini tidak didukung" (Android) atau "Pratinjau tidak tersedia" (iPhone), lalu cara mengimpornya ke Anki, Yomitan, Hoshi Reader, atau Manatan, serta saran mencoba browser lain, lalu ganti DNS atau pakai VPN, kalau tautannya tidak bisa dibuka
+       - [Proyek Komunitas](proyek.md#riwayat-pembaruan): riwayat pembaruan dek per pembuat, dengan tautan ke pengumumannya di Discord
+       - [Proyek Komunitas](proyek.md#rhdict): RHDict, kamus Jepang-Indonesia format Yomitan
+       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](resources.md): PhiList, alat untuk mengecek tingkat kesulitan bahasa Jepang anime, manga, novel, dan media lain
+- Pembaruan
+       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](resources.md): Tes Frekuensi Kosakata diganti Philia Test versi baru, tes untuk mengecek berapa banyak kanji yang bisa kamu baca
+       - [Setup Anki PC](setup-anki-pc-lazy-guide.md#tip-4-dek-anki-dari-komunitas): tip baru yang mengarahkan ke Dek Anki Komunitas, dengan tautan ke tiap rute dan ke daftar kendala
+       - [Panduan Bahasa Jepang](panduan.md#24-belajar-kosakata-dengan-anki), [Panduan Ringkas](panduan-ringkas-JP.md), dan [30 Hari Awal](rutinitas-awal.md): tautan ke Dek Anki Komunitas di bawah daftar dek kosakata
+
 **11-11-2026** · Teks beranda
 
 - Perbaikan

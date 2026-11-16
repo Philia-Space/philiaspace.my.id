@@ -63,6 +63,7 @@ Diunggah: 3 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
     - [Kaishi 1.5k versi RenRen](https://discord.com/channels/1370274344571240552/1502926207535284335/1502926207535284335) atau [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (versi asli berbahasa Inggris).
     - Kalau tujuanmu JLPT, pakai [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713), atau [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432) sebagai alternatif.
     - Mengerjakan dua dek sekaligus juga boleh, misalnya Kaishi dan dek JLPT.
+    - Dek komunitas lain untuk tes, kerja, atau sekolah ada di [Dek Anki Komunitas](proyek.md#dek-anki-komunitas).
     - Saat mengerjakan dek, cukup pakai dua tombol: `Again` (++1++) kalau kamu tidak tahu jawabannya, dan `Good` (++space++ atau ++3++) kalau tahu. Kamu tidak perlu memikirkan `Hard` (++2++) atau `Easy` (++4++).
 
 4. Buka menu `Deck`, klik ikon gir, lalu salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah.

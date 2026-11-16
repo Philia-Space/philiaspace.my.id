@@ -322,7 +322,7 @@ Unduh **satu** dek kosakata. Pilih salah satu sesuai tujuanmu:
 - [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713/1515670605708398713): pilihan utama kalau tujuanmu JLPT.  
 - [Ankidrone Essential V9](https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432): alternatif untuk JLPT (opsional).  
 
-Dek dari Discord bisa diunduh di [server Discord Philia Space](https://discord.com/channels/1370274344571240552/1386235512993611909/1564014312560005165).  
+Dek dari Discord bisa diunduh di [server Discord Philia Space](https://discord.com/channels/1370274344571240552/1386235512993611909/1564014312560005165). Dek komunitas lain untuk tes, kerja, atau sekolah, lengkap dengan status pembaruannya, ada di [Dek Anki Komunitas](proyek.md#dek-anki-komunitas).  
 
 Saat pertama kali membuka Anki, kamu akan melihat "interface language selector". Ini hanya untuk menentukan bahasa tampilan Anki. Bebas pilih bahasa apa saja.  
 

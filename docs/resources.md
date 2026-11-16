@@ -92,7 +92,7 @@ Sebelum memutuskan belajar kanji secara terpisah, baca dulu [Belajar Kanji](kanj
 Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan sendiri lewat mining.
 
 - **[Kaishi 1.5k](https://ankiweb.net/shared/info/1196762551)**: dek kosakata dasar yang direkomendasikan semua sumber. Cara memakainya ada di [Panduan Bahasa Jepang](panduan.md).
-- [Tes Frekuensi Kosakata](https://philiatest.vercel.app/): ukur jangkauan kosakatamu dari 70.000 kata tersering. Buatan komunitas Philia Space.
+- [Philia Test](https://philiatest.vercel.app/id/): cek berapa banyak kanji yang bisa kamu baca. Buatan komunitas Philia Space.
 - [JLPT Vocab Deck](https://tatsumoto-ren.github.io/blog/ankidrone-essentials.html): dek kosakata JLPT dari Ankidrone.
 
 ??? info "Dek lama yang sudah tidak direkomendasikan <small>(klik di sini)</small>"
@@ -554,6 +554,7 @@ Audio dari anime atau drama yang bagian tanpa dialognya sudah dipotong, untuk im
 - **[Jiten](https://jiten.moe/)**: terinspirasi JPDB, lebih baru dan fiturnya lebih banyak. Menampilkan jumlah kata unik, kanji, dan tingkat kesulitan media.
 - **[Japanese Media Recommendations](https://docs.google.com/spreadsheets/d/1w42HEKEu2AzZg9K7PI0ma9ICmr2qYEKQ9IF4XxFSnQU/)**: spreadsheet rekomendasi media Jepang beserta tingkat kesulitannya, dikelola kuri. Versi halaman webnya ada di [Japanese recs](https://donkuri.github.io/learn-japanese/recs/).
 - [Jimaku Bunseki](https://jimakubunseki.vercel.app/): analisis tingkat kesulitan anime dari subtitle-nya. Buatan komunitas Philia Space.
+- [PhiList](https://philist.vercel.app/): cek tingkat kesulitan bahasa Jepang dari anime, drama, film, manga, novel, visual novel, dan game, dengan level 0–5. Buatan komunitas Philia Space.
 - [JPDB](https://jpdb.io/): jumlah kata dan tingkat kesulitan media Jepang.
 - [LearnNatively](https://learnnatively.com/): koleksi besar media Jepang yang dinilai tingkat kesulitannya, bisa juga untuk mencatat bacaan.
 
