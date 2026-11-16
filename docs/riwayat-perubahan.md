@@ -23,6 +23,12 @@ hide:
 
 ### November
 
+**16-11-2026** · Tautan mati di Sumber Belajar
+
+- Perbaikan
+       - [Sumber Belajar](resources.md): tautan yang sudah mati dibuang, antara lain VNCR, OJAD, Fuseji, BilingualManga, mangareader.to, Todaii, CDRomance, Misuzu, HoriSan, Japanese Live TV, korpus BCCWJ dan NWJC, serta situs Yuzu dan Citron yang tidak bisa dibuka lagi
+       - [Sumber Belajar](resources.md): Master reference grammar, DOJG Deck, dan NeeView diarahkan ke alamat yang masih hidup
+
 **16-11-2026** · Pratinjau tautan di Discord dan media sosial
 
 - Penambahan
