@@ -152,6 +152,19 @@ Template Anki kamu sudah siap. Selanjutnya, siapkan Yomitan:
 
     ![Anki Glossary Switch](img/anki-glossary-switch.png){height=250 width=500}
 
+#### Tip 4: Dek Anki dari Komunitas
+
+??? tip "Dek Anki dari komunitas Philia Space <small>(klik untuk buka)</small>"
+
+    Selain dek mining buatanmu sendiri, anggota Philia Space juga membuat dek siap pakai: kosakata dasar, tata bahasa JLPT, sampai kosakata kerja SSW. Daftarnya ada di [Dek Anki Komunitas](proyek.md#dek-anki-komunitas), dikelompokkan menurut tujuan belajarmu:
+
+    - [Bahasa untuk diri sendiri](proyek.md#rute-1-bahasa-untuk-diri-sendiri)
+    - [Bahasa untuk tes (JLPT, JFT)](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft)
+    - [Bahasa untuk kerja (magang, Tokutei Ginou)](proyek.md#rute-3-bahasa-untuk-kerja-magang-tokutei-ginou)
+    - [Bahasa untuk lanjut pendidikan](proyek.md#rute-4-bahasa-untuk-lanjut-pendidikan-sekolah-kuliah-riset)
+
+    Sebelum mengunduh, cek dulu [Kendala yang diketahui](proyek.md#kendala-yang-diketahui). Beberapa dek punya patch atau langkah impor khusus, misalnya kalau kartu tampil kosong di HP.
+
 ---
 
 ## Pertanyaan Umum
