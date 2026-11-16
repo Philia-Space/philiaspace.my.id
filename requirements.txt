@@ -1,0 +1,6 @@
+# Versi yang dipakai untuk membangun situs live. overrides/ menyalin template Material,
+# jadi naikkan versi bersama-sama dan cek tampilannya sebelum deploy.
+mkdocs==1.6.1
+mkdocs-material==9.7.6
+mkdocs-glightbox==0.5.2
+mkdocs-open-in-new-tab==1.0.8
