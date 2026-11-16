@@ -5,3 +5,6 @@ AGENTS.md
 # Hasil `mkdocs build`; situs live dideploy dari branch gh-pages
 site/
 *.swp
+
+# Cache kartu pratinjau tautan dari plugin social
+.cache/

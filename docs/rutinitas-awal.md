@@ -1,3 +1,7 @@
+---
+description: "Rencana belajar 30 hari pertama bahasa Jepang, hari demi hari, sampai kamu mulai immersion."
+---
+
 # 30 Hari Bahasa Jepang (UsagiSpoon)  
 
 ---

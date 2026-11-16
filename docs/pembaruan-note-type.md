@@ -1,4 +1,5 @@
 ---
+description: "Cara memperbarui note type Anki seperti Lapis, Kiku, Senren, dan Mining-JP ke versi terbaru."
 hide:
   - footer
 ---

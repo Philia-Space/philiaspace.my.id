@@ -1,3 +1,8 @@
+---
+title: "Hoshi Reader"
+description: "Baca light novel dan buku EPUB di Android dengan kamus popup, lalu kirim katanya jadi kartu Anki."
+---
+
 # Setup Hoshi Reader (Android)
 ---
 

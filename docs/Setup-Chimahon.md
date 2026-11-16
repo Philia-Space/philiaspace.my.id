@@ -1,3 +1,7 @@
+---
+description: "Baca manga dan nonton anime di Android dengan kamus popup, lalu kirim katanya jadi kartu AnkiDroid."
+---
+
 # Setup Chimahon (Android)
 ---
 

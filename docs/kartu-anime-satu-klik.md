@@ -1,3 +1,7 @@
+---
+description: "Cari arti kata dan buat kartu Anki langsung dari MPV dengan Yomipv, lengkap dengan gambar dan audio kalimat."
+---
+
 # Kartu Anime Satu Klik - [Yomipv oleh BrenoAqua](https://github.com/BrenoAqua/Yomipv)
 ---
 

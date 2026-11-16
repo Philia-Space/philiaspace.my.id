@@ -1,3 +1,7 @@
+---
+description: "Nonton anime dengan subtitle Jepang di PC pakai asbplayer, lalu simpan kata barunya ke Anki lewat Yomitan."
+---
+
 
 # Setup Mining Anime di PC
 ---

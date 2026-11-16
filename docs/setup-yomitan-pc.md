@@ -1,3 +1,7 @@
+---
+description: "Setup Yomitan dan Anki di PC dari awal: aplikasi yang diunduh, pengaturan Yomitan, dan penyesuaian akhir."
+---
+
 # Setup Yomitan dan Anki PC (Yaaacha)
 
 ---

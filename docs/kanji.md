@@ -1,3 +1,7 @@
+---
+description: "Cara belajar kanji untuk membaca lewat kosakata dan immersion, beserta alat yang bisa kamu pakai."
+---
+
 # Belajar Kanji
 
 ---

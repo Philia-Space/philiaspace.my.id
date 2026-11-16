@@ -1,3 +1,8 @@
+---
+title: "Hoshi Reader"
+description: "Baca light novel dan buku EPUB di iPhone dengan kamus popup, lalu kirim katanya jadi kartu Anki."
+---
+
 # Setup Hoshi Reader (iOS)
 ---
 

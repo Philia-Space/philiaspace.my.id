@@ -1,5 +1,5 @@
 site_name: Philia Space
-site_description: pi pi pi philia
+site_description: Panduan immersion dan sentence mining bahasa Jepang, gratis dan berbahasa Indonesia.
 site_url: https://philiaspace.my.id
 site_author: ryusuke  
 nav:
@@ -124,6 +124,14 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
 plugins:
+  # Kartu pratinjau tautan (Open Graph) per halaman, warna dari brand/README.md
+  - social:
+      enabled: !ENV [KARTU_SOSIAL, true]
+      cards_layout: philia
+      cards_layout_options:
+        background_color: "#111111"
+        color: "#FFFFFF"
+        font_family: Plus Jakarta Sans
   - search:
       lang:
         - id

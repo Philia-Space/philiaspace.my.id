@@ -1,4 +1,5 @@
 ---
+description: "Catatan perubahan situs Philia Space: halaman baru, pembaruan panduan, dan perbaikan."
 hide:
   - footer
 ---
@@ -21,6 +22,15 @@ hide:
 ---
 
 ### November
+
+**16-11-2026** · Pratinjau tautan di Discord dan media sosial
+
+- Penambahan
+       - Setiap halaman sekarang punya kartu pratinjau sendiri berisi judul dan deskripsi halaman, jadi tautan yang dibagikan di Discord, WhatsApp, atau media sosial tampil sebagai kotak bergambar
+       - Halaman di bawah menu PC, Android, dan iOS diberi nama perangkatnya di kartu, misalnya "Anki (PC)"
+- Untuk Penulis
+       - Kartu dibuat otomatis saat build oleh plugin `social` dengan layout `layouts/philia.yml`. Deskripsi kartu diambil dari `description:` di bagian atas halaman, dan halaman tanpa deskripsi memakai deskripsi situs
+       - Plugin ini butuh Cairo. Untuk mengedit teks tanpa Cairo, jalankan `KARTU_SOSIAL=false mkdocs serve`
 
 **16-11-2026** · Dek Anki komunitas di halaman Proyek Komunitas
 

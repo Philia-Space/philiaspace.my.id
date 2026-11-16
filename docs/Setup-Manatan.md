@@ -1,3 +1,7 @@
+---
+description: "Setup Manatan di desktop dan HP untuk membaca dan menonton dalam bahasa Jepang sambil membuat kartu Anki."
+---
+
 
 # Setup Manatan
 ---

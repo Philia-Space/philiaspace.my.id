@@ -1,3 +1,7 @@
+---
+description: "Panduan lengkap belajar bahasa Jepang lewat immersion: kana, tata bahasa dasar, Anki, sampai mining."
+---
+
 # Panduan Bahasa Jepang
 
 ---

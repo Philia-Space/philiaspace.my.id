@@ -1,3 +1,7 @@
+---
+description: "Pasang Yomitan, kamus popup di browser PC, untuk mining ke Anki dengan note type Lapis."
+---
+
 # Setup Yomitan di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/)
 
 ---

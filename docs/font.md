@@ -1,3 +1,7 @@
+---
+description: "Cara memastikan kanji di komputer dan HP-mu tampil dengan font Jepang yang benar."
+---
+
 # Apakah kamu sudah pakai font yang benar?
 
 ---
