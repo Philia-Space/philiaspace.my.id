@@ -42,8 +42,10 @@ mkdocs.yml
 3. **Install MkDocs dan theme material**
 
    ```bash
-   pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-open-in-new-tab
+   pip install -r requirements.txt
    ```
+
+   Versinya dikunci di `requirements.txt` supaya hasil build di komputermu sama dengan situs live.
 
 ---
 

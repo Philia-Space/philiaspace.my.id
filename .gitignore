@@ -1,4 +1,7 @@
 .DS_Store
 docs/drafts/
-site/drafts/
 AGENTS.md
+
+# Hasil `mkdocs build`; situs live dideploy dari branch gh-pages
+site/
+*.swp
