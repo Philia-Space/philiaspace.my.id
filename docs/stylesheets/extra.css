@@ -1094,6 +1094,25 @@ body:has(.ps-landing) .md-footer { display: none; }
 .ps-grid-2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
 .md-typeset .ps-card-links { list-style: none; margin: 0.25rem 0 0; padding: 0; display: flex; flex-direction: column; }
 .md-typeset .ps-card-links li { margin: 0; padding: 0; }
+/* Grid cards: Material's h3/p/ul margins stacked on the card padding (35px gap above the title, links indented 30px). Card padding is the only inset; links sit at the bottom so a row lines up. */
+.md-typeset .ps-grid .ps-card > div { display: flex; flex-direction: column; gap: 0.5rem; height: 100%; }
+.md-typeset .ps-grid .ps-card h3,
+.md-typeset .ps-grid .ps-card h4,
+.md-typeset .ps-grid .ps-card p { margin: 0; }
+/* Deck cards sit under an h3 route heading, so their titles are h4 but keep the card title size. */
+.md-typeset .ps-grid .ps-card h4 { font-size: 1.1rem; font-weight: 700; letter-spacing: normal; }
+.md-typeset .ps-card .ps-card-meta { font-size: 0.8rem; }
+/* Links in the status line follow the card link color; the theme's cyan link color is too light on white for small text. */
+.md-typeset .ps-card .ps-card-meta a { color: var(--ps-sea); }
+[data-md-color-scheme="slate"] .md-typeset .ps-card .ps-card-meta a { color: #38bdf8; }
+/* Secondary links (per-level posts) on one line instead of one row each. */
+.md-typeset .ps-card-links .ps-card-links-inline { font-size: 0.8rem; color: var(--md-default-fg-color--light); }
+.md-typeset .ps-card-links .ps-card-links-inline a { font-size: 0.8rem; }
+/* 44px tap target on phones for every card link, the inline per-level links included. */
+.md-typeset .ps-grid .ps-card-links a { min-height: 44px; }
+[dir] .md-typeset .ps-grid .ps-card-links,
+[dir] .md-typeset .ps-grid .ps-card-links li { margin-left: 0; }
+.md-typeset .ps-grid .ps-card-links { margin-top: auto; padding-top: 0.25rem; }
 .md-typeset .ps-card-links a {
   display: inline-flex;
   align-items: center;
