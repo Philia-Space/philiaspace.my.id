@@ -1,3 +1,7 @@
+---
+description: "Kamus JIDict, dek Anki komunitas menurut tujuan belajar, dan alat gratis buatan anggota Philia Space."
+---
+
 # Proyek Komunitas
 
 Kamus, dek Anki, dan alat gratis buatan komunitas Philia Space. Sebagian besar untuk belajar bahasa Jepang, sebagian lagi untuk yang mau kerja di Jepang.

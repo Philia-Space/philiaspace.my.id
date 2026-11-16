@@ -1,3 +1,7 @@
+---
+description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, situs, dan bahan immersion."
+---
+
 # Sumber Belajar
 
 ---

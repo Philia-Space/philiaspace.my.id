@@ -1,3 +1,7 @@
+---
+description: "Gabung ke Discord Philia Space untuk bertanya dan berbagi soal belajar bahasa Jepang."
+---
+
 ### Sebelum lanjut...
 
 Sudah baca isi situsnya? Tolong baca dulu sebelum gabung ke Discord.

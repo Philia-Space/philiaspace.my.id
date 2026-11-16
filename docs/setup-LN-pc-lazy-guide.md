@@ -1,3 +1,7 @@
+---
+description: "Baca light novel EPUB di PC dan simpan kata barunya ke Anki dengan Yomitan."
+---
+
 # Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
 ---
 

@@ -1,4 +1,5 @@
 ---
+description: "Halaman ini sudah dipindah ke Memperbarui Note Type."
 hide:
   - footer
 ---

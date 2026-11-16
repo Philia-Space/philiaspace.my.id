@@ -1,3 +1,7 @@
+---
+description: "Nonton anime dengan subtitle Jepang di HP Android dan simpan kata barunya ke Anki."
+---
+
 # Setup Mining Anime di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/)
 ---
 

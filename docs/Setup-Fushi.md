@@ -1,3 +1,7 @@
+---
+description: "Fushi di Windows: baca novel dan manga, nonton video, dan main galgame sambil membuat kartu Anki."
+---
+
 
 # Setup Fushi (Windows)
 ---

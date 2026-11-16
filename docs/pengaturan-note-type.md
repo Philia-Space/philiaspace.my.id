@@ -1,4 +1,5 @@
 ---
+description: "Isian field kartu Anki untuk Lapis, Kiku, Senren, dan Mining-JP, versi Yomitan dan Manatan."
 hide:
   - footer
 ---

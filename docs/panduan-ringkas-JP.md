@@ -1,4 +1,5 @@
 ---
+description: "Versi singkat panduan belajar bahasa Jepang, langkah demi langkah sampai kamu siap immersion."
 hide:
   - footer
 ---

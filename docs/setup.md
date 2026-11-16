@@ -1,3 +1,8 @@
+---
+title: "Pengantar LazyGuide Mining"
+description: "Pengantar LazyGuide: pasang semua alat mining sekaligus tanpa harus mengatur satu per satu."
+---
+
 # Pengantar Setup
 ---
 
