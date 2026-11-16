@@ -47,6 +47,14 @@ mkdocs.yml
 
    Versinya dikunci di `requirements.txt` supaya hasil build di komputermu sama dengan situs live.
 
+   Kartu pratinjau tautan (gambar yang muncul saat tautan dibagikan di Discord atau WhatsApp) dibuat oleh plugin `social` dan butuh pustaka Cairo di sistem. Kalau Cairo belum terpasang dan kamu hanya mau mengedit teks, matikan kartunya saat menjalankan situs:
+
+   ```bash
+   KARTU_SOSIAL=false mkdocs serve
+   ```
+
+   Deploy ke situs live tetap harus dengan kartu menyala.
+
 ---
 
 ### ✍️ Cara Mengedit Dokumentasi
