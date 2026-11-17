@@ -23,6 +23,15 @@ hide:
 
 ### November
 
+**17-11-2026** · Bahan ujian JLPT, JFT, SSW, dan tes lainnya
+
+- Pembaruan
+       - [Sumber Belajar](resources.md#jlpt): bagian JLPT ditambah info resmi, arsip soal tahun lalu, dan situs simulasi
+- Penambahan
+       - [Sumber Belajar](resources.md#jft): bagian JFT berisi situs resmi, simulasi ujian, kisi-kisi, dan modul
+       - [Sumber Belajar](resources.md#ssw-tokutei-ginou): bagian SSW berisi materi resmi per bidang, modul, kisi-kisi, dan daftar resmi untuk cek LPK dan TSK sebelum mendaftar
+       - [Sumber Belajar](resources.md#tes-jepang-lainnya): bagian baru untuk NAT-TEST, J.TEST, BJT, J-CAT, Kanken, EJU, dan kaigo, lengkap dengan contoh soal resmi dan buku teks kaigo berbahasa Indonesia
+
 **16-11-2026** · Tautan mati di Sumber Belajar
 
 - Perbaikan
