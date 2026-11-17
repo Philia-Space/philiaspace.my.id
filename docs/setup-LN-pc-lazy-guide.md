@@ -1,11 +1,11 @@
 ---
+title: "Mining Light Novel dan EPUB di PC"
 description: "Baca light novel EPUB di PC dan simpan kata barunya ke Anki dengan Yomitan."
 ---
 
-# Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
----
+# Setup Mining Light Novel dan sejenisnya
 
- Diunggah: 10 Agustus 2025 · Diperbarui: 6 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/).
 
 ---
 

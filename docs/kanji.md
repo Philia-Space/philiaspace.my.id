@@ -6,10 +6,6 @@ description: "Cara belajar kanji untuk membaca lewat kosakata dan immersion, bes
 
 ---
 
-Diunggah: 10 Agustus 2025 · Diperbarui: 6 November 2026 – `Yaaacha`
-
----
-
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/kanji/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
     - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.

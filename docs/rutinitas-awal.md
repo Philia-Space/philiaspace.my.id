@@ -1,12 +1,9 @@
 ---
+title: "Rencana 30 Hari Pertama Belajar Bahasa Jepang"
 description: "Rencana belajar 30 hari pertama bahasa Jepang, hari demi hari, sampai kamu mulai immersion."
 ---
 
 # 30 Hari Bahasa Jepang (UsagiSpoon)  
-
----
-
-Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 

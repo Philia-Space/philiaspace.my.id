@@ -1,9 +1,9 @@
+---
+title: "Mining Manga di Android"
+description: "Baca manga bahasa Jepang di HP Android lewat Firefox atau Edge Canary, cari katanya dengan Yomitan, lalu simpan ke AnkiDroid beserta screenshot."
+---
 <!-- upstream: setupMangaOnAndroid @ 2026-07-12 -->
 # Setup: Manga di Android
----
-
- Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
-
 ---
 
 - Kamu bisa membaca manga di HP Android lewat Firefox atau Edge Canary sambil scan kata pakai Yomitan.

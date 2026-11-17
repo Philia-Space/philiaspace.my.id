@@ -6,10 +6,6 @@ description: "Pengantar LazyGuide: pasang semua alat mining sekaligus tanpa haru
 # Pengantar Setup
 ---
 
- Diunggah: 2 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
-
----
-
 ??? note "Apa tujuan panduan ini? <small>(klik di sini)</small>"
 
     - Untuk kamu yang malas repot mengatur ini-itu atau memahami hal-hal teknis

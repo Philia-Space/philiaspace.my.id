@@ -5,10 +5,6 @@ description: "Baca manga dan nonton anime di Android dengan kamus popup, lalu ki
 # Setup Chimahon (Android)
 ---
 
- Diunggah: 6 November 2026 – `Yaaacha`
-
----
-
 !!! warning "Draft"
     Halaman ini masih draft dan belum masuk menu. Langkahnya disusun dari kode sumber Chimahon v2.4.8 dan **belum dicoba langsung di HP**, jadi letak tombol bisa sedikit berbeda. Screenshot menyusul.
 

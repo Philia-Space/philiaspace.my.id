@@ -1,12 +1,9 @@
 ---
+title: "Perbaiki Font Jepang di PC dan HP"
 description: "Cara memastikan kanji di komputer dan HP-mu tampil dengan font Jepang yang benar."
 ---
 
 # Apakah kamu sudah pakai font yang benar?
-
----
-
-Diunggah: 10 Agustus 2025 · Diperbarui: 6 November 2026 – `Yaaacha`
 
 ---
 
@@ -26,12 +23,12 @@ Kanji yang paling kelihatan bedanya adalah [直](https://jisho.org/search/%E7%9B
 
 <div style="display: flex; gap: 20px;">
   <figure style="text-align: center;">
-    <img src="/img/font2.png" width="300" />
+    <img src="/img/font2.png" alt="Kata 直す dengan font China DengXian" width="300" />
     <figcaption>Naosu di font China (DengXian)</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/img/font3.png" width="300" />
+    <img src="/img/font3.png" alt="Kata 直す dengan font Jepang IPAex Gothic" width="300" />
     <figcaption>Naosu di font Jepang (IPAex Gothic)</figcaption>
   </figure>
 </div>
@@ -169,7 +166,7 @@ Tambahkan keyboard Jepang, kana atau romaji, pilih yang nyaman untukmu. Biasanya
 Font China paling terasa mengganggu di kartu Anki. Kana tampil sans-serif sementara kanjinya serif, ukurannya tidak seimbang, **dan** bentuk kanjinya versi China.
 
 <figure>
-  <img src="/img/font4.png" width="900" />
+  <img src="/img/font4.png" alt="Kartu Anki yang kanjinya tampil dengan font China" width="900" />
   <figcaption>Sayangnya, banyak kartu orang yang tampilannya seperti ini.</figcaption>
 </figure>
 
@@ -251,6 +248,6 @@ Yomitan seharusnya mengikuti font browser. Kalau ternyata tidak, paksa lewat `Po
 ```
 
 <figure>
-  <img src="/img/font7.png" width="900" />
+  <img src="/img/font7.png" alt="Definisi Jepang-Jepang dengan font IPAex Gothic" width="900" />
   <figcaption>Definisi Jepang-Jepang dengan font IPAex Gothic.</figcaption>
 </figure>

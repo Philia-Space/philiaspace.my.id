@@ -6,10 +6,6 @@ description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, si
 
 ---
 
-Diunggah: 6 November 2026 · Diperbarui: 17 November 2026 – `Yaaacha`
-
----
-
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Daftar ini dikumpulkan dari [Japanese Resources milik kuri](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), [Ten Resources](https://www.ten.guide/resources), dan [Wotaku](https://wotaku.wiki/nonen/indonesian), ditambah rekomendasi add-on Anki dari Philia Space.
     - Bagian JLPT, JFT, SSW, dan Tes Jepang Lainnya dikumpulkan dari kiriman anggota Discord Philia Space, #KaburAjaDulu, dan TheMoeWay, ditambah situs resmi tiap ujian.

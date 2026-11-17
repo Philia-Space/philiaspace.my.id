@@ -1,9 +1,11 @@
-<!-- upstream: setupYomitanOnAndroid @ 2026-07-12 -->
-# Setup Yomitan di Android [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/)
-
 ---
+title: "Setup Yomitan di Android"
+description: "Pasang Yomitan, kamus popup bahasa Jepang, di HP Android lewat Firefox atau Edge Canary, lengkap dengan kamus dan pengaturan dari LazyGuide."
+---
+<!-- upstream: setupYomitanOnAndroid @ 2026-07-12 -->
+# Setup Yomitan di Android
 
- Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/).
 
 ---
 

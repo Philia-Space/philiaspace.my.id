@@ -61,11 +61,7 @@ Nama aplikasi dan fitur ditulis seperti aslinya: Anki, Yomitan, AnkiConnect, Man
 
 ## Bagian yang sama di banyak halaman
 
-**Baris tanggal** di bawah judul:
-
-```markdown
-Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
-```
+**Tanggal halaman** tidak perlu ditulis. Tanggal dibuat dan terakhir diperbarui muncul otomatis di bawah halaman, diambil dari riwayat git. Jangan tambahkan baris "Diunggah: … · Diperbarui: …" lagi.
 
 **Kotak untuk halaman terjemahan TheMoeWay:**
 
@@ -78,7 +74,7 @@ Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 ## Yang jangan diubah saat menyunting
 
 - Alamat tautan, path gambar, isi blok kode, dan password arsip.
-- Penanda `<!-- upstream: ... -->` di baris pertama halaman LazyGuide. Urutan langkah dan judul bagian di halaman itu juga sebaiknya tetap sama dengan versi LazyGuide supaya mudah disinkronkan.
+- Penanda `<!-- upstream: ... -->` di baris pertama halaman LazyGuide, atau tepat setelah front matter kalau halamannya punya front matter (front matter harus selalu di baris pertama). Urutan langkah dan judul bagian di halaman itu juga sebaiknya tetap sama dengan versi LazyGuide supaya mudah disinkronkan.
 - Judul bagian yang dirujuk tautan `#...` dari halaman lain. Kalau judulnya terpaksa diganti, cari dan perbaiki semua tautan ke judul itu.
 
 ## Riwayat perubahan

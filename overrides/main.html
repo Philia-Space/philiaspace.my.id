@@ -1,5 +1,45 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+{# Structured data (JSON-LD): beranda = WebSite + Organization, halaman lain = TechArticle #}
+{% set org = {
+  "@type": "Organization",
+  "name": config.site_name,
+  "url": config.site_url,
+  "logo": config.site_url ~ "img/philia-space-logo.jpg",
+  "sameAs": [config.repo_url, "https://discord.gg/hp55WMbbG6"]
+} %}
+{# Halaman 404 tidak punya page, jadi tidak diberi JSON-LD #}
+{% if not page %}
+  {% set ld = none %}
+{% elif page.is_homepage %}
+  {% set ld = {"@context": "https://schema.org", "@graph": [
+    {"@type": "WebSite", "name": config.site_name, "url": config.site_url,
+     "description": config.site_description, "inLanguage": "id", "publisher": org},
+    org
+  ]} %}
+{% else %}
+  {% set ld = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": (page.meta.title or page.title) | striptags,
+    "description": page.meta.description or config.site_description,
+    "url": page.canonical_url,
+    "inLanguage": "id",
+    "isPartOf": {"@type": "WebSite", "name": config.site_name, "url": config.site_url},
+    "publisher": org
+  } %}
+  {# Tanggal dari plugin git-revision-date-localized (zona waktu Asia/Jakarta di mkdocs.yml) #}
+  {% if page.meta.git_creation_date_localized_raw_iso_datetime %}
+    {% set _ = ld.update({"datePublished": page.meta.git_creation_date_localized_raw_iso_datetime | replace(" ", "T") ~ "+07:00"}) %}
+  {% endif %}
+  {% if page.meta.git_revision_date_localized_raw_iso_datetime %}
+    {% set _ = ld.update({"dateModified": page.meta.git_revision_date_localized_raw_iso_datetime | replace(" ", "T") ~ "+07:00"}) %}
+  {% endif %}
+{% endif %}
+{% if ld %}<script type="application/ld+json">{{ ld | tojson }}</script>{% endif %}
+{% endblock %}
+
 
 
 {% block analytics %}

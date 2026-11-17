@@ -1,13 +1,10 @@
 ---
+title: "Mining Anime di PC pakai asbplayer"
 description: "Nonton anime dengan subtitle Jepang di PC pakai asbplayer, lalu simpan kata barunya ke Anki lewat Yomitan."
 ---
 
 
 # Setup Mining Anime di PC
----
-
- Diunggah: 18 Januari 2026 · Diperbarui: 8 November 2026 – `Yaaacha`
-
 ---
 ## Permulaan
 

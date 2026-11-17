@@ -6,10 +6,6 @@ description: "Fushi di Windows: baca novel dan manga, nonton video, dan main gal
 # Setup Fushi (Windows)
 ---
 
- Diunggah: 4 November 2026 – 'Yaaacha'
-
----
-
 !!! warning "Draft"
     Halaman ini masih draft. Isinya diuji dengan Fushi 3.0.0 di Windows 11, dan bagian yang belum diuji ditandai dengan kotak "Catatan draft".
 

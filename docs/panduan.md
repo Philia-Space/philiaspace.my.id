@@ -6,10 +6,6 @@ description: "Panduan lengkap belajar bahasa Jepang lewat immersion: kana, tata 
 
 ---
 
-Diunggah: 10 Agustus 2025 – `Yaaacha`
-
----
-
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/guide/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
     - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.

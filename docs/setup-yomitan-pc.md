@@ -1,12 +1,9 @@
 ---
+title: "Setup Yomitan dan Anki di PC (Manual)"
 description: "Setup Yomitan dan Anki di PC dari awal: aplikasi yang diunduh, pengaturan Yomitan, dan penyesuaian akhir."
 ---
 
 # Setup Yomitan dan Anki PC (Yaaacha)
-
----
-
-Diunggah: 1 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 
 ---
 
@@ -31,7 +28,7 @@ Sebelum mulai mining dengan Yomitan, kamu perlu menyesuaikan dek Anki yang kamu 
 Unduh file APKG [Note Type Mining-JP](https://github.com/rudnam/JP-study/raw/main/Mining_temp.apkg) untuk mengimpor template-nya.  
 Setelah diunduh, buka file tersebut untuk mengimpornya ke Anki.
 
-[![](img/Ganti-Deck-Note-Type-0-5.jpg)](img/Ganti-Deck-Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+[![Jendela Import options saat membuka Mining_temp.apkg di Anki](img/Ganti-Deck-Note-Type-0-5.jpg)](img/Ganti-Deck-Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ---
 ### Local Audio for Yomichan (Opsional)
@@ -362,25 +359,25 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 	<figcaption style="text-align: center; font-style: italic;">
 	Buka pengaturan Dictionaries.
 	</figcaption>
-	[![](img/Import-Kamus-1.png)](img/Import-Kamus-1.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
+	[![Pengaturan Dictionaries di Yomitan](img/Import-Kamus-1.png)](img/Import-Kamus-1.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
 
 ???+ note "3. Klik `Import`, lalu seret file zip kamusnya ke sana atau pilih dari folder unduhan"
 	<figcaption style="text-align: center; font-style: italic;">
 	Impor kamus.
 	</figcaption>
-	[![](img/Import-Kamus-2.png)](img/Import-Kamus-2.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
+	[![Tombol Import kamus di Yomitan](img/Import-Kamus-2.png)](img/Import-Kamus-2.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
 	
 	<figcaption style="text-align: center; font-style: italic;">
 	Seret file ke sini atau buka folder.
 	</figcaption>
-	[![](img/Import-Kamus-3.png)](img/Import-Kamus-3.png){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![Area untuk menyeret file kamus ke Yomitan](img/Import-Kamus-3.png)](img/Import-Kamus-3.png){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 ???+ note "4. Tunggu sampai semua kamus selesai diimpor (ada bar progres di bawah)"
 	Lama proses impor tergantung ukuran kamus dan bisa agak lama, jadi tunggu saja.
 ???+ note "5. Aktifkan atau nonaktifkan kamus sesuai kebutuhan, lalu urutkan sesuai prioritasmu."
 	<figcaption style="text-align: center; font-style: italic;">
 	Aktifkan dan geser sesuai keinginan (tidak perlu digeser kalau kamu mau mengimpor pengaturan di bawah).
 	</figcaption>
-	[![](img/Import-Kamus-4.png)](img/Import-Kamus-4.png){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![Daftar kamus Yomitan yang bisa diaktifkan dan diurutkan](img/Import-Kamus-4.png)](img/Import-Kamus-4.png){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ---
 
@@ -414,13 +411,13 @@ Kamu bisa langsung mengunduh pengaturan Yomitan dari Yaaacha [di sini](https://g
 Tetap baca _startup guide_ Yomitan supaya kamu paham cara kerjanya secara umum. Cek pengaturan di bawah untuk menyesuaikannya dengan preferensimu.
 
 ???+ note "Impor pengaturan dari sini."
-	[![](img/Import-Setting-Yomitan.jpg)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![Menu Backup untuk impor pengaturan Yomitan](img/Import-Setting-Yomitan.jpg)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ???+ note "Klik `Configure profile...` untuk memilih profil."
-	[![](img/Setting-Yomitan-1.jpg)](img/Setting-Yomitan-1.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![Tombol Configure profile di pengaturan Yomitan](img/Setting-Yomitan-1.jpg)](img/Setting-Yomitan-1.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ???+ note "Pengaturan lanjutan untuk personalisasi."
-	[![](img/Setting-Yomitan-2.jpg)](img/Setting-Yomitan-2.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![Pengaturan lanjutan Yomitan](img/Setting-Yomitan-2.jpg)](img/Setting-Yomitan-2.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 
 ---

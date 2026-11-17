@@ -1,5 +1,5 @@
 ---
-title: Novel (EPUB)
+title: "Baca Novel EPUB di Manatan"
 description: Impor dan baca novel EPUB di Manatan.
 ---
 

@@ -6,10 +6,6 @@ description: "Setup Manatan di desktop dan HP untuk membaca dan menonton dalam b
 # Setup Manatan
 ---
 
- Diunggah: 12 April 2026 · Diperbarui: 10 November 2026 – `Yaaacha`
-
----
-
 ??? info "Info: panduan ini mengikuti Manatan versi baru <small>(klik di sini)</small>"
 
     Manatan versi sekarang memakai tampilan aplikasi baru di desktop dan HP. Versi lama memakai Web UI di browser (panel menu di kiri), jadi kalau tampilan aplikasimu masih seperti itu, perbarui dulu ke versi terbaru.
