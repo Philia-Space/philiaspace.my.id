@@ -38,6 +38,11 @@ hide:
        - Penanda `upstream` di halaman LazyGuide sekarang boleh berada tepat setelah front matter
        - Tanggal halaman tidak perlu ditulis manual lagi
 
+*Cadangan Anki Deck Soal JLPT*
+
+- Perbaikan
+       - Tautan unduhan Anki Deck Soal JLPT 2010–2025 di thread Discord sudah mati, jadi [Proyek Komunitas, Rute 2](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft) sekarang menautkan cadangan dari anggota, dengan catatan bahwa soal listening-nya tidak bisa dipakai
+
 **17-11-2026**
 
 *Bahan ujian JLPT, JFT, SSW, dan tes lainnya*
