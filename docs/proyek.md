@@ -77,15 +77,6 @@ Untuk kamu yang belajar supaya bisa menikmati anime, manga, novel, atau ngobrol 
     </div>
   </div>
 
-  <div class="ps-card">
-    <div>
-      <h4>Ankidrone Essentials V9 Indonesia</h4>
-      <p class="ps-card-meta"><strong>RenRen</strong> · Aktif · diperbarui 30 Jun 2026 (V9)</p>
-      <p>Ankidrone Essentials V9 dengan tampilan baru, diterjemahkan ke bahasa Indonesia. Pengganti V8.</p>
-      <ul class="ps-card-links">
-        <li><a href="https://discord.com/channels/1370274344571240552/1378654438134386718">Buka di Discord</a></li>
-      </ul>
-    </div>
   </div>
 
   <div class="ps-card">
@@ -99,15 +90,6 @@ Untuk kamu yang belajar supaya bisa menikmati anime, manga, novel, atau ngobrol 
     </div>
   </div>
 
-  <div class="ps-card">
-    <div>
-      <h4>Ankidrone Essentials V1 (Immersion Upgrade)</h4>
-      <p class="ps-card-meta"><strong>Jibal</strong> · Berlanjut · diperbarui 16 Jul 2026 (N5)</p>
-      <p>Kosakata dasar lewat kalimat contoh, satu kata baru per kalimat. Baru N5. Tautan unduhan diminta lewat DM ke pembuatnya.</p>
-      <ul class="ps-card-links">
-        <li><a href="https://discord.com/channels/1370274344571240552/1527299139514269796">Buka di Discord</a></li>
-      </ul>
-    </div>
   </div>
 
   <div class="ps-card">
@@ -180,6 +162,17 @@ Untuk kamu yang sedang mengejar sertifikat. Dek di sini mengikuti buku persiapan
 
   <div class="ps-card">
     <div>
+      <h4>Ankidrone Essentials V9 Indonesia</h4>
+      <p class="ps-card-meta"><strong>RenRen</strong> · Aktif · diperbarui 30 Jun 2026 (V9)</p>
+      <p>Kosakata JLPT dari buku JLPT Tango, dengan subdek N5 sampai N1 dan kalimat contoh. V9 memakai tampilan baru (Modern UI) dan menggantikan V8. Komunitas menyarankan Multilingual Eggrolls sebagai pilihan utama untuk JLPT, dan dek ini sebagai alternatif.</p>
+      <ul class="ps-card-links">
+        <li><a href="https://discord.com/channels/1370274344571240552/1378654438134386718/1529321716105613432">Buka di Discord</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ps-card">
+    <div>
       <h4>EggRolls JLPT v3.5 Indonesia</h4>
       <p class="ps-card-meta"><strong>RenRen</strong> · Stabil · diperbarui 10 Sep 2026</p>
       <p>10.641 kosakata JLPT, dengan arti bahasa Indonesia dari RHDict.</p>
@@ -213,6 +206,17 @@ Untuk kamu yang sedang mengejar sertifikat. Dek di sini mengikuti buku persiapan
 
   <div class="ps-card">
     <div>
+      <h4>Ankidrone Essentials V1 (Immersion Upgrade)</h4>
+      <p class="ps-card-meta"><strong>Jibal</strong> · Berlanjut · diperbarui 16 Jul 2026 (N5, N4)</p>
+      <p>Ankidrone Essentials (JLPT Tango) dengan terjemahan Indonesia baru, kata target ditandai, badge level JLPT, dan audio asli. Sudah tersedia N5 dan N4, sedangkan N3 sampai N1 sedang dikerjakan. Tautan unduhan diminta lewat DM ke pembuatnya.</p>
+      <ul class="ps-card-links">
+        <li><a href="https://discord.com/channels/1370274344571240552/1527299139514269796">Buka di Discord</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ps-card">
+    <div>
       <h4>NANO-NANO V1 (Japanese Grammar)</h4>
       <p class="ps-card-meta"><strong>Jibal</strong> · Berlanjut · diperbarui 18 Agu 2026 (N5)</p>
       <p>130 pola tata bahasa N5 dalam 260 kartu. Seri sampai N1 sedang dikerjakan.</p>
@@ -235,7 +239,7 @@ Untuk kamu yang sedang mengejar sertifikat. Dek di sini mengikuti buku persiapan
 
 </div>
 
-Dek lain: [Anki Deck Soal JLPT 2010–2025](https://discord.com/channels/1370274344571240552/1519035130243448932) dari Dosen Tipsen, [Deck Bunpou Nihongo no Mori](https://discord.com/channels/1370274344571240552/1431808153774854154) dari Don Hans, [Soumatome N3 (Goi)](https://discord.com/channels/1370274344571240552/1537273268317454366) dari Seith. Untuk melihat level JLPT kata yang kamu temui saat immersion, pasang [JIDict Frequency](#jidict-frequency).
+Dek lain: [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713) dari Ardya, yang di rekomendasi Discord disebut pilihan utama untuk JLPT, [Anki Deck Soal JLPT 2010–2025](https://discord.com/channels/1370274344571240552/1519035130243448932) dari Dosen Tipsen, [Deck Bunpou Nihongo no Mori](https://discord.com/channels/1370274344571240552/1431808153774854154) dari Don Hans, [Soumatome N3 (Goi)](https://discord.com/channels/1370274344571240552/1537273268317454366) dari Seith. Untuk melihat level JLPT kata yang kamu temui saat immersion, pasang [JIDict Frequency](#jidict-frequency).
 
 ### Rute 3: Bahasa untuk kerja (magang, Tokutei Ginou)
 
@@ -373,11 +377,12 @@ Belum ada dek khusus EJU atau bahasa Jepang akademik. Kalau kamu membuatnya, bag
     Kalau unduhan dari Google Drive gagal, pakai [versi AnkiWeb N3](https://ankiweb.net/shared/info/1748118658).
 
 ??? warning "Kaishi V2: furigana, posisi teks, dan tautan unduhan"
-    Laporan berikut belum ada perbaikannya per 16 November 2026:
+    Dua laporan berikut belum ada perbaikannya per 17 November 2026:
 
     - [Furigana tidak terkonversi](https://discord.com/channels/1370274344571240552/1525753475051556954/1571382751859576935) (15 Nov).
     - [Teks kartu tidak di tengah di HP](https://discord.com/channels/1370274344571240552/1525753475051556954/1559233867129294972) (12 Okt). Saran sementara: [pakai Kaishi versi RenRen](https://discord.com/channels/1370274344571240552/1525753475051556954/1559612564130889839).
-    - [Tautan Google Drive tidak bisa diunduh](https://discord.com/channels/1370274344571240552/1525753475051556954/1571101754488262778) (14 Nov).
+
+    Tautan Google Drive-nya masih berlaku. Kalau [unduhan macet](https://discord.com/channels/1370274344571240552/1525753475051556954/1571101754488262778) (14 Nov), [salin tautannya ke Chrome atau browser lain](https://discord.com/channels/1370274344571240552/1525753475051556954/1571108400807547001). Tautan terbarunya [dikirim ulang 16 Nov](https://discord.com/channels/1370274344571240552/1525753475051556954/1571855611589566474).
 
 ### Riwayat pembaruan
 
@@ -394,14 +399,14 @@ Pembaruan dan perbaikan dek dalam enam bulan terakhir, masing-masing dengan taut
     - **10 Sep 2026**: [rilis EggRolls JLPT v3.5 Indonesia](https://discord.com/channels/1370274344571240552/1547709722919182366/1547709722919182366).
     - **2 Sep 2026**: [rilis RHDict v1.0.0](https://discord.com/channels/1370274344571240552/1544821080148025484/1544821080148025484).
     - **21 Agu 2026**: [perbaikan Shinsoku Ultimate 3.8k](https://discord.com/channels/1370274344571240552/1540034582706131036/1540115224940781568): 5 baris dengan bacaan yang salah dibuang. Dek dirilis [sehari sebelumnya](https://discord.com/channels/1370274344571240552/1540034582706131036/1540034582706131036).
-    - **30 Jun 2026**: [Ankidrone Essentials V9 versi Indonesia](https://discord.com/channels/1370274344571240552/1378654438134386718/1521532223814369470), menggantikan V8.
+    - **30 Jun 2026**: [Ankidrone Essentials V9 versi Indonesia](https://discord.com/channels/1370274344571240552/1378654438134386718/1521532223814369470), menggantikan V8. Isinya kosakata JLPT N5 sampai N1, dan beberapa kata seperti こんにちは [dihapus dari V8](https://discord.com/channels/1370274344571240552/1378654438134386718/1525720247385063596).
     - **30 Jun 2026**: [Kaishi 1.5k RenRen Version "Final Fixed"](https://discord.com/channels/1370274344571240552/1502926207535284335/1521535198242803893): perbaikan terjemahan yang meleset.
     - **1 Jun 2026**: [SSS シリーズ di AnkiWeb](https://discord.com/channels/1370274344571240552/1478352761082085418/1510896622106710086).
 
 ??? note "Jibal"
     - **3 Sep 2026**: [file NANO-NANO V1 diunggah langsung di Discord](https://discord.com/channels/1370274344571240552/1539285154089140265/1545129184504840222).
     - **18 Agu 2026**: [rilis NANO-NANO V1 N5](https://discord.com/channels/1370274344571240552/1539285154089140265/1539285154089140265).
-    - **16 Jul 2026**: [rilis Ankidrone Essentials V1 (Immersion Upgrade)](https://discord.com/channels/1370274344571240552/1377248289178652753/1527300754262462525).
+    - **16 Jul 2026**: [rilis Ankidrone Essentials V1 (Immersion Upgrade)](https://discord.com/channels/1370274344571240552/1377248289178652753/1527300754262462525) untuk N5 dan N4. Menurut [roadmap-nya](https://discord.com/channels/1370274344571240552/1377248289178652753/1527300881656184924), N3 sampai N1 sedang dikerjakan.
     - **16 Jul 2026**: [tautan unduhan Kaishi V2 diperbarui](https://discord.com/channels/1370274344571240552/1525753475051556954/1527114448551018496).
     - **15 Jul 2026**: [rilis Kaishi V2 dengan Native Insight](https://discord.com/channels/1370274344571240552/1377248289178652753/1526973272787521627). Kaishi V1 ([12 Jul](https://discord.com/channels/1370274344571240552/1525753475051556954/1525753624431562845)) sudah ditarik.
 
