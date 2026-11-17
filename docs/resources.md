@@ -1,17 +1,18 @@
 ---
-description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, situs, dan bahan immersion."
+description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, situs, bahan immersion, serta bahan ujian JLPT, JFT, SSW, dan tes lainnya."
 ---
 
 # Sumber Belajar
 
 ---
 
-Diunggah: 6 November 2026 – `Yaaacha`
+Diunggah: 6 November 2026 · Diperbarui: 17 November 2026 – `Yaaacha`
 
 ---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Daftar ini dikumpulkan dari [Japanese Resources milik kuri](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), [Ten Resources](https://www.ten.guide/resources), dan [Wotaku](https://wotaku.wiki/nonen/indonesian), ditambah rekomendasi add-on Anki dari Philia Space.
+    - Bagian JLPT, JFT, SSW, dan Tes Jepang Lainnya dikumpulkan dari kiriman anggota Discord Philia Space, #KaburAjaDulu, dan TheMoeWay, ditambah situs resmi tiap ujian.
     - Sebagian besar sumber di bawah berbahasa Inggris atau Jepang. Deskripsinya diterjemahkan dan diringkas.
     - Yang ditulis **tebal** adalah yang paling sering direkomendasikan oleh sumber-sumber itu. Kalau bingung harus mulai dari mana, ambil yang tebal dulu.
     - Beberapa situs konten (anime, manga, novel, gim) adalah situs pihak ketiga yang tidak resmi. Gunakan dengan bijak, dan pakai pemblokir iklan.
@@ -26,9 +27,7 @@ Halaman ini kumpulan tautan, bukan panduan. Kalau kamu baru mulai, baca [Panduan
 - **[TheMoeWay](https://learnjapanese.moe/guide/)**: panduan immersion yang sudah membantu ribuan orang. Ditulis oleh shoui.
 - [Immersion-Based Japanese Learning](https://donkuri.github.io/learn-japanese/guide/): panduan dari kuri yang rutin diperbarui, lengkap dari awal sampai setup.
 - [Learn Japanese with Immersion](https://www.ten.guide/): panduan dari server Ten, lengkap dengan daftar sumber dan visual yang rapi.
-- [VNCR's guide](https://vnclub.org/guide/): panduan yang menekankan belajar lewat visual novel.
 - [morg.systems](https://morg.systems/Japanese): banyak tulisan seputar belajar bahasa Jepang.
-- [天's Immersion Guide](https://timm04.github.io/immersion-based-language-learning/): panduan immersion buatan Timm.
 - [Xelieu's Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/): panduan setup yang ringkas. Versi bahasa Indonesianya ada di menu **LazyGuide - Mining**.
 
 ### Metode dan Motivasi
@@ -117,7 +116,7 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 
 ### Referensi Cepat
 
-- [Master reference grammar](https://gohoneko.neocities.org/grammar/masterreference): tabel semua pola tata bahasa dari empat sumber ([versi lain](https://kenrick95.github.io/itazuraneko/grammar/masterreference.html)).
+- [Master reference grammar](https://kenrick95.github.io/itazuraneko/grammar/masterreference.html): tabel semua pola tata bahasa dari empat sumber.
 - [DOJG Lite](https://dojglite.github.io/main/index.html): referensi cepat dari *Dictionary of Japanese Grammar*. Lihat juga [halaman DOJG di DJT](https://djtguide.github.io/grammar/dojgmain.html) dan [Grammar Dictionaries untuk Yomitan](https://github.com/aiko-tanaka/Grammar-Dictionaries).
 - [NihongoKyoshi JLPT grammar](https://nihongokyoshi-net.com/jlpt-grammars/): pola tata bahasa JLPT yang dijelaskan dalam bahasa Jepang. Bagus dipelajari setelah selesai Yokubi atau Tae Kim.
 - [日本語文型バンク](https://www2.ninjal.ac.jp/bunkeibank): lebih dari 800 pola tata bahasa dari NINJAL, dalam bahasa Jepang.
@@ -125,7 +124,7 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 ### Dek Anki
 
 - **[NihongoKyoshi Deck](https://drive.google.com/file/d/1tDBaabwgZMO8nxkcwcw4qBXayuk_513T/view)**: dek tata bahasa monolingual. Sengaja tanpa terjemahan supaya kamu tidak mengaitkan tata bahasa Jepang dengan kata bahasa lain.
-- [DOJG Deck](https://dojgdeck.neocities.org/): dek dari seri *Dictionary of Japanese Grammar* ([versi AnkiWeb](https://ankiweb.net/shared/info/1013111837)).
+- [DOJG Deck](https://ankiweb.net/shared/info/1013111837): dek dari seri *Dictionary of Japanese Grammar*.
 - [Bunpro Deck](https://mega.nz/file/pZQUxLJB#uRuBfWzkCgwlunKc0kGS0YuMkeOLbbGeDJvntkBh_DE): dek dari aplikasi tata bahasa Bunpro.
 - [JLAB](https://ankiweb.net/shared/info/2110939339): dek yang mengajarkan kana, kanji, dan semua tata bahasa dari Tae Kim.
 
@@ -158,7 +157,6 @@ Setelah dek kosakata dasar selesai, kosakata berikutnya sebaiknya dikumpulkan se
 - [xythh's resources](https://xythh.github.io/resources): kumpulan sumber belajar pitch accent.
 - [Dogen](https://www.youtube.com/playlist?list=PLeK-ilb1gk6md2oCbjPh4Rl0lnXXOV22P): seri fonetik bahasa Jepang dari YouTuber populer.
 - [Yudai Sensei](https://www.youtube.com/@yudaisensei2020): penutur asli yang membahas pitch accent dan kenapa itu penting.
-- [OJAD](https://www.gavo.t.u-tokyo.ac.jp/ojad/search): kamus pitch accent dan tabel konjugasi.
 - [名字アクセント辞典](https://myoji.scave.net): kamus pitch accent untuk nama orang.
 - [Numbers](https://langpractice.com/japanese): latihan mendengar angka dalam bahasa Jepang.
 
@@ -314,7 +312,6 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 - [Eijirou on the WEB](https://eow.alc.co.jp/): kamus Jepang-Inggris dengan banyak contoh kalimat.
 - [Weblio](https://www.weblio.jp/): kamus monolingual paling populer.
 - [日本語俗語辞書](http://zokugo-dict.com/): kamus bahasa gaul, ada juga versi Yomitan.
-- [Fuseji](http://fuseji.net/): menebak kata yang disensor dengan 〇.
 - [Forvo](https://forvo.com/languages/ja/): pelafalan kata oleh penutur asli.
 - [Jiten](https://jiten.moe/): kamus sekaligus statistik kosakata media Jepang.
 
@@ -416,7 +413,7 @@ Mining adalah mencari kata baru saat immersion, lalu menyimpannya ke Anki lewat 
 - [Manga-OCR](https://github.com/kha-white/manga-ocr): program OCR khusus manga. Ada versi GUI-nya, Poricom.
 - [GazouOCR](https://github.com/kamui-fin/gazou): OCR untuk Linux.
 - [OCR Reader](https://github.com/kotcrab/ocr-reader): membantu membaca hasil pindaian novel fisik.
-- [CDisplayEx](https://www.cdisplayex.com/desktop/) dan [NeeView](https://github.com/neeview/neeview): pembaca manga dan gambar di PC.
+- [CDisplayEx](https://www.cdisplayex.com/desktop/) dan [NeeView](https://github.com/neelabo/NeeView): pembaca manga dan gambar di PC.
 
 ### Visual Novel dan Gim
 
@@ -457,25 +454,24 @@ Untuk memilih tontonan atau bacaan sesuai level, lihat juga bagian [Tingkat Kesu
 
 ### Drama dan TV Jepang
 
-- [Bagikuy](https://bagikuy.com/) dan [Minidrama](https://minidrama.net/j-drama/): unduh drama Jepang.
+- [Bagikuy](https://bagikuy.com/): unduh drama Jepang.
 - [Rakuten Viki](https://www.viki.com/explore?country=japan&sort=all_time): streaming drama Jepang.
 - [Nyaa.si drama](https://nyaa.si/?q=&f=0&c=4_4): sebagian drama Jepang.
 - [Raredoramas](https://raredoramas.info/): kumpulan drama Jepang langka.
 - [Terrace House BGND](https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177): tautan unduh Terrace House versi raw.
 - [bilibili](https://www.bilibili.com/): situs Tiongkok yang punya banyak konten Jepang.
 - [ABEMA](https://abema.tv/): TV Jepang. Perlu VPN Jepang dari luar Jepang.
-- [Japanese Live TV](https://web.utako.moe/) dan [IPTV repo](https://gitflic.ru/project/utako/utako): siaran TV Jepang langsung, bisa diputar di VLC.
+- [IPTV repo](https://gitflic.ru/project/utako/utako): siaran TV Jepang langsung, bisa diputar di VLC.
 - [Twitcasting](https://twitcasting.tv): siaran langsung orang Jepang, termasuk siaran ngobrol santai (雑談).
 
 ### Manga
 
 - [Archive.org 2019 Archive](https://archive.org/download/2019-japanese-comics-pack): arsip manga.
-- [BilingualManga](https://bilingualmanga.org/): baca manga dengan Yomitan dan terjemahan satu klik.
 - [Hakuneko](https://hakuneko.download/): pengunduh manga dan anime dari berbagai situs. Pakai tag *raw* dan *japanese*.
 - [Manga Google Drive](https://drive.google.com/drive/folders/1Mx1Hhux0FfoK4-osN5xOmyVcew0mSZVA): folder berisi sebagian manga.
 - [Nyaa.si manga](https://nyaa.si/?q=&f=0&c=3_3): torrent manga raw, sangat banyak.
-- Baca online: [Rawkuma](https://rawkuma.net/), [Klmanga](https://klz9.com/index), [mangareader.to](https://mangareader.to).
-- Koleksi terbesar tapi perlu layanan *debrid* untuk unduh cepat: [A-zmanga](http://www.a-zmanga.net/), [DLRaw](https://dlraw.ac/), [13dl.to](http://13dl.to/), [JPDDL](https://jpddl.com/manga).
+- Baca online: [Rawkuma](https://rawkuma.net/) dan [Klmanga](https://klz9.com/index).
+- Koleksi terbesar tapi perlu layanan *debrid* untuk unduh cepat: [A-zmanga](http://www.a-zmanga.net/), [DLRaw](https://dlraw.ac/), [JPDDL](https://jpddl.com/manga).
 - [Manatan Extensions](https://manatan-community.github.io/extensions/add-repo/): repo ekstensi sumber manga untuk Manatan.
 
 ### Novel dan Bacaan
@@ -486,13 +482,13 @@ Untuk memilih tontonan atau bacaan sesuai level, lihat juga bagian [Tingkat Kesu
 - [Boroboro](https://boroboro.neocities.org/listfullepub.html) dan [Lolibrary](https://lolibrary.moe/): perpustakaan EPUB.
 - [Syosetsu](https://yomou.syosetu.com/), [Kakuyomu](https://kakuyomu.jp/), dan [Hameln](https://syosetu.org/): web novel dan fanfiksi (二次創作).
 - [Aozora Bunko](https://www.aozora.gr.jp/): karya sastra Jepang klasik yang sudah jadi domain publik.
-- [Satori Reader](https://www.satorireader.com/) dan [Todaii](https://todaii.app/): aplikasi bacaan bertingkat; Todaii juga punya berita dan simulasi JLPT.
+- [Satori Reader](https://www.satorireader.com/): aplikasi bacaan bertingkat.
 - [Apple Books](https://apps.apple.com/us/app/apple-books/id364709193): toko buku dengan banyak buku Jepang.
 
 ### Visual Novel dan Gim
 
 - [VNDB](https://vndb.org/): basis data visual novel.
-- [Visual Novel Club (VNCR)](https://vnclub.org/): sumber dan komunitas visual novel. Rekomendasi judul ada di [VN Guide TheMoeWay](https://learnjapanese.moe/vn/#unsure-what-to-play).
+- [VN Guide TheMoeWay](https://learnjapanese.moe/vn/#unsure-what-to-play): rekomendasi judul visual novel.
 - [Nyaa.si visual novel](https://nyaa.si/?f=0&c=6_2&q=_): sebagian visual novel. Lebih banyak lagi ada di [Sukebei](https://sukebei.nyaa.si/?f=0&c=1_3&q=) (18+).
 - [Ryuugames](https://www.ryuugames.com/tag/japanese/): unduh visual novel tanpa torrent.
 - [CraneAnime Upload List](https://docs.google.com/spreadsheets/d/1ECqqhEm2kDS0hgxZ0tD_73e04v5FUxQGkfCbfi0Kb9k/pubhtml#): spreadsheet berisi tautan unduh visual novel.
@@ -507,9 +503,8 @@ Visual novel versi konsol tidak punya konten 18+.
 
 ### Emulator dan ROM
 
-- [Ryujinx](https://ryujinx.app/) dan [Citron](https://citron-emu.org/): emulator Switch. [Yuzu](https://yuzu-emulator.com/) sudah dihentikan.
+- [Ryujinx](https://ryujinx.app/): emulator Switch. Yuzu sudah dihentikan.
 - [r/roms megathread](https://r-roms.github.io/): koleksi ROM paling banyak.
-- [CDRomance PSP](https://cdromance.com/psp/?filter_language=japanese&filter_region=japan) dan [CDRomance PS2](https://cdromance.com/ps2-iso/?filter_language=japanese&filter_region=japan): gim PSP dan PS2 versi Jepang.
 - [Softcobra](https://www.softcobra.com/): gim Switch.
 - [RoyalRoms](https://www.royalroms.com/roms/): ROM Game Boy, SNES, Genesis, dan lainnya. Urutkan region ke "Japan".
 - [Emuparadise Workaround](https://greasyfork.org/en/scripts/407947-emuparadise-download-workaround): skrip Tampermonkey supaya bisa mengunduh dari Emuparadise lagi.
@@ -528,7 +523,6 @@ Visual novel versi konsol tidak punya konten 18+.
 
 - **[Jimaku](https://jimaku.cc/)**: sumber subtitle anime paling bisa diandalkan.
 - [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F): koleksi subtitle Jepang terbesar. Hindari subtitle buatan "kamigami" karena sering salah transkrip.
-- [Itazuraneko](https://itazuraneko.neocities.org/library/sub.html): subtitle Jepang.
 - [JP-Subbers](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/): subtitle drama.
 - [BritVSJapan](https://github.com/Matchoo95/JP-Subtitles): subtitle dari Netflix. Bisa juga dipakai untuk mencari kalimat lewat fitur pencarian repo.
 - [Japanese Movies Subtitles](https://github.com/eurusdagr/Japanese-Movies-Subtitles): subtitle film Jepang.
@@ -579,7 +573,7 @@ Audio dari anime atau drama yang bagian tanpa dialognya sudah dipotong, untuk im
 - [Aozora Bunko example sentences](https://kanji.reader.bz/examples/): cari contoh kalimat dari karya Aozora Bunko.
 - [Jisho](https://jisho.org/search/%20%23sentences): kalimat dari proyek Tatoeba.
 - [X (Twitter)](https://X.com/search?q=%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C&f=top): melihat pemakaian kata sehari-hari. Mungkin perlu masuk akun.
-- Korpus NINJAL: [Kotonoha](http://nlb.ninjal.ac.jp/search/), [BCCWJ](https://bonten.ninjal.ac.jp/bccwj/string_search), dan [NWJC](https://bonten.ninjal.ac.jp/nwjc/string_search).
+- [Kotonoha](http://nlb.ninjal.ac.jp/search/): korpus NINJAL.
 
 ---
 
@@ -642,21 +636,145 @@ Kanal YouTube untuk contoh tulisan tangan:
 
 ## JLPT
 
+- **[Contoh soal resmi JLPT](https://www.jlpt.jp/e/samples/forlearners.html)**: contoh soal tiap level dari penyelenggara.
+- **[JLPT Online Indonesia](https://jlptonline.or.id/)**: jadwal, pendaftaran, dan pengambilan sertifikat JLPT di Indonesia.
 - [Đề Thi Tiếng Nhật](https://dethitiengnhat.com/): latihan soal N5 sampai N1.
-- Soal JLPT N1 tahun lalu: [MEGA](https://mega.nz/folder/Q0BV0SDD#K-A9VyQn3rj5lX_fjRoqqQ), [Google Drive](https://drive.google.com/drive/folders/1U7Yt9I1S7tgNRRBMLv9xRIeNCZAd_6OE?usp=drive_link), dan [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
-- [Bunpro JLPT](https://bunpro.jp/jlpt_practice_tests): simulasi ujian untuk semua level.
+- Soal JLPT tahun lalu:
+    - [Ten JLPT](https://ten-jlpt-site.vercel.app/): soal asli yang bisa dikerjakan langsung di situs. Versi PDF-nya ada di [MEGA](https://mega.nz/folder/VuAkTBKI#a2cRJETfF3j6tekjMWissg).
+    - [Kumpulan Soal JLPT N1–N5](https://drive.google.com/drive/folders/18_nMIY5iRtNOC2C-AHeRJGG6qVsnucBn): folder Google Drive, dipisah per level.
+    - [Arsip Đề Thi Tiếng Nhật](https://drive.google.com/drive/folders/1QLYCpo4JA52fGGuFPNAMZha5ItDRIUFy): unduhan soal dari Đề Thi Tiếng Nhật, dipisah per level.
+    - Soal N1: [MEGA](https://mega.nz/folder/Q0BV0SDD#K-A9VyQn3rj5lX_fjRoqqQ), [Google Drive](https://drive.google.com/drive/folders/1U7Yt9I1S7tgNRRBMLv9xRIeNCZAd_6OE), dan [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
+- Simulasi dan latihan daring:
+    - [Bunpro JLPT](https://bunpro.jp/id/jlpt_practice_tests): simulasi ujian untuk semua level.
+    - [JLPT247](https://jlpt247.com/jlpt-2/): latihan per bagian ujian.
+    - [Challenge JLPT](https://challenge-jlpt.com/): latihan soal acak N5–N1.
+    - [Nihonez](https://nihonez.com/jlpt-test/): simulasi ujian lengkap N5–N1.
+    - [Unagibun](https://www.unagibun.com/jlpt-online/): simulasi N5–N3.
+    - [Cakap](https://cakap.com/simulasi-tes/jlpt/): simulasi JLPT gratis dalam bahasa Indonesia.
+    - [Riki Jepang](https://rikijepang.com/jlpt/examination-library): kumpulan soal latihan JLPT.
+    - [Kanji123](https://kanji123.org/): tes kanji per level.
+    - [Japanesetest4you](https://japanesetest4you.com/): soal tata bahasa, kosakata, dan kanji per level.
 - [JPDrills](https://www.jpdrills.com/): soal tata bahasa, kosakata, dan kanji JLPT.
 - [Migii](https://migii.net/en/): aplikasi dan situs berbayar untuk latihan JLPT lengkap.
-- [Todaii](https://todaii.app/): ada simulasi ujian JLPT.
+- [Uno Japano](https://unojapano.com/category/jlpt-answers/): kunci jawaban tidak resmi, terbit beberapa hari setelah ujian.
+- [Modul JLPT/JFT](https://drive.google.com/drive/folders/1mdmEpMVpp2swbKMvDMi2ywBlIOKS00ic): folder materi JLPT N4, N3, dan JFT A2.
+- [日本語のMASTERLIST](https://moduljp.uwu.ai/): kumpulan PDF materi bahasa Jepang.
 
+Dek Anki untuk JLPT ada di [Proyek Komunitas, Rute 2](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft).
+
+---
+
+## JFT
+
+JFT-Basic kira-kira setara JLPT N4. Buku acuannya Irodori, jadi mulai dari situ.
+
+- **[JFT-Basic (Japan Foundation)](https://www.jpf.go.jp/jft-basic/id/)**: info ujian, contoh soal, dan aturan terbaru.
+- **[Prometric](https://www.prometric-jp.com/id/ssw/)**: pendaftaran dan jadwal ujian JFT-Basic dan SSW. Tulis nama persis seperti di KTP, [aturannya ada di sini](https://www.prometric-jp.com/id/ssw/exam/id/attention_for_correct_prometric_id/).
+- **[Irodori](https://sites.google.com/view/jf-irodori/halaman-pemelajar)**: buku Irodori A1 dan A2 beserta audionya, gratis. Ada juga [kursus daringnya](https://www.irodori-online.jpf.go.jp/).
+- [Marugoto](https://marugoto.jpf.go.jp/en/download/): audio dan bahan pendukung buku Marugoto A1 sampai B1 dari Japan Foundation, gratis diunduh.
+- [JF Minato](https://minato-jf.jp/): kursus daring Japan Foundation, sebagian besar gratis. Perlu daftar akun.
+- [JFT-Simulation](https://jft-simulation.com/): tiruan tampilan ujian JFT-A2, supaya kamu terbiasa dengan layarnya.
+- [JFT CBT Pro](https://jft.minnanihongo.id/): simulasi ujian berbasis komputer. Perlu daftar akun.
+- [Jitensha](https://jitensha.my.id/latihan-soal/): latihan soal JFT. Password: `Jft2025`.
+- [Fajar Gakuen](https://www.fajargakuen.asia/): latihan membaca (dokkai) JFT dan soal SSW.
+- Folder Google Drive dari anggota:
+    - [Kisi-kisi JFT](https://drive.google.com/drive/folders/1rruHUHscM6clj6abZh9Bh_op-NJDhd1j): gambaran soal JFT dalam PDF.
+    - [JFT](https://drive.google.com/drive/folders/14PA_FrUbo58gLBp3QNOEfSbQKye8b7YS): Irodori A1–A2, kanji Marugoto A1, kanji A2, dan Kanji JFT 613.
+    - [JFT & SSW](https://drive.google.com/drive/folders/1iTdxqboTLY18wOnsmgmkPFgyFqgxS6kj): latihan soal, materi SSW, dan persiapan wawancara (mensetsu).
+    - [Materi bahasa Jepang campuran](https://drive.google.com/drive/folders/1Pk2GvCnzKnri58gD9aDHn9tCIHBKkZ28): JFT, JLPT, SSW, Minna no Nihongo, Irodori, Genki, dan lain-lain.
+
+---
+
+## SSW (Tokutei Ginou)
+
+- **[Daftar ujian SSW per bidang (Prometric)](https://www.prometric-jp.com/id/ssw/test_list/)**: jadwal dan info ujian keahlian tiap bidang.
+- Materi resmi dari lembaga penyelenggara:
+    - [Konstruksi (JAC)](https://global.jac-skill.or.jp/en/examination/documents.php): buku teks dan contoh soal, ada versi bahasa Indonesia.
+    - [Pertanian (ASAT)](https://asat-nca.jp/id/textbook/): buku teks bahasa Indonesia.
+    - [Manufaktur (JAIM)](https://en.jaim-skill.or.jp/exam/materials/): buku teks dan contoh soal.
+    - [Pengolahan makanan (OTAFF)](https://otaff.or.jp/tokutei/insyoku-1/materials/): buku teks.
+    - Logistik (JARW): [buku teks](https://www.jarw.or.jp/wp/wp-content/uploads/2026/10/specified_skilled_worker_textbook_202607.pdf) dan [contoh soal](https://www.jarw.or.jp/wp/wp-content/uploads/2026/10/specified_skilled_worker_exam_prep_202607.pdf), PDF.
+- [SSW Japan Study Portal](https://sswjapanstudyportal.com/en/): info modul SSW dari berbagai bidang.
+- [Nihongo Library](https://nihongo-library.lovable.app/): perpustakaan PDF materi bahasa Jepang dan SSW. Ada juga [versi lainnya](https://www.nihongo-library.web.id/).
+- Folder Google Drive dari anggota:
+    - [Modul SSW](https://drive.google.com/drive/folders/1o2233uxusS1I9W3Yze2-CAFMCp2bx2kB): modul dan materi SSW berbagai bidang.
+    - [Materi pengolahan makanan](https://drive.google.com/drive/folders/19qs4ax53zYqohHz9aDTkd5PZ7NjstG61).
+    - [Latihan soal pengolahan makanan 2024](https://drive.google.com/drive/folders/1KoQC5App6FAUC5SzS4AMkIbdkWXXHS77): renshuu per bab, ada kunci jawabannya.
+    - [Rekaman pembahasan kisi-kisi SSW pengolahan makanan](https://drive.google.com/drive/folders/1R5RG56-L287-MZpnR8mGM59S-E_B9u4o): video Zoom dari grup WA Info SSW PM.
+
+Dek Anki kosakata per bidang (perhotelan, konstruksi, peternakan, otomotif, building cleaning, dan lainnya) ada di [Proyek Komunitas, Rute 3](proyek.md#rute-3-bahasa-untuk-kerja-magang-tokutei-ginou).
+
+### Cek Sebelum Daftar
+
+- **[Daftar RSO/TSK resmi (Kementerian Kehakiman Jepang)](https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00205.html)**. Untuk mencarinya lebih mudah, pakai [Philia Kensaku](https://philiakensaku.vercel.app/).
+- **[Daftar LPK sending organization (OTIT)](https://www.otit.go.jp/system/sender/list_sender/)**: cek apakah LPK-mu terdaftar.
+- [Saluran pengaduan pekerja asing (MHLW)](https://www.check-roudou.mhlw.go.jp/soudan/foreigner.html): kalau ada masalah gaji, jam kerja, atau perlakuan di tempat kerja.
+- [Program magang Kemnaker (Skillhub)](https://skillhub.kemnaker.go.id/magang/): daftar program magang resmi pemerintah, termasuk ke Jepang.
+
+---
+
+## Tes Jepang Lainnya
+
+### Tes Bahasa Selain JLPT
+
+- [NAT-TEST](https://nat-test.jp/): levelnya 5Q sampai 1Q, mengikuti level JLPT. Diadakan lebih sering daripada JLPT, dan ada lokasi ujian di Indonesia, misalnya Jakarta, Padang, dan Denpasar.
+    - Bentuk soalnya sama dengan JLPT ([perbandingannya](https://nat-test.jp/contents/comparison.html)), jadi bahan latihan JLPT di atas bisa langsung dipakai. Soal latihan resminya hanya ada di [buku berbayar](https://nat-test.jp/workbook.html).
+- [J.TEST](https://j-test.jp/): tes bahasa Jepang praktis dan bisnis. Ada kantor perwakilan di Indonesia, jadwalnya bisa dicek lewat [daftar kantor luar negeri](https://j-test.jp/office1).
+    - **[Contoh soal resmi](https://j-test.jp/newj-sample)**: PDF untuk level A-C, D-E, dan F-G, lengkap dengan kunci jawaban.
+    - **[Latihan soal bulanan](https://j-test.jp/page_id2066)**: PDF gratis yang terbit tiap bulan, arsipnya sejak beberapa tahun lalu. Ada juga [latihan membaca bulanan](https://j-test.jp/wadai).
+- [BJT](https://www.kanken.or.jp/bjt/english/): tes bahasa Jepang bisnis berbasis komputer. Bisa diambil di Indonesia.
+    - **[Contoh soal resmi](https://www.kanken.or.jp/bjt/english/sample/sample01.html)**: tiga bagian ujian (mendengar, mendengar-membaca, membaca).
+    - [Simulasi tampilan ujian](https://www.kanken.or.jp/bjt/cbt_demo/): coba layar ujian berbasis komputernya.
+- [J-CAT](https://www.j-cat2.org/): tes daring yang menyesuaikan soal dengan kemampuanmu. Cocok untuk cek level dengan cepat. Ada [contoh soalnya](https://www.j-cat2.org/html5sample/).
+
+### Kanji
+
+- [Kanken (漢字検定)](https://www.kanken.or.jp/kanken/): ujian kanji resmi yang dipakai orang Jepang sendiri.
+- [KOMABA Jakarta](https://www.komaba.id/kanji_kentei/): tempat ikut Kanken di Indonesia.
+- **[Contoh soal resmi tiap level](https://www.kanken.or.jp/kanken/grades/sample/)**: soal satu ujian lengkap per level, beserta jawabannya, PDF.
+- [Cek level](https://www.kanken.or.jp/kanken/grades/meyasucheck/): tes singkat untuk menentukan level Kanken yang cocok.
+- [Arsip soal Kanken tahun lalu](https://drive.google.com/drive/folders/1o1vq5HDY3wT08b6eINaNcmP_U7hK6VaH): folder Google Drive dari komunitas TheMoeWay, level 10 sampai 1.
+- Latihan daring gratis: [Kanken WEB 問題集](https://kanken.jitenon.jp/) untuk semua level, [準1級](https://jun1mondai.com/), [2級](https://derujun-2kyu.com/), dan [準2級](https://derujun-jun2kyu.com/).
+- Dek dan info komunitas Kanken ada di bagian [Menulis Tangan](#menulis-tangan).
+
+### Kuliah di Jepang
+
+- **[EJU (日本留学試験)](https://www.jasso.go.jp/en/ryugaku/eju/index.html)**: ujian masuk universitas Jepang untuk pelajar asing. Di Indonesia diselenggarakan lewat Pusat Studi Jepang UI, [kontaknya di sini](https://www.jasso.go.jp/en/ryugaku/eju/examinee/contact/asia.html).
+- **[Soal EJU tahun lalu](https://www.jasso.go.jp/en/ryugaku/eju/examinee/pastpaper_sample/index.html)**: soal resmi dari JASSO, 2011 sampai 2021. Soal bahasa Jepang dan Japan and the World hanya tersedia sampai 2018 sesi 1, sedangkan matematika dan IPA sampai 2021.
+- [Silabus EJU](https://www.jasso.go.jp/en/ryugaku/eju/examinee/syllabus/index.html): cakupan materi tiap mata ujian.
+- [Try IT](https://www.try-it.jp/): video pelajaran SMA Jepang gratis, berguna untuk matematika dan IPA EJU.
+
+### Kaigo
+
+- **[Ujian SSW kaigo (Prometric)](https://www.prometric-jp.com/id/ssw/test_list/archives/2)**: ada dua ujian, tes keterampilan kaigo dan tes bahasa Jepang kaigo. Tes keterampilannya bisa dikerjakan dalam bahasa Indonesia.
+- [Cara reservasi ujian kaigo](https://www.youtube.com/watch?v=PxV9GuXF5r0): video langkah demi langkah dari Asep Hwang.
+- Bahan resmi dari Kementerian Kesehatan Jepang (MHLW), gratis:
+    - **[Contoh soal tes keterampilan kaigo](https://www.mhlw.go.jp/content/001745557.pdf)** dan **[contoh soal tes bahasa Jepang kaigo](https://www.mhlw.go.jp/content/001745561.pdf)**.
+    - [Kisi-kisi resmi (出題基準)](https://www.mhlw.go.jp/content/12000000/000503362.pdf): daftar materi yang diujikan, bahasa Jepang.
+    - **[Buku teks ujian SSW kaigo, edisi revisi 2, bahasa Indonesia](https://www.mhlw.go.jp/content/12000000/001472066.pdf)**: 276 halaman, untuk ujian mulai 2026. Cek juga [ralatnya](https://www.mhlw.go.jp/content/12000000/001505095.pdf).
+    - [Daftar istilah kaigo, bahasa Indonesia](https://www.mhlw.go.jp/content/12000000/001348406.pdf).
+    - [Teks "Bahasa Jepang untuk Kaigo"](https://www.mhlw.go.jp/content/12000000/001184461.pdf): kosakata dan ungkapan dasar, dengan terjemahan Inggris, Indonesia, Vietnam, dan Cina.
+    - Semua bahan lain ada di [halaman MHLW untuk tenaga kaigo asing](https://www.mhlw.go.jp/stf/newpage_28131.html).
+- [にほんごをまなぼう](https://aft.kaigo-nihongo.jp/rpv/): situs belajar mandiri dari Asosiasi Kaigo Fukushishi Jepang, untuk target N3 dan ujian SSW kaigo. Gratis, perlu daftar.
+- [Nihongo de Care-Navi](https://ind.nihongodecarenavi.jp/): kamus dan latihan bahasa Jepang perawatan, versi bahasa Indonesia.
+- Bahan dari komunitas:
+    - [Materi kaigo](https://drive.google.com/drive/folders/1pahykm5PlArNEKzw9FKyafYFBWjmEM9J): modul dan video pembelajaran dari onizuka eikichi.
+    - [Kaigo bahasa Jepang (PDF)](https://drive.google.com/file/d/1LEHxzwVpBbVPIpsWG9m1LAwlYf308hb_/view): ringkasan kosakata kaigo.
+    - [介護の漢字サポーター](http://kaigo-kanji.com/): latihan kanji yang dipakai di dunia kaigo.
+    - [Kaigo Sensei Pro](https://kaigo-sensei-pro.vercel.app/): aplikasi belajar kaigo dan persiapan ujian nasional, ada pilihan bahasa Indonesia.
+    - [Dek Kanji SSW Kaigo](https://ankiweb.net/shared/info/1736742082): dek Anki kanji kaigo.
+
+#### Ujian Nasional Kaigo Fukushishi
+
+- [Info ujian 介護福祉士](https://www.sssc.or.jp/kaigo/): untuk yang ingin naik jadi kaigo fukushishi.
+- **[Soal ujian tahun lalu](https://www.sssc.or.jp/kaigo/past_exam/index.html)**: soal resmi tiga tahun terakhir.
+- **[Buku tanya-jawab ujian nasional, bahasa Indonesia](https://www.mhlw.go.jp/content/000941751.pdf)**: 155 halaman, dari MHLW.
 ---
 
 ## Mencatat Immersion
 
 - [kechimochi](https://github.com/Morgawr/kechimochi): pencatat immersion pribadi.
-- [Misuzu](https://github.com/logantgt/Misuzu): mencatat semua aktivitas immersion, dari anime sampai visual novel.
 - [Xelieu's immersion spreadsheet](https://lazyguidejp.github.io/jp-lazy-guide/immersionDataSpreadsheet/) dan [spreadsheet anime ねむい](https://docs.google.com/spreadsheets/d/1CJ5rRmQYg6ckm0U56d3R_IIJBfHiEIZgKfBX4J-sXEs/edit?gid=0#gid=0): spreadsheet untuk mencatat immersion.
-- [HoriSan](https://github.com/Flare155/HoriSanBot): bot Discord untuk mencatat immersion.
 - [多読 Tracker (tadoku)](https://github.com/Eroge-Abyss/tadoku): pencatat bacaan visual novel. Perlu di-*build* sendiri.
 - [jp343](https://github.com/mh-343/jp343-tracker): ekstensi browser yang otomatis mencatat waktu tontonan di YouTube, Netflix, Crunchyroll, dan Prime Video.
 - [Anilist](https://anilist.co/home): mencatat anime yang ditonton.

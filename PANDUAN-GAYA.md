@@ -84,3 +84,19 @@ Diunggah: 10 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
 ## Riwayat perubahan
 
 Perubahan yang terasa oleh pembaca dicatat di [Riwayat Perubahan](docs/riwayat-perubahan.md). Penyuntingan bahasa saja cukup ditulis satu baris per halaman, misalnya "bahasa dirapikan agar lebih mudah dibaca", tanpa daftar kata yang diganti.
+
+Satu tanggal cukup ditulis sekali. Tanggal terbaru di paling atas, tapi di dalam satu tanggal perubahan diurutkan dari yang paling awal, jadi perubahan baru ditulis di bawah perubahan terakhir tanggal itu:
+
+```markdown
+**16-11-2026**
+
+*Judul perubahan pertama*
+
+- Penambahan
+       - ...
+
+*Judul perubahan berikutnya*
+
+- Perbaikan
+       - ...
+```
