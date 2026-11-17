@@ -6,10 +6,6 @@ hide:
 # Memperbarui Note Type
 ---
 
- Diunggah: 4 November 2026 – `Yaaacha`
-
----
-
 Begini cara memperbarui note type (format kartu) Anki kamu, entah untuk memperbaiki bug atau sekadar mengikuti versi terbaru. Panduan di situs ini memakai beberapa note type:
 
 | Note type | Dipakai di |

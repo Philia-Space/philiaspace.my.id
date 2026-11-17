@@ -55,6 +55,8 @@ mkdocs.yml
 
    Deploy ke situs live tetap harus dengan kartu menyala.
 
+   Build dan deploy juga harus dari clone lengkap (bukan `git clone --depth 1`), karena tanggal dibuat dan diperbarui di tiap halaman diambil dari riwayat git. Di GitHub Actions, pakai `fetch-depth: 0`.
+
 ---
 
 ### ✍️ Cara Mengedit Dokumentasi

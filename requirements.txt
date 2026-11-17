@@ -7,3 +7,5 @@ pillow==13.0.0
 cairosvg==2.9.1
 mkdocs-glightbox==0.5.2
 mkdocs-open-in-new-tab==1.0.8
+mkdocs-redirects==1.2.3
+mkdocs-git-revision-date-localized-plugin==1.7.0

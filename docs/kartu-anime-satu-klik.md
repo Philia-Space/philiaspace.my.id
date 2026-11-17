@@ -1,11 +1,11 @@
 ---
+title: "Mining Anime di PC pakai MPV (Yomipv)"
 description: "Cari arti kata dan buat kartu Anki langsung dari MPV dengan Yomipv, lengkap dengan gambar dan audio kalimat."
 ---
 
-# Kartu Anime Satu Klik - [Yomipv oleh BrenoAqua](https://github.com/BrenoAqua/Yomipv)
----
+# Kartu Anime Satu Klik - Yomipv
 
- Diunggah: 4 November 2026 – `Yaaacha`
+[Yomipv](https://github.com/BrenoAqua/Yomipv) dibuat oleh BrenoAqua.
 
 ---
 Dengan Yomipv, kamu bisa mencari arti kata dan membuat kartu Anki **langsung di dalam MPV**, tanpa keluar dari video. Gambar, audio kalimat, dan kalimatnya otomatis masuk ke kartu.

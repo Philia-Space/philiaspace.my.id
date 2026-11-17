@@ -1,13 +1,9 @@
 ---
-title: "Hoshi Reader"
+title: "Setup Hoshi Reader di Android"
 description: "Baca light novel dan buku EPUB di Android dengan kamus popup, lalu kirim katanya jadi kartu Anki."
 ---
 
 # Setup Hoshi Reader (Android)
----
-
- Diunggah: 6 November 2026 · Diperbarui: 11 November 2026 – `Yaaacha`
-
 ---
 
 !!! note "Versi aplikasi"

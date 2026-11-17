@@ -23,6 +23,21 @@ hide:
 
 ### November
 
+**18-11-2026**
+
+*Judul halaman lebih jelas di mesin pencari*
+
+- Perbaikan
+       - 20 halaman diberi judul tab dan judul di hasil pencarian yang lebih jelas, misalnya "Mining Anime di Android" alih-alih "Anime". Nama di menu tetap sama
+       - 6 halaman LazyGuide diberi deskripsi sendiri, dan 12 gambar di [Perbaiki Font](font.md) dan [Setup Yomitan dan Anki](setup-yomitan-pc.md) diberi teks alternatif
+       - Tautan ke LazyGuide dipindah dari judul halaman ke baris "Diadaptasi dari LazyGuide" tepat di bawahnya
+       - Baris "Diunggah · Diperbarui" di atas halaman diganti dengan tanggal dibuat dan terakhir diperbarui di bawah halaman, yang terisi otomatis setiap ada perubahan
+       - Halaman Tentang Retention yang masih kosong dihapus, begitu juga bagian yang menautkannya di [Setup Anki di PC](setup-anki-pc-lazy-guide.md)
+       - Alamat lama Memperbarui: Format Lapis sekarang langsung dialihkan ke [Memperbarui Note Type](pembaruan-note-type.md)
+- Untuk Penulis
+       - Penanda `upstream` di halaman LazyGuide sekarang boleh berada tepat setelah front matter
+       - Tanggal halaman tidak perlu ditulis manual lagi
+
 **17-11-2026**
 
 *Bahan ujian JLPT, JFT, SSW, dan tes lainnya*

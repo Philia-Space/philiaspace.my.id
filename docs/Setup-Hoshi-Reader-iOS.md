@@ -1,13 +1,9 @@
 ---
-title: "Hoshi Reader"
+title: "Setup Hoshi Reader di iPhone (iOS)"
 description: "Baca light novel dan buku EPUB di iPhone dengan kamus popup, lalu kirim katanya jadi kartu Anki."
 ---
 
 # Setup Hoshi Reader (iOS)
----
-
- Diunggah: 6 November 2026 – `Yaaacha`
-
 ---
 
 ??? info "Info: tentang Hoshi Reader <small>(klik di sini)</small>"

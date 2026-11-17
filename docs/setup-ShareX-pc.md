@@ -1,9 +1,11 @@
-<!-- upstream: setupShareX @ 2025-11-27 -->
-# Setup ShareX di Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/)
-
 ---
+title: "Setup ShareX untuk Mining di Windows"
+description: "Atur ShareX di Windows untuk screenshot, rekam audio, dan OCR otomatis, supaya hasilnya langsung masuk ke kartu Anki. Wajib untuk mining LazyGuide."
+---
+<!-- upstream: setupShareX @ 2025-11-27 -->
+# Setup ShareX di Windows
 
- Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/).
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Anime Lokal
+title: "Anime Lokal di Manatan"
 description: Struktur folder anime lokal yang didukung untuk Manatan.
 ---
 

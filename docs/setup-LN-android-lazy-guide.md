@@ -1,9 +1,11 @@
-<!-- upstream: setupLnOnAndroid @ 2026-07-12 -->
-# Setup Mining LN, Buku, dan sejenisnya di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/)
-
 ---
+title: "Mining Light Novel dan EPUB di Android"
+description: "Baca light novel dan buku bahasa Jepang di HP Android lewat Firefox atau Edge Canary, cari katanya dengan Yomitan, lalu simpan ke AnkiDroid."
+---
+<!-- upstream: setupLnOnAndroid @ 2026-07-12 -->
+# Setup Mining LN, Buku, dan sejenisnya di Android
 
- Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/).
 
 ---
 

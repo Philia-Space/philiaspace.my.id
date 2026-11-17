@@ -134,7 +134,7 @@ definitions:
       {{ layout.title }}
     {%- elif page.is_homepage -%}
       Belajar bahasa Jepang dari anime, manga, dan novel.
-    {%- elif page.parent and page.parent.title in ["PC", "Android", "iOS"] and "(" not in page.title and page.parent.title not in page.title -%}
+    {%- elif page.parent and page.parent.title in ["PC", "Android", "iOS"] and "(" not in page.meta.get("title", page.title) and page.parent.title not in page.meta.get("title", page.title) -%}
       {{ page.meta.get("title", page.title) }} ({{ page.parent.title }})
     {%- else -%}
       {{ page.meta.get("title", page.title) }}
@@ -142,7 +142,7 @@ definitions:
 
   # Page title with site name
   - &page_title_with_site_name >-
-    {%- if not page.is_homepage and page.parent and page.parent.title in ["PC", "Android", "iOS"] and "(" not in page.title and page.parent.title not in page.title -%}
+    {%- if not page.is_homepage and page.parent and page.parent.title in ["PC", "Android", "iOS"] and "(" not in page.meta.get("title", page.title) and page.parent.title not in page.meta.get("title", page.title) -%}
       {{ page.meta.get("title", page.title) }} ({{ page.parent.title }}) - {{ config.site_name }}
     {%- elif not page.is_homepage -%}
       {{ page.meta.get("title", page.title) }} - {{ config.site_name }}

@@ -1,8 +1,11 @@
-<!-- upstream: setupAnki @ 2025-11-28 -->
-# Setup Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
 ---
+title: "Setup Anki di PC untuk Mining (LazyGuide)"
+description: "Pasang Anki di PC beserta add-on dan note type Lapis dari LazyGuide, siap untuk mining kata bahasa Jepang dan bisa disinkronkan ke HP."
+---
+<!-- upstream: setupAnki @ 2025-11-28 -->
+# Setup Anki di PC
 
- Diunggah: 1 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/).
 
 ---
 
@@ -111,13 +114,7 @@ Template Anki kamu sudah siap. Selanjutnya, siapkan Yomitan:
 
     ![Anki Theme](img/anki-theme.png){height=300 width=600}
 
-#### Info 3: Cara Atur Retention
-
-??? info "Cara Atur Retention <small>(klik untuk buka)</small>"
-
-    Kalau retensimu terasa rendah, buka [Tentang Retention](tentang-retention.md) untuk saran pengaturan Anki dan tips lainnya. (Halamannya belum selesai, tunggu pembaruan berikutnya, ya.)
-
-#### Info 4: Diagram Troubleshooting Interval FSRS
+#### Info 3: Diagram Troubleshooting Interval FSRS
 
 ??? info "Diagram Troubleshooting Interval FSRS <small>(klik untuk buka)</small>"
 

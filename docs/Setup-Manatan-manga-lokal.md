@@ -1,5 +1,5 @@
 ---
-title: Manga Lokal
+title: "Manga Lokal di Manatan"
 description: Struktur folder manga lokal yang didukung untuk Manatan.
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: "Belajar Bahasa Jepang lewat Immersion"
 description: "Panduan immersion dan sentence mining bahasa Jepang, gratis dan berbahasa Indonesia."
 hide:
   - navigation

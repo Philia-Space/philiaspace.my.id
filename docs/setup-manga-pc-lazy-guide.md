@@ -1,8 +1,11 @@
-<!-- upstream: setupMangaOnPC @ 2026-03-25 -->
-# Setup Mining Manga di PC Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/) 
 ---
+title: "Mining Manga di PC Windows"
+description: "Mining manga bahasa Jepang di PC Windows dengan OCR (CDisplayEx dan ShareX) atau Mokuro, lalu cari katanya dengan Yomitan dan simpan ke Anki."
+---
+<!-- upstream: setupMangaOnPC @ 2026-03-25 -->
+# Setup Mining Manga di PC Windows
 
- Diunggah: 24 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
+Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/).
 
 ---
 

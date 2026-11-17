@@ -6,10 +6,6 @@ hide:
 # Panduan Ringkas Belajar Bahasa Jepang
 ---
 
-Diunggah: 3 Agustus 2025 · Diperbarui: 5 November 2026 – `Yaaacha`
-
----
-
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Panduan ini terjemahan dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/), dengan beberapa referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
 

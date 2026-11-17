@@ -50,7 +50,6 @@ nav:
   - 'Sumber Belajar': 'resources.md'
   - 'Proyek Komunitas': 'proyek.md'
   - 'Lain-lain':
-    # - 'Tentang Retention': 'tentang-retention.md'
       - 'Riwayat Perubahan': 'riwayat-perubahan.md'
       - 'Donate': 'donate.md'
 theme:
@@ -137,6 +136,19 @@ plugins:
         - id
         - ja
   - open-in-new-tab
+  # Tanggal dibuat dan terakhir diperbarui, diambil dari riwayat git. Tampil di bawah
+  # halaman dan dipakai di JSON-LD. Build harus dari clone lengkap, bukan clone dangkal.
+  - git-revision-date-localized:
+      type: date
+      locale: id
+      timezone: Asia/Jakarta  # sama dengan "+07:00" di overrides/main.html
+      enable_creation_date: true
+      fallback_to_build_date: true
+      ignored_commits_file: .git-blame-ignore-revs
+  # Halaman yang dipindah: URL lama dialihkan ke halaman barunya
+  - redirects:
+      redirect_maps:
+        'pembaruan-format-lapis.md': 'pembaruan-note-type.md'
   - glightbox:
       touchNavigation: true
       loop: false
