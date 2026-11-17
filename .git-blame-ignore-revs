@@ -1,0 +1,4 @@
+# Commit yang mengubah banyak halaman sekaligus tanpa mengubah isi panduannya.
+# Diabaikan oleh git-revision-date-localized supaya tanggal "diperbarui" tidak ikut berubah.
+# feat(seo): judul, front matter, dan baris tanggal di 30+ halaman
+1330cdf6c79b0cc990f0e70480094990b4b67e8b

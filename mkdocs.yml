@@ -144,6 +144,7 @@ plugins:
       timezone: Asia/Jakarta  # sama dengan "+07:00" di overrides/main.html
       enable_creation_date: true
       fallback_to_build_date: true
+      ignored_commits_file: .git-blame-ignore-revs
   # Halaman yang dipindah: URL lama dialihkan ke halaman barunya
   - redirects:
       redirect_maps:
