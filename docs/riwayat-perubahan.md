@@ -41,6 +41,15 @@ hide:
 - Untuk Penulis
        - Perubahan baru di tanggal yang sudah ada ditulis di bawah perubahan terakhir tanggal itu, dengan judul miring, bukan sebagai tanggal baru
 
+*Dek Ankidrone pindah ke rute JLPT*
+
+- Perbaikan
+       - [Proyek Komunitas](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft): Ankidrone Essentials V9 dari RenRen dan Ankidrone Essentials V1 dari Jibal dipindah dari rute bahasa untuk diri sendiri ke rute tes, karena keduanya dek kosakata JLPT dari buku JLPT Tango
+       - [Proyek Komunitas](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft): keterangan dek Jibal dibetulkan, isinya sudah N5 dan N4, bukan hanya N5
+       - [Proyek Komunitas](proyek.md#kendala-yang-diketahui): tautan Kaishi V2 ternyata masih berlaku, jadi kendala unduhannya diganti dengan cara membukanya di Chrome atau browser lain
+- Penambahan
+       - [Proyek Komunitas](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft): Multilingual Eggrolls JLPT 10k, yang di rekomendasi Discord disebut pilihan utama untuk JLPT
+
 **16-11-2026**
 
 *Dek Anki komunitas di halaman Proyek Komunitas*
