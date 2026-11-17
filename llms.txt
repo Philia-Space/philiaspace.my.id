@@ -1,0 +1,33 @@
+# Philia Space
+
+> Panduan gratis berbahasa Indonesia untuk belajar bahasa Jepang lewat immersion dan sentence mining: menonton dan membaca media Jepang asli (anime, manga, light novel), mencari arti kata dengan kamus popup Yomitan, lalu menyimpan kata baru beserta kalimatnya ke Anki. Ditulis oleh komunitas Philia Space. Teks berlisensi CC BY-SA 4.0.
+
+Semua halaman berbahasa Indonesia. Panduan setup mencakup PC, Android, dan iOS.
+
+## Mulai belajar
+
+- [Panduan Ringkas Bahasa Jepang](https://philiaspace.my.id/panduan-ringkas-JP/): langkah singkat dari nol sampai siap immersion
+- [Panduan Bahasa Jepang](https://philiaspace.my.id/panduan/): panduan lengkap: kana, tata bahasa dasar, Anki, sampai mining
+- [Rencana 30 Hari Pertama](https://philiaspace.my.id/rutinitas-awal/): jadwal belajar hari demi hari untuk pemula
+- [Belajar Kanji](https://philiaspace.my.id/kanji/): belajar kanji lewat kosakata dan immersion
+
+## Setup mining
+
+- [Manatan](https://philiaspace.my.id/Setup-Manatan/): satu aplikasi untuk membaca manga, novel, dan menonton anime sambil membuat kartu Anki, di desktop dan HP
+- [Yomitan dan Anki di PC](https://philiaspace.my.id/setup-yomitan-pc/): setup manual dari awal
+- [Pengantar LazyGuide](https://philiaspace.my.id/setup/): pasang semua alat mining sekaligus (PC dan Android)
+- [Mining anime di PC pakai MPV (Yomipv)](https://philiaspace.my.id/kartu-anime-satu-klik/)
+- [Hoshi Reader di Android](https://philiaspace.my.id/Setup-Hoshi-Reader/) dan [di iPhone](https://philiaspace.my.id/Setup-Hoshi-Reader-iOS/): baca EPUB dengan kamus popup
+- [Fushi di Windows](https://philiaspace.my.id/Setup-Fushi/): novel, manga, video, dan galgame
+- [Pengaturan Note Type](https://philiaspace.my.id/pengaturan-note-type/): isian field kartu Lapis, Kiku, Senren, dan Mining-JP
+
+## Sumber dan komunitas
+
+- [Sumber Belajar](https://philiaspace.my.id/resources/): kamus, dek Anki, aplikasi, bahan immersion, dan bahan ujian JLPT, JFT, SSW
+- [Proyek Komunitas](https://philiaspace.my.id/proyek/): kamus Jepang-Indonesia JIDict, dek Anki komunitas, dan alat buatan anggota
+- [Gabung Discord](https://philiaspace.my.id/join/)
+
+## Optional
+
+- [Riwayat Perubahan](https://philiaspace.my.id/riwayat-perubahan/)
+- [Sitemap](https://philiaspace.my.id/sitemap.xml)
