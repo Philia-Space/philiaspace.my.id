@@ -1,17 +1,18 @@
 ---
-description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, situs, dan bahan immersion."
+description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, situs, bahan immersion, serta bahan ujian JLPT, JFT, SSW, dan tes lainnya."
 ---
 
 # Sumber Belajar
 
 ---
 
-Diunggah: 6 November 2026 – `Yaaacha`
+Diunggah: 6 November 2026 · Diperbarui: 17 November 2026 – `Yaaacha`
 
 ---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Daftar ini dikumpulkan dari [Japanese Resources milik kuri](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), [Ten Resources](https://www.ten.guide/resources), dan [Wotaku](https://wotaku.wiki/nonen/indonesian), ditambah rekomendasi add-on Anki dari Philia Space.
+    - Bagian JLPT, JFT, SSW, dan Tes Jepang Lainnya dikumpulkan dari kiriman anggota Discord Philia Space, #KaburAjaDulu, dan TheMoeWay, ditambah situs resmi tiap ujian.
     - Sebagian besar sumber di bawah berbahasa Inggris atau Jepang. Deskripsinya diterjemahkan dan diringkas.
     - Yang ditulis **tebal** adalah yang paling sering direkomendasikan oleh sumber-sumber itu. Kalau bingung harus mulai dari mana, ambil yang tebal dulu.
     - Beberapa situs konten (anime, manga, novel, gim) adalah situs pihak ketiga yang tidak resmi. Gunakan dengan bijak, dan pakai pemblokir iklan.
@@ -635,12 +636,139 @@ Kanal YouTube untuk contoh tulisan tangan:
 
 ## JLPT
 
+- **[Contoh soal resmi JLPT](https://www.jlpt.jp/e/samples/forlearners.html)**: contoh soal tiap level dari penyelenggara.
+- **[JLPT Online Indonesia](https://jlptonline.or.id/)**: jadwal, pendaftaran, dan pengambilan sertifikat JLPT di Indonesia.
 - [Đề Thi Tiếng Nhật](https://dethitiengnhat.com/): latihan soal N5 sampai N1.
-- Soal JLPT N1 tahun lalu: [MEGA](https://mega.nz/folder/Q0BV0SDD#K-A9VyQn3rj5lX_fjRoqqQ), [Google Drive](https://drive.google.com/drive/folders/1U7Yt9I1S7tgNRRBMLv9xRIeNCZAd_6OE?usp=drive_link), dan [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
-- [Bunpro JLPT](https://bunpro.jp/jlpt_practice_tests): simulasi ujian untuk semua level.
+- Soal JLPT tahun lalu:
+    - [Ten JLPT](https://ten-jlpt-site.vercel.app/): soal asli yang bisa dikerjakan langsung di situs. Versi PDF-nya ada di [MEGA](https://mega.nz/folder/VuAkTBKI#a2cRJETfF3j6tekjMWissg).
+    - [Kumpulan Soal JLPT N1–N5](https://drive.google.com/drive/folders/18_nMIY5iRtNOC2C-AHeRJGG6qVsnucBn): folder Google Drive, dipisah per level.
+    - [Arsip Đề Thi Tiếng Nhật](https://drive.google.com/drive/folders/1QLYCpo4JA52fGGuFPNAMZha5ItDRIUFy): unduhan soal dari Đề Thi Tiếng Nhật, dipisah per level.
+    - Soal N1: [MEGA](https://mega.nz/folder/Q0BV0SDD#K-A9VyQn3rj5lX_fjRoqqQ), [Google Drive](https://drive.google.com/drive/folders/1U7Yt9I1S7tgNRRBMLv9xRIeNCZAd_6OE), dan [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
+- Simulasi dan latihan daring:
+    - [Bunpro JLPT](https://bunpro.jp/id/jlpt_practice_tests): simulasi ujian untuk semua level.
+    - [JLPT247](https://jlpt247.com/jlpt-2/): latihan per bagian ujian.
+    - [Challenge JLPT](https://challenge-jlpt.com/): latihan soal acak N5–N1.
+    - [Nihonez](https://nihonez.com/jlpt-test/): simulasi ujian lengkap N5–N1.
+    - [Unagibun](https://www.unagibun.com/jlpt-online/): simulasi N5–N3.
+    - [Cakap](https://cakap.com/simulasi-tes/jlpt/): simulasi JLPT gratis dalam bahasa Indonesia.
+    - [Riki Jepang](https://rikijepang.com/jlpt/examination-library): kumpulan soal latihan JLPT.
+    - [Kanji123](https://kanji123.org/): tes kanji per level.
+    - [Japanesetest4you](https://japanesetest4you.com/): soal tata bahasa, kosakata, dan kanji per level.
 - [JPDrills](https://www.jpdrills.com/): soal tata bahasa, kosakata, dan kanji JLPT.
 - [Migii](https://migii.net/en/): aplikasi dan situs berbayar untuk latihan JLPT lengkap.
+- [Uno Japano](https://unojapano.com/category/jlpt-answers/): kunci jawaban tidak resmi, terbit beberapa hari setelah ujian.
+- [Modul JLPT/JFT](https://drive.google.com/drive/folders/1mdmEpMVpp2swbKMvDMi2ywBlIOKS00ic): folder materi JLPT N4, N3, dan JFT A2.
+- [日本語のMASTERLIST](https://moduljp.uwu.ai/): kumpulan PDF materi bahasa Jepang.
 
+Dek Anki untuk JLPT ada di [Proyek Komunitas, Rute 2](proyek.md#rute-2-bahasa-untuk-tes-jlpt-jft).
+
+---
+
+## JFT
+
+JFT-Basic kira-kira setara JLPT N4. Buku acuannya Irodori, jadi mulai dari situ.
+
+- **[JFT-Basic (Japan Foundation)](https://www.jpf.go.jp/jft-basic/id/)**: info ujian, contoh soal, dan aturan terbaru.
+- **[Prometric](https://www.prometric-jp.com/id/ssw/)**: pendaftaran dan jadwal ujian JFT-Basic dan SSW. Tulis nama persis seperti di KTP, [aturannya ada di sini](https://www.prometric-jp.com/id/ssw/exam/id/attention_for_correct_prometric_id/).
+- **[Irodori](https://sites.google.com/view/jf-irodori/halaman-pemelajar)**: buku Irodori A1 dan A2 beserta audionya, gratis. Ada juga [kursus daringnya](https://www.irodori-online.jpf.go.jp/).
+- [Marugoto](https://marugoto.jpf.go.jp/en/download/): audio dan bahan pendukung buku Marugoto A1 sampai B1 dari Japan Foundation, gratis diunduh.
+- [JF Minato](https://minato-jf.jp/): kursus daring Japan Foundation, sebagian besar gratis. Perlu daftar akun.
+- [JFT-Simulation](https://jft-simulation.com/): tiruan tampilan ujian JFT-A2, supaya kamu terbiasa dengan layarnya.
+- [JFT CBT Pro](https://jft.minnanihongo.id/): simulasi ujian berbasis komputer. Perlu daftar akun.
+- [Jitensha](https://jitensha.my.id/latihan-soal/): latihan soal JFT. Password: `Jft2025`.
+- [Fajar Gakuen](https://www.fajargakuen.asia/): latihan membaca (dokkai) JFT dan soal SSW.
+- Folder Google Drive dari anggota:
+    - [Kisi-kisi JFT](https://drive.google.com/drive/folders/1rruHUHscM6clj6abZh9Bh_op-NJDhd1j): gambaran soal JFT dalam PDF.
+    - [JFT](https://drive.google.com/drive/folders/14PA_FrUbo58gLBp3QNOEfSbQKye8b7YS): Irodori A1–A2, kanji Marugoto A1, kanji A2, dan Kanji JFT 613.
+    - [JFT & SSW](https://drive.google.com/drive/folders/1iTdxqboTLY18wOnsmgmkPFgyFqgxS6kj): latihan soal, materi SSW, dan persiapan wawancara (mensetsu).
+    - [Materi bahasa Jepang campuran](https://drive.google.com/drive/folders/1Pk2GvCnzKnri58gD9aDHn9tCIHBKkZ28): JFT, JLPT, SSW, Minna no Nihongo, Irodori, Genki, dan lain-lain.
+
+---
+
+## SSW (Tokutei Ginou)
+
+- **[Daftar ujian SSW per bidang (Prometric)](https://www.prometric-jp.com/id/ssw/test_list/)**: jadwal dan info ujian keahlian tiap bidang.
+- Materi resmi dari lembaga penyelenggara:
+    - [Konstruksi (JAC)](https://global.jac-skill.or.jp/en/examination/documents.php): buku teks dan contoh soal, ada versi bahasa Indonesia.
+    - [Pertanian (ASAT)](https://asat-nca.jp/id/textbook/): buku teks bahasa Indonesia.
+    - [Manufaktur (JAIM)](https://en.jaim-skill.or.jp/exam/materials/): buku teks dan contoh soal.
+    - [Pengolahan makanan (OTAFF)](https://otaff.or.jp/tokutei/insyoku-1/materials/): buku teks.
+    - Logistik (JARW): [buku teks](https://www.jarw.or.jp/wp/wp-content/uploads/2026/10/specified_skilled_worker_textbook_202607.pdf) dan [contoh soal](https://www.jarw.or.jp/wp/wp-content/uploads/2026/10/specified_skilled_worker_exam_prep_202607.pdf), PDF.
+- [SSW Japan Study Portal](https://sswjapanstudyportal.com/en/): info modul SSW dari berbagai bidang.
+- [Nihongo Library](https://nihongo-library.lovable.app/): perpustakaan PDF materi bahasa Jepang dan SSW. Ada juga [versi lainnya](https://www.nihongo-library.web.id/).
+- Folder Google Drive dari anggota:
+    - [Modul SSW](https://drive.google.com/drive/folders/1o2233uxusS1I9W3Yze2-CAFMCp2bx2kB): modul dan materi SSW berbagai bidang.
+    - [Materi pengolahan makanan](https://drive.google.com/drive/folders/19qs4ax53zYqohHz9aDTkd5PZ7NjstG61).
+    - [Latihan soal pengolahan makanan 2024](https://drive.google.com/drive/folders/1KoQC5App6FAUC5SzS4AMkIbdkWXXHS77): renshuu per bab, ada kunci jawabannya.
+    - [Rekaman pembahasan kisi-kisi SSW pengolahan makanan](https://drive.google.com/drive/folders/1R5RG56-L287-MZpnR8mGM59S-E_B9u4o): video Zoom dari grup WA Info SSW PM.
+
+Dek Anki kosakata per bidang (perhotelan, konstruksi, peternakan, otomotif, building cleaning, dan lainnya) ada di [Proyek Komunitas, Rute 3](proyek.md#rute-3-bahasa-untuk-kerja-magang-tokutei-ginou).
+
+### Cek Sebelum Daftar
+
+- **[Daftar RSO/TSK resmi (Kementerian Kehakiman Jepang)](https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00205.html)**. Untuk mencarinya lebih mudah, pakai [Philia Kensaku](https://philiakensaku.vercel.app/).
+- **[Daftar LPK sending organization (OTIT)](https://www.otit.go.jp/system/sender/list_sender/)**: cek apakah LPK-mu terdaftar.
+- [Saluran pengaduan pekerja asing (MHLW)](https://www.check-roudou.mhlw.go.jp/soudan/foreigner.html): kalau ada masalah gaji, jam kerja, atau perlakuan di tempat kerja.
+- [Program magang Kemnaker (Skillhub)](https://skillhub.kemnaker.go.id/magang/): daftar program magang resmi pemerintah, termasuk ke Jepang.
+
+---
+
+## Tes Jepang Lainnya
+
+### Tes Bahasa Selain JLPT
+
+- [NAT-TEST](https://nat-test.jp/): levelnya 5Q sampai 1Q, mengikuti level JLPT. Diadakan lebih sering daripada JLPT, dan ada lokasi ujian di Indonesia, misalnya Jakarta, Padang, dan Denpasar.
+    - Bentuk soalnya sama dengan JLPT ([perbandingannya](https://nat-test.jp/contents/comparison.html)), jadi bahan latihan JLPT di atas bisa langsung dipakai. Soal latihan resminya hanya ada di [buku berbayar](https://nat-test.jp/workbook.html).
+- [J.TEST](https://j-test.jp/): tes bahasa Jepang praktis dan bisnis. Ada kantor perwakilan di Indonesia, jadwalnya bisa dicek lewat [daftar kantor luar negeri](https://j-test.jp/office1).
+    - **[Contoh soal resmi](https://j-test.jp/newj-sample)**: PDF untuk level A-C, D-E, dan F-G, lengkap dengan kunci jawaban.
+    - **[Latihan soal bulanan](https://j-test.jp/page_id2066)**: PDF gratis yang terbit tiap bulan, arsipnya sejak beberapa tahun lalu. Ada juga [latihan membaca bulanan](https://j-test.jp/wadai).
+- [BJT](https://www.kanken.or.jp/bjt/english/): tes bahasa Jepang bisnis berbasis komputer. Bisa diambil di Indonesia.
+    - **[Contoh soal resmi](https://www.kanken.or.jp/bjt/english/sample/sample01.html)**: tiga bagian ujian (mendengar, mendengar-membaca, membaca).
+    - [Simulasi tampilan ujian](https://www.kanken.or.jp/bjt/cbt_demo/): coba layar ujian berbasis komputernya.
+- [J-CAT](https://www.j-cat2.org/): tes daring yang menyesuaikan soal dengan kemampuanmu. Cocok untuk cek level dengan cepat. Ada [contoh soalnya](https://www.j-cat2.org/html5sample/).
+
+### Kanji
+
+- [Kanken (漢字検定)](https://www.kanken.or.jp/kanken/): ujian kanji resmi yang dipakai orang Jepang sendiri.
+- [KOMABA Jakarta](https://www.komaba.id/kanji_kentei/): tempat ikut Kanken di Indonesia.
+- **[Contoh soal resmi tiap level](https://www.kanken.or.jp/kanken/grades/sample/)**: soal satu ujian lengkap per level, beserta jawabannya, PDF.
+- [Cek level](https://www.kanken.or.jp/kanken/grades/meyasucheck/): tes singkat untuk menentukan level Kanken yang cocok.
+- [Arsip soal Kanken tahun lalu](https://drive.google.com/drive/folders/1o1vq5HDY3wT08b6eINaNcmP_U7hK6VaH): folder Google Drive dari komunitas TheMoeWay, level 10 sampai 1.
+- Latihan daring gratis: [Kanken WEB 問題集](https://kanken.jitenon.jp/) untuk semua level, [準1級](https://jun1mondai.com/), [2級](https://derujun-2kyu.com/), dan [準2級](https://derujun-jun2kyu.com/).
+- Dek dan info komunitas Kanken ada di bagian [Menulis Tangan](#menulis-tangan).
+
+### Kuliah di Jepang
+
+- **[EJU (日本留学試験)](https://www.jasso.go.jp/en/ryugaku/eju/index.html)**: ujian masuk universitas Jepang untuk pelajar asing. Di Indonesia diselenggarakan lewat Pusat Studi Jepang UI, [kontaknya di sini](https://www.jasso.go.jp/en/ryugaku/eju/examinee/contact/asia.html).
+- **[Soal EJU tahun lalu](https://www.jasso.go.jp/en/ryugaku/eju/examinee/pastpaper_sample/index.html)**: soal resmi dari JASSO, 2011 sampai 2021. Soal bahasa Jepang dan Japan and the World hanya tersedia sampai 2018 sesi 1, sedangkan matematika dan IPA sampai 2021.
+- [Silabus EJU](https://www.jasso.go.jp/en/ryugaku/eju/examinee/syllabus/index.html): cakupan materi tiap mata ujian.
+- [Try IT](https://www.try-it.jp/): video pelajaran SMA Jepang gratis, berguna untuk matematika dan IPA EJU.
+
+### Kaigo
+
+- **[Ujian SSW kaigo (Prometric)](https://www.prometric-jp.com/id/ssw/test_list/archives/2)**: ada dua ujian, tes keterampilan kaigo dan tes bahasa Jepang kaigo. Tes keterampilannya bisa dikerjakan dalam bahasa Indonesia.
+- [Cara reservasi ujian kaigo](https://www.youtube.com/watch?v=PxV9GuXF5r0): video langkah demi langkah dari Asep Hwang.
+- Bahan resmi dari Kementerian Kesehatan Jepang (MHLW), gratis:
+    - **[Contoh soal tes keterampilan kaigo](https://www.mhlw.go.jp/content/001745557.pdf)** dan **[contoh soal tes bahasa Jepang kaigo](https://www.mhlw.go.jp/content/001745561.pdf)**.
+    - [Kisi-kisi resmi (出題基準)](https://www.mhlw.go.jp/content/12000000/000503362.pdf): daftar materi yang diujikan, bahasa Jepang.
+    - **[Buku teks ujian SSW kaigo, edisi revisi 2, bahasa Indonesia](https://www.mhlw.go.jp/content/12000000/001472066.pdf)**: 276 halaman, untuk ujian mulai 2026. Cek juga [ralatnya](https://www.mhlw.go.jp/content/12000000/001505095.pdf).
+    - [Daftar istilah kaigo, bahasa Indonesia](https://www.mhlw.go.jp/content/12000000/001348406.pdf).
+    - [Teks "Bahasa Jepang untuk Kaigo"](https://www.mhlw.go.jp/content/12000000/001184461.pdf): kosakata dan ungkapan dasar, dengan terjemahan Inggris, Indonesia, Vietnam, dan Cina.
+    - Semua bahan lain ada di [halaman MHLW untuk tenaga kaigo asing](https://www.mhlw.go.jp/stf/newpage_28131.html).
+- [にほんごをまなぼう](https://aft.kaigo-nihongo.jp/rpv/): situs belajar mandiri dari Asosiasi Kaigo Fukushishi Jepang, untuk target N3 dan ujian SSW kaigo. Gratis, perlu daftar.
+- [Nihongo de Care-Navi](https://ind.nihongodecarenavi.jp/): kamus dan latihan bahasa Jepang perawatan, versi bahasa Indonesia.
+- Bahan dari komunitas:
+    - [Materi kaigo](https://drive.google.com/drive/folders/1pahykm5PlArNEKzw9FKyafYFBWjmEM9J): modul dan video pembelajaran dari onizuka eikichi.
+    - [Kaigo bahasa Jepang (PDF)](https://drive.google.com/file/d/1LEHxzwVpBbVPIpsWG9m1LAwlYf308hb_/view): ringkasan kosakata kaigo.
+    - [介護の漢字サポーター](http://kaigo-kanji.com/): latihan kanji yang dipakai di dunia kaigo.
+    - [Kaigo Sensei Pro](https://kaigo-sensei-pro.vercel.app/): aplikasi belajar kaigo dan persiapan ujian nasional, ada pilihan bahasa Indonesia.
+    - [Dek Kanji SSW Kaigo](https://ankiweb.net/shared/info/1736742082): dek Anki kanji kaigo.
+
+#### Ujian Nasional Kaigo Fukushishi
+
+- [Info ujian 介護福祉士](https://www.sssc.or.jp/kaigo/): untuk yang ingin naik jadi kaigo fukushishi.
+- **[Soal ujian tahun lalu](https://www.sssc.or.jp/kaigo/past_exam/index.html)**: soal resmi tiga tahun terakhir.
+- **[Buku tanya-jawab ujian nasional, bahasa Indonesia](https://www.mhlw.go.jp/content/000941751.pdf)**: 155 halaman, dari MHLW.
 ---
 
 ## Mencatat Immersion
