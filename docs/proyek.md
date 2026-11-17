@@ -239,7 +239,7 @@ Untuk kamu yang sedang mengejar sertifikat. Dek di sini mengikuti buku persiapan
 
 </div>
 
-Dek lain: [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713) dari Ardya, yang di rekomendasi Discord disebut pilihan utama untuk JLPT, [Anki Deck Soal JLPT 2010–2025](https://discord.com/channels/1370274344571240552/1519035130243448932) dari Dosen Tipsen, [Deck Bunpou Nihongo no Mori](https://discord.com/channels/1370274344571240552/1431808153774854154) dari Don Hans, [Soumatome N3 (Goi)](https://discord.com/channels/1370274344571240552/1537273268317454366) dari Seith. Untuk melihat level JLPT kata yang kamu temui saat immersion, pasang [JIDict Frequency](#jidict-frequency).
+Dek lain: [Multilingual Eggrolls JLPT 10k](https://discord.com/channels/1370274344571240552/1515670605708398713) dari Ardya, yang di rekomendasi Discord disebut pilihan utama untuk JLPT, [Anki Deck Soal JLPT 2010–2025](https://discord.com/channels/1370274344571240552/1519035130243448932) dari Dosen Tipsen, [Deck Bunpou Nihongo no Mori](https://discord.com/channels/1370274344571240552/1431808153774854154) dari Don Hans, [Soumatome N3 (Goi)](https://discord.com/channels/1370274344571240552/1537273268317454366) dari Seith. Tautan unduhan Anki Deck Soal JLPT di thread aslinya sudah mati, jadi pakai [cadangan dari Rぃ](https://drive.google.com/file/d/1KY2Q7-kwWNu0olVXYNJcq3lBf4yCYEAA/view). Soal listening di dek itu tidak bisa dipakai karena audionya tidak lengkap. Untuk melihat level JLPT kata yang kamu temui saat immersion, pasang [JIDict Frequency](#jidict-frequency).
 
 ### Rute 3: Bahasa untuk kerja (magang, Tokutei Ginou)
 
