@@ -102,15 +102,115 @@ Bahasa tampilan Mac tidak berubah selama bahasa Jepang tidak kamu taruh di uruta
 
 ## Linux
 
-1. Pastikan `ja_JP.UTF-8` ada di daftar locale sistemmu. Kalau belum ada, hapus tanda `#` di baris `#ja_JP.UTF-8 UTF-8` dalam file `/etc/locale.gen`, lalu jalankan:
+Di Linux, font untuk kanji ditentukan oleh font yang terpasang dan aturan fontconfig. Kalau font Jepang belum ada atau urutannya salah, kanji tampil dengan bentuk China. Bahasa sistem tidak perlu diganti ke Jepang.
+
+Semua perintah di bawah dijalankan di Terminal. Salin satu blok, tempel, tekan ++enter++, lalu lanjut ke langkah berikutnya.
+
+### 1. Pasang font Jepang
+
+=== "Ubuntu, Debian, Linux Mint"
 
     ```bash
-    sudo locale-gen
+    sudo apt update
+    sudo apt install fonts-noto-cjk
     ```
 
-2. Pasang paket [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/). Di Arch, paket ini dari repositori resmi dan biasanya langsung mengatur aturan fontconfig yang diperlukan
+=== "Arch"
 
-Kalau distro, font, atau cara pasangmu berbeda, fontconfig belum tentu sudah benar. Cara paling aman: buat file aturan fontconfig khusus teks Jepang di folder `~/.config/fontconfig/conf.d` (buat foldernya kalau belum ada). Pakai [bagian ini](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese) dari Arch Wiki atau [contoh file dari tatsumoto-ren](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf) sebagai acuan.
+    ```bash
+    sudo pacman -S noto-fonts-cjk
+    ```
+
+Paket ini berisi font Noto CJK yang punya bentuk kanji Jepang, China, dan Korea sekaligus. Langkah berikutnya memastikan bentuk Jepang yang dipakai untuk teks bahasa Jepang.
+
+### 2. Buat aturan fontconfig
+
+Salin seluruh blok ini ke Terminal sekaligus, dari baris `mkdir` sampai baris `EOF`:
+
+```bash
+mkdir -p ~/.config/fontconfig/conf.d
+cat > ~/.config/fontconfig/conf.d/99-japanese-fonts.conf <<'EOF'
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <match>
+    <test name="lang" compare="contains"><string>ja</string></test>
+    <test name="family"><string>sans-serif</string></test>
+    <edit name="family" mode="prepend"><string>Noto Sans CJK JP</string></edit>
+  </match>
+  <match>
+    <test name="lang" compare="contains"><string>ja</string></test>
+    <test name="family"><string>serif</string></test>
+    <edit name="family" mode="prepend"><string>Noto Serif CJK JP</string></edit>
+  </match>
+  <match>
+    <test name="lang" compare="contains"><string>ja</string></test>
+    <test name="family"><string>monospace</string></test>
+    <edit name="family" mode="prepend"><string>Noto Sans Mono CJK JP</string></edit>
+  </match>
+</fontconfig>
+EOF
+```
+
+Perintah ini membuat file baru khusus untuk aturan font Jepang. File `fonts.conf` milikmu, kalau ada, tidak disentuh.
+
+??? info "Apa isi aturan ini?"
+    Setiap kali aplikasi meminta font sans-serif, serif, atau monospace untuk teks berbahasa Jepang, fontconfig mendahulukan versi JP dari Noto CJK. Font untuk bahasa lain tidak berubah.
+
+### 3. Terapkan aturannya
+
+```bash
+fc-cache -f
+```
+
+Tutup lalu buka lagi aplikasi yang mau diperbaiki, termasuk browser. Komputer tidak perlu di-restart.
+
+### 4. Periksa hasilnya
+
+Jalankan:
+
+```bash
+fc-match 'sans-serif:lang=ja'; fc-match 'serif:lang=ja'; fc-match 'monospace:lang=ja'
+```
+
+Ketiga baris hasilnya harus menyebut nama font ini, berurutan:
+
+| Jenis | Hasil yang benar |
+|---|---|
+| Sans-serif | `Noto Sans CJK JP` |
+| Serif | `Noto Serif CJK JP` |
+| Monospace | `Noto Sans Mono CJK JP` |
+
+Kalau yang muncul `SC`, `TC`, `KR`, atau font lain, ulangi langkah 2 dan 3.
+
+Setelah itu, buka lagi bagian [Cek Font Kamu](#cek-font-kamu) dan lihat bentuk 直. Kalau masih versi China, lanjut ke [Kalau Font China Masih Muncul di Browser](#kalau-font-china-masih-muncul-di-browser).
+
+??? info "Opsional: tambahkan locale Jepang"
+    Tidak wajib untuk memperbaiki font. Locale Jepang hanya membantu aplikasi yang menebak bahasa dari locale sistem.
+
+    === "Ubuntu, Debian, Linux Mint"
+
+        1. Jalankan `sudo dpkg-reconfigure locales`
+        2. Cari `ja_JP.UTF-8`, lalu tekan ++space++ untuk mencentangnya
+        3. Tekan ++enter++
+        4. Saat diminta memilih locale default, **tetap pilih locale yang sekarang kamu pakai** (misalnya `en_US.UTF-8`), bukan Jepang
+
+    === "Arch"
+
+        1. Buka `/etc/locale.gen`, lalu hapus tanda `#` di depan baris `#ja_JP.UTF-8 UTF-8`
+        2. Jalankan `sudo locale-gen`
+
+??? question "Mau membatalkan semua perubahan ini?"
+    Hapus file aturannya, lalu perbarui cache font:
+
+    ```bash
+    rm ~/.config/fontconfig/conf.d/99-japanese-fonts.conf
+    fc-cache -f
+    ```
+
+    Tutup lalu buka lagi aplikasimu. Font Noto CJK boleh tetap terpasang.
+
+Rujukan: [Arch Wiki: Font configuration](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese), [contoh file dari tatsumoto-ren](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf).
 
 ---
 
@@ -125,6 +225,7 @@ Kadang font China tetap muncul walaupun pengaturan sistem sudah benar. Paksa fon
     - `Standard font`: `Noto Sans CJK JP Regular`
     - `Serif font`: `Noto Serif CJK JP Regular`
     - `Sans-serif font`: `Noto Sans CJK JP Regular`
+    - `Fixed-width font`: `Noto Sans Mono CJK JP Regular`
 
 Di Windows yang tidak punya font Noto, pakai pengaturan Meiryo dari [Cara 1](#windows).
 

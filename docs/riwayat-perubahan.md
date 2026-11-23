@@ -23,6 +23,15 @@ hide:
 
 ### November
 
+**23-11-2026**
+
+*Panduan font Linux langkah demi langkah*
+
+- Pembaruan
+       - Bagian Linux di [Perbaiki Font](font.md) sekarang berisi perintah siap salin untuk Ubuntu dan Arch, file aturan fontconfig yang sudah jadi, cara memeriksa hasilnya dengan `fc-match`, dan cara membatalkannya
+       - Locale Jepang dipindah ke bagian opsional karena tidak wajib untuk memperbaiki font
+       - Pengaturan `Fixed-width font` ditambahkan di bagian Chromium
+
 **18-11-2026**
 
 *Judul halaman lebih jelas di mesin pencari*
