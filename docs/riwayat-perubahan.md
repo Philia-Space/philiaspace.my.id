@@ -39,6 +39,13 @@ hide:
 - Perbaikan
        - Langkah memasang keyboard Jepang di [30 Hari Awal](rutinitas-awal.md) dan [Belajar Kanji](kanji.md) sekarang menautkan halaman itu
 
+*Sumber belajar visa Gijinkoku*
+
+- Penambahan
+       - [Sumber Belajar](resources.md#gijinkoku): bagian baru untuk visa Gijinkoku (技人国), berisi syarat resmi, aturan bahasa yang berlaku sejak 15 April 2026, dan situs untuk mencari kerja. Sebagian tautan dikumpulkan dari server Philia Space, KaburAjaDulu, dan TheMoeWay
+- Perbaikan
+       - Tautan OTIT dan program magang Kemnaker di bagian SSW diberi keterangan bahwa keduanya untuk program magang (Ginou Jisshuu)
+
 **18-11-2026**
 
 *Judul halaman lebih jelas di mesin pencari*
