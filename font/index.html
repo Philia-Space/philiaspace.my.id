@@ -85,7 +85,7 @@
     
   
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "dateModified": "2026-11-16T20:16:34+07:00", "datePublished": "2025-08-10T11:33:09+07:00", "description": "Cara memastikan kanji di komputer dan HP-mu tampil dengan font Jepang yang benar.", "headline": "Perbaiki Font Jepang di PC dan HP", "inLanguage": "id", "isPartOf": {"@type": "WebSite", "name": "Philia Space", "url": "https://philiaspace.my.id/"}, "publisher": {"@type": "Organization", "logo": "https://philiaspace.my.id/img/philia-space-logo.jpg", "name": "Philia Space", "sameAs": ["https://github.com/Philia-Space/philiaspace.my.id", "https://discord.gg/hp55WMbbG6"], "url": "https://philiaspace.my.id/"}, "url": "https://philiaspace.my.id/font/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "dateModified": "2026-11-23T15:31:18+07:00", "datePublished": "2025-08-10T11:33:09+07:00", "description": "Cara memastikan kanji di komputer dan HP-mu tampil dengan font Jepang yang benar.", "headline": "Perbaiki Font Jepang di PC dan HP", "inLanguage": "id", "isPartOf": {"@type": "WebSite", "name": "Philia Space", "url": "https://philiaspace.my.id/"}, "publisher": {"@type": "Organization", "logo": "https://philiaspace.my.id/img/philia-space-logo.jpg", "name": "Philia Space", "sameAs": ["https://github.com/Philia-Space/philiaspace.my.id", "https://discord.gg/hp55WMbbG6"], "url": "https://philiaspace.my.id/"}, "url": "https://philiaspace.my.id/font/"}</script>
 
   
 <meta property="og:type" content="website">
@@ -621,6 +621,56 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Linux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-pasang-font-jepang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Pasang font Jepang
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-buat-aturan-fontconfig" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Buat aturan fontconfig
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-terapkan-aturannya" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Terapkan aturannya
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-periksa-hasilnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Periksa hasilnya
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1914,6 +1964,56 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Linux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-pasang-font-jepang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Pasang font Jepang
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-buat-aturan-fontconfig" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Buat aturan fontconfig
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-terapkan-aturannya" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Terapkan aturannya
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-periksa-hasilnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Periksa hasilnya
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2122,17 +2222,117 @@
 <p>Bahasa tampilan Mac tidak berubah selama bahasa Jepang tidak kamu taruh di urutan teratas.</p>
 <hr>
 <h2 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">¶</a></h2>
-<ol>
-<li>
-<p>Pastikan <code>ja_JP.UTF-8</code> ada di daftar locale sistemmu. Kalau belum ada, hapus tanda <code>#</code> di baris <code>#ja_JP.UTF-8 UTF-8</code> dalam file <code>/etc/locale.gen</code>, lalu jalankan:</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>locale-gen
+<p>Di Linux, font untuk kanji ditentukan oleh font yang terpasang dan aturan fontconfig. Kalau font Jepang belum ada atau urutannya salah, kanji tampil dengan bentuk China. Bahasa sistem tidak perlu diganti ke Jepang.</p>
+<p>Semua perintah di bawah dijalankan di Terminal. Salin satu blok, tempel, tekan <span class="keys"><kbd class="key-enter">Enter</kbd></span>, lalu lanjut ke langkah berikutnya.</p>
+<h3 id="1-pasang-font-jepang">1. Pasang font Jepang<a class="headerlink" href="#1-pasang-font-jepang" title="Permanent link">¶</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">Ubuntu, Debian, Linux Mint</label><label for="__tabbed_2_2">Arch</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>fonts-noto-cjk
 </code></pre></div>
-</li>
-<li>
-<p>Pasang paket <a href="https://archlinux.org/packages/extra/any/noto-fonts-cjk/">noto-fonts-cjk</a>. Di Arch, paket ini dari repositori resmi dan biasanya langsung mengatur aturan fontconfig yang diperlukan</p>
-</li>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>noto-fonts-cjk
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Paket ini berisi font Noto CJK yang punya bentuk kanji Jepang, China, dan Korea sekaligus. Langkah berikutnya memastikan bentuk Jepang yang dipakai untuk teks bahasa Jepang.</p>
+<h3 id="2-buat-aturan-fontconfig">2. Buat aturan fontconfig<a class="headerlink" href="#2-buat-aturan-fontconfig" title="Permanent link">¶</a></h3>
+<p>Salin seluruh blok ini ke Terminal sekaligus, dari baris <code>mkdir</code> sampai baris <code>EOF</code>:</p>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/fontconfig/conf.d
+cat<span class="w"> </span>&gt;<span class="w"> </span>~/.config/fontconfig/conf.d/99-japanese-fonts.conf<span class="w"> </span><span class="s">&lt;&lt;'EOF'</span>
+<span class="s">&lt;?xml version="1.0"?&gt;</span>
+<span class="s">&lt;!DOCTYPE fontconfig SYSTEM "fonts.dtd"&gt;</span>
+<span class="s">&lt;fontconfig&gt;</span>
+<span class="s">  &lt;match&gt;</span>
+<span class="s">    &lt;test name="lang" compare="contains"&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;test name="family"&gt;&lt;string&gt;sans-serif&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;edit name="family" mode="prepend"&gt;&lt;string&gt;Noto Sans CJK JP&lt;/string&gt;&lt;/edit&gt;</span>
+<span class="s">  &lt;/match&gt;</span>
+<span class="s">  &lt;match&gt;</span>
+<span class="s">    &lt;test name="lang" compare="contains"&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;test name="family"&gt;&lt;string&gt;serif&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;edit name="family" mode="prepend"&gt;&lt;string&gt;Noto Serif CJK JP&lt;/string&gt;&lt;/edit&gt;</span>
+<span class="s">  &lt;/match&gt;</span>
+<span class="s">  &lt;match&gt;</span>
+<span class="s">    &lt;test name="lang" compare="contains"&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;test name="family"&gt;&lt;string&gt;monospace&lt;/string&gt;&lt;/test&gt;</span>
+<span class="s">    &lt;edit name="family" mode="prepend"&gt;&lt;string&gt;Noto Sans Mono CJK JP&lt;/string&gt;&lt;/edit&gt;</span>
+<span class="s">  &lt;/match&gt;</span>
+<span class="s">&lt;/fontconfig&gt;</span>
+<span class="s">EOF</span>
+</code></pre></div>
+<p>Perintah ini membuat file baru khusus untuk aturan font Jepang. File <code>fonts.conf</code> milikmu, kalau ada, tidak disentuh.</p>
+<details class="info">
+<summary>Apa isi aturan ini?</summary>
+<p>Setiap kali aplikasi meminta font sans-serif, serif, atau monospace untuk teks berbahasa Jepang, fontconfig mendahulukan versi JP dari Noto CJK. Font untuk bahasa lain tidak berubah.</p>
+</details>
+<h3 id="3-terapkan-aturannya">3. Terapkan aturannya<a class="headerlink" href="#3-terapkan-aturannya" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>fc-cache<span class="w"> </span>-f
+</code></pre></div>
+<p>Tutup lalu buka lagi aplikasi yang mau diperbaiki, termasuk browser. Komputer tidak perlu di-restart.</p>
+<h3 id="4-periksa-hasilnya">4. Periksa hasilnya<a class="headerlink" href="#4-periksa-hasilnya" title="Permanent link">¶</a></h3>
+<p>Jalankan:</p>
+<div class="highlight"><pre><span></span><code>fc-match<span class="w"> </span><span class="s1">'sans-serif:lang=ja'</span><span class="p">;</span><span class="w"> </span>fc-match<span class="w"> </span><span class="s1">'serif:lang=ja'</span><span class="p">;</span><span class="w"> </span>fc-match<span class="w"> </span><span class="s1">'monospace:lang=ja'</span>
+</code></pre></div>
+<p>Ketiga baris hasilnya harus menyebut nama font ini, berurutan:</p>
+<table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Hasil yang benar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sans-serif</td>
+<td><code>Noto Sans CJK JP</code></td>
+</tr>
+<tr>
+<td>Serif</td>
+<td><code>Noto Serif CJK JP</code></td>
+</tr>
+<tr>
+<td>Monospace</td>
+<td><code>Noto Sans Mono CJK JP</code></td>
+</tr>
+</tbody>
+</table>
+<p>Kalau yang muncul <code>SC</code>, <code>TC</code>, <code>KR</code>, atau font lain, ulangi langkah 2 dan 3.</p>
+<p>Setelah itu, buka lagi bagian <a href="#cek-font-kamu">Cek Font Kamu</a> dan lihat bentuk 直. Kalau masih versi China, lanjut ke <a href="#kalau-font-china-masih-muncul-di-browser">Kalau Font China Masih Muncul di Browser</a>.</p>
+<details class="info">
+<summary>Opsional: tambahkan locale Jepang</summary>
+<p>Tidak wajib untuk memperbaiki font. Locale Jepang hanya membantu aplikasi yang menebak bahasa dari locale sistem.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><input id="__tabbed_3_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="__tabbed_3_1">Ubuntu, Debian, Linux Mint</label><label for="__tabbed_3_2">Arch</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Jalankan <code>sudo dpkg-reconfigure locales</code></li>
+<li>Cari <code>ja_JP.UTF-8</code>, lalu tekan <span class="keys"><kbd class="key-space">Space</kbd></span> untuk mencentangnya</li>
+<li>Tekan <span class="keys"><kbd class="key-enter">Enter</kbd></span></li>
+<li>Saat diminta memilih locale default, <strong>tetap pilih locale yang sekarang kamu pakai</strong> (misalnya <code>en_US.UTF-8</code>), bukan Jepang</li>
 </ol>
-<p>Kalau distro, font, atau cara pasangmu berbeda, fontconfig belum tentu sudah benar. Cara paling aman: buat file aturan fontconfig khusus teks Jepang di folder <code>~/.config/fontconfig/conf.d</code> (buat foldernya kalau belum ada). Pakai <a href="https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese">bagian ini</a> dari Arch Wiki atau <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf">contoh file dari tatsumoto-ren</a> sebagai acuan.</p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Buka <code>/etc/locale.gen</code>, lalu hapus tanda <code>#</code> di depan baris <code>#ja_JP.UTF-8 UTF-8</code></li>
+<li>Jalankan <code>sudo locale-gen</code></li>
+</ol>
+</div>
+</div>
+</div>
+</details>
+<details class="question">
+<summary>Mau membatalkan semua perubahan ini?</summary>
+<p>Hapus file aturannya, lalu perbarui cache font:</p>
+<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>~/.config/fontconfig/conf.d/99-japanese-fonts.conf
+fc-cache<span class="w"> </span>-f
+</code></pre></div>
+<p>Tutup lalu buka lagi aplikasimu. Font Noto CJK boleh tetap terpasang.</p>
+</details>
+<p>Rujukan: <a href="https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese">Arch Wiki: Font configuration</a>, <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf">contoh file dari tatsumoto-ren</a>.</p>
 <hr>
 <h2 id="kalau-font-china-masih-muncul-di-browser">Kalau Font China Masih Muncul di Browser<a class="headerlink" href="#kalau-font-china-masih-muncul-di-browser" title="Permanent link">¶</a></h2>
 <h3 id="chromium-chrome-edge-brave">Chromium (Chrome, Edge, Brave)<a class="headerlink" href="#chromium-chrome-edge-brave" title="Permanent link">¶</a></h3>
@@ -2143,6 +2343,7 @@
 <li><code>Standard font</code>: <code>Noto Sans CJK JP Regular</code></li>
 <li><code>Serif font</code>: <code>Noto Serif CJK JP Regular</code></li>
 <li><code>Sans-serif font</code>: <code>Noto Sans CJK JP Regular</code></li>
+<li><code>Fixed-width font</code>: <code>Noto Sans Mono CJK JP Regular</code></li>
 </ul>
 </li>
 </ol>
@@ -2159,7 +2360,7 @@
 <p class="admonition-title">Jangan hapus komanya</p>
 <p>Koma memisahkan tiap kode bahasa, jadi jangan sampai ikut terhapus.</p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">Sebelum</label><label for="__tabbed_2_2">Sesudah</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"><input id="__tabbed_4_2" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="__tabbed_4_1">Sebelum</label><label for="__tabbed_4_2">Sesudah</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/font10.png" data-desc-position="bottom"><img alt="Firefox settings 1" src="../img/font10.png"></a></p>
@@ -2185,7 +2386,7 @@
 </figure>
 
 <p>Kalau font Jepang sudah terpasang di sistem, Anki seharusnya otomatis memakainya. Kalau tidak, paksa dengan salah satu cara di bawah. Font yang disarankan adalah IPAex Gothic, font sans-serif Jepang yang rapi. <a href="https://moji.or.jp/wp-content/ipafont/IPAexfont/ipaexg00401.zip">Unduh di sini</a>.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><input id="__tabbed_3_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="__tabbed_3_1">Pasang font di sistem</label><label for="__tabbed_3_2">Taruh font di collection.media</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"><input id="__tabbed_5_2" name="__tabbed_5" type="radio"><div class="tabbed-labels"><label for="__tabbed_5_1">Pasang font di sistem</label><label for="__tabbed_5_2">Taruh font di collection.media</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <ol>
@@ -2238,7 +2439,7 @@
 </div>
 </div>
 <p>Hasilnya:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"><input id="__tabbed_4_2" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="__tabbed_4_1">Definisi bahasa Jepang</label><label for="__tabbed_4_2">Definisi bilingual</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio"><input id="__tabbed_6_2" name="__tabbed_6" type="radio"><div class="tabbed-labels"><label for="__tabbed_6_1">Definisi bahasa Jepang</label><label for="__tabbed_6_2">Definisi bilingual</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/font5.png" data-desc-position="bottom"><img alt="Kartu dengan definisi bahasa Jepang" src="../img/font5.png"></a></p>
@@ -2297,7 +2498,7 @@
     <span class="md-icon" title="Pembaruan terakhir">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="16 November 2026 20:16:34 WIB">16 November 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23 November 2026 15:31:18 WIB">23 November 2026</span>
   </span>
 
     
