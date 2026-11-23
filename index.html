@@ -76,6 +76,13 @@
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "description": "Panduan immersion dan sentence mining bahasa Jepang, gratis dan berbahasa Indonesia.", "inLanguage": "id", "name": "Philia Space", "publisher": {"@type": "Organization", "logo": "https://philiaspace.my.id/img/philia-space-logo.jpg", "name": "Philia Space", "sameAs": ["https://github.com/Philia-Space/philiaspace.my.id", "https://discord.gg/hp55WMbbG6"], "url": "https://philiaspace.my.id/"}, "url": "https://philiaspace.my.id/"}, {"@type": "Organization", "logo": "https://philiaspace.my.id/img/philia-space-logo.jpg", "name": "Philia Space", "sameAs": ["https://github.com/Philia-Space/philiaspace.my.id", "https://discord.gg/hp55WMbbG6"], "url": "https://philiaspace.my.id/"}]}</script>
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&amp;family=Space+Grotesk:wght@500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&amp;text=%E6%84%9B%E9%96%93&amp;display=swap">
+
+
   
 <meta property="og:type" content="website">
 <meta property="og:title" content="Philia Space">
@@ -1710,124 +1717,182 @@
   
 
 
-<div class="ps-landing" markdown="0">
+<div class="pl-landing" markdown="0">
 
-<section class="ps-hero">
-  <div class="ps-hero-copy">
-    <p class="ps-eyebrow">Komunitas immersion bahasa Jepang · Indonesia</p>
-    <h1>Belajar bahasa Jepang dari anime, manga, dan novel yang kamu suka.</h1>
-    <p class="ps-lead">Panduan berbahasa Indonesia untuk belajar lewat immersion dan sentence mining: tonton dan baca media Jepang asli, simpan kata baru beserta kalimatnya ke Anki, lalu ulang sedikit tiap hari. Ditulis oleh anggota komunitas yang menjalani cara ini sendiri.</p>
-    <div class="ps-actions">
-      <a href="panduan-ringkas-JP/" class="ps-btn ps-btn-primary">Mulai dari Panduan Ringkas</a>
-      <a href="setup/" class="ps-btn ps-btn-secondary">Setup tooling mining</a>
+<section class="pl-hero">
+  <div class="pl-hero-copy">
+    <p class="pl-label">Komunitas immersion bahasa Jepang</p>
+    <h1>Belajar bahasa Jepang dari anime, manga, dan novel <span class="pl-mark">yang kamu suka</span>.</h1>
+    <p class="pl-lead">Panduan berbahasa Indonesia untuk belajar lewat immersion dan sentence mining: tonton dan baca media Jepang asli, simpan kata baru beserta kalimatnya ke Anki, lalu ulang sedikit tiap hari. Ditulis oleh anggota komunitas yang menjalani cara ini sendiri.</p>
+    <div class="pl-actions">
+      <a href="panduan-ringkas-JP/" class="pl-btn pl-btn-primary">Mulai dari Panduan Ringkas</a>
+      <a href="setup/" class="pl-btn pl-btn-secondary">Sudah bisa kana? Pasang alat mining</a>
     </div>
-    <p class="ps-trust">Gratis, tanpa daftar akun · Teks berlisensi CC BY-SA 4.0</p>
+    <p class="pl-trust">Gratis · Teks berlisensi CC BY-SA 4.0</p>
   </div>
 
-  <div class="ps-demo" aria-label="Contoh alur sentence mining">
-    <div class="ps-demo-meta"><span class="ps-tag">Subtitle 00:12:41</span><span>asbplayer → Yomitan → Anki</span></div>
-    <p class="ps-demo-jp" lang="ja">この言葉、どこかで聞いたことがある。</p>
-    <div class="ps-demo-popup">
-      <div class="ps-demo-head"><span class="ps-demo-word" lang="ja">言葉</span><span class="ps-demo-reading" lang="ja">ことば コトバ [3]</span></div>
-      <p class="ps-demo-gloss">kata; bahasa; ucapan</p>
-    </div>
-    <div class="ps-demo-added"><span>✓ Kartu ditambahkan ke deck Mining</span><span>+1 kartu baru hari ini</span></div>
+  <div class="pl-hero-media">
+    <img class="off-glb pl-photo pl-hero-photo" src="img/landing/jalan-malam-tokyo.jpg" alt="Jalan basah di Tokyo pada malam hari, lampu neon memantul di aspal" width="960" height="1439" fetchpriority="high">
+    <figure class="pl-film" aria-label="Contoh alur sentence mining">
+      <div class="pl-film-frame">
+        <img class="off-glb" src="img/landing/gang-malam.jpg" alt="" width="960" height="640" loading="lazy">
+        <p class="pl-sub" lang="ja">この<mark>言葉</mark>、どこかで聞いたことがある。</p>
+      </div>
+      <figcaption class="pl-popup">
+        <span class="pl-popup-meta">Subtitle 00:12:41 · asbplayer → Yomitan → Anki</span>
+        <span class="pl-popup-head"><span class="pl-popup-word" lang="ja">言葉</span><span class="pl-popup-reading" lang="ja">ことば コトバ [3]</span></span>
+        <span class="pl-popup-gloss">kata; bahasa; ucapan</span>
+        <span class="pl-popup-added">✓ Kartu ditambahkan ke deck Mining</span>
+      </figcaption>
+    </figure>
+    <p class="pl-vertical" lang="ja" aria-hidden="true">好きなことから始めよう</p>
   </div>
 </section>
 
-<section class="ps-section">
-  <div class="ps-section-head">
+<section class="pl-section">
+  <header class="pl-section-head">
     <div>
-      <p class="ps-eyebrow ps-eyebrow-dark">Alur pembelajaran</p>
-      <h2>Tiga fase. Urut, tapi tidak harus selesai dulu baru lanjut.</h2>
+      <p class="pl-label">Mulai dari mana</p>
+      <h2>Pilih titik mulai sesuai posisimu sekarang.</h2>
     </div>
-    <p class="ps-section-note">Fase berikutnya boleh dimulai sebelum fase sebelumnya beres. Misalnya, kamu bisa memasang Anki dan Yomitan sambil masih menghafal kana.</p>
-  </div>
+    <p class="pl-note">Urutannya fleksibel. Kamu bisa memasang Anki dan Yomitan sambil masih menghafal kana.</p>
+  </header>
 
-  <div class="ps-phases">
-    <article class="ps-phase">
-      <span class="ps-phase-num">01</span>
-      <h3>Fondasi bahasa</h3>
-      <p>Kana, kanji dasar, dan tata bahasa secukupnya sebelum terjun ke konten asli. Target: 30 hari pertama.</p>
-      <ul class="ps-links">
-        <li><a href="panduan-ringkas-JP/">Panduan Ringkas</a></li>
-        <li><a href="rutinitas-awal/">Rutinitas 30 Hari</a></li>
-        <li><a href="kanji/">Belajar Kanji</a></li>
-        <li><a href="font/">Perbaiki font kanji di browser</a></li>
+  <div class="pl-phases">
+    <article class="pl-phase">
+      <span class="pl-num">01</span>
+      <h3>Baru mulai</h3>
+      <p>Belum hafal kana, atau baru dengar soal immersion. Targetnya 30 hari pertama.</p>
+      <a href="panduan-ringkas-JP/" class="pl-primary-link">Panduan Ringkas</a>
+      <ul class="pl-links">
+        <li><a href="rutinitas-awal/">Rencana 30 hari pertama</a></li>
+        <li><a href="kanji/">Belajar kanji</a></li>
+        <li><a href="font/">Perbaiki font Jepang</a></li>
+        <li><a href="ime/">Mengetik bahasa Jepang</a></li>
+        <li><a href="panduan/">Kenapa immersion? Panduan lengkap</a></li>
       </ul>
     </article>
 
-    <article class="ps-phase ps-phase-dark">
-      <span class="ps-phase-num">02</span>
-      <h3>Tooling &amp; mining</h3>
-      <p>Kamus popup + kartu otomatis. Sekali setup, tiap kata baru masuk Anki dalam satu klik. Ada panduan untuk PC, Android, dan iOS.</p>
-      <ul class="ps-links">
-        <li><a href="setup/">Pengantar LazyGuide</a></li>
-        <li><a href="setup-anki-pc-lazy-guide/">Anki PC</a></li>
-        <li><a href="setup-yomitan-pc-lazy-guide/">Yomitan PC</a></li>
-        <li><a href="setup-yomitan-pc/">Yomitan + Anki (PC)</a></li>
-        <li><a href="setup-yomitan-android-lazy-guide/">Yomitan Android</a></li>
-        <li><a href="Setup-Manatan/">Manatan (PC &amp; HP)</a></li>
-        <li><a href="setup-ShareX-pc/">ShareX OCR (Windows)</a></li>
+    <article class="pl-phase pl-phase-navy">
+      <span class="pl-num">02</span>
+      <h3>Siap mining</h3>
+      <p>Kalau kamu sudah bisa membaca kana dan ingin mulai menyimpan kata baru ke Anki, ikuti LazyGuide. Dengan panduan itu, semua alat mining terpasang sekaligus tanpa perlu diatur satu per satu.</p>
+      <a href="setup/" class="pl-primary-link">Pengantar LazyGuide</a>
+      <ul class="pl-links">
+        <li><a href="setup-anki-pc-lazy-guide/">Anki di PC</a></li>
+        <li><a href="setup-yomitan-pc-lazy-guide/">Yomitan di PC</a></li>
+        <li><a href="setup-yomitan-android-lazy-guide/">Yomitan di Android</a></li>
+        <li><a href="setup-ShareX-pc/">ShareX untuk OCR (Windows)</a></li>
       </ul>
     </article>
 
-    <article class="ps-phase">
-      <span class="ps-phase-num">03</span>
-      <h3>Immersion media</h3>
-      <p>Mining sambil nonton anime dan membaca manga atau light novel. Fase ini yang dijalani tiap hari, bertahun-tahun.</p>
-      <ul class="ps-links">
-        <li><a href="kartu-anime-satu-klik/">Kartu Anime Satu Klik (PC)</a></li>
-        <li><a href="setup-anime-pc-lazy-guide/">Anime (PC)</a></li>
-        <li><a href="setup-anime-android-lazy-guide/">Anime (Android)</a></li>
-        <li><a href="setup-manga-pc-lazy-guide/">Manga (PC)</a></li>
-        <li><a href="setup-manga-android-lazy-guide/">Manga (Android)</a></li>
-        <li><a href="setup-LN-pc-lazy-guide/">Light Novel &amp; Buku (PC)</a></li>
-        <li><a href="setup-LN-android-lazy-guide/">Light Novel &amp; Buku (Android)</a></li>
-        <li><a href="Setup-Hoshi-Reader-iOS/">Light Novel &amp; Buku (iOS)</a></li>
+    <article class="pl-phase">
+      <span class="pl-num">03</span>
+      <h3>Sudah jalan</h3>
+      <p>Sudah mining dan ingin merapikan alat atau isian kartu, atau pindah ke aplikasi lain.</p>
+      <a href="Setup-Manatan/" class="pl-primary-link">Manatan, semua perangkat</a>
+      <ul class="pl-links">
+        <li><a href="pengaturan-note-type/">Isian field note type</a></li>
+        <li><a href="setup-yomitan-pc/">Yomitan + Anki manual (PC)</a></li>
+        <li><a href="Setup-Fushi/">Fushi (Windows)</a></li>
       </ul>
     </article>
   </div>
 </section>
 
-<div class="ps-tools">
-  <span class="ps-tools-label">Alat yang dipakai di panduan ini, semuanya bisa dipakai gratis</span>
-  <ul class="ps-chips">
+<section class="pl-section">
+  <header class="pl-section-head">
+    <div>
+      <p class="pl-label">Mau mining dari apa?</p>
+      <h2>Mulai dari yang paling sering kamu tonton atau baca.</h2>
+    </div>
+    <p class="pl-note">Tiap panduan menjelaskan cara membuka medianya, mencari arti kata, lalu menyimpannya ke Anki. Pilih sesuai perangkatmu.</p>
+  </header>
+
+  <div class="pl-media">
+    <article class="pl-media-card">
+      <img class="off-glb pl-photo" src="img/landing/anime-spirited-away.jpg" alt="Chihiro dan Kaonashi duduk di kereta, adegan dari film Spirited Away karya Studio Ghibli" width="960" height="519" loading="lazy">
+      <h3>Anime</h3>
+      <ul class="pl-devices">
+        <li><a href="setup-anime-pc-lazy-guide/"><span class="pl-device">PC</span>asbplayer di browser</a></li>
+        <li><a href="kartu-anime-satu-klik/"><span class="pl-device">PC</span>MPV dengan Yomipv</a></li>
+        <li><a href="setup-anime-android-lazy-guide/"><span class="pl-device">Android</span>Subtitle Jepang di HP</a></li>
+      </ul>
+    </article>
+    <article class="pl-media-card">
+      <img class="off-glb pl-photo" src="img/landing/membaca-manga.jpg" alt="Tangan memegang manga yang terbuka, panel komik hitam putih" width="960" height="720" loading="lazy">
+      <h3>Manga</h3>
+      <ul class="pl-devices">
+        <li><a href="setup-manga-pc-lazy-guide/"><span class="pl-device">Windows</span>OCR atau Mokuro</a></li>
+        <li><a href="setup-manga-android-lazy-guide/"><span class="pl-device">Android</span>Baca di browser</a></li>
+        <li><a href="Setup-Manatan/"><span class="pl-device">Semua</span>Manatan</a></li>
+      </ul>
+    </article>
+    <article class="pl-media-card">
+      <img class="off-glb pl-photo" src="img/landing/halaman-novel.jpg" alt="Halaman novel Jepang yang penuh teks vertikal" width="960" height="640" loading="lazy">
+      <h3>Light novel &amp; buku</h3>
+      <ul class="pl-devices">
+        <li><a href="setup-LN-pc-lazy-guide/"><span class="pl-device">PC</span>EPUB di browser</a></li>
+        <li><a href="setup-LN-android-lazy-guide/"><span class="pl-device">Android</span>Baca di browser</a></li>
+        <li><a href="Setup-Hoshi-Reader/"><span class="pl-device">Android</span>Hoshi Reader</a></li>
+        <li><a href="Setup-Hoshi-Reader-iOS/"><span class="pl-device">iPhone</span>Hoshi Reader</a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="pl-section">
+  <header class="pl-section-head">
+    <div>
+      <p class="pl-label">Alat &amp; sumber</p>
+      <h2>Semua alatnya gratis.</h2>
+    </div>
+    <p class="pl-note">Ini alat yang dipakai di panduan-panduan di atas. Kamus, dek Anki, dan bahan ujian ada di Sumber Belajar.</p>
+  </header>
+  <ul class="pl-tool-list">
     <li>Anki</li><li>Yomitan</li><li>Lapis</li><li>asbplayer</li><li>Yomipv</li><li>Manatan</li><li>mokuro</li><li>Yatsu Reader</li><li>ShareX</li>
   </ul>
-</div>
-
-<section class="ps-community">
-  <div class="ps-discord">
-    <p class="ps-eyebrow">Diskusi &amp; bantuan</p>
-    <h2>Mentok? Tanya di Discord. Tapi baca dulu, cari dulu.</h2>
-    <p>Tempat sesama pembelajar saling bantu soal kendala teknis, rekomendasi materi, dan curhat progres. Sebelum bertanya, baca dulu panduan di situs ini dan coba kolom pencariannya.</p>
-    <a href="join/" class="ps-btn ps-btn-primary">Gabung ke Discord</a>
-    <ul class="ps-links ps-links-dark">
-      <li><a href="proyek/">Proyek &amp; alat buatan komunitas</a></li>
-      <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok @philiaspace.id</a></li>
-    </ul>
-  </div>
-  <div class="ps-side">
-    <article class="ps-card">
-      <h3>Kenapa immersion?</h3>
-      <p>Alasan di balik cara belajar ini, masalah metode tradisional, dan alur belajar pemula dari kana sampai mulai mining.</p>
-      <a href="panduan/" class="ps-link">Baca Panduan Bahasa Jepang →</a>
+  <div class="pl-cards">
+    <article class="pl-card">
+      <p class="pl-label">Sumber belajar</p>
+      <h3>Kamus, dek, dan bahan ujian</h3>
+      <p>Kamus, dek Anki, aplikasi, situs, bahan immersion, serta bahan ujian JLPT, JFT, SSW, dan tes lainnya.</p>
+      <a href="resources/" class="pl-arrow">Buka Sumber Belajar</a>
     </article>
-    <article class="ps-card ps-card-cream">
-      <h3>Situs ini jalan dari donasi</h3>
-      <p>Domainnya dibayar dari kantong pengelola. Kalau panduannya kepake, traktir kopi lewat Trakteer.</p>
-      <a href="donate/" class="ps-link">Dukung Philia Space →</a>
+    <article class="pl-card">
+      <p class="pl-label">Buatan komunitas</p>
+      <h3>Proyek komunitas</h3>
+      <p>Kamus JIDict, dek Anki komunitas menurut tujuan belajar, dan alat gratis buatan anggota.</p>
+      <a href="proyek/" class="pl-arrow">Lihat proyeknya</a>
     </article>
   </div>
 </section>
 
-<footer class="ps-footer">
-  <div class="ps-footer-brand">
-    <span class="ps-footer-kanji" lang="ja">愛間</span>
-    <span class="ps-footer-name">Philia Space</span>
+<section class="pl-community">
+  <img class="off-glb pl-photo pl-community-photo" src="img/landing/teman-belajar.jpg" alt="Empat anak muda Jepang tersenyum dan berpose peace di tengah keramaian festival" width="960" height="600" loading="lazy">
+  <div class="pl-community-copy">
+    <p class="pl-label">Komunitas</p>
+    <h2>Mentok? Tanya di Discord. Tapi baca dulu, cari dulu.</h2>
+    <p>Tempat sesama pembelajar saling bantu soal kendala teknis, rekomendasi materi, dan curhat progres. Sebelum bertanya, baca dulu panduan di situs ini dan coba kolom pencariannya.</p>
+    <a href="join/" class="pl-btn pl-btn-primary">Gabung ke Discord</a>
+    <ul class="pl-links">
+      <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok @philiaspace.id</a></li>
+      <li><a href="riwayat-perubahan/">Riwayat perubahan situs</a></li>
+    </ul>
   </div>
-  <ul class="ps-footer-links">
+</section>
+
+<aside class="pl-donate">
+  <p><strong>Situs ini jalan dari donasi.</strong> Domainnya dibayar dari kantong pengelola. Kalau panduannya kepake, traktir kopi lewat Trakteer.</p>
+  <a href="donate/" class="pl-arrow">Dukung Philia Space</a>
+</aside>
+
+<footer class="pl-footer">
+  <div class="pl-lockup">
+    <span class="pl-kanji" lang="ja">愛間</span>
+    <span class="pl-lockup-text"><span class="pl-wordmark">Philia Space</span><span class="pl-descriptor">Community · Culture · Language</span></span>
+  </div>
+  <ul class="pl-footer-links">
     <li><a href="https://github.com/Philia-Space/philiaspace.my.id">GitHub</a></li>
     <li><a href="join/">Discord</a></li>
     <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok</a></li>
@@ -1835,7 +1900,7 @@
     <li><a href="riwayat-perubahan/">Riwayat perubahan</a></li>
     <li><a href="donate/">Donasi</a></li>
   </ul>
-  <p class="ps-footer-note">Panduan belajar bahasa Jepang untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber dan memakai lisensi yang sama (<a href="https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md">CC BY-SA 4.0</a>).</p>
+  <p class="pl-footer-note">Panduan belajar bahasa Jepang untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber dan memakai lisensi yang sama (<a href="https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md">CC BY-SA 4.0</a>). Foto dari Unsplash. Adegan <i>Spirited Away</i> © Studio Ghibli, dari <a href="https://www.ghibli.jp/info/013344/">galeri resmi Ghibli</a> yang boleh dipakai bebas.</p>
 </footer>
 
 </div>
@@ -1861,7 +1926,7 @@
     <span class="md-icon" title="Pembaruan terakhir">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="16 November 2026 20:16:34 WIB">16 November 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24 November 2026 02:27:36 WIB">24 November 2026</span>
   </span>
 
     
