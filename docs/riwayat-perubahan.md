@@ -23,6 +23,17 @@ hide:
 
 ### November
 
+**24-11-2026**
+
+*Tampilan baru beranda*
+
+- Pembaruan
+       - [Beranda](index.md) disusun ulang dengan identitas visual baru: kamu bisa memilih titik mulai (baru mulai, siap mining, atau sudah jalan) dan memilih panduan menurut media yang kamu tonton atau baca, lalu menurut perangkatnya
+       - Halaman Mengetik Bahasa Jepang, isian note type, Fushi, Hoshi Reader Android, dan Sumber Belajar sekarang bisa dibuka langsung dari beranda
+       - Header di mode terang sekarang putih dengan teks gelap
+- Perbaikan
+       - Mode gelap memakai abu-abu sangat gelap dan teks yang sedikit diredupkan supaya lebih nyaman dibaca, dan teks redup yang sebelumnya terlalu samar sekarang lebih jelas
+
 **23-11-2026**
 
 *Panduan font Linux langkah demi langkah*

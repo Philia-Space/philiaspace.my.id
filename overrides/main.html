@@ -38,6 +38,13 @@
   {% endif %}
 {% endif %}
 {% if ld %}<script type="application/ld+json">{{ ld | tojson }}</script>{% endif %}
+{# Font brand identity v2 hanya untuk beranda; kanji logo cukup subset dua huruf 愛間 #}
+{% if page and page.is_homepage %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Space+Grotesk:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&text=%E6%84%9B%E9%96%93&display=swap">
+{% endif %}
 {% endblock %}
 
 
