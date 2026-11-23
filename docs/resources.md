@@ -703,9 +703,32 @@ Dek Anki kosakata per bidang (perhotelan, konstruksi, peternakan, otomotif, buil
 ### Cek Sebelum Daftar
 
 - **[Daftar RSO/TSK resmi (Kementerian Kehakiman Jepang)](https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00205.html)**. Untuk mencarinya lebih mudah, pakai [Philia Kensaku](https://philiakensaku.vercel.app/).
-- **[Daftar LPK sending organization (OTIT)](https://www.otit.go.jp/system/sender/list_sender/)**: cek apakah LPK-mu terdaftar.
+- **[Daftar LPK sending organization (OTIT)](https://www.otit.go.jp/system/sender/list_sender/)**: cek apakah LPK-mu terdaftar. Daftar ini untuk program magang (Ginou Jisshuu), yang terpisah dari SSW.
 - [Saluran pengaduan pekerja asing (MHLW)](https://www.check-roudou.mhlw.go.jp/soudan/foreigner.html): kalau ada masalah gaji, jam kerja, atau perlakuan di tempat kerja.
-- [Program magang Kemnaker (Skillhub)](https://skillhub.kemnaker.go.id/magang/): daftar program magang resmi pemerintah, termasuk ke Jepang.
+- [Program magang Kemnaker (Skillhub)](https://skillhub.kemnaker.go.id/magang/): daftar program magang resmi pemerintah, termasuk ke Jepang. Ini juga jalur magang (Ginou Jisshuu).
+
+---
+
+## Gijinkoku (技人国)
+
+Gijinkoku adalah singkatan dari 技術・人文知識・国際業務 (*Engineer/Specialist in Humanities/International Services*), visa kerja untuk pekerjaan profesional seperti engineer, IT, penerjemah, marketing, atau staf kantor. Berbeda dengan SSW, visa ini tidak punya ujian keahlian per bidang. Syaratnya ijazah S1 atau D4 yang jurusannya sesuai dengan pekerjaannya, atau pengalaman kerja 10 tahun di bidang yang sama. Lulusan *senmon gakkō* (sekolah vokasi) di Jepang juga memenuhi syarat.
+
+!!! info "Aturan bahasa sejak 15 April 2026"
+    Kalau perusahaannya masuk Kategori 3 atau 4 (umumnya perusahaan kecil atau yang baru berdiri) dan pekerjaanmu banyak memakai bahasa untuk melayani orang, pengajuan visa harus menyertakan bukti kemampuan bahasa setara CEFR B2. Untuk bahasa Jepang, bukti yang diterima antara lain JLPT N2 ke atas atau BJT minimal 400 poin. Daftar lengkapnya ada di [halaman resmi Imigrasi Jepang](https://www.moj.go.jp/isa/applications/status/gijinkoku.html).
+
+- Info resmi:
+    - **[Syarat dan dokumen visa 技人国 (Imigrasi Jepang)](https://www.moj.go.jp/isa/applications/status/gijinkoku.html)**: halaman resmi berbahasa Jepang.
+    - [FRESC](https://www.moj.go.jp/isa/support/fresc/fresc01.html): pusat bantuan resmi untuk orang asing yang sudah tinggal di Jepang. Bisa dipakai untuk konsultasi izin tinggal, dan rutin mengadakan seminar menulis CV dan wawancara.
+    - [ITPEC](https://itpec.org/): ujian IT yang sertifikatnya bisa menggantikan syarat ijazah untuk pekerjaan IT. Indonesia belum menjadi anggota, jadi ujiannya harus diambil di negara anggota seperti Filipina atau Thailand.
+- Penjelasan:
+    - [Apa itu Gijinkoku (Semua Bisa Kerja)](https://www.semuabisakerja.id/blog/detail/apa-itu-gijinkoku-di-jepang): penjelasan dalam bahasa Indonesia.
+    - [Kalkulator poin HSP (Build+)](https://buildplus.io/tools/hsp-visa-points-calculator): hitung poin visa *Highly Skilled Professional*, jalur yang lebih cepat menuju izin tinggal tetap (PR).
+- Cari kerja:
+    - [Mintoku Work 技人国](https://specialist.mintoku.com/): situs lowongan khusus visa gijinkoku.
+    - [RISE for Career](https://www.risefor-career.com/): agen untuk pekerjaan engineering dan IT, dengan sesi konsultasi berbahasa Indonesia.
+    - [FAST OFFER International](https://fastoffer.co.jp/intl/free-japanese-training-program-worldwide/): kelas bahasa Jepang dan pelatihan karier gratis untuk lulusan engineering dan IT.
+    - [Green](https://www.green-japan.com/search): situs lowongan umum di Jepang, berbahasa Jepang.
+    - [Robert Walters Japan](https://www.robertwalters.co.jp/en/): agen rekrutmen untuk posisi profesional.
 
 ---
 
