@@ -102,7 +102,7 @@ Ini beda dengan urutan goresan. Walaupun kamu sudah tahu sebuah kata dan urutan 
 
 Kalau memang perlu, latih menulis kata demi kata. Tulis dalam bentuk kalimat, bukan kata lepas, supaya proporsi hurufnya ikut terlatih.
 
-Pertanyaannya: perlukah? Sekarang hampir semua tulisan diketik lewat keyboard (IME). Jadi pikirkan kebutuhanmu:
+Pertanyaannya: perlukah? Sekarang hampir semua tulisan diketik lewat keyboard ([IME](ime.md)). Jadi pikirkan kebutuhanmu:
 
 - **Bekerja atau sekolah di Jepang dan harus menulis tangan:** wajib. Mulai dari yang paling sering dipakai, misalnya nama dan alamatmu sendiri
 - **Selain itu:** menurut TheMoeWay, tidak perlu

@@ -32,6 +32,13 @@ hide:
        - Locale Jepang dipindah ke bagian opsional karena tidak wajib untuk memperbaiki font
        - Pengaturan `Fixed-width font` ditambahkan di bagian Chromium
 
+*Halaman baru: Mengetik Bahasa Jepang*
+
+- Penambahan
+       - [Mengetik Bahasa Jepang](ime.md): cara memasang dan memakai keyboard Jepang (IME), adaptasi dari TheMoeWay. Versi aslinya hanya untuk Windows, di sini ditambah macOS dan Linux (Mozc), latihan mengetik, dan daftar tombol untuk ketiga sistem
+- Perbaikan
+       - Langkah memasang keyboard Jepang di [30 Hari Awal](rutinitas-awal.md) dan [Belajar Kanji](kanji.md) sekarang menautkan halaman itu
+
 **18-11-2026**
 
 *Judul halaman lebih jelas di mesin pencari*
