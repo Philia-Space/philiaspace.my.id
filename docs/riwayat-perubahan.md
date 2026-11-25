@@ -23,6 +23,17 @@ hide:
 
 ### November
 
+**25-11-2026**
+
+*Lisensi dan kredit TheMoeWay*
+
+- Perbaikan
+       - Terjemahan dari TheMoeWay sekarang berlisensi GPL-3.0, sama dengan versi aslinya. Sebelumnya tertulis CC BY-SA 4.0, dan itu keliru karena terjemahan karya GPL-3.0 wajib tetap memakai GPL-3.0
+       - Kredit ke TheMoeWay dan penulisnya, shoui, sekarang selalu terlihat di bagian atas [Panduan Bahasa Jepang](panduan.md), [30 Hari Awal](rutinitas-awal.md), [Belajar Kanji](kanji.md), [Perbaiki Font](font.md), dan [Mengetik Bahasa Jepang](ime.md), tanpa perlu diklik dulu
+       - Kredit ke LazyGuide di [Panduan Ringkas Bahasa Jepang](panduan-ringkas-JP.md) juga sekarang selalu terlihat
+- Untuk Penulis
+       - Kotak kredit untuk halaman terjemahan TheMoeWay di PANDUAN-GAYA diganti ke versi yang selalu terlihat dan menyebut penulis serta lisensinya
+
 **24-11-2026**
 
 *Tampilan baru beranda*

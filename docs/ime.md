@@ -7,10 +7,12 @@ description: "Cara memasang dan memakai keyboard Jepang (IME) di Windows, macOS,
 
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/ime/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
-    - Versi aslinya hanya membahas Windows. Bagian macOS dan Linux ditambahkan oleh Philia Space.
+!!! info "Terjemahan dari TheMoeWay"
+    Halaman ini terjemahan bahasa Indonesia dari [panduan IME](https://learnjapanese.moe/ime/) di TheMoeWay, ditulis oleh **shoui** dan kontributor TheMoeWay. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/ime/).
+
+    Versi aslinya hanya membahas Windows. Bagian macOS dan Linux ditambahkan oleh Philia Space.
 
 Semua komputer dan HP sekarang bisa dipakai mengetik huruf Jepang. Alat untuk mengubah ketikan keyboard menjadi huruf Jepang disebut IME (*Input Method Editor*). Kamu tetap memakai keyboard biasa: ketik `nihongo` dalam huruf Latin, lalu IME mengubahnya menjadi にほんご dan menawarkan kanji 日本語.
 

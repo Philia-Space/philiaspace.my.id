@@ -7,9 +7,10 @@ description: "Rencana belajar 30 hari pertama bahasa Jepang, hari demi hari, sam
 
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/routine/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
+!!! info "Terjemahan dari TheMoeWay"
+    Halaman ini terjemahan bahasa Indonesia dari [30 Day Japanese (UsagiSpoon)](https://learnjapanese.moe/routine/) di TheMoeWay, ditulis oleh **shoui** dan kontributor TheMoeWay. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/routine/).
 
 !!! info "Tujuan"
     Rutinitas ini sudah ditentukan dari awal untuk membantu pemula belajar bahasa Jepang lewat immersion. Rutinitas ini hanya disarankan untuk kamu yang baru mulai tapi bingung harus memilih langkah apa.

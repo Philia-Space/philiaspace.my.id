@@ -6,7 +6,7 @@ hide:
 # Panduan Ringkas Belajar Bahasa Jepang
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
+!!! info "Terjemahan dari LazyGuide"
     - Panduan ini terjemahan dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/), dengan beberapa referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
 
     - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.

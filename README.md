@@ -188,15 +188,10 @@ Dengan dua metode ini (lokal dan GitHub Web), semua orang bisa berkontribusi ke 
 
 ## 📄 Lisensi
 
-Proyek ini menggunakan dua jenis lisensi:
+Kode sumber dan konten teks (`.md`) di proyek ini dilisensikan di bawah **GNU General Public License v3.0**.  
+[Lihat file LICENSE.txt](./LICENSE.txt)
 
-- **Kode sumber** (`.html`, `.css`, `.js`, `.yml`, `.json`, dll.):  
-  Dilisensikan di bawah **GNU General Public License v3.0**.  
-  [Lihat file LICENSE](./LICENSE)
-
-- **Konten teks dan terjemahan** (`.md`):  
-  Dilisensikan di bawah **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.  
-  [Lihat file LICENSE.docs.md](./LICENSE.docs.md)
+Sebagian halaman adalah terjemahan dari [TheMoeWay](https://learnjapanese.moe/) karya shoui dan kontributor TheMoeWay, yang juga berlisensi GPL-3.0. Rinciannya, termasuk halaman dari sumber lain, ada di [LICENSE.docs.md](./LICENSE.docs.md).
 
 
 ### 💡 Note Kontributor
