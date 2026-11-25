@@ -72,6 +72,21 @@ Nama aplikasi dan fitur ditulis seperti aslinya: Anki, Yomitan, AnkiConnect, Man
     Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/...).
 ```
 
+**Kotak untuk halaman dari LazyGuide** (taruh tepat di bawah judul halaman). Pilih judul kotak sesuai kondisi halamannya:
+
+- `Terjemahan dari LazyGuide`: isi dan urutan bagiannya mengikuti versi asli.
+- `Diadaptasi dari LazyGuide`: berdasarkan versi asli, tapi ada bagian besar yang ditambah atau diganti. Sebut bagian apa saja di paragraf kedua.
+- `Sebagian dari LazyGuide`: hanya sebagian kecil halaman yang diambil. Sebut bagian mana.
+
+```markdown
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Judul halaman aslinya](https://lazyguidejp.github.io/jp-lazy-guide/...) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/...).
+```
+
+Kalau halaman baru diambil dari LazyGuide, tambahkan juga ke daftar di `LICENSE.docs.md`.
+
 ## Yang jangan diubah saat menyunting
 
 - Alamat tautan, path gambar, isi blok kode, dan password arsip.

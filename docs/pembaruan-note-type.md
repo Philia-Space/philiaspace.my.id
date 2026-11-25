@@ -4,6 +4,14 @@ hide:
   - footer
 ---
 # Memperbarui Note Type
+
+!!! info "Sebagian dari LazyGuide"
+    Langkah memperbarui Lapis dan peringatan untuk mencadangkan kartu diterjemahkan dari [Updating: Lapis Format](https://lazyguidejp.github.io/jp-lazy-guide/updatingAnkiLapisFormat/) di LazyGuide, ditulis oleh **LazyGuideJP**.
+
+    Bagian lain, termasuk tab Kiku, Senren, dan Mining-JP, ditulis oleh Philia Space.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/updatingAnkiLapisFormat/).
+
 ---
 
 Begini cara memperbarui note type (format kartu) Anki kamu, entah untuk memperbaiki bug atau sekadar mengikuti versi terbaru. Panduan di situs ini memakai beberapa note type:

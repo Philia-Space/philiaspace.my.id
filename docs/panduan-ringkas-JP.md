@@ -7,9 +7,9 @@ hide:
 ---
 
 !!! info "Terjemahan dari LazyGuide"
-    - Panduan ini terjemahan dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/), dengan beberapa referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
+    Halaman ini terjemahan bahasa Indonesia dari [Concise Guide to Jumpstart Japanese](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
 
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/conciseGuideToJumpstartJP/).
 
 - Panduan ini sengaja dibuat sangat singkat, sebagai lawan dari panduan lain yang isinya tembok teks dan tautan ke hal-hal berbayar yang sebenarnya tidak perlu. Untuk pemula, panduan seperti itu malah bikin makin bingung.
 

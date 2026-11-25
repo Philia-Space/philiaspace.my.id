@@ -5,7 +5,10 @@ description: "Nonton anime dengan subtitle Jepang di HP Android dan simpan kata 
 
 # Setup Mining Anime di Android
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup: Anime on Android](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/).
 
 ---
 
@@ -68,7 +71,6 @@ Setup mining anime di Android selesai.
 
     Video ini memakai note type Mining-JP. Di pengaturan Anki di Yomitan, kamu seharusnya sudah memakai note type Lapis. Di video, pintasan ++ctrl+shift+x++ dipakai untuk mengedit audio, screenshot, dan subtitle yang akan dikirim ke Anki.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 #### Tip 1: Sinkronisasi Subtitle
 

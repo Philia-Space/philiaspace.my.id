@@ -5,7 +5,12 @@ description: "Pasang Yomitan, kamus popup bahasa Jepang, di HP Android lewat Fir
 <!-- upstream: setupYomitanOnAndroid @ 2026-07-12 -->
 # Setup Yomitan di Android
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup Yomitan Android](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Beberapa pertanyaan di bagian Pertanyaan Umum ditambahkan oleh Philia Space.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/).
 
 ---
 

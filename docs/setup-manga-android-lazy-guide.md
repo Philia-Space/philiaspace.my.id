@@ -4,6 +4,12 @@ description: "Baca manga bahasa Jepang di HP Android lewat Firefox atau Edge Can
 ---
 <!-- upstream: setupMangaOnAndroid @ 2026-07-12 -->
 # Setup: Manga di Android
+
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup: Manga on Android](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnAndroid/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnAndroid/).
+
 ---
 
 - Kamu bisa membaca manga di HP Android lewat Firefox atau Edge Canary sambil scan kata pakai Yomitan.

@@ -4,6 +4,14 @@ description: "Pengantar LazyGuide: pasang semua alat mining sekaligus tanpa haru
 ---
 
 # Pengantar Setup
+
+!!! info "Diadaptasi dari LazyGuide"
+    Halaman ini diadaptasi dari [Setup Introduction](https://lazyguidejp.github.io/jp-lazy-guide/setup/) di LazyGuide, ditulis oleh **LazyGuideJP**, lalu dikembangkan oleh Philia Space.
+
+    Bagian format Anki/Yomitan dan video demo ditambahkan oleh Philia Space. LazyGuide sendiri menyebut panduan dan orang yang jadi rujukannya di halaman [Credits](https://lazyguidejp.github.io/jp-lazy-guide/credits/).
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setup/).
+
 ---
 
 ??? note "Apa tujuan panduan ini? <small>(klik di sini)</small>"
@@ -54,11 +62,9 @@ Baru mulai belajar bahasa Jepang dan ingin cepat mulai immersion? Lihat [Panduan
     Video ini memakai note type Mining-JP. Di bagian pengaturan Anki, sesuaikan dengan note type Lapis.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 Kalau kamu baru pertama kali setup, ikuti panduan ini dari atas sampai bawah, karena ada bagian yang memang harus dikerjakan berurutan.
 
 Panduan ini menggabungkan [Lapis](https://github.com/donkuri/lapis), add-on Anki, Yomitan, dan pengaturan alat yang dipakai LazyGuide.
-
 
 ![Intro Wallpaper](img/intro-wallpaper-1.jpg){height=500 width=1000}
 

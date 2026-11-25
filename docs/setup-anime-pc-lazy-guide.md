@@ -3,8 +3,15 @@ title: "Mining Anime di PC pakai asbplayer"
 description: "Nonton anime dengan subtitle Jepang di PC pakai asbplayer, lalu simpan kata barunya ke Anki lewat Yomitan."
 ---
 
-
 # Setup Mining Anime di PC
+
+!!! info "Diadaptasi dari LazyGuide"
+    Halaman ini diadaptasi dari [Setup: Anime on PC](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnPC/) di LazyGuide, ditulis oleh **LazyGuideJP**, lalu dikembangkan oleh Philia Space.
+
+    Bagian video streaming, pencarian subtitle Jimaku di asbplayer, dan beberapa tips ditambahkan oleh Philia Space.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnPC/).
+
 ---
 ## Permulaan
 
@@ -22,7 +29,6 @@ description: "Nonton anime dengan subtitle Jepang di PC pakai asbplayer, lalu si
 - Untuk video streaming, pasang ekstensi [asbplayer](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab)
 !!! warning "Untuk Pengguna Firefox"
     asbplayer juga ada untuk Firefox, tapi banyak fiturnya tidak tersedia. Lihat [catatan ini](https://docs.asbplayer.dev/docs/compatibility).
-
 
 Syarat:
 
@@ -128,7 +134,6 @@ Buka situs nonton anime favoritmu, misalnya Hianime, lalu putar episodenya.
         ![Dua subtitle muncul](img/asbplayer-jimaku-11-double.webp){height=300 width=600}
 
 Panduan lengkapnya ada di [dokumentasi asbplayer](https://docs.asbplayer.dev/docs/guides/online-subtitles).
-
 
 ---
 

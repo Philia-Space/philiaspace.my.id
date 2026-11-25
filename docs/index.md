@@ -18,7 +18,7 @@ hide:
       <a href="panduan-ringkas-JP/" class="pl-btn pl-btn-primary">Mulai dari Panduan Ringkas</a>
       <a href="setup/" class="pl-btn pl-btn-secondary">Sudah bisa kana? Pasang alat mining</a>
     </div>
-    <p class="pl-trust">Gratis · Teks berlisensi CC BY-SA 4.0</p>
+    <p class="pl-trust">Gratis · Teks berlisensi GPL-3.0</p>
   </div>
 
   <div class="pl-hero-media">
@@ -190,7 +190,7 @@ hide:
     <li><a href="riwayat-perubahan/">Riwayat perubahan</a></li>
     <li><a href="donate/">Donasi</a></li>
   </ul>
-  <p class="pl-footer-note">Panduan belajar bahasa Jepang untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber dan memakai lisensi yang sama (<a href="https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md">CC BY-SA 4.0</a>). Foto dari Unsplash. Adegan <i>Spirited Away</i> © Studio Ghibli, dari <a href="https://www.ghibli.jp/info/013344/">galeri resmi Ghibli</a> yang boleh dipakai bebas.</p>
+  <p class="pl-footer-note">Panduan belajar bahasa Jepang untuk pembelajar di Indonesia. Isi panduan boleh disalin dan diubah dengan menyebut sumber dan memakai lisensi yang sama (<a href="https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md">GPL-3.0</a>). Foto dari Unsplash. Adegan <i>Spirited Away</i> © Studio Ghibli, dari <a href="https://www.ghibli.jp/info/013344/">galeri resmi Ghibli</a> yang boleh dipakai bebas.</p>
 </footer>
 
 </div>

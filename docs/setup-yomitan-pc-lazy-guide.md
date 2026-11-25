@@ -5,7 +5,12 @@ description: "Pasang Yomitan, kamus popup di browser PC, untuk mining ke Anki de
 
 # Setup Yomitan di PC
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup Yomitan PC](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Beberapa pertanyaan di bagian Pertanyaan Umum ditambahkan oleh Philia Space.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/).
 
 ---
 
@@ -98,7 +103,6 @@ Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYom
     === "MacOS"
         ![Yomitan Scan Key](img/yomitan-scan-key.jpg){align=left height=300 width=600}
 
-
 Setup Yomitan di PC sudah selesai! Mau lanjut ke panduan Setup Mining Anime?
 
 [Lanjut ke Setup Mining Anime di PC](setup-anime-pc-lazy-guide.md){ .md-button .md-button }
@@ -137,7 +141,6 @@ Setup Yomitan di PC sudah selesai! Mau lanjut ke panduan Setup Mining Anime?
 
         ![Yomitan Local Audio Check](img/yomitan-local-audio-check.gif){height=250 width=500}	
 	Selesai!
-
 
 #### Info 2: Mode Terang/Gelap Yomitan
 
