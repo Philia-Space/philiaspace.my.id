@@ -43,6 +43,20 @@ hide:
 - Untuk Penulis
        - PANDUAN-GAYA sekarang punya kotak kredit untuk halaman dari LazyGuide, beserta cara memilih antara terjemahan, adaptasi, atau sebagian
 
+*Note type dan sumber dari jp-mining-note*
+
+- Penambahan
+       - Halaman baru [Pilihan Note Type](note-type.md): daftar note type untuk mining, lengkap dengan gambar atau video contoh dari pembuatnya masing-masing, termasuk beberapa note type yang dibagikan di server TheMoeWay. Daftar note type di [Sumber Belajar](resources.md) dipindah ke sini
+       - Halaman baru [Pindah ke jp-mining-note](pindah-ke-jp-mining-note.md): cara memindahkan kartu dari Lapis, Mining-JP, Anime Cards, dan note type lain ke jp-mining-note tanpa kehilangan jadwal ulasan
+- Pembaruan
+       - [Sumber Belajar](resources.md) sekarang juga mengambil dari JP Resources milik jp-mining-note: bacaan tentang Anki, beberapa add-on baru, tips tampilan Yomitan, serta skrip ShareX dan Anki
+       - [Setup Anki PC](setup-anki-pc-lazy-guide.md) punya daftar bacaan lanjutan tentang Anki
+
+*Daftar isi di kanan halaman*
+
+- Pembaruan
+       - Daftar isi di kanan halaman sekarang dikelompokkan per bagian: judul bagian ditebalkan dan dipisah garis tipis, subbagian berderet di sepanjang garis di bawahnya, dan posisi bacaanmu ditandai warna biru
+
 **24-11-2026**
 
 *Tampilan baru beranda*

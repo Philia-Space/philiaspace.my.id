@@ -7,7 +7,7 @@ description: "Daftar sumber belajar bahasa Jepang: kamus, dek Anki, aplikasi, si
 ---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
-    - Daftar ini dikumpulkan dari [Japanese Resources milik kuri](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), [Ten Resources](https://www.ten.guide/resources), dan [Wotaku](https://wotaku.wiki/nonen/indonesian), ditambah rekomendasi add-on Anki dari Philia Space.
+    - Daftar ini dikumpulkan dari [Japanese Resources milik kuri](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), [Ten Resources](https://www.ten.guide/resources), [Wotaku](https://wotaku.wiki/nonen/indonesian), dan [JP Resources jp-mining-note](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/) (beserta halaman [Setup: Other](https://aquafina-water-bottle.github.io/jp-mining-note/setupother/)-nya), ditambah rekomendasi add-on Anki dari Philia Space.
     - Bagian JLPT, JFT, SSW, dan Tes Jepang Lainnya dikumpulkan dari kiriman anggota Discord Philia Space, #KaburAjaDulu, dan TheMoeWay, ditambah situs resmi tiap ujian.
     - Sebagian besar sumber di bawah berbahasa Inggris atau Jepang. Deskripsinya diterjemahkan dan diringkas.
     - Yang ditulis **tebal** adalah yang paling sering direkomendasikan oleh sumber-sumber itu. Kalau bingung harus mulai dari mana, ambil yang tebal dulu.
@@ -175,18 +175,18 @@ Anki adalah aplikasi flashcard dengan *spaced repetition*. Cara memasangnya ada 
 - [Tutorial FSRS](https://github.com/open-spaced-repetition/fsrs4anki/blob/main/docs/tutorial.md): penjelasan FSRS, algoritma penjadwalan Anki, dan cara mengaturnya.
 - [Anki setup guide](https://donkuri.github.io/learn-japanese/setup/#anki-setup): panduan setup Anki dari kuri.
 - [Anki Templates](https://chrisk91.me/post/2018-09-28-Anki-Templates-Introduction-HTML/): dasar-dasar format kartu Anki.
+- [Optimizing Anki for Language Learning](https://cademcniven.com/posts/20210410/): tulisan Cade tentang pengaturan Anki untuk belajar bahasa. Direkomendasikan oleh pembuat jp-mining-note.
+- [Setting up Anki](https://tatsumoto.neocities.org/blog/setting-up-anki.html): panduan setup Anki dari Tatsumoto (AJATT-Tools).
+- [Lazy Guide: Anki](https://rentry.co/lazyXel#anki): contoh note type, add-on, dan tips Anki dari Xelieu.
+- [Refold: Anki Setup](https://refold.la/roadmap/stage-1/a/anki-setup): pengaturan Anki yang disarankan Refold.
+- [Twenty Rules of Formulating Knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge): aturan umum membuat flashcard yang baik dari SuperMemo. Empat aturan pertama yang paling penting.
+- [Awesome Anki](https://github.com/tianshanghong/awesome-anki): kumpulan add-on, dek, dan sumber seputar Anki.
+
+Saran pengaturan Anki dari tiap sumber bisa berbeda. Coba dulu beberapa minggu, lalu sesuaikan dengan kebutuhanmu.
 
 ### Note Type untuk Mining
 
-Note type adalah desain dan susunan kolom kartu. Philia Space memakai Lapis, lihat [Memperbarui Note Type](pembaruan-note-type.md).
-
-- **[Lapis](https://github.com/donkuri/lapis)**: note type yang sederhana, rapi, mudah dipasang, dan cocok dengan banyak alat. Paling direkomendasikan.
-- [Kiku](https://kiku-docs.vercel.app/): note type dengan banyak fitur.
-- [Senren](https://brenoaqua.github.io/Senren/): note type dengan fitur lengkap dan tampilan bersih.
-- [jp-mining-note](https://arbyste.github.io/jp-mining-note-prerelease/): note type mining populer yang sangat kaya fitur. Daftar alternatifnya ada [di sini](https://arbyste.github.io/jp-mining-note/alternatives/).
-- [JP-study](https://github.com/rudnam/JP-study): kumpulan template, termasuk untuk mining.
-- [Crop Theft](https://github.com/Kuuuube/crop-theft): note type mining yang minimalis tapi lengkap.
-- [Vertical Cards](https://github.com/kiwakiwaa/vertical-cards/): note type dengan tulisan vertikal.
+Note type adalah desain dan susunan kolom kartu. Daftar note type untuk mining, lengkap dengan gambar contohnya, sekarang ada di halaman sendiri: **[Pilihan Note Type](note-type.md)**.
 
 ### Alternatif Anki
 
@@ -228,6 +228,8 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 | [VOICEVOX TTS Audio Generator](https://ankiweb.net/shared/info/366960193) | Membuat audio bahasa Jepang berkualitas tinggi dengan VOICEVOX. Aplikasi [VOICEVOX](https://voicevox.hiroshiba.jp/) harus terpasang di PC. | `366960193` |
 | [Generate Batch Audio](https://ankiweb.net/shared/info/1156270186) | Mengisi audio ke banyak kartu sekaligus dari beberapa sumber audio. | `1156270186` |
 | [AJT Browser Play Button](https://ankiweb.net/shared/info/182970692) | Tombol putar audio di jendela `Browse`. | `182970692` |
+| [AJT Japanese](https://ankiweb.net/shared/info/1344485230) | Membuat furigana dan pitch accent otomatis saat kartu ditambah atau disunting, juga sekaligus untuk banyak kartu. Hanya jalan di Anki PC. Dibutuhkan jp-mining-note. | `1344485230` |
+| [Adjust Sound Volume](https://ankiweb.net/shared/info/2123044452) | Menyamakan volume audio yang kamu rekam secara otomatis. | `2123044452` |
 | [Cross-Field Highlighter](https://ankiweb.net/shared/info/1312127886) | Menyorot kata target di dalam kalimat contoh. Mendukung bahasa tanpa spasi seperti Jepang. | `1312127886` |
 | [DeepL Translator](https://ankiweb.net/shared/info/972129549) | Menerjemahkan isi kolom kartu dengan DeepL. | `972129549` |
 
@@ -244,6 +246,7 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 |---|---|---|
 | **[FSRS Helper](https://ankiweb.net/shared/info/759844606)** | Pendamping FSRS: menunda atau memajukan kartu, menjadwalkan libur, meratakan beban ulasan harian, dan memisahkan kartu saudara. | `759844606` |
 | [Pass/Fail 2](https://ankiweb.net/shared/info/876946123) | Menyisakan dua tombol saja, `Fail` dan `Pass`, supaya kamu tidak bingung memilih tombol. | `876946123` |
+| [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) | Alternatif Pass/Fail 2: tombol penilaian bisa dikurangi jadi dua, diberi warna, dan diatur dari keyboard. | `1715096333` |
 | [Speed Focus Mode](https://ankiweb.net/shared/info/1046608507) | Membunyikan peringatan, membuka jawaban, atau menggagalkan kartu kalau kamu terlalu lama menjawab. | `1046608507` |
 | [Edit Field During Review (Cloze)](https://ankiweb.net/shared/info/385888438) | Menyunting kartu langsung saat ulasan dengan ++ctrl++ + klik. Kolom yang mau disunting harus diatur dulu di pengaturan add-on. | `385888438` |
 
@@ -255,6 +258,8 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 | [Batch Editing](https://ankiweb.net/shared/info/291119185) | Menambah atau mengganti isi satu kolom di banyak kartu sekaligus. | `291119185` |
 | [FieldReporter](https://ankiweb.net/shared/info/569864517) | Mengurutkan kartu berdasarkan kolom (misalnya frekuensi), mengubah kolom jadi tag, dan mengisi data frekuensi. | `569864517` |
 | [Export cards/notes to CSV or XLSX](https://ankiweb.net/shared/info/1967530655) | Mengekspor kartu yang dipilih di `Browse` beserta datanya ke CSV atau Excel. | `1967530655` |
+| [Paste Images As WebP](https://ankiweb.net/shared/info/1151815987) | Menyimpan gambar yang ditempel ke kartu sebagai WebP supaya ukuran koleksi lebih kecil. | `1151815987` |
+| [AJT Mortician](https://ankiweb.net/shared/info/1255924302) | Menandai atau menangguhkan kartu yang terlalu sering lupa (*leech*) dengan aturan yang bisa diatur. | `1255924302` |
 | [Remove card history](https://ankiweb.net/shared/info/2089200096) | Menghapus riwayat ulasan kartu yang dipilih. Berguna untuk dek pemberian orang yang masih membawa jadwal ulasan lama. | `2089200096` |
 
 ### Statistik
@@ -264,6 +269,7 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 | **[Review Heatmap](https://ankiweb.net/shared/info/1771074083)** | Peta aktivitas ulasan ala GitHub di layar utama, lengkap dengan *streak*. | `1771074083` |
 | [True Retention](https://ankiweb.net/shared/info/613684242) | Menampilkan persentase jawaban benar untuk kartu ulasan saja, ukuran yang lebih jujur daripada rasio `Again`. Statistik lama. | `613684242` |
 | [More Overview Stats 2.1](https://ankiweb.net/shared/info/738807903) | Statistik tambahan di layar ringkasan dek: jumlah dan persentase kartu baru, muda, matang, dan ditangguhkan. | `738807903` |
+| [True Retention by Card Maturity Simplified](https://ankiweb.net/shared/info/1779060522) | Persentase jawaban benar dipisah antara kartu muda dan kartu matang. Statistik lama. | `1779060522` |
 | [Progress Graphs and Stats](https://ankiweb.net/shared/info/266436365) | Grafik jumlah kartu yang sudah dipelajari dan sudah matang dari waktu ke waktu. Statistik lama. | `266436365` |
 | [Learning Step and Review Interval Retention](https://ankiweb.net/shared/info/1949865265) | Persentase jawaban benar per langkah belajar dan per interval, untuk menyetel pengaturan dek. Statistik lama. | `1949865265` |
 
@@ -274,6 +280,8 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 | [Onigiri](https://ankiweb.net/shared/info/1011095603) | Mengubah tampilan Anki jadi lebih modern dan bisa diatur, plus mini gim, teman Pokémon, dan level. | `1011095603` |
 | [ReColor](https://ankiweb.net/shared/info/688199788) | Mengganti warna tampilan Anki sesuai selera. | `688199788` |
 | [CSS Injector](https://ankiweb.net/shared/info/181103283) | Mengubah gaya bawaan editor kartu, seperti daftar dan tautan. | `181103283` |
+| [AnkiWebView Inspector](https://ankiweb.net/shared/info/31746032) | Membuka alat inspeksi HTML dan CSS di jendela ulasan. Berguna kalau kamu mengubah tampilan note type. | `31746032` |
+| [Straight Reward](https://ankiweb.net/shared/info/957961234) | Memberi bonus *ease* untuk jawaban benar beruntun. Hanya berguna kalau kamu masih memakai algoritma SM-2, bukan FSRS. | `957961234` |
 | [Motivanki](https://ankiweb.net/shared/info/663438166) | Menampilkan kutipan penyemangat di layar utama. | `663438166` |
 | [Anki Leaderboard](https://ankiweb.net/shared/info/175794613) | Papan peringkat jumlah ulasan harian, bisa bersaing dengan teman. | `175794613` |
 | [Anki Killstreaks](https://ankiweb.net/shared/info/1562475180) | Medali ala Halo dan Call of Duty untuk jawaban benar beruntun. Versi perbaikan untuk Anki terbaru. | `1562475180` |
@@ -284,6 +292,9 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 ### Di Luar AnkiWeb
 
 - [Field Filler (backfill-anki-yomitan)](https://github.com/Manhhao/backfill-anki-yomitan): mengisi kolom kartu lama yang kosong memakai data dari Yomitan.
+- [Migaku Japanese (versi diperbarui)](https://github.com/MikeMoolenaar/Migaku-Japanese-Addon-Updated): fork add-on Migaku untuk warna pitch accent dan furigana, sudah jalan di Anki 2.1.50 ke atas.
+- [anki-jrp](https://github.com/Ben-Kerman/anki-jrp): add-on mandiri yang hanya menambahkan warna pitch accent dan furigana.
+- [Skrip hotkey jp-mining-note](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/#anki-scripts): skrip Python untuk menyunting kartu yang baru dibuat, misalnya mengganti kalimat dengan isi clipboard atau menyalin gambar dari kartu sebelumnya. Dibuat untuk jp-mining-note. Tutup jendela `Browse` sebelum menjalankannya.
 
 ---
 
@@ -298,6 +309,9 @@ Kamu bisa memasang beberapa add-on sekaligus dengan menempelkan beberapa kode ya
 - [Caoimhe's dictionaries](https://drive.proton.me/urls/GH0GV6DMEC#RP55zc2DL8vD): kumpulan kamus dan font.
 - [ixodid dictionary collection](https://drive.google.com/drive/folders/1rTtDHxY9vRh4DCeZ1lnYhLiypeM5OviI?usp=sharing): kumpulan kamus lain.
 - [QM's Yomitan Audio](https://animecards.site/yomitan_audio/): alat untuk mendapat audio yang akurat di Yomitan.
+- [Tips CSS Yomitan dari jp-mining-note](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/#css-yomichan): menyembunyikan kamus di popup tapi tetap mengirimnya ke Anki, membatasi jumlah daftar frekuensi dan kamus pitch accent, menyembunyikan arti bahasa Inggris sampai kursor diarahkan, dan furigana yang tidak ikut tersalin. Ditulis untuk Yomichan, sebagian besar masih jalan di Yomitan.
+- [yomichan-dict-css](https://github.com/djahandarie/yomichan-dict-css): CSS untuk memberi warna berbeda pada tiap kamus populer di popup.
+- [Template Yomitan dari jp-mining-note](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/#yomichan-templates-handlebars): contoh template kartu, misalnya hanya mengambil kamus pertama, hanya mengirim teks yang disorot, dan furigana polos untuk kalimat.
 - [Yomitan setup guide](https://donkuri.github.io/learn-japanese/setup/#yomitan-setup) dan [panduan Yomitan TheMoeWay](https://learnjapanese.moe/yomichan): panduan setup berbahasa Inggris.
 
 ### Kamus Online
@@ -426,10 +440,12 @@ Mining adalah mencari kata baru saat immersion, lalu menyimpannya ke Anki lewat 
 - **[Renji's texthooker-ui](https://renji-xd.github.io/texthooker-ui/)**: halaman texthooker yang paling banyak dipakai dan bisa diatur ([GitHub](https://github.com/Renji-XD/texthooker-ui)).
 - [Kizuna](https://kizuna-texthooker-ui.app/): texthooker untuk membaca bersama di satu ruang, lengkap dengan statistik dan timer pomodoro.
 - [exSTATic](https://github.com/KamWithK/exSTATic): texthooker dengan grafik dan statistik.
+- [Pengaturan dan CSS Renji's texthooker](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/#settings-css-for-renjis-texthooker): CSS dari jp-mining-note supaya halaman texthooker lebih rapat dan teksnya lebih besar.
 
 ### Alat Pendukung
 
 - [ShareX](https://getsharex.com/): rekam layar dan audio untuk menambah gambar dan audio ke kartu. Lihat [Setup ShareX](setup-ShareX-pc.md).
+- [Skrip ShareX jp-mining-note](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/#sharex-scripts): skrip pengganti untuk panduan ShareX stegatxins0 yang langsung cocok dengan jp-mining-note, misalnya screenshot sekaligus menyimpan isi clipboard ke kartu.
 - [Jiten](https://jiten.moe/): statistik, daftar kosakata, dan dek Anki untuk media Jepang.
 
 ---
@@ -831,6 +847,7 @@ Gijinkoku adalah singkatan dari 技術・人文知識・国際業務 (*Engineer/
 - [Japanese Resources (kuri)](https://github.com/donkuri/japanese-resources), [TheMoeWay Resources](https://learnjapanese.moe/resources/), dan [Ten Resources](https://www.ten.guide/resources): tiga sumber utama halaman ini.
 - [Kuzuri's resources](https://kuzuri.neocities.org/resources): daftar sumber yang sangat besar.
 - [Marv's JP-Resources](https://github.com/MarvNC/JP-Resources): kumpulan alat dan sumber dari MarvNC.
+- [JP Resources (jp-mining-note)](https://aquafina-water-bottle.github.io/jp-mining-note/jpresources/): tips CSS Yomitan, template kartu, serta skrip ShareX dan Anki dari pembuat jp-mining-note. Beberapa bagian halaman ini diambil dari sana.
 - [GaijinRyman's Resources](https://github.com/GaijinRyman/JapaneseResources): daftar sumber belajar di GitHub.
 - [Languagegainz Resources](https://docs.google.com/document/d/1EyIKdsFgsakIh568loSanprRbgzZeAiRTNVkDWoY5RI/edit#): daftar tidak resmi dari server Discord Languagegainz.
 - [Wotaku: Language](https://wotaku.wiki/japan/language): daftar situs dan alat belajar bahasa Jepang.
