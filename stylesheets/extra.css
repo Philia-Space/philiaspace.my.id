@@ -712,6 +712,60 @@ html, body {
   font-weight: 600;
 }
 
+/* --- Right TOC: grouped by section ---
+   Indentation alone made H2 and H3 look the same. H2 = group header (darker, semibold),
+   separated by a thin divider; H3 and deeper hang off a guide line so the nesting is
+   visible. The accent color marks only the current position (a real state). */
+.md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item {
+  padding: 0.35rem 0;
+}
+
+.md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item + .md-nav__item {
+  border-top: 1px solid var(--nx-border);
+}
+
+.md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link {
+  color: var(--md-default-fg-color);
+  font-weight: 600;
+}
+
+/* Nested levels: guide line on the left, smaller and muted text */
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav {
+  margin: 0.15rem 0 0.1rem 0.15rem;
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav > .md-nav__list {
+  padding-left: 0;
+  border-left: 1px solid var(--nx-border-hover);
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav .md-nav__item {
+  padding: 0;
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav .md-nav__link {
+  margin: 0 0 0 -1px;
+  padding: 0.2rem 0 0.2rem 0.7rem;
+  border-left: 2px solid transparent;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav .md-nav__link:hover {
+  color: var(--md-default-fg-color);
+}
+
+/* Current position: accent text + matching segment on the guide line */
+.md-sidebar--secondary .md-nav--secondary .md-nav__link--active {
+  color: var(--nx-active-fg) !important;
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__item .md-nav .md-nav__link--active {
+  border-left-color: var(--nx-active-fg);
+  font-weight: 600;
+}
+
 /* --- Nextra Pagination Cards Footer (Symmetric, No Clipping) --- */
 .md-footer {
   background: transparent !important;
