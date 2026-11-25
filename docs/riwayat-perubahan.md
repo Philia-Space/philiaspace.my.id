@@ -52,6 +52,11 @@ hide:
        - [Sumber Belajar](resources.md) sekarang juga mengambil dari JP Resources milik jp-mining-note: bacaan tentang Anki, beberapa add-on baru, tips tampilan Yomitan, serta skrip ShareX dan Anki
        - [Setup Anki PC](setup-anki-pc-lazy-guide.md) punya daftar bacaan lanjutan tentang Anki
 
+*Daftar isi di kanan halaman*
+
+- Pembaruan
+       - Daftar isi di kanan halaman sekarang dikelompokkan per bagian: judul bagian ditebalkan dan dipisah garis tipis, subbagian berderet di sepanjang garis di bawahnya, dan posisi bacaanmu ditandai warna biru
+
 **24-11-2026**
 
 *Tampilan baru beranda*
