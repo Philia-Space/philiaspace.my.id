@@ -6,9 +6,10 @@ description: "Cara belajar kanji untuk membaca lewat kosakata dan immersion, bes
 
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/kanji/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
+!!! info "Terjemahan dari TheMoeWay"
+    Halaman ini terjemahan bahasa Indonesia dari [panduan kanji](https://learnjapanese.moe/kanji/) di TheMoeWay, ditulis oleh **shoui** dan kontributor TheMoeWay. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/kanji/).
 
 "Belajar kanji" kedengarannya wajar. Tapi coba pikir lagi: yang dipelajari itu apa?
 

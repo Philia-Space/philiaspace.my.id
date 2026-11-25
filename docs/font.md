@@ -7,9 +7,10 @@ description: "Cara memastikan kanji di komputer dan HP-mu tampil dengan font Jep
 
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/font/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
+!!! info "Terjemahan dari TheMoeWay"
+    Halaman ini terjemahan bahasa Indonesia dari [panduan font](https://learnjapanese.moe/font/) di TheMoeWay, ditulis oleh **shoui** dan kontributor TheMoeWay. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/font/).
 
 ![Chinese vs Japanese font](img/font1.png)
 

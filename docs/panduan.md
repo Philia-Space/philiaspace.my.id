@@ -6,9 +6,10 @@ description: "Panduan lengkap belajar bahasa Jepang lewat immersion: kana, tata 
 
 ---
 
-??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/guide/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
-    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
+!!! info "Terjemahan dari TheMoeWay"
+    Halaman ini terjemahan bahasa Indonesia dari [Japanese Guide](https://learnjapanese.moe/guide/) di TheMoeWay, ditulis oleh **shoui** dan kontributor TheMoeWay. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi asli dan terjemahan ini sama-sama berlisensi [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://learnjapanese.moe/guide/).
 
 *Mau langsung ke bagian praktik? Lompat ke [2.1 Cara belajar bahasa Jepang](#21-cara-belajar-bahasa-jepang).*
 
@@ -447,6 +448,8 @@ Kalau panduan ini berguna buat perjalanan belajarmu, dukungan lewat Trakteer san
 [Trakteer Philia Space](https://trakteer.id/philiaanimelist/tip){: .md-button }
 
 ### Kontributor Panduan Asli
-Terima kasih kepada semua yang ikut menyusun panduan asli TheMoeWay:
+Panduan ini terjemahan dari [Japanese Guide TheMoeWay](https://learnjapanese.moe/guide/) yang ditulis oleh **shoui**.
+
+Terima kasih juga kepada semua yang ikut menyusun panduan asli TheMoeWay:
 
 iamatryhard · shigatsunoraion · qazsedctgb · ktamashi · kaio.n · saegusa.mayumin · pedipanol · .ikki. · ultravioletspring · deviru · kazuhira___ · marv.n
