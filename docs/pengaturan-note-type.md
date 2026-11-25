@@ -8,7 +8,7 @@ hide:
 
 Tiap note type punya kebutuhan sendiri: field apa yang diisi, isinya apa, dan apa yang terjadi kalau kamu menambang kata yang sudah punya kartu. Halaman ini mengumpulkan pengaturannya untuk note type yang dipakai di situs ini, dalam dua versi: **Yomitan** dan **Manatan**.
 
-Cara memasang dan memperbarui note type-nya ada di [Memperbarui Note Type](pembaruan-note-type.md). Kalau kamu memakai **Manatan-NoteType** di Manatan, kamu tidak perlu mengatur apa pun, karena note type itu dipasang dan diatur otomatis oleh Manatan.
+Belum memilih note type? Lihat [Pilihan Note Type](note-type.md). Cara memasang dan memperbarui note type-nya ada di [Memperbarui Note Type](pembaruan-note-type.md). Kalau kamu memakai **Manatan-NoteType** di Manatan, kamu tidak perlu mengatur apa pun, karena note type itu dipasang dan diatur otomatis oleh Manatan.
 
 ---
 

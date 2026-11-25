@@ -23,6 +23,8 @@ Begini cara memperbarui note type (format kartu) Anki kamu, entah untuk memperba
 | [Senren](https://github.com/BrenoAqua/Senren) | Bawaan Yomipv di [Kartu Anime Satu Klik](kartu-anime-satu-klik.md) |
 | [Mining-JP](https://github.com/rudnam/JP-study#anki-mining-template) | [Setup Yomitan & Anki PC](setup-yomitan-pc.md) dan contoh di panduan anime |
 
+Note type lain beserta gambar contohnya ada di [Pilihan Note Type](note-type.md). Kalau kamu ingin pindah ke note type lain tanpa kehilangan jadwal ulasan, lihat [Pindah ke jp-mining-note](pindah-ke-jp-mining-note.md).
+
 Caranya mirip untuk semua note type: cadangkan kartu, unduh file `.apkg` terbaru, lalu impor ke Anki. Bedanya hanya di beberapa langkah kecil, jadi pilih tab sesuai note type yang kamu pakai.
 
 !!!warning "Cadangkan dulu kartu-kartumu"

@@ -36,11 +36,13 @@ nav:
         - 'Manga': 'setup-manga-android-lazy-guide.md'
   - 'Setup Mining':
       - 'Manatan (semua perangkat)': 'Setup-Manatan.md'
+      - 'Pilihan Note Type': 'note-type.md'
       - 'Pengaturan Note Type': 'pengaturan-note-type.md'
       - 'PC':
         - 'Yomitan & Anki': 'setup-yomitan-pc.md'
         - 'Anime PC': 'kartu-anime-satu-klik.md'
         - 'Memperbarui Note Type': 'pembaruan-note-type.md'
+        - 'Pindah ke jp-mining-note': 'pindah-ke-jp-mining-note.md'
         - 'Fushi (Windows)': 'Setup-Fushi.md'
       - 'Android':
         - 'LN & Buku': 'Setup-Hoshi-Reader.md'

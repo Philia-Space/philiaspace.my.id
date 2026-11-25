@@ -125,6 +125,22 @@ Template Anki kamu sudah siap. Selanjutnya, siapkan Yomitan:
 
     ![FSRS Interval Troubleshooting](img/fsrs-interval-troubleshooting.png){height=70% width=70%}
 
+#### Info 4: Bacaan Lanjutan tentang Anki
+
+??? info "Bacaan lanjutan tentang Anki <small>(klik untuk buka)</small>"
+
+    Panduan ini fokus ke pengaturan siap pakai. Kalau kamu ingin memahami Anki lebih dalam, baca sumber berikut (dikumpulkan dari [Setup: Other](https://aquafina-water-bottle.github.io/jp-mining-note/setupother/#various-anki-resources) di dokumentasi jp-mining-note):
+
+    - [Optimizing Anki for Language Learning](https://cademcniven.com/posts/20210410/): pengaturan Anki khusus untuk belajar bahasa, tulisan Cade. Paling direkomendasikan
+    - [Setting up Anki](https://tatsumoto.neocities.org/blog/setting-up-anki.html): panduan setup Anki dari Tatsumoto
+    - [Lazy Guide: Anki](https://rentry.co/lazyXel#anki): contoh note type, add-on, dan tips dari Xelieu
+    - [Refold: Anki Setup](https://refold.la/roadmap/stage-1/a/anki-setup): pengaturan Anki yang disarankan Refold
+    - [FSRS4Anki](https://github.com/open-spaced-repetition/fsrs4anki): penjelasan FSRS, algoritma penjadwalan yang dipakai Anki sekarang
+    - [Twenty Rules of Formulating Knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge): aturan membuat flashcard yang baik. Empat aturan pertama yang paling penting
+    - [Awesome Anki](https://github.com/tianshanghong/awesome-anki): kumpulan add-on, dek, dan sumber Anki
+
+    Saran dari tiap sumber bisa berbeda. Coba dulu beberapa minggu, lalu sesuaikan dengan kebutuhanmu. Daftar add-on tambahan ada di [Rekomendasi Add-on Anki](resources.md#rekomendasi-add-on-anki), dan pilihan note type selain Lapis ada di [Pilihan Note Type](note-type.md).
+
 #### Tip 1: Saat Mengulas Kartu di Anki
 
 ??? tip "Saat mengulas kartu di Anki <small>(klik untuk buka)</small>"
