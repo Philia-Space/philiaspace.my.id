@@ -139,7 +139,7 @@ Template Anki kamu sudah siap. Selanjutnya, siapkan Yomitan:
     - [Twenty Rules of Formulating Knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge): aturan membuat flashcard yang baik. Empat aturan pertama yang paling penting
     - [Awesome Anki](https://github.com/tianshanghong/awesome-anki): kumpulan add-on, dek, dan sumber Anki
 
-    Saran dari tiap sumber bisa berbeda. Coba dulu beberapa minggu, lalu sesuaikan dengan kebutuhanmu. Daftar add-on tambahan ada di [Rekomendasi Add-on Anki](resources.md#rekomendasi-add-on-anki), dan pilihan note type selain Lapis ada di [Pilihan Note Type](note-type.md).
+    Saran dari tiap sumber bisa berbeda. Coba dulu beberapa minggu, lalu sesuaikan dengan kebutuhanmu. Daftar add-on tambahan ada di [Rekomendasi Add-on Anki](sumber/software.md#add-on-anki), dan pilihan note type selain Lapis ada di [Pilihan Note Type](note-type.md).
 
 #### Tip 1: Saat Mengulas Kartu di Anki
 

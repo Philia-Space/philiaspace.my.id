@@ -147,7 +147,7 @@ hide:
       <p class="pl-label">Sumber belajar</p>
       <h3>Kamus, dek, dan bahan ujian</h3>
       <p>Kamus, dek Anki, aplikasi, situs, bahan immersion, serta bahan ujian JLPT, JFT, SSW, dan tes lainnya.</p>
-      <a href="resources/" class="pl-arrow">Buka Sumber Belajar</a>
+      <a href="sumber/" class="pl-arrow">Buka Sumber Belajar</a>
     </article>
     <article class="pl-card">
       <p class="pl-label">Buatan komunitas</p>

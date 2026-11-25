@@ -101,3 +101,12 @@
 {% endif %}
 
 {% endblock %}
+
+{# Halaman dengan front matter `kelas_halaman` dibungkus kelas itu, supaya gaya khusus (misalnya tabel Sumber Belajar) tidak bocor ke halaman lain. #}
+{% block content %}
+  {% if page.meta and page.meta.kelas_halaman %}
+    <div class="{{ page.meta.kelas_halaman }}">{{ super() }}</div>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

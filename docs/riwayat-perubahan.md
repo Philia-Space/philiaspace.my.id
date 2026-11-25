@@ -46,16 +46,34 @@ hide:
 *Note type dan sumber dari jp-mining-note*
 
 - Penambahan
-       - Halaman baru [Pilihan Note Type](note-type.md): daftar note type untuk mining, lengkap dengan gambar atau video contoh dari pembuatnya masing-masing, termasuk beberapa note type yang dibagikan di server TheMoeWay. Daftar note type di [Sumber Belajar](resources.md) dipindah ke sini
+       - Halaman baru [Pilihan Note Type](note-type.md): daftar note type untuk mining, lengkap dengan gambar atau video contoh dari pembuatnya masing-masing, termasuk beberapa note type yang dibagikan di server TheMoeWay. Daftar note type di [Sumber Belajar](sumber/index.md) dipindah ke sini
        - Halaman baru [Pindah ke jp-mining-note](pindah-ke-jp-mining-note.md): cara memindahkan kartu dari Lapis, Mining-JP, Anime Cards, dan note type lain ke jp-mining-note tanpa kehilangan jadwal ulasan
 - Pembaruan
-       - [Sumber Belajar](resources.md) sekarang juga mengambil dari JP Resources milik jp-mining-note: bacaan tentang Anki, beberapa add-on baru, tips tampilan Yomitan, serta skrip ShareX dan Anki
+       - [Sumber Belajar](sumber/index.md) sekarang juga mengambil dari JP Resources milik jp-mining-note: bacaan tentang Anki, beberapa add-on baru, tips tampilan Yomitan, serta skrip ShareX dan Anki
        - [Setup Anki PC](setup-anki-pc-lazy-guide.md) punya daftar bacaan lanjutan tentang Anki
 
 *Daftar isi di kanan halaman*
 
 - Pembaruan
        - Daftar isi di kanan halaman sekarang dikelompokkan per bagian: judul bagian ditebalkan dan dipisah garis tipis, subbagian berderet di sepanjang garis di bawahnya, dan posisi bacaanmu ditandai warna biru
+
+*Sumber Belajar dipecah per kategori*
+
+- Pembaruan
+       - Sumber Belajar sekarang punya halaman [Ringkasan](sumber/index.md) dan empat halaman per kategori: [Bahasa](sumber/bahasa.md), [Software](sumber/software.md), [Immersion](sumber/immersion.md), dan [Ujian & Kerja](sumber/ujian.md). Susunannya mengikuti Wotaku
+       - Isi tiap bagian sekarang berupa tabel bertab. Tabel software punya kolom platform dengan ikon Linux, Windows, macOS, Android, iOS, web, dan ekstensi browser, jadi kamu bisa langsung melihat alat mana yang jalan di perangkatmu
+       - Sumber yang paling direkomendasikan ditandai bintang, bukan lagi huruf tebal
+       - Alamat lama Sumber Belajar otomatis dialihkan ke halaman Ringkasan
+       - Di HP, tiap baris di halaman Sumber Belajar tampil sebagai kartu kecil, jadi keterangannya terbaca utuh tanpa digeser ke samping. Keterangan ikon juga tersusun rapi sebagai daftar
+       - Bagian Semua-dalam-Satu di halaman [Software](sumber/software.md) punya tab Disarankan berisi Manatan dan Fushi, supaya pemula langsung tahu harus mulai dari mana
+       - Ikon platform sekarang bisa dibacakan pembaca layar, urutannya selalu sama, dan platform yang masih beta ditulis jelas dengan label "beta:"
+       - Di layar besar, teks dan tabel di seluruh situs tidak lagi ikut membesar, jadi lebih banyak isi muat dalam satu layar. Tabel juga dibuat lebih rapat, dan semua halaman memakai kolom isi yang lebih lebar di layar besar
+- Penambahan
+       - Puluhan alat baru dari kanal #resources-sharing TheMoeWay masuk ke halaman [Software](sumber/software.md), misalnya Fushi, Hoshi Reader Desktop, MacPopup, OwOtan, Hachidori, Kimochi, meikipop, Yomipv, SubMiner, MaruReader, dan Yomihon
+       - Tab baru "Pilihan Cepat per Perangkat" di halaman [Software](sumber/software.md) merangkum alat yang disarankan untuk Android, iOS, Windows, macOS, dan Linux
+- Untuk Penulis
+       - Isi halaman Sumber Belajar sekarang ditulis sebagai daftar HTML (`ps-tabel`), bukan tabel Markdown, supaya tampil rapi sebagai kolom di komputer dan sebagai kartu di HP. Tab di halaman itu memakai format `/// tab | Judul`. Contoh dan aturannya ada di PANDUAN-GAYA, bagian Halaman Sumber Belajar
+       - Ikon platform ditulis dengan kode ikon Material yang diberi nama, misalnya `:simple-linux:{ title="Linux" role="img" aria-label="Linux" }`. Daftar ikon yang dipakai ada di bagian Keterangan ikon di halaman [Ringkasan](sumber/index.md#keterangan-ikon)
 
 **24-11-2026**
 
@@ -87,7 +105,7 @@ hide:
 *Sumber belajar visa Gijinkoku*
 
 - Penambahan
-       - [Sumber Belajar](resources.md#gijinkoku): bagian baru untuk visa Gijinkoku (技人国), berisi syarat resmi, aturan bahasa yang berlaku sejak 15 April 2026, dan situs untuk mencari kerja. Sebagian tautan dikumpulkan dari server Philia Space, KaburAjaDulu, dan TheMoeWay
+       - [Sumber Belajar](sumber/ujian.md#gijinkoku): bagian baru untuk visa Gijinkoku (技人国), berisi syarat resmi, aturan bahasa yang berlaku sejak 15 April 2026, dan situs untuk mencari kerja. Sebagian tautan dikumpulkan dari server Philia Space, KaburAjaDulu, dan TheMoeWay
 - Perbaikan
        - Tautan OTIT dan program magang Kemnaker di bagian SSW diberi keterangan bahwa keduanya untuk program magang (Ginou Jisshuu)
 
@@ -116,11 +134,11 @@ hide:
 *Bahan ujian JLPT, JFT, SSW, dan tes lainnya*
 
 - Pembaruan
-       - [Sumber Belajar](resources.md#jlpt): bagian JLPT ditambah info resmi, arsip soal tahun lalu, dan situs simulasi
+       - [Sumber Belajar](sumber/ujian.md#jlpt): bagian JLPT ditambah info resmi, arsip soal tahun lalu, dan situs simulasi
 - Penambahan
-       - [Sumber Belajar](resources.md#jft): bagian JFT berisi situs resmi, simulasi ujian, kisi-kisi, dan modul
-       - [Sumber Belajar](resources.md#ssw-tokutei-ginou): bagian SSW berisi materi resmi per bidang, modul, kisi-kisi, dan daftar resmi untuk cek LPK dan TSK sebelum mendaftar
-       - [Sumber Belajar](resources.md#tes-jepang-lainnya): bagian baru untuk NAT-TEST, J.TEST, BJT, J-CAT, Kanken, EJU, dan kaigo, lengkap dengan contoh soal resmi dan buku teks kaigo berbahasa Indonesia
+       - [Sumber Belajar](sumber/ujian.md#jft): bagian JFT berisi situs resmi, simulasi ujian, kisi-kisi, dan modul
+       - [Sumber Belajar](sumber/ujian.md#ssw-tokutei-ginou): bagian SSW berisi materi resmi per bidang, modul, kisi-kisi, dan daftar resmi untuk cek LPK dan TSK sebelum mendaftar
+       - [Sumber Belajar](sumber/ujian.md#tes-jepang-lainnya): bagian baru untuk NAT-TEST, J.TEST, BJT, J-CAT, Kanken, EJU, dan kaigo, lengkap dengan contoh soal resmi dan buku teks kaigo berbahasa Indonesia
 
 *Format Riwayat Perubahan*
 
@@ -149,9 +167,9 @@ hide:
        - [Proyek Komunitas](proyek.md#kendala-yang-diketahui): cara mengunduh dek dan kamus dari Google Drive di HP kalau muncul "Jenis file ini tidak didukung" (Android) atau "Pratinjau tidak tersedia" (iPhone), lalu cara mengimpornya ke Anki, Yomitan, Hoshi Reader, atau Manatan, serta saran mencoba browser lain, lalu ganti DNS atau pakai VPN, kalau tautannya tidak bisa dibuka
        - [Proyek Komunitas](proyek.md#riwayat-pembaruan): riwayat pembaruan dek per pembuat, dengan tautan ke pengumumannya di Discord
        - [Proyek Komunitas](proyek.md#rhdict): RHDict, kamus Jepang-Indonesia format Yomitan
-       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](resources.md): PhiList, alat untuk mengecek tingkat kesulitan bahasa Jepang anime, manga, novel, dan media lain
+       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](sumber/index.md): PhiList, alat untuk mengecek tingkat kesulitan bahasa Jepang anime, manga, novel, dan media lain
 - Pembaruan
-       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](resources.md): Tes Frekuensi Kosakata diganti Philia Test versi baru, tes untuk mengecek berapa banyak kanji yang bisa kamu baca
+       - [Proyek Komunitas](proyek.md#alat-belajar-lainnya) dan [Sumber Belajar](sumber/index.md): Tes Frekuensi Kosakata diganti Philia Test versi baru, tes untuk mengecek berapa banyak kanji yang bisa kamu baca
        - [Setup Anki PC](setup-anki-pc-lazy-guide.md#tip-4-dek-anki-dari-komunitas): tip baru yang mengarahkan ke Dek Anki Komunitas, dengan tautan ke tiap rute dan ke daftar kendala
        - [Panduan Bahasa Jepang](panduan.md#24-belajar-kosakata-dengan-anki), [Panduan Ringkas](panduan-ringkas-JP.md), dan [30 Hari Awal](rutinitas-awal.md): tautan ke Dek Anki Komunitas di bawah daftar dek kosakata
 
@@ -167,8 +185,8 @@ hide:
 *Tautan mati di Sumber Belajar*
 
 - Perbaikan
-       - [Sumber Belajar](resources.md): tautan yang sudah mati dibuang, antara lain VNCR, OJAD, Fuseji, BilingualManga, mangareader.to, Todaii, CDRomance, Misuzu, HoriSan, Japanese Live TV, korpus BCCWJ dan NWJC, serta situs Yuzu dan Citron yang tidak bisa dibuka lagi
-       - [Sumber Belajar](resources.md): Master reference grammar, DOJG Deck, dan NeeView diarahkan ke alamat yang masih hidup
+       - [Sumber Belajar](sumber/index.md): tautan yang sudah mati dibuang, antara lain VNCR, OJAD, Fuseji, BilingualManga, mangareader.to, Todaii, CDRomance, Misuzu, HoriSan, Japanese Live TV, korpus BCCWJ dan NWJC, serta situs Yuzu dan Citron yang tidak bisa dibuka lagi
+       - [Sumber Belajar](sumber/index.md): Master reference grammar, DOJG Deck, dan NeeView diarahkan ke alamat yang masih hidup
 
 **11-11-2026**
 
@@ -265,9 +283,9 @@ hide:
 *Sumber Belajar*
 
 - Penambahan
-       - [Sumber Belajar](resources.md): kumpulan tautan alat dan bahan belajar bahasa Jepang dari kuri, TheMoeWay, Ten, dan Wotaku, dikelompokkan per topik dengan deskripsi bahasa Indonesia
-       - [Rekomendasi Add-on Anki](resources.md#rekomendasi-add-on-anki): daftar add-on pilihan Philia Space beserta fungsi dan kode pasangnya
-       - [JIDict Web](resources.md#kamus-di-hp) di daftar kamus, lengkap dengan cara memasangnya di Android dan iOS
+       - [Sumber Belajar](sumber/index.md): kumpulan tautan alat dan bahan belajar bahasa Jepang dari kuri, TheMoeWay, Ten, dan Wotaku, dikelompokkan per topik dengan deskripsi bahasa Indonesia
+       - [Rekomendasi Add-on Anki](sumber/software.md#add-on-anki): daftar add-on pilihan Philia Space beserta fungsi dan kode pasangnya
+       - [JIDict Web](sumber/software.md#yomitan-dan-kamus) di daftar kamus, lengkap dengan cara memasangnya di Android dan iOS
 - Pembaruan
        - Menu **Sumber Belajar** ditambahkan di navigasi, di atas **Proyek Komunitas**
 - Perbaikan

@@ -589,15 +589,18 @@ html, body {
 .md-typeset table:not([class]) th {
   background-color: var(--nx-hover-bg);
   font-weight: 600;
-  font-size: 0.85rem;
-  padding: 0.65rem 1rem;
+  font-size: 0.7rem;
+  padding: 0.5rem 0.75rem;
   border-bottom: 1px solid var(--nx-border);
   text-align: left;
 }
 
+/* Isi tabel 14px, sedikit lebih kecil dari teks paragraf (16px), seperti tabel di TheMoeWay dan Wotaku,
+   supaya tabel panjang muat lebih banyak baris dalam satu layar. */
 .md-typeset table:not([class]) td {
-  padding: 0.65rem 1rem;
-  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.7rem;
+  line-height: 1.55;
   border-bottom: 1px solid var(--nx-border);
 }
 
@@ -1418,4 +1421,119 @@ body:has(.pl-landing) .md-footer { display: none; }
     max-width: 7.5rem;
     overflow-wrap: break-word;
   }
+}
+
+/* --- Sumber Belajar (halaman dengan kelas_halaman: ps-sumber) --- */
+
+/* Bagian bertab berisi daftar tampil sebagai satu kartu, radius sama dengan .ps-card */
+.md-typeset .ps-sumber .tabbed-set:has(.ps-tabel) {
+  border: 1px solid var(--nx-border);
+  border-radius: 16px;
+  padding: 0 0.75rem 0.75rem;
+}
+.md-typeset .ps-sumber .tabbed-block > :last-child { margin-bottom: 0; }
+
+/* Titik fokus halaman Software: pilihan yang disarankan memakai garis cyan, aksen brand untuk "status terpilih" */
+.md-typeset .ps-sumber .ps-sorot > .tabbed-set { border: 2px solid var(--md-accent-fg-color); }
+
+/* Daftar sumber: di layar lebar berbentuk kolom (lebar kolom dari --kolom di tiap daftar), di HP berbentuk kartu */
+.md-typeset .ps-tabel {
+  margin: 1em 0;
+  border: 1px solid var(--nx-border);
+  border-radius: 8px;
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+.md-typeset .ps-tabel-kepala,
+.md-typeset .ps-baris > li {
+  display: grid;
+  grid-template-columns: var(--kolom);
+}
+.md-typeset .ps-tabel-kepala {
+  background-color: var(--nx-hover-bg);
+  border-bottom: 1px solid var(--nx-border);
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+.md-typeset .ps-tabel-kepala > span,
+.md-typeset .ps-sel { padding: 0.5rem 0.75rem; min-width: 0; overflow-wrap: anywhere; }
+.md-typeset ul.ps-baris { margin: 0; padding: 0; list-style: none; }
+[dir] .md-typeset ul.ps-baris > li { margin: 0; border-bottom: 1px solid var(--nx-border); }
+.md-typeset ul.ps-baris > li:last-child { border-bottom: 0; }
+.md-typeset .ps-sel code { white-space: nowrap; }
+.md-typeset .ps-sel .twemoji { vertical-align: -0.2em; }
+.md-typeset .ps-sel .twemoji + .twemoji { margin-left: 0.25em; }
+.md-typeset .ps-sel small { color: var(--md-default-fg-color--light); margin: 0 0.15em; }
+/* Nama kolom tiap sel hanya untuk pembaca layar, kecuali di HP untuk kolom yang tidak jelas sendiri */
+.md-typeset .ps-label {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* Legenda ikon di halaman Ringkasan: pasangan ikon dan arti, kolomnya menyesuaikan lebar layar */
+.md-typeset ul.ps-legenda-ikon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: 0.5rem 1.5rem;
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.7rem;
+}
+[dir] .md-typeset ul.ps-legenda-ikon > li { display: flex; gap: 0.6rem; align-items: baseline; margin: 0; }
+.md-typeset .ps-legenda-simbol { flex: 0 0 2.5rem; text-align: center; }
+
+/* Ikon di baris legenda singkat bawah paragraf pembuka */
+.md-typeset .ps-sumber .ps-legenda .twemoji { vertical-align: -0.2em; }
+.md-typeset .ps-sumber .ps-legenda { font-size: 0.7rem; line-height: 1.8; color: var(--md-default-fg-color--light); }
+
+/* Bintang rekomendasi memakai warna tautan (Laut di mode terang), kontras di atas 3:1 di kedua tema */
+.md-typeset .ps-sumber .ps-star { color: var(--md-typeset-a-color); }
+
+/* Kelompok beta di kolom Platform tidak dipecah, supaya jelas ikon mana yang masih beta */
+.md-typeset .ps-sumber .ps-beta { display: inline-block; white-space: nowrap; }
+
+/* HP: tiap baris jadi kartu kecil. Nama di atas, lalu platform, lalu keterangan. */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ps-tabel-kepala { display: none; }
+  .md-typeset .ps-baris > li { display: block; padding: 0.65rem 0.85rem; }
+  .md-typeset .ps-sel { padding: 0.1rem 0; }
+  .md-typeset .ps-sel:empty { display: none; }
+  .md-typeset .ps-sel-utama { font-weight: 600; font-size: 0.75rem; }
+  .md-typeset .ps-label-lihat {
+    position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal;
+    color: var(--md-default-fg-color--light);
+  }
+  .md-typeset .ps-sumber .tabbed-set:has(.ps-tabel) { padding: 0 0.5rem 0.5rem; }
+}
+
+/* --- Skala di layar lebar ---
+   Material memperbesar ukuran dasar jadi 137,5% di layar 1600px ke atas dan 150% di 2000px ke atas,
+   jadi semua teks, tabel, dan jarak ikut membesar dan layar lebar tidak menampilkan lebih banyak isi.
+   Ukuran dasar dikunci di 125% (sama dengan layar biasa). */
+@media screen and (min-width: 100em) {
+  html { font-size: 125%; }
+}
+
+/* Layar lebar dipakai untuk kolom isi yang lebih lebar, supaya lebih banyak isi muat dalam satu layar. */
+@media screen and (min-width: 100em) {
+  .md-grid { max-width: 76rem; }
+}
+
+/* Label tab yang difokus lewat keyboard diberi garis luar, bukan hanya ganti warna (warna cyan saja kontrasnya 2,2:1) */
+.md-typeset .tabbed-set > input:nth-child(1):focus-visible ~ .tabbed-labels > :nth-child(1),
+.md-typeset .tabbed-set > input:nth-child(2):focus-visible ~ .tabbed-labels > :nth-child(2),
+.md-typeset .tabbed-set > input:nth-child(3):focus-visible ~ .tabbed-labels > :nth-child(3),
+.md-typeset .tabbed-set > input:nth-child(4):focus-visible ~ .tabbed-labels > :nth-child(4),
+.md-typeset .tabbed-set > input:nth-child(5):focus-visible ~ .tabbed-labels > :nth-child(5),
+.md-typeset .tabbed-set > input:nth-child(6):focus-visible ~ .tabbed-labels > :nth-child(6),
+.md-typeset .tabbed-set > input:nth-child(7):focus-visible ~ .tabbed-labels > :nth-child(7),
+.md-typeset .tabbed-set > input:nth-child(8):focus-visible ~ .tabbed-labels > :nth-child(8),
+.md-typeset .tabbed-set > input:nth-child(9):focus-visible ~ .tabbed-labels > :nth-child(9),
+.md-typeset .tabbed-set > input:nth-child(10):focus-visible ~ .tabbed-labels > :nth-child(10),
+.md-typeset .tabbed-set > input:nth-child(11):focus-visible ~ .tabbed-labels > :nth-child(11),
+.md-typeset .tabbed-set > input:nth-child(12):focus-visible ~ .tabbed-labels > :nth-child(12) {
+  outline: 2px solid var(--md-typeset-a-color);
+  outline-offset: 2px;
+  border-radius: 4px;
+  color: var(--md-typeset-a-color);
 }
