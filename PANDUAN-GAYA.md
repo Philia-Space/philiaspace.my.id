@@ -87,6 +87,29 @@ Nama aplikasi dan fitur ditulis seperti aslinya: Anki, Yomitan, AnkiConnect, Man
 
 Kalau halaman baru diambil dari LazyGuide, tambahkan juga ke daftar di `LICENSE.docs.md`.
 
+## Halaman Sumber Belajar
+
+Halaman di `docs/sumber/` tidak memakai tabel Markdown. Setiap daftar ditulis sebagai HTML supaya tampil sebagai kolom di komputer dan sebagai kartu di HP. Tab memakai format `/// tab`, karena HTML di dalam tab `===` tidak diproses.
+
+```markdown
+/// tab | Kamus Popup
+    new: true
+
+<div class="ps-tabel" style="--kolom: minmax(9rem, 14rem) 7.5rem minmax(0, 1fr)" markdown>
+<div class="ps-tabel-kepala" aria-hidden="true"><span>Software</span><span>Platform</span><span>Keterangan</span></div>
+<ul class="ps-baris" markdown>
+<li markdown><div class="ps-sel ps-sel-utama" markdown="span">[Yomitan](https://yomitan.wiki/)</div><div class="ps-sel ps-sel-2" markdown="span"><span class="ps-label">Platform: </span>:material-puzzle:{ title="Ekstensi browser" role="img" aria-label="Ekstensi browser" }</div><div class="ps-sel ps-sel-3" markdown="span"><span class="ps-label">Keterangan: </span>Kamus popup di browser.</div></li>
+</ul>
+</div>
+///
+```
+
+- Satu `<li>` untuk satu sumber. Sel pertama (`ps-sel-utama`) selalu nama dan tautannya.
+- `new: true` hanya di tab pertama dalam satu grup.
+- Kolom yang tidak jelas sendiri di HP (misalnya `Kode`, `Istilah Jepang`, `Penyelenggara`) memakai `ps-label ps-label-lihat`, supaya namanya muncul di kartu HP. Kolom lain cukup `ps-label`, yang hanya dibaca pembaca layar.
+- Lebar kolom diatur lewat `--kolom`. Salin dari daftar lain dengan kolom yang sama.
+- Urutan ikon platform selalu Linux, Windows, macOS, Android, iOS, lalu web dan ekstensi. Platform yang masih beta ditulis setelah `<small>beta:</small>`.
+
 ## Yang jangan diubah saat menyunting
 
 - Alamat tautan, path gambar, isi blok kode, dan password arsip.

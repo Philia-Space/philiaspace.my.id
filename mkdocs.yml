@@ -50,7 +50,12 @@ nav:
         - 'LN & Buku': 'Setup-Hoshi-Reader-iOS.md'
     #   - 'Mangatan PC': 'setup-mangatan-pc.md'
     #   - 'Mangatan Android': 'setup-mangatan-android.md'
-  - 'Sumber Belajar': 'resources.md'
+  - 'Sumber Belajar':
+      - 'Ringkasan': 'sumber/index.md'
+      - 'Bahasa': 'sumber/bahasa.md'
+      - 'Software': 'sumber/software.md'
+      - 'Immersion': 'sumber/immersion.md'
+      - 'Ujian & Kerja': 'sumber/ujian.md'
   - 'Proyek Komunitas': 'proyek.md'
   - 'Lain-lain':
       - 'Riwayat Perubahan': 'riwayat-perubahan.md'
@@ -79,6 +84,7 @@ theme:
     - content.code.copy
     - content.action.edit
     - content.zoom
+    - content.tooltips
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
@@ -118,6 +124,9 @@ markdown_extensions:
   - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
+  # Tab tanpa indentasi (/// tab | Judul), dipakai di Sumber Belajar supaya isi tab bisa berupa HTML
+  - pymdownx.blocks.tab:
+      alternate_style: true
   - toc:
       permalink: true
       title: "Di halaman ini"
@@ -152,6 +161,7 @@ plugins:
   - redirects:
       redirect_maps:
         'pembaruan-format-lapis.md': 'pembaruan-note-type.md'
+        'resources.md': 'sumber/index.md'
   - glightbox:
       touchNavigation: true
       loop: false
