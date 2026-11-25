@@ -5,7 +5,12 @@ description: "Baca light novel EPUB di PC dan simpan kata barunya ke Anki dengan
 
 # Setup Mining Light Novel dan sejenisnya
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/).
+!!! info "Diadaptasi dari LazyGuide"
+    Halaman ini diadaptasi dari [Setup: LN on PC](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/) di LazyGuide, ditulis oleh **LazyGuideJP**, lalu dikembangkan oleh Philia Space.
+
+    Pembaca TTU di versi asli diganti Yatsu Reader, dan bagian audiobook ditambahkan oleh Philia Space.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/).
 
 ---
 

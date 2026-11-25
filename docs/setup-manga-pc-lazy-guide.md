@@ -5,7 +5,10 @@ description: "Mining manga bahasa Jepang di PC Windows dengan OCR (CDisplayEx da
 <!-- upstream: setupMangaOnPC @ 2026-03-25 -->
 # Setup Mining Manga di PC Windows
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup: Manga on PC](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/).
 
 ---
 
@@ -213,7 +216,6 @@ Ada 3 metode yang bisa dipilih:
 Sekarang kamu sudah bisa mining manga di PC.
 
 <small>Kalau ada masalah, cek [FAQs](setup-manga-pc-lazy-guide.md/#pertanyaan-umum)</small>
-
 
 ---
 

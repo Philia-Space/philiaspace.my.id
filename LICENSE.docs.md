@@ -18,9 +18,17 @@ dengan lisensi lain. Lisensinya sudah diperbaiki menjadi GPL-3.0.
 
 ### Terjemahan LazyGuide
 
-Halaman [Panduan Ringkas Bahasa Jepang](docs/panduan-ringkas-JP.md) dan halaman setup "Lazy Guide"
-(berkas `docs/*lazy-guide*.md` dan `docs/setup-ShareX-pc.md`) adalah terjemahan dari
-[LazyGuide](https://github.com/LazyGuideJP/lazyguidejp.github.io), yang berlisensi MIT.
+Sebagian halaman berasal dari [LazyGuide](https://github.com/LazyGuideJP/lazyguidejp.github.io)
+karya LazyGuideJP, yang berlisensi MIT. Tiap halaman menyebut sumbernya di kotak di bagian atas halaman:
+
+- **Terjemahan** (isi dan urutannya mengikuti versi asli): Panduan Ringkas Bahasa Jepang
+  (`docs/panduan-ringkas-JP.md`), Setup Anki PC, Yomitan PC, ShareX, Manga PC, Yomitan Android,
+  Anime Android, LN Android, dan Manga Android (`docs/*lazy-guide*.md` selain dua di bawah, dan `docs/setup-ShareX-pc.md`).
+- **Adaptasi** (berdasarkan versi asli, lalu dikembangkan oleh Philia Space): Pengantar Setup (`docs/setup.md`),
+  Anime PC (`docs/setup-anime-pc-lazy-guide.md`), dan LN PC (`docs/setup-LN-pc-lazy-guide.md`).
+- **Sebagian**: langkah memperbarui Lapis di Memperbarui Note Type (`docs/pembaruan-note-type.md`).
+
+Gambar dan tangkapan layar yang diambil dari LazyGuide juga mengikuti lisensi ini.
 Lisensi MIT boleh digabung ke karya GPL-3.0, asalkan pemberitahuan hak cipta dan izinnya tetap disertakan:
 
 ```

@@ -5,7 +5,10 @@ description: "Atur ShareX di Windows untuk screenshot, rekam audio, dan OCR otom
 <!-- upstream: setupShareX @ 2025-11-27 -->
 # Setup ShareX di Windows
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup: ShareX](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/).
 
 ---
 

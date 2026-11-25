@@ -34,6 +34,15 @@ hide:
 - Untuk Penulis
        - Kotak kredit untuk halaman terjemahan TheMoeWay di PANDUAN-GAYA diganti ke versi yang selalu terlihat dan menyebut penulis serta lisensinya
 
+*Kredit LazyGuide*
+
+- Perbaikan
+       - Semua halaman dari LazyGuide sekarang punya kotak kredit di bagian atas yang menyebut halaman aslinya, penulisnya (LazyGuideJP), dan lisensinya. Kotaknya dibedakan antara terjemahan, adaptasi, dan yang hanya sebagian diambil dari LazyGuide
+       - [Mining Manga di Android](setup-manga-android-lazy-guide.md), [Mining Anime di PC](setup-anime-pc-lazy-guide.md), dan [Memperbarui Note Type](pembaruan-note-type.md) sebelumnya belum menyebut LazyGuide sama sekali
+       - [Beranda](index.md) sekarang menyebut lisensi teks GPL-3.0, bukan lagi CC BY-SA 4.0
+- Untuk Penulis
+       - PANDUAN-GAYA sekarang punya kotak kredit untuk halaman dari LazyGuide, beserta cara memilih antara terjemahan, adaptasi, atau sebagian
+
 **24-11-2026**
 
 *Tampilan baru beranda*

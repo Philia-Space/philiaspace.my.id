@@ -5,7 +5,10 @@ description: "Baca light novel dan buku bahasa Jepang di HP Android lewat Firefo
 <!-- upstream: setupLnOnAndroid @ 2026-07-12 -->
 # Setup Mining LN, Buku, dan sejenisnya di Android
 
-Diadaptasi dari [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/).
+!!! info "Terjemahan dari LazyGuide"
+    Halaman ini terjemahan bahasa Indonesia dari [Setup: LN on Android](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/) di LazyGuide, ditulis oleh **LazyGuideJP**. Sebagian referensi dan sumber belajar diganti ke versi bahasa Indonesia.
+
+    Versi aslinya berlisensi [MIT](https://github.com/LazyGuideJP/lazyguidejp.github.io/blob/main/LICENSE), halaman ini berlisensi GPL-3.0 (rinciannya di [lisensi Philia Space](https://github.com/Philia-Space/philiaspace.my.id/blob/main/LICENSE.docs.md)). Kalau kamu nyaman baca bahasa Inggris, baca [versi aslinya](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/).
 
 ---
 
