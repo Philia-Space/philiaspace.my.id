@@ -89,10 +89,6 @@
          <lastmod>2026-11-25</lastmod>
     </url>
     <url>
-         <loc>https://philiaspace.my.id/resources/</loc>
-         <lastmod>2026-11-25</lastmod>
-    </url>
-    <url>
          <loc>https://philiaspace.my.id/riwayat-perubahan/</loc>
          <lastmod>2026-11-25</lastmod>
     </url>
@@ -146,6 +142,26 @@
     </url>
     <url>
          <loc>https://philiaspace.my.id/setup/</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/sumber/</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/sumber/bahasa/</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/sumber/immersion/</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/sumber/software/</loc>
+         <lastmod>2026-11-25</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/sumber/ujian/</loc>
          <lastmod>2026-11-25</lastmod>
     </url>
 </urlset>

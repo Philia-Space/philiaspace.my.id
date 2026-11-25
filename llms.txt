@@ -23,7 +23,7 @@ Semua halaman berbahasa Indonesia. Panduan setup mencakup PC, Android, dan iOS.
 
 ## Sumber dan komunitas
 
-- [Sumber Belajar](https://philiaspace.my.id/resources/): kamus, dek Anki, aplikasi, bahan immersion, dan bahan ujian JLPT, JFT, SSW
+- [Sumber Belajar](https://philiaspace.my.id/sumber/): kamus, dek Anki, aplikasi, bahan immersion, dan bahan ujian JLPT, JFT, SSW
 - [Proyek Komunitas](https://philiaspace.my.id/proyek/): kamus Jepang-Indonesia JIDict, dek Anki komunitas, dan alat buatan anggota
 - [Gabung Discord](https://philiaspace.my.id/join/)
 
