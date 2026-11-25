@@ -25,6 +25,15 @@ hide:
 
 **25-11-2026**
 
+*Platform di Sumber Belajar*
+
+- Perbaikan
+       - Kolom Platform di [Software](sumber/software.md) dan [Bahasa](sumber/bahasa.md) dicek ulang ke halaman rilis tiap aplikasi. Sekitar 25 alat ternyata mendukung lebih banyak OS dari yang tertulis, misalnya GameSentenceMiner, Yomine, meikipop, dan YomiNinja yang juga ada untuk Linux dan macOS
+       - Jidoujisho, Typhon, dan immersious dihapus karena sudah tidak dikembangkan lagi
+       - mpv-subtitleminer, bazarr-sync-my-subs, dan Locale Emulator tetap ada, tapi sekarang diberi catatan bahwa repo-nya sudah diarsipkan, beserta keterangan dari pembuatnya kalau ada
+       - Keterangan tadoku tidak lagi menyebut harus di-*build* sendiri, karena installer-nya sudah tersedia
+       - Mangatan versi skrip dihapus karena tautannya sekarang mengarah ke aplikasi Mangatan yang sudah ada di daftar
+
 *Lisensi dan kredit TheMoeWay*
 
 - Perbaikan
